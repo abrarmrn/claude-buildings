@@ -17,13 +17,13 @@ Massing: 90 m frontage.  A 66 m CONCAVE (crescent) four-storey glass curtain wal
 |---|---|
 | Storeys | 4 (floor levels [0.15, 5.6, 11.0, 16.4] m, roof 21.8) |
 | Frontage x depth x height | 90.0 x 45.0 x 25.5 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [90.4, 49.01, 25.9] m |
 | Setback from plot frontage | 10.0 m |
 | Parking | optional right-side surface car park, 32 bays (OPTIONAL_PARKING) |
 | Vehicle access | pedestrian entrance plaza on the frontage; separate right crossing to the optional car park |
 | Glass | 66 m concave crescent curtain wall PC_Glass alpha 0.16 + skylight |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 13, 'EXTERIOR_LIGHTING': 3} |
+| Collision boxes | 5 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: 90 m frontage.  A 66 m CONCAVE (crescent) four-storey glass curtain wal
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 137874 | 27349 | 5260 | 0 | 2152 | 60 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 140.0], 'LOD1': [140.0, 380.0], 'LOD2': [380.0, 2000.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -54,10 +54,10 @@ P15_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 36; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 196, 'triangles': 172695, 'glb_triangles': 172695, 'images_loaded': 30, 'lights': 16, 'lod0_size_yup_converted': [90.4, 49.01, 25.9]}
 
 Brand note: Original fictional mall; shop names (MAISON, NOVA, LUXE ...) are invented.
 

@@ -1,6 +1,6 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T21:36:34Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T21:40:26Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
@@ -114,6 +114,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+79c2adc Premium Commercial 17 - 14_pitlane_performance validated and rendered (batch D)
 d9c064e Premium Commercial 17 - in-progress render output
 fd22599 Premium Commercial 17 - Saffron/Pearl interior camera updates (re-shoot in progress), Batch D progress
 dc2dabc Premium Commercial 17 - 13_hydrolux_auto_spa validated and rendered (batch C)
@@ -121,5 +122,4 @@ cfddf94 Premium Commercial 17 - 12_apex_auto_lab validated and rendered (batch C
 322d38f Premium Commercial 17 - 11_pearl_terrace validated and rendered (batch C)
 3d8bc05 Premium Commercial 17 - 10_ember_and_olive validated and rendered (batch C)
 714d3e0 Premium Commercial 17 - 09_saffron_courtyard validated and rendered (batch C)
-83a6690 Premium Commercial 17 - Saffron Courtyard day render
 ```
