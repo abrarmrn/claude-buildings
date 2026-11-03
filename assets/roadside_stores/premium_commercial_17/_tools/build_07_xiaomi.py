@@ -143,7 +143,7 @@ A.col_box('Main', X0, Y0, 0, X1, Y1, Z[2] + 1.0)
 A.camera('day', (28.0, -22.0, 7.0), (0.0, 13.0, 4.8), 28)
 A.camera('night', (-26.0, -20.0, 4.0), (1.0, 13.0, 5.0), 28)
 A.camera('road', (20.0, -7.6, 1.1), (-1.0, 12.0, 4.0), 24)
-A.camera('interior', (9.0, 23.6, Z[1] + 1.8), (-5.0, 8.0, 1.0), 17)
+A.camera('interior', (9.0, 7.6, 1.6), (-10.0, 15.0, 4.6), 16)
 A.checks['probes'] = [dict(name='GF_tables', p=[-0.5, 15.5, 1.2]), dict(name='GF_front', p=[-4.0, 10.5, 1.2]),
                       dict(name='L1_tables', p=[-5.0, 13.0, Z[1] + 1.2]), dict(name='L1_tvwall', p=[2.0, Y1 - 0.6, Z[1] + 2.0])]
 S.finish(A, -28.0, 20.0, width=26.0, depth=20.0, height=Z[2] + 1.0, footprint=[X0, Y0, X1, Y1],

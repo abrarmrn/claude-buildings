@@ -1,0 +1,214 @@
+Info: Saved as "shirin_restaurant.blend"
+INFO Draco mesh compression is available, use library at /home/user/bpyenv/lib/python3.11/site-packages/bpy/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+20:36:26 | INFO: Starting glTF 2.0 export
+20:36:26 | INFO: Extracting primitive: P08_COL_Main
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_COL_Pergola
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_COL_Tower
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_DRIVEWAY_Asphalt
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_DRIVEWAY_Crossing
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_EXTERIOR_Roof
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_EXTERIOR_Stone
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_GroundSlab
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Screen
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FURNITURE_Dining
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 9
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FURNITURE_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_ArchesFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalDoor
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_EXTERIOR_Roof
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_EXTERIOR_Stone
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_GroundSlab
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Screen
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FURNITURE_Dining
+20:36:26 | INFO: Primitives created: 8
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FURNITURE_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_ArchesFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalDoor
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_EXTERIOR_Roof
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_EXTERIOR_Stone
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_GroundSlab
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FURNITURE_Dining
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_OPTIONAL_FORECOURT_Terrace
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_OPTIONAL_PARKING_Asphalt
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_OPTIONAL_PARKING_Markings
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_SIDEWALK_FRONTAGE_Main
+20:36:26 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Finished glTF 2.0 export in 0.5528123378753662 s
+
+20:36:26 | INFO: Starting glTF 2.0 export
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_EXTERIOR_Roof
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_EXTERIOR_Stone
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_GroundSlab
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Screen
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FURNITURE_Dining
+20:36:26 | INFO: Primitives created: 9
+20:36:26 | INFO: Extracting primitive: P08_LOD0_FURNITURE_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_ArchesFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalDoor
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD0_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Finished glTF 2.0 export in 0.09937167167663574 s
+
+20:36:26 | INFO: Starting glTF 2.0 export
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_EXTERIOR_Roof
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_EXTERIOR_Stone
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_GroundSlab
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Screen
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FURNITURE_Dining
+20:36:26 | INFO: Primitives created: 8
+20:36:26 | INFO: Extracting primitive: P08_LOD1_FURNITURE_Terrace
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_ArchesFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalDoor
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalFrame
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD1_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Finished glTF 2.0 export in 0.06522464752197266 s
+
+20:36:26 | INFO: Starting glTF 2.0 export
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_EXTERIOR_Roof
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_EXTERIOR_Stone
+20:36:26 | INFO: Primitives created: 4
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_CeilingLights
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_GroundSlab
+20:36:26 | INFO: Primitives created: 3
+20:36:26 | INFO: Extracting primitive: P08_LOD2_BUILDING_INTERIOR_Walls
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FACADE_DETAILS_Bronze
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FACADE_DETAILS_Terrace
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_FURNITURE_Dining
+20:36:26 | INFO: Primitives created: 2
+20:36:26 | INFO: Extracting primitive: P08_LOD2_GLASS_SYSTEM_ArchesGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_GLASS_SYSTEM_PortalGlass
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Extracting primitive: P08_LOD2_SIGNAGE_Brand
+20:36:26 | INFO: Primitives created: 1
+20:36:26 | INFO: Finished glTF 2.0 export in 0.035006046295166016 s
+
+Info: Saved as "shirin_restaurant.blend"
+BUILD_OK shirin_restaurant {"LOD0": 47881, "LOD1": 12291, "LOD2": 1068, "SITE": 184, "PLACEHOLDER_CARS": 0}
