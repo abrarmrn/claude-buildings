@@ -1,6 +1,6 @@
 # 07 - Xiaomi Flagship Store
 
-*B - Technology flagship* - status: **incomplete**
+*B - Technology flagship* - status: **complete**
 
 Massing: compact two-storey box with a CHAMFERED right corner holding the entrance inside a big orange rounded-square portal (echoing the badge shape).  The front is a full-height glass wall overlaid by a staggered grid of proud white modular panels (~35 % cover) and slim orange fins, so the facade reads as a pixel pattern while most of the glass stays transparent.  Inside: phone islands, a TV wall, smart-home and wearables zones, e-scooters, an orange stair to an upper retail floor set back 2.5 m from the glass. Site: corner plaza at the entrance + optional small side car park on the left (separate collection).
 
@@ -58,6 +58,8 @@ P07_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 10; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 69, 'triangles': 19754, 'glb_triangles': 19754, 'images_loaded': 16, 'lights': 6, 'lod0_size_yup_converted': [26.98, 20.92, 10.9]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 1/4 {'GF_tables': False, 'GF_front': True, 'L1_tables': False, 'L1_tvwall': False}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 2/4 {'GF_tables': True, 'GF_front': True, 'L1_tables': False, 'L1_tvwall': False}
 
 Brand note: Orange rounded-square badge with "mi" in Inter Bold + "Xiaomi" wordmark (simplified recreation).
 

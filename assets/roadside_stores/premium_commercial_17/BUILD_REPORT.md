@@ -1,16 +1,16 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T20:31:56Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T20:36:29Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
 - Batch A: 01 Mercedes-Benz Flagship Showroom (complete), 02 BMW Flagship Showroom (complete), 03 Porsche Flagship Showroom (complete), 04 Ford Showroom (complete)
-- Batch B: 05 Samsung Flagship Experience Store (complete), 06 Apple Flagship Store (complete), 07 Xiaomi Flagship Store (remaining), 08 Shirin Restaurant (remaining)
+- Batch B: 05 Samsung Flagship Experience Store (complete), 06 Apple Flagship Store (complete), 07 Xiaomi Flagship Store (complete), 08 Shirin Restaurant (remaining)
 - Batch C: 09 Saffron Courtyard (remaining), 10 Ember & Olive (remaining), 11 Pearl Terrace (remaining), 12 Apex Auto Lab (remaining), 13 HydroLux Auto Spa (remaining)
 - Batch D: 14 Pitlane Performance (remaining), 15 Crescent Galleria (remaining), 16 Serein Cafe (remaining), 17 Aurelia Coffee House (remaining)
 
-**6 / 17 assets complete.** Remaining: Xiaomi Flagship Store, Shirin Restaurant, Saffron Courtyard, Ember & Olive, Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
-Last successful asset: Apple Flagship Store
+**7 / 17 assets complete.** Remaining: Shirin Restaurant, Saffron Courtyard, Ember & Olive, Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
+Last successful asset: Xiaomi Flagship Store
 
 ## Summary table (triangles read from the exported GLBs)
 
@@ -22,7 +22,7 @@ Last successful asset: Apple Flagship Store
 | 04 | Ford Showroom | 1 | 64.0 x 24.0 x 10.8 | 20,922 | 7,590 | 1,857 | 7 (15,428) | 5.5 | 59 | 16 | 7/2 | PASS |
 | 05 | Samsung Flagship Experience Store | 2 | 35.2 x 22.6 x 12.6 | 13,208 | 4,736 | 1,039 | 0 (0) | 6.14 | 36 | 25 | 6/2 | PASS |
 | 06 | Apple Flagship Store | 2 | 33.0 x 31.0 x 10.45 | 15,036 | 3,596 | 508 | 0 (0) | 3.89 | 23 | 14 | 7/1 | PASS |
-| 07 | Xiaomi Flagship Store | - | - | - | - | - | - | - | - | - | - | pending |
+| 07 | Xiaomi Flagship Store | 2 | 26.0 x 20.0 x 10.6 | 14,060 | 3,898 | 1,230 | 0 (0) | 4.73 | 37 | 16 | 5/1 | PASS |
 | 08 | Shirin Restaurant | - | - | - | - | - | - | - | - | - | - | pending |
 | 09 | Saffron Courtyard | - | - | - | - | - | - | - | - | - | - | pending |
 | 10 | Ember & Olive | - | - | - | - | - | - | - | - | - | - | pending |
@@ -34,7 +34,7 @@ Last successful asset: Apple Flagship Store
 | 16 | Serein Cafe | - | - | - | - | - | - | - | - | - | - | pending |
 | 17 | Aurelia Coffee House | - | - | - | - | - | - | - | - | - | - | pending |
 
-Totals over complete assets: LOD0 133,174 tris, LOD1 39,362, LOD2 7,553, placeholder cars 61,600; 28 placeholder cars; 24 renders + contact sheet + offline gallery.
+Totals over complete assets: LOD0 147,234 tris, LOD1 43,260, LOD2 8,783, placeholder cars 61,600; 28 placeholder cars; 28 renders + contact sheet + offline gallery.
 
 ## Architectural diversity (why these are not one generator with different colours)
 
@@ -82,6 +82,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - 04 Ford Showroom: PASS; road view: cars readable 2/7, probes 0/3; day view: cars 4/7, probes 1/3
 - 05 Samsung Flagship Experience Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
 - 06 Apple Flagship Store: PASS; road view: cars readable 0/0, probes 2/4; day view: cars 0/0, probes 3/4
+- 07 Xiaomi Flagship Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
 
 ## LOD transition recommendations
 
@@ -106,6 +107,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+f8f6dd2 Premium Commercial 17 - Apple flagship validated and rendered
 4139a51 Premium Commercial 17 - checkpoint: Batch B-D buildings built and exported (renders in progress)
 9d05b25 Premium Commercial 17 - BMW two-storey interior render
 31bdf09 Premium Commercial 17 - Samsung flagship complete; BMW interior camera moved to show both storeys
@@ -113,5 +115,4 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 5f14174 Add all 17 additional roadside store assets with validation, 68 renders, catalog, manifest and report
 8d330ac Add additional_17 store kit, pipeline and first six stores (ADNOC, Tim Hortons, Costa, % Arabica, PAUL, Krispy Kreme)
 15c359b Add Starbucks and ZOOM inspection renders and measured results
-1d168c5 Add ENOC inspection renders (day, night, drive-by, close-ups, LOD sheets)
 ```

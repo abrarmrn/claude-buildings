@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:31:55.838873Z",
+ "generated": "2026-11-03T20:36:29.088008Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 6,
+ "complete": 7,
  "assets": [
   {
    "number": "01",
@@ -2070,7 +2070,7 @@
    "name": "Xiaomi Flagship Store",
    "folder": "07_xiaomi_flagship",
    "category": "B - Technology flagship",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: compact two-storey box with a CHAMFERED right corner holding the entrance inside a big orange rounded-square portal (echoing the badge shape).  The front is a full-height glass wall overlaid by a staggered grid of proud white modular panels (~35 % cover) and slim orange fins, so the facade reads as a pixel pattern while most of the glass stays transparent.  Inside: phone islands, a TV wall, smart-home and wearables zones, e-scooters, an orange stair to an upper retail floor set back 2.5 m from the glass. Site: corner plaza at the entrance + optional small side car park on the left (separate collection).",
    "storeys": 2,
    "floor_levels_m": [
@@ -2269,14 +2269,38 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "GF_tables": false,
+      "GF_front": true,
+      "L1_tables": false,
+      "L1_tvwall": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 2,
+     "probes_total": 4,
+     "probes": {
+      "GF_tables": true,
+      "GF_front": true,
+      "L1_tables": false,
+      "L1_tvwall": false
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 56.2,
+    "night": 82.9,
+    "road_view": 84.7,
+    "interior": 230.3
    },
    "brand_note": "Orange rounded-square badge with \"mi\" in Inter Bold + \"Xiaomi\" wordmark (simplified recreation)."
   },
