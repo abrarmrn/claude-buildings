@@ -1,0 +1,3158 @@
+{
+ "collection": "Premium Commercial 17",
+ "generated": "2026-11-03T20:07:48.847776Z",
+ "blender": "4.5.15 LTS",
+ "units": "metres",
+ "axes": {
+  "blender_front": "-Y",
+  "gltf_front": "+Z",
+  "up": "Z (Blender) / +Y (glTF)"
+ },
+ "origin": "centre of the plot frontage line (back of pavement), ground level",
+ "lod_post_import_script": "premium_lod_post_import.gd",
+ "complete": 4,
+ "assets": [
+  {
+   "number": "01",
+   "name": "Mercedes-Benz Flagship Showroom",
+   "folder": "01_mercedes_showroom",
+   "category": "A - Luxury automotive showroom",
+   "status": "complete",
+   "concept": "Massing: 42 m glass box + 6 m dark-granite brand core rising to 20.6 m on the right; a floating white roof plate (rounded corners) hovers over the glass box on four slender portico columns.  Central double-height atrium (GF + L1) with a sculptural floating stair; L1 side galleries with display cars; L2 full-width lounge band with vertical fins. Separate entrances: 6 m sliding vehicle door (left) + customer entrance in the granite core under a blade canopy. Site: narrow 8 m display forecourt (vehicle crossing on the left), side driveway on the right to the rear service yard, optional side parking (11 bays) as a separate collection.",
+   "storeys": 3,
+   "floor_levels_m": [
+    0.15,
+    6.6,
+    11.6
+   ],
+   "roof": 16.2,
+   "frontage_width_m": 48.0,
+   "depth_m": 28.0,
+   "height_m": 20.9,
+   "lod0_bounds_m": {
+    "min": [
+     -26.0,
+     3.0,
+     -0.3
+    ],
+    "max": [
+     25.0,
+     36.0,
+     20.9
+    ],
+    "size": [
+     51.0,
+     33.0,
+     21.2
+    ]
+   },
+   "setback_m": 8.0,
+   "parking": "optional side lot, 11 bays (OPTIONAL_PARKING)",
+   "access": "left vehicle crossing to forecourt/showroom door; right side driveway to rear service yard",
+   "glass": "PC_Glass alpha 0.16 curtain wall",
+   "files": {
+    "blend": "01_mercedes_showroom/mercedes_showroom.blend",
+    "glb": "01_mercedes_showroom/mercedes_showroom.glb",
+    "glb_building_only": "01_mercedes_showroom/mercedes_showroom_building_only.glb",
+    "lod": [
+     "01_mercedes_showroom/lod/mercedes_showroom_lod0.glb",
+     "01_mercedes_showroom/lod/mercedes_showroom_lod1.glb",
+     "01_mercedes_showroom/lod/mercedes_showroom_lod2.glb",
+     "01_mercedes_showroom/lod/mercedes_showroom_placeholder_cars.glb"
+    ],
+    "renders": [
+     "01_mercedes_showroom/renders/mercedes_showroom_day.jpg",
+     "01_mercedes_showroom/renders/mercedes_showroom_night.jpg",
+     "01_mercedes_showroom/renders/mercedes_showroom_road_view.jpg",
+     "01_mercedes_showroom/renders/mercedes_showroom_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 1.22,
+    "glb": 8.55,
+    "glb_building_only": 7.86
+   },
+   "triangles_from_glb": {
+    "LOD0": 37538,
+    "LOD1": 9696,
+    "LOD2": 1609,
+    "placeholder_cars": 17632,
+    "site": 1176,
+    "collision": 72,
+    "total": 67723,
+    "lod_files": {
+     "LOD0": 37538,
+     "LOD1": 9696,
+     "LOD2": 1609
+    }
+   },
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
+   "materials": {
+    "count_glb": 58,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_GlassBlue",
+     "PC_GlassSatin",
+     "PC_Glass"
+    ],
+    "used": [
+     "MB_Letter",
+     "MB_StarGlow",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_BlackGloss",
+     "PC_Brass",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintBlue",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintRed",
+     "PC_CarPaintSand",
+     "PC_CarPaintSilver",
+     "PC_CarPaintWhite",
+     "PC_CarTrim",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_Copper",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricCream",
+     "PC_FabricGrey",
+     "PC_FabricTeal",
+     "PC_FloorDark",
+     "PC_FloorMarble",
+     "PC_FloorOak",
+     "PC_Glass",
+     "PC_GlassBlue",
+     "PC_GlassRail",
+     "PC_GlassSatin",
+     "PC_HeadLight",
+     "PC_LampGlobe",
+     "PC_Leather",
+     "PC_LeatherBlack",
+     "PC_LeatherCream",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LightWarm",
+     "PC_LineWhite",
+     "PC_PanelWhite",
+     "PC_Paver",
+     "PC_PaverLight",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_RoofGravel",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_TimberDark",
+     "PC_Tyre",
+     "PC_WallWarm",
+     "PC_WallWhite",
+     "PC_WhiteGloss"
+    ]
+   },
+   "textures": {
+    "embedded_images": 25,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/paver_albedo.jpg",
+     "//textures/paver_normal.jpg",
+     "//textures/paver_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_marble_albedo.jpg",
+     "//textures/pc_marble_normal.jpg",
+     "//textures/pc_marble_orm.jpg",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png"
+    ]
+   },
+   "lights": {
+    "INTERIOR_LIGHTING": 12,
+    "EXTERIOR_LIGHTING": 4
+   },
+   "collision_boxes": 6,
+   "placeholder_cars": [
+    {
+     "name": "P01_CAR_01_Sedan_CarPaintSilver",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -17.0,
+      16.0,
+      0.31
+     ],
+     "heading_deg": 160,
+     "paint": "PC_CarPaintSilver",
+     "role": "GF turntable",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P01_CAR_02_Suv_CarPaintBlack",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      -6.0,
+      15.5,
+      0.31
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintBlack",
+     "role": "GF atrium turntable",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P01_CAR_03_Coupe_CarPaintWhite",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      4.5,
+      15.5,
+      0.31
+     ],
+     "heading_deg": 160,
+     "paint": "PC_CarPaintWhite",
+     "role": "GF atrium turntable",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P01_CAR_04_Sedan_CarPaintGraphite",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      12.8,
+      17.0,
+      0.31
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintGraphite",
+     "role": "GF turntable",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P01_CAR_05_Crossover_CarPaintBlue",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      -16.0,
+      27.8,
+      0.35
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintBlue",
+     "role": "GF rear plinth",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P01_CAR_06_Coupe_CarPaintRed",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -17.2,
+      15.2,
+      6.78
+     ],
+     "heading_deg": 170,
+     "paint": "PC_CarPaintRed",
+     "role": "L1 gallery plinth",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P01_CAR_07_Sedan_CarPaintSand",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      13.2,
+      14.8,
+      6.78
+     ],
+     "heading_deg": 190,
+     "paint": "PC_CarPaintSand",
+     "role": "L1 gallery plinth",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P01_CAR_08_Coupe_CarPaintBlack",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -15.5,
+      15.5,
+      11.72
+     ],
+     "heading_deg": 165,
+     "paint": "PC_CarPaintBlack",
+     "role": "L2 lounge turntable",
+     "note": "",
+     "tris": 2176
+    }
+   ],
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 4,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 106,
+     "triangles": 67723,
+     "glb_triangles": 67723,
+     "images_loaded": 25,
+     "lights": 16,
+     "lod0_size_yup_converted": [
+      51.0,
+      33.0,
+      21.2
+     ]
+    },
+    "vegetation": []
+   },
+   "visibility": {
+    "road_view": {
+     "cars_visible": 6,
+     "cars_total": 8,
+     "car_fractions": {
+      "01_Sedan_CarPaintSilver": 0.67,
+      "02_Suv_CarPaintBlack": 1.0,
+      "03_Coupe_CarPaintWhite": 0.5,
+      "04_Sedan_CarPaintGraphite": 0.67,
+      "05_Crossover_CarPaintBlue": 1.0,
+      "06_Coupe_CarPaintRed": 0.0,
+      "07_Sedan_CarPaintSand": 0.67,
+      "08_Coupe_CarPaintBlack": 0.0
+     },
+     "probes_reached": 1,
+     "probes_total": 5,
+     "probes": {
+      "GF_atrium": false,
+      "L1_gallery_left": false,
+      "L1_gallery_right": true,
+      "L2_lounge": false,
+      "L2_lounge_right": false
+     }
+    },
+    "day": {
+     "cars_visible": 8,
+     "cars_total": 8,
+     "car_fractions": {
+      "01_Sedan_CarPaintSilver": 0.67,
+      "02_Suv_CarPaintBlack": 0.67,
+      "03_Coupe_CarPaintWhite": 1.0,
+      "04_Sedan_CarPaintGraphite": 1.0,
+      "05_Crossover_CarPaintBlue": 0.83,
+      "06_Coupe_CarPaintRed": 0.67,
+      "07_Sedan_CarPaintSand": 0.83,
+      "08_Coupe_CarPaintBlack": 0.33
+     },
+     "probes_reached": 5,
+     "probes_total": 5,
+     "probes": {
+      "GF_atrium": true,
+      "L1_gallery_left": true,
+      "L1_gallery_right": true,
+      "L2_lounge": true,
+      "L2_lounge_right": true
+     }
+    }
+   },
+   "render_seconds": {
+    "day": 79.0,
+    "night": 159.7,
+    "road_view": 171.4,
+    "interior": 345.1
+   },
+   "brand_note": "Rooftop \"MERCEDES-BENZ\" wordmark in a generic sans + simplified three-pointed star in a ring (geometric recreation, not official artwork)."
+  },
+  {
+   "number": "02",
+   "name": "BMW Flagship Showroom",
+   "folder": "02_bmw_showroom",
+   "category": "A - Luxury automotive showroom",
+   "status": "complete",
+   "concept": "Massing: a 42 m CONVEX curved glass front (plan arc, 4 m sagitta) held by a continuous white sculptural frame - two thick end blades plus a sweeping roof that rises from 10.9 m (right) to 14 m (left) and lifts at its front edge, with a blue LED line along the frame.  Interior: one tall open hall with radial white ceiling lamellas, five display positions on the ground floor and a rear mezzanine lounge (5.8 m) reached by a floating stair parallel to its edge. Separate glazed vehicle delivery door in the right blade; customer doors in the middle of the curve. Site: shallow curved forecourt directly off the pavement, LEFT side driveway to the rear, optional rear parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    5.8
+   ],
+   "roof": "sweeping 11.8-14.6 m",
+   "frontage_width_m": 44.8,
+   "depth_m": 25.0,
+   "height_m": 14.6,
+   "lod0_bounds_m": {
+    "min": [
+     -26.05,
+     0.99,
+     -0.3
+    ],
+    "max": [
+     23.6,
+     31.6,
+     15.84
+    ],
+    "size": [
+     49.65,
+     30.61,
+     16.14
+    ]
+   },
+   "setback_m": 6.0,
+   "parking": "optional rear lot, 34 bays (OPTIONAL_PARKING)",
+   "access": "left side driveway from the service road to the rear yard; vehicle delivery door in the right blade",
+   "glass": "curved faceted curtain wall, PC_Glass alpha 0.16",
+   "files": {
+    "blend": "02_bmw_showroom/bmw_showroom.blend",
+    "glb": "02_bmw_showroom/bmw_showroom.glb",
+    "glb_building_only": "02_bmw_showroom/bmw_showroom_building_only.glb",
+    "lod": [
+     "02_bmw_showroom/lod/bmw_showroom_lod0.glb",
+     "02_bmw_showroom/lod/bmw_showroom_lod1.glb",
+     "02_bmw_showroom/lod/bmw_showroom_lod2.glb",
+     "02_bmw_showroom/lod/bmw_showroom_placeholder_cars.glb"
+    ],
+    "renders": [
+     "02_bmw_showroom/renders/bmw_showroom_day.jpg",
+     "02_bmw_showroom/renders/bmw_showroom_night.jpg",
+     "02_bmw_showroom/renders/bmw_showroom_road_view.jpg",
+     "02_bmw_showroom/renders/bmw_showroom_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 1.01,
+    "glb": 5.95,
+    "glb_building_only": 5.33
+   },
+   "triangles_from_glb": {
+    "LOD0": 25424,
+    "LOD1": 7418,
+    "LOD2": 1302,
+    "placeholder_cars": 15456,
+    "site": 800,
+    "collision": 60,
+    "total": 50460,
+    "lod_files": {
+     "LOD0": 25424,
+     "LOD1": 7418,
+     "LOD2": 1302
+    }
+   },
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
+   "materials": {
+    "count_glb": 49,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_Glass"
+    ],
+    "used": [
+     "BMW_Blue",
+     "BMW_LetterW",
+     "BMW_Ring",
+     "BMW_White",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_Brass",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintBlue",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintRed",
+     "PC_CarPaintSilver",
+     "PC_CarPaintWhite",
+     "PC_CarTrim",
+     "PC_Ceiling",
+     "PC_Chrome",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricGrey",
+     "PC_FloorDark",
+     "PC_FloorOak",
+     "PC_Glass",
+     "PC_GlassRail",
+     "PC_HeadLight",
+     "PC_Leather",
+     "PC_LeatherBlack",
+     "PC_LeatherCream",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LightWarm",
+     "PC_LineWhite",
+     "PC_PanelBlack",
+     "PC_PanelWhite",
+     "PC_PaverLight",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_Tyre",
+     "PC_WallWhite",
+     "PC_WhiteGloss"
+    ]
+   },
+   "textures": {
+    "embedded_images": 16,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png"
+    ]
+   },
+   "lights": {
+    "INTERIOR_LIGHTING": 7,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 5,
+   "placeholder_cars": [
+    {
+     "name": "P02_CAR_01_Coupe_CarPaintBlue",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -4.0,
+      12.5,
+      0.33
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintBlue",
+     "role": "GF central turntable",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P02_CAR_02_Sedan_CarPaintWhite",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -15.5,
+      13.25,
+      0.35
+     ],
+     "heading_deg": 165,
+     "paint": "PC_CarPaintWhite",
+     "role": "GF plinth left",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P02_CAR_03_Suv_CarPaintGraphite",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      9.0,
+      12.05,
+      0.35
+     ],
+     "heading_deg": 195,
+     "paint": "PC_CarPaintGraphite",
+     "role": "GF plinth",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P02_CAR_04_Crossover_CarPaintSilver",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      16.9,
+      15.1,
+      0.35
+     ],
+     "heading_deg": 150,
+     "paint": "PC_CarPaintSilver",
+     "role": "GF by delivery door",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P02_CAR_05_Sedan_CarPaintBlack",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -13.0,
+      23.75,
+      0.3
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintBlack",
+     "role": "GF under mezzanine",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P02_CAR_06_Coupe_CarPaintRed",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -14.75,
+      24.75,
+      5.95
+     ],
+     "heading_deg": 170,
+     "paint": "PC_CarPaintRed",
+     "role": "mezzanine plinth",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P02_CAR_07_Sedan_CarPaintSilver",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      14.75,
+      23.25,
+      5.95
+     ],
+     "heading_deg": 190,
+     "paint": "PC_CarPaintSilver",
+     "role": "mezzanine plinth",
+     "note": "",
+     "tris": 2232
+    }
+   ],
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 1,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 74,
+     "triangles": 50460,
+     "glb_triangles": 50460,
+     "images_loaded": 16,
+     "lights": 9,
+     "lod0_size_yup_converted": [
+      49.65,
+      30.61,
+      16.14
+     ]
+    },
+    "vegetation": []
+   },
+   "visibility": {
+    "road_view": {
+     "cars_visible": 5,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Coupe_CarPaintBlue": 1.0,
+      "02_Sedan_CarPaintWhite": 0.33,
+      "03_Suv_CarPaintGraphite": 1.0,
+      "04_Crossover_CarPaintSilver": 0.67,
+      "05_Sedan_CarPaintBlack": 1.0,
+      "06_Coupe_CarPaintRed": 0.0,
+      "07_Sedan_CarPaintSilver": 0.0
+     },
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "GF_hall": false,
+      "GF_right": false,
+      "Mezzanine_left": true,
+      "Mezzanine_right": false
+     }
+    },
+    "day": {
+     "cars_visible": 6,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Coupe_CarPaintBlue": 0.67,
+      "02_Sedan_CarPaintWhite": 0.33,
+      "03_Suv_CarPaintGraphite": 0.67,
+      "04_Crossover_CarPaintSilver": 0.67,
+      "05_Sedan_CarPaintBlack": 0.67,
+      "06_Coupe_CarPaintRed": 0.67,
+      "07_Sedan_CarPaintSilver": 0.0
+     },
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "GF_hall": true,
+      "GF_right": false,
+      "Mezzanine_left": false,
+      "Mezzanine_right": false
+     }
+    }
+   },
+   "render_seconds": {
+    "day": 60.8,
+    "night": 99.1,
+    "road_view": 124.7,
+    "interior": 266.1
+   },
+   "brand_note": "Simplified roundel (black ring, blue/white quarters, generic letters) on blade + pylon; not official artwork."
+  },
+  {
+   "number": "03",
+   "name": "Porsche Flagship Showroom",
+   "folder": "03_porsche_showroom",
+   "category": "A - Luxury automotive showroom",
+   "status": "complete",
+   "concept": "Massing: narrow (30 m) minimalist stack of deep white-concrete floor bands that project 1.6 m beyond a recessed, almost frameless glass skin -> strong horizontal lines (LED-washed underneath at night).  The third floor is a dark graphite box SHIFTED 3 m to the left (cantilevering past the building edge) with a continuous ribbon window, leaving a glass-railed terrace on the right.  Left half of GF+L1 is a double-height sports-car hall with a white sculptural spiral stair; L1 right gallery and L2 lounge also show cars. Site: direct pedestrian frontage (4 m setback, no parking), side driveway on the right to a vehicle door.",
+   "storeys": 3,
+   "floor_levels_m": [
+    0.15,
+    5.4,
+    10.0
+   ],
+   "roof": 14.6,
+   "frontage_width_m": 33.0,
+   "depth_m": 28.0,
+   "height_m": 15.2,
+   "lod0_bounds_m": {
+    "min": [
+     -26.0,
+     0.95,
+     -0.3
+    ],
+    "max": [
+     15.8,
+     32.4,
+     15.2
+    ],
+    "size": [
+     41.8,
+     31.45,
+     15.5
+    ]
+   },
+   "setback_m": 4.0,
+   "parking": "none (direct pedestrian frontage)",
+   "access": "right side driveway from the service road to a glazed vehicle door; no front parking",
+   "glass": "frameless-look PC_GlassClear alpha 0.11",
+   "files": {
+    "blend": "03_porsche_showroom/porsche_showroom.blend",
+    "glb": "03_porsche_showroom/porsche_showroom.glb",
+    "glb_building_only": "03_porsche_showroom/porsche_showroom_building_only.glb",
+    "lod": [
+     "03_porsche_showroom/lod/porsche_showroom_lod0.glb",
+     "03_porsche_showroom/lod/porsche_showroom_lod1.glb",
+     "03_porsche_showroom/lod/porsche_showroom_lod2.glb",
+     "03_porsche_showroom/lod/porsche_showroom_placeholder_cars.glb"
+    ],
+    "renders": [
+     "03_porsche_showroom/renders/porsche_showroom_day.jpg",
+     "03_porsche_showroom/renders/porsche_showroom_night.jpg",
+     "03_porsche_showroom/renders/porsche_showroom_road_view.jpg",
+     "03_porsche_showroom/renders/porsche_showroom_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.83,
+    "glb": 7.45,
+    "glb_building_only": 6.95
+   },
+   "triangles_from_glb": {
+    "LOD0": 21046,
+    "LOD1": 6326,
+    "LOD2": 1238,
+    "placeholder_cars": 13084,
+    "site": 632,
+    "collision": 36,
+    "total": 42362,
+    "lod_files": {
+     "LOD0": 21046,
+     "LOD1": 6326,
+     "LOD2": 1238
+    }
+   },
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
+   "materials": {
+    "count_glb": 58,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_GlassClear"
+    ],
+    "used": [
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_BlackGloss",
+     "PC_Brass",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintRed",
+     "PC_CarPaintSilver",
+     "PC_CarPaintWhite",
+     "PC_CarPaintYellow",
+     "PC_CarTrim",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_ConcreteWhite",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricGrey",
+     "PC_FloorDark",
+     "PC_FloorMarble",
+     "PC_FloorOak",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_HeadLight",
+     "PC_LampGlobe",
+     "PC_Leather",
+     "PC_LeatherBlack",
+     "PC_LeatherCream",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LightWarm",
+     "PC_LineWhite",
+     "PC_PanelBlack",
+     "PC_PanelGraphite",
+     "PC_PanelWhite",
+     "PC_PaverLight",
+     "PC_PlasticGrey",
+     "PC_PlasticWhite",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_RoofGravel",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneSand",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_Tyre",
+     "PC_WallWhite",
+     "PC_Walnut",
+     "PC_WhiteGloss",
+     "PC_WoodLight",
+     "PO_Letter",
+     "PO_Red"
+    ]
+   },
+   "textures": {
+    "embedded_images": 28,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_marble_albedo.jpg",
+     "//textures/pc_marble_normal.jpg",
+     "//textures/pc_marble_orm.jpg",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/pc_stonesand_albedo.jpg",
+     "//textures/pc_stonesand_normal.jpg",
+     "//textures/pc_stonesand_orm.jpg",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
+   },
+   "lights": {
+    "INTERIOR_LIGHTING": 10,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 3,
+   "placeholder_cars": [
+    {
+     "name": "P03_CAR_01_Coupe_CarPaintRed",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -11.0,
+      10.4,
+      0.27
+     ],
+     "heading_deg": 155,
+     "paint": "PC_CarPaintRed",
+     "role": "GF double-height hall",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P03_CAR_02_Coupe_CarPaintSilver",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -4.4,
+      12.9,
+      0.27
+     ],
+     "heading_deg": 205,
+     "paint": "PC_CarPaintSilver",
+     "role": "GF double-height hall",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P03_CAR_03_Coupe_CarPaintYellow",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      7.5,
+      11.5,
+      0.27
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintYellow",
+     "role": "GF turntable",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P03_CAR_04_Crossover_CarPaintGraphite",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      5.65,
+      10.3,
+      5.52
+     ],
+     "heading_deg": 170,
+     "paint": "PC_CarPaintGraphite",
+     "role": "L1 gallery",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P03_CAR_05_Coupe_CarPaintWhite",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      11.95,
+      15.3,
+      5.52
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintWhite",
+     "role": "L1 gallery",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P03_CAR_06_Coupe_CarPaintBlack",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -13.5,
+      9.8,
+      10.22
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintBlack",
+     "role": "L2 lounge (ribbon window)",
+     "note": "",
+     "tris": 2176
+    }
+   ],
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 1,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 118,
+     "triangles": 42362,
+     "glb_triangles": 42362,
+     "images_loaded": 28,
+     "lights": 12,
+     "lod0_size_yup_converted": [
+      41.8,
+      31.45,
+      15.5
+     ]
+    },
+    "vegetation": []
+   },
+   "visibility": {
+    "road_view": {
+     "cars_visible": 3,
+     "cars_total": 6,
+     "car_fractions": {
+      "01_Coupe_CarPaintRed": 0.67,
+      "02_Coupe_CarPaintSilver": 0.5,
+      "03_Coupe_CarPaintYellow": 1.0,
+      "04_Crossover_CarPaintGraphite": 0.0,
+      "05_Coupe_CarPaintWhite": 0.0,
+      "06_Coupe_CarPaintBlack": 0.0
+     },
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "GF_hall": false,
+      "GF_right": true,
+      "L1_gallery": false,
+      "L2_lounge": false
+     }
+    },
+    "day": {
+     "cars_visible": 5,
+     "cars_total": 6,
+     "car_fractions": {
+      "01_Coupe_CarPaintRed": 1.0,
+      "02_Coupe_CarPaintSilver": 1.0,
+      "03_Coupe_CarPaintYellow": 1.0,
+      "04_Crossover_CarPaintGraphite": 0.67,
+      "05_Coupe_CarPaintWhite": 0.0,
+      "06_Coupe_CarPaintBlack": 0.33
+     },
+     "probes_reached": 3,
+     "probes_total": 4,
+     "probes": {
+      "GF_hall": true,
+      "GF_right": true,
+      "L1_gallery": false,
+      "L2_lounge": true
+     }
+    }
+   },
+   "render_seconds": {
+    "day": 92.4,
+    "night": 118.7,
+    "road_view": 113.6,
+    "interior": 217.9
+   },
+   "brand_note": "Spaced \"PORSCHE\" wordmark in a generic sans; the crest is NOT reproduced."
+  },
+  {
+   "number": "04",
+   "name": "Ford Showroom",
+   "folder": "04_ford_showroom",
+   "category": "A - Luxury automotive showroom",
+   "status": "complete",
+   "concept": "Massing: a 64 m wide, low (7.8 m) industrial clear-span hall with an exposed dark-steel portal frame in front of a 36 m display glazing, a SAWTOOTH north-light roof (three teeth rising to 10.3 m) and a projecting blue entrance portal (10.8 m) carrying the oval sign.  Dark profiled-metal end blocks: parts/service reception on the left, vehicle delivery bay + two service roller doors on the right (service zone visible through a glass partition). Site: wide paved forecourt, a direct service apron for the right zone, optional left-side customer parking.",
+   "storeys": 1,
+   "floor_levels_m": [
+    0.15
+   ],
+   "roof": "sawtooth, eaves 7.8 m, ridges 10.3 m, portal 10.8 m",
+   "frontage_width_m": 64.0,
+   "depth_m": 24.0,
+   "height_m": 10.8,
+   "lod0_bounds_m": {
+    "min": [
+     -32.4,
+     6.26,
+     -0.3
+    ],
+    "max": [
+     32.4,
+     34.0,
+     10.8
+    ],
+    "size": [
+     64.8,
+     27.74,
+     11.1
+    ]
+   },
+   "setback_m": 10.0,
+   "parking": "optional left-side customer lot, 9 bays + access aisle (OPTIONAL_PARKING)",
+   "access": "direct service apron from the service road to delivery bay + 2 service doors; separate parking crossing on the left",
+   "glass": "36 m display glazing PC_Glass alpha 0.16 + north lights",
+   "files": {
+    "blend": "04_ford_showroom/ford_showroom.blend",
+    "glb": "04_ford_showroom/ford_showroom.glb",
+    "glb_building_only": "04_ford_showroom/ford_showroom_building_only.glb",
+    "lod": [
+     "04_ford_showroom/lod/ford_showroom_lod0.glb",
+     "04_ford_showroom/lod/ford_showroom_lod1.glb",
+     "04_ford_showroom/lod/ford_showroom_lod2.glb",
+     "04_ford_showroom/lod/ford_showroom_placeholder_cars.glb"
+    ],
+    "renders": [
+     "04_ford_showroom/renders/ford_showroom_day.jpg",
+     "04_ford_showroom/renders/ford_showroom_night.jpg",
+     "04_ford_showroom/renders/ford_showroom_road_view.jpg",
+     "04_ford_showroom/renders/ford_showroom_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.9,
+    "glb": 5.5,
+    "glb_building_only": 4.87
+   },
+   "triangles_from_glb": {
+    "LOD0": 20922,
+    "LOD1": 7590,
+    "LOD2": 1857,
+    "placeholder_cars": 15428,
+    "site": 652,
+    "collision": 72,
+    "total": 46521,
+    "lod_files": {
+     "LOD0": 20922,
+     "LOD1": 7590,
+     "LOD2": 1857
+    }
+   },
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
+   "materials": {
+    "count_glb": 59,
+    "alpha_blend": [
+     "PC_GlassBlue",
+     "PC_GlassClear",
+     "PC_Glass"
+    ],
+    "used": [
+     "FD_Blue",
+     "FD_Letter",
+     "FD_OvalBlue",
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_Brass",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintBlue",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintOrange",
+     "PC_CarPaintRed",
+     "PC_CarPaintSilver",
+     "PC_CarPaintWhite",
+     "PC_CarTrim",
+     "PC_Ceiling",
+     "PC_Chrome",
+     "PC_Concrete",
+     "PC_Corrugated",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricNavy",
+     "PC_FloorEpoxy",
+     "PC_FloorEpoxyDark",
+     "PC_Glass",
+     "PC_GlassBlue",
+     "PC_GlassClear",
+     "PC_HeadLight",
+     "PC_LEDBlue",
+     "PC_LampGlobe",
+     "PC_LeatherBlack",
+     "PC_LiftBlue",
+     "PC_LightCool",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LineWhite",
+     "PC_PanelGraphite",
+     "PC_PanelWhite",
+     "PC_PaverLight",
+     "PC_PlasticGrey",
+     "PC_PlasticWhite",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_RubberBlack",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_SteelPaintGrey",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_ToolBlack",
+     "PC_ToolRed",
+     "PC_Tyre",
+     "PC_WallWhite",
+     "PC_Walnut",
+     "PC_WhiteGloss"
+    ]
+   },
+   "textures": {
+    "embedded_images": 16,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/pc_corrugated_albedo.jpg",
+     "//textures/pc_corrugated_normal.jpg",
+     "//textures/pc_corrugated_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
+   },
+   "lights": {
+    "INTERIOR_LIGHTING": 7,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 6,
+   "placeholder_cars": [
+    {
+     "name": "P04_CAR_01_Pickup_CarPaintBlue",
+     "kind": "pickup",
+     "length": 5.6,
+     "width": 2.0,
+     "height": 1.92,
+     "location": [
+      -15.0,
+      16.75,
+      0.27
+     ],
+     "heading_deg": 160,
+     "paint": "PC_CarPaintBlue",
+     "role": "display platform",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P04_CAR_02_Suv_CarPaintWhite",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      -6.25,
+      22.0,
+      0.27
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintWhite",
+     "role": "display platform",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P04_CAR_03_Coupe_CarPaintOrange",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      9.5,
+      16.75,
+      0.27
+     ],
+     "heading_deg": 200,
+     "paint": "PC_CarPaintOrange",
+     "role": "display platform",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P04_CAR_04_Crossover_CarPaintGraphite",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      -15.0,
+      26.5,
+      0.27
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintGraphite",
+     "role": "display platform",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P04_CAR_05_Sedan_CarPaintSilver",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      9.5,
+      26.0,
+      0.27
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintSilver",
+     "role": "display platform",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P04_CAR_06_Pickup_CarPaintBlack",
+     "kind": "pickup",
+     "length": 5.6,
+     "width": 2.0,
+     "height": 1.92,
+     "location": [
+      20.0,
+      18.0,
+      0.15
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintBlack",
+     "role": "vehicle delivery bay",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P04_CAR_07_Suv_CarPaintRed",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      26.0,
+      22.0,
+      1.7
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintRed",
+     "role": "service lift (raised)",
+     "note": "",
+     "tris": 2204
+    }
+   ],
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 6,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 88,
+     "triangles": 46521,
+     "glb_triangles": 46521,
+     "images_loaded": 16,
+     "lights": 9,
+     "lod0_size_yup_converted": [
+      64.8,
+      27.74,
+      11.1
+     ]
+    },
+    "vegetation": []
+   },
+   "visibility": {
+    "road_view": {
+     "cars_visible": 2,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Pickup_CarPaintBlue": 0.0,
+      "02_Suv_CarPaintWhite": 0.33,
+      "03_Coupe_CarPaintOrange": 0.0,
+      "04_Crossover_CarPaintGraphite": 0.0,
+      "05_Sedan_CarPaintSilver": 0.67,
+      "06_Pickup_CarPaintBlack": 0.0,
+      "07_Suv_CarPaintRed": 0.0
+     },
+     "probes_reached": 0,
+     "probes_total": 3,
+     "probes": {
+      "Hall_left": false,
+      "Hall_right": false,
+      "Reception": false
+     }
+    },
+    "day": {
+     "cars_visible": 4,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Pickup_CarPaintBlue": 0.33,
+      "02_Suv_CarPaintWhite": 1.0,
+      "03_Coupe_CarPaintOrange": 0.33,
+      "04_Crossover_CarPaintGraphite": 0.0,
+      "05_Sedan_CarPaintSilver": 1.0,
+      "06_Pickup_CarPaintBlack": 0.0,
+      "07_Suv_CarPaintRed": 0.0
+     },
+     "probes_reached": 1,
+     "probes_total": 3,
+     "probes": {
+      "Hall_left": false,
+      "Hall_right": false,
+      "Reception": true
+     }
+    }
+   },
+   "render_seconds": {
+    "day": 48.3,
+    "night": 105.6,
+    "road_view": 109.5,
+    "interior": 250.1
+   },
+   "brand_note": "Generic blue oval with \"Ford\" in Liberation Serif Bold Italic (the official script lettering is not reproduced)."
+  },
+  {
+   "number": "05",
+   "name": "Samsung Flagship Experience Store",
+   "folder": "05_samsung_flagship",
+   "category": "B - Technology flagship",
+   "status": "incomplete",
+   "concept": "Massing: a black-metal framed box whose LEFT corner is wrapped by a curved 11 m tall LED media wall (rounded corner, radius 4 m); the right two thirds are a two-storey glass exhibition front split by a slim black floor band, with a grand recessed full-height entrance portal in brushed silver.  Upper floor is set back 3 m from the glass so both levels read through the facade; an escalator links the floors. Site: shallow pedestrian forecourt with a short drop-off lay-by (service-road side), no dedicated parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    6.0
+   ],
+   "roof": 12.0,
+   "frontage_width_m": 35.2,
+   "depth_m": 22.6,
+   "height_m": 12.6,
+   "lod0_bounds_m": {
+    "min": [
+     -17.08,
+     6.25,
+     -0.3
+    ],
+    "max": [
+     17.6,
+     29.0,
+     12.6
+    ],
+    "size": [
+     34.68,
+     22.75,
+     12.9
+    ]
+   },
+   "setback_m": 7.0,
+   "parking": "none - short drop-off lay-by in OPTIONAL_FORECOURT",
+   "access": "in/out crossings to a 2.8 m drop-off lay-by along the frontage (service road side)",
+   "glass": "two-storey PC_Glass front + recessed entrance portal",
+   "files": {
+    "blend": "05_samsung_flagship/samsung_flagship.blend",
+    "glb": "05_samsung_flagship/samsung_flagship.glb",
+    "glb_building_only": null,
+    "lod": [
+     "05_samsung_flagship/lod/samsung_flagship_lod0.glb",
+     "05_samsung_flagship/lod/samsung_flagship_lod1.glb",
+     "05_samsung_flagship/lod/samsung_flagship_lod2.glb"
+    ],
+    "renders": [
+     "05_samsung_flagship/renders/samsung_flagship_day.jpg",
+     "05_samsung_flagship/renders/samsung_flagship_night.jpg",
+     "05_samsung_flagship/renders/samsung_flagship_road_view.jpg",
+     "05_samsung_flagship/renders/samsung_flagship_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.56,
+    "glb": 6.14,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": 13208,
+    "LOD1": 4736,
+    "LOD2": 1039,
+    "placeholder_cars": 0,
+    "site": 1008,
+    "collision": 24,
+    "total": 20015,
+    "lod_files": {
+     "LOD0": 13208,
+     "LOD1": 4736,
+     "LOD2": 1039
+    }
+   },
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
+   "materials": {
+    "count_glb": 36,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_Glass"
+    ],
+    "used": [
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricGrey",
+     "PC_FabricNavy",
+     "PC_FloorOak",
+     "PC_FloorTerrazzo",
+     "PC_Glass",
+     "PC_GlassRail",
+     "PC_LightCool",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LineWhite",
+     "PC_PanelBlack",
+     "PC_PanelSilver",
+     "PC_PaverLight",
+     "PC_RoofGravel",
+     "PC_RubberBlack",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneTop",
+     "PC_WallWhite",
+     "PC_Walnut",
+     "PC_WhiteGloss",
+     "PC_WoodLight",
+     "SS_Blue",
+     "SS_Letter",
+     "SS_Media"
+    ]
+   },
+   "textures": {
+    "embedded_images": 25,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "2048x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_media_samsung.png",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/pc_terrazzo_albedo.jpg",
+     "//textures/pc_terrazzo_orm.jpg",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
+   },
+   "lights": {
+    "INTERIOR_LIGHTING": 6,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 2,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 0,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 70,
+     "triangles": 20015,
+     "glb_triangles": 20015,
+     "images_loaded": 25,
+     "lights": 8,
+     "lod0_size_yup_converted": [
+      34.68,
+      22.75,
+      12.9
+     ]
+    },
+    "vegetation": []
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "\"SAMSUNG\" in Inter ExtraBold (not the official typeface); LED media wall shows abstract generated content."
+  },
+  {
+   "number": "06",
+   "name": "Apple Flagship Store",
+   "folder": "06_apple_flagship",
+   "category": "B - Technology flagship",
+   "status": "incomplete",
+   "concept": "Massing: pure minimalist pavilion - five 5.6 m x 9.4 m frameless glass panes stabilised by internal glass fins, held between two thick travertine flank walls and capped by a razor-thin white roof plate cantilevering 2.5 m on all sides. Inside: a 9.4 m double-height hall under a luminous backlit ceiling, rows of light-oak product tables (iPhone, Mac, iPad zones), twin stone stairs with glass balustrades rising to a rear mezzanine with more tables and a video wall. Site: open stone plaza directly off the pavement (pedestrian only, no parking, no vehicle access).",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    5.0
+   ],
+   "roof": 10.45,
+   "frontage_width_m": 33.0,
+   "depth_m": 31.0,
+   "height_m": 10.45,
+   "lod0_bounds_m": null,
+   "setback_m": 5.4,
+   "parking": "none (pedestrian plaza only)",
+   "access": "pedestrian only - no vehicle access",
+   "glass": "frameless PC_GlassClear alpha 0.11 with glass fins",
+   "files": {
+    "blend": "06_apple_flagship/apple_flagship.blend",
+    "glb": "06_apple_flagship/apple_flagship.glb",
+    "glb_building_only": null,
+    "lod": [
+     "06_apple_flagship/lod/apple_flagship_lod0.glb",
+     "06_apple_flagship/lod/apple_flagship_lod1.glb",
+     "06_apple_flagship/lod/apple_flagship_lod2.glb"
+    ],
+    "renders": [
+     "06_apple_flagship/renders/apple_flagship_day.jpg",
+     "06_apple_flagship/renders/apple_flagship_night.jpg",
+     "06_apple_flagship/renders/apple_flagship_road_view.jpg",
+     "06_apple_flagship/renders/apple_flagship_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.46,
+    "glb": 3.89,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Apple-style silhouette drawn procedurally from circles (simplified, not official artwork); no \"iPhone Store\" naming."
+  },
+  {
+   "number": "07",
+   "name": "Xiaomi Flagship Store",
+   "folder": "07_xiaomi_flagship",
+   "category": "B - Technology flagship",
+   "status": "incomplete",
+   "concept": "Massing: compact two-storey box with a CHAMFERED right corner holding the entrance inside a big orange rounded-square portal (echoing the badge shape).  The front is a full-height glass wall overlaid by a staggered grid of proud white modular panels (~35 % cover) and slim orange fins, so the facade reads as a pixel pattern while most of the glass stays transparent.  Inside: phone islands, a TV wall, smart-home and wearables zones, e-scooters, an orange stair to an upper retail floor set back 2.5 m from the glass. Site: corner plaza at the entrance + optional small side car park on the left (separate collection).",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    5.0
+   ],
+   "roof": 9.6,
+   "frontage_width_m": 26.0,
+   "depth_m": 20.0,
+   "height_m": 10.6,
+   "lod0_bounds_m": null,
+   "setback_m": 5.0,
+   "parking": "optional left side car park, 6 bays (OPTIONAL_PARKING)",
+   "access": "left crossing to the small side car park; corner pedestrian plaza",
+   "glass": "full-height PC_Glass behind ~35 % modular panel cover",
+   "files": {
+    "blend": "07_xiaomi_flagship/xiaomi_flagship.blend",
+    "glb": "07_xiaomi_flagship/xiaomi_flagship.glb",
+    "glb_building_only": null,
+    "lod": [
+     "07_xiaomi_flagship/lod/xiaomi_flagship_lod0.glb",
+     "07_xiaomi_flagship/lod/xiaomi_flagship_lod1.glb",
+     "07_xiaomi_flagship/lod/xiaomi_flagship_lod2.glb"
+    ],
+    "renders": [
+     "07_xiaomi_flagship/renders/xiaomi_flagship_day.jpg",
+     "07_xiaomi_flagship/renders/xiaomi_flagship_night.jpg",
+     "07_xiaomi_flagship/renders/xiaomi_flagship_road_view.jpg",
+     "07_xiaomi_flagship/renders/xiaomi_flagship_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.52,
+    "glb": 4.73,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Orange rounded-square badge with \"mi\" in Inter Bold + \"Xiaomi\" wordmark (simplified recreation)."
+  },
+  {
+   "number": "08",
+   "name": "Shirin Restaurant",
+   "folder": "08_shirin_restaurant",
+   "category": "C - Long-frontage restaurant",
+   "status": "incomplete",
+   "concept": "Massing: a long (46 m) but SHALLOW (14 m) sand-limestone frontage with ten tall arched windows and a bronze cornice, broken in the middle by an 11 m entrance tower carrying a tall pointed-arch portal and a back-lit bronze mashrabiya screen.  A 4.6 m deep terrace runs along the pavement: shaded on the left by a bronze pergola with lattice screens, open with a low stone balustrade on the right.  Inside: one tall (5.7 m) dining hall with lanterns, banquettes and a back-lit screen wall hiding the kitchen. Site: terrace directly on the pavement; optional side parking on the right (separate collection).",
+   "storeys": "1 (+ 2-storey-high entrance tower)",
+   "floor_levels_m": [
+    0.15
+   ],
+   "roof": 7.2,
+   "frontage_width_m": 46.0,
+   "depth_m": 16.0,
+   "height_m": 11.2,
+   "lod0_bounds_m": null,
+   "setback_m": 0.0,
+   "parking": "optional right side, 5 bays (OPTIONAL_PARKING)",
+   "access": "terrace opens directly onto the pavement; separate right-hand crossing to optional parking",
+   "glass": "10 arched PC_Glass windows + portal",
+   "files": {
+    "blend": "08_shirin_restaurant/shirin_restaurant.blend",
+    "glb": "08_shirin_restaurant/shirin_restaurant.glb",
+    "glb_building_only": null,
+    "lod": [
+     "08_shirin_restaurant/lod/shirin_restaurant_lod0.glb",
+     "08_shirin_restaurant/lod/shirin_restaurant_lod1.glb",
+     "08_shirin_restaurant/lod/shirin_restaurant_lod2.glb"
+    ],
+    "renders": [
+     "08_shirin_restaurant/renders/shirin_restaurant_day.jpg",
+     "08_shirin_restaurant/renders/shirin_restaurant_night.jpg",
+     "08_shirin_restaurant/renders/shirin_restaurant_road_view.jpg",
+     "08_shirin_restaurant/renders/shirin_restaurant_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 1.33,
+    "glb": 7.61,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand (Latin + Arabic name)."
+  },
+  {
+   "number": "09",
+   "name": "Saffron Courtyard",
+   "folder": "09_saffron_courtyard",
+   "category": "C - Long-frontage restaurant",
+   "status": "incomplete",
+   "concept": "Massing: 38 m frontage whose middle 10 m is carved back 6 m into an entrance COURTYARD with a reflecting pool and stepping stones.  The ground floor is a long bronze-framed horizontal glass band; the upper dining level is veiled by dense dark-timber vertical battens (strong vertical rhythm).  The whole is crowned by three stacked, progressively smaller roof plates with upturned edges and corners (contemporary pagoda silhouette). Inside: sushi / display counter, private dining rooms behind timber lattice screens, paper-lantern pendants, straight stair to the upper dining room. Site: compact drop-off lay-by in front of the courtyard (in/out crossings), no parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    5.2
+   ],
+   "roof": "stacked upturned plates, top 12.3 m",
+   "frontage_width_m": 44.0,
+   "depth_m": 27.0,
+   "height_m": 12.3,
+   "lod0_bounds_m": null,
+   "setback_m": 6.0,
+   "parking": "none - compact drop-off lay-by (OPTIONAL_FORECOURT)",
+   "access": "in/out crossings to a drop-off lay-by in front of the courtyard",
+   "glass": "GF bronze-framed PC_Glass band + L1 glass behind timber battens",
+   "files": {
+    "blend": "09_saffron_courtyard/saffron_courtyard.blend",
+    "glb": "09_saffron_courtyard/saffron_courtyard.glb",
+    "glb_building_only": null,
+    "lod": [
+     "09_saffron_courtyard/lod/saffron_courtyard_lod0.glb",
+     "09_saffron_courtyard/lod/saffron_courtyard_lod1.glb",
+     "09_saffron_courtyard/lod/saffron_courtyard_lod2.glb"
+    ],
+    "renders": [
+     "09_saffron_courtyard/renders/saffron_courtyard_day.jpg",
+     "09_saffron_courtyard/renders/saffron_courtyard_night.jpg",
+     "09_saffron_courtyard/renders/saffron_courtyard_road_view.jpg",
+     "09_saffron_courtyard/renders/saffron_courtyard_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 1.48,
+    "glb": 7.66,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "10",
+   "name": "Ember & Olive",
+   "folder": "10_ember_and_olive",
+   "category": "C - Long-frontage restaurant",
+   "status": "incomplete",
+   "concept": "Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, ridges at 9.1 m), each bay a black-steel portal frame holding a 9 m wide floor-to-eave window with a glazed gable triangle above - strong dark framing on a dark stone plinth, warm copper eave beam carrying the name, a projecting copper entrance box in bay 2. Inside: open dining under timber-lined gable ceilings, a central grill feature counter with copper hood and live-fire glow (display kitchen), wine wall, booths and dome pendants. Site: frontage paving directly off the pavement, optional ANGLED side parking on the right (separate collection).",
+   "storeys": "1 (tall, gabled)",
+   "floor_levels_m": [
+    0.15
+   ],
+   "roof": "4 gables, eaves 6.5 m, ridges 9.1 m",
+   "frontage_width_m": 40.0,
+   "depth_m": 18.0,
+   "height_m": 9.1,
+   "lod0_bounds_m": null,
+   "setback_m": 4.0,
+   "parking": "optional angled side parking, 6 bays (OPTIONAL_PARKING)",
+   "access": "right crossing to angled side parking",
+   "glass": "4 x 9.3 m bay windows + glazed gables (PC_Glass)",
+   "files": {
+    "blend": "10_ember_and_olive/ember_and_olive.blend",
+    "glb": "10_ember_and_olive/ember_and_olive.glb",
+    "glb_building_only": null,
+    "lod": [
+     "10_ember_and_olive/lod/ember_and_olive_lod0.glb",
+     "10_ember_and_olive/lod/ember_and_olive_lod1.glb",
+     "10_ember_and_olive/lod/ember_and_olive_lod2.glb"
+    ],
+    "renders": [
+     "10_ember_and_olive/renders/ember_and_olive_day.jpg",
+     "10_ember_and_olive/renders/ember_and_olive_night.jpg",
+     "10_ember_and_olive/renders/ember_and_olive_road_view.jpg",
+     "10_ember_and_olive/renders/ember_and_olive_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.93,
+    "glb": 7.44,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "11",
+   "name": "Pearl Terrace",
+   "folder": "11_pearl_terrace",
+   "category": "C - Long-frontage restaurant",
+   "status": "incomplete",
+   "concept": "Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The upper dining room is wrapped by a deep cantilevered BALCONY TERRACE (rounded, 4 m projection on the front, 6 m over the side terrace) with a solid pearl parapet and a glass top rail; the ground floor sits back behind a full-height terrace-facing glass wall. A thin rounded roof canopy with a ring of LED floats above.  Footprint is wider than deep with a side garden terrace (empty stone planters only) under the balcony overhang. Inside: grand sweeping curved staircase, premium reception with a chandelier ring, visible upper floor. Site: terrace directly beside the pavement; no parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    5.2
+   ],
+   "roof": 9.8,
+   "frontage_width_m": 34.0,
+   "depth_m": 22.0,
+   "height_m": 10.65,
+   "lod0_bounds_m": null,
+   "setback_m": 4.0,
+   "parking": "none (front + side terraces beside the pavement)",
+   "access": "pedestrian; no vehicle access",
+   "glass": "rounded champagne-framed PC_GlassClear walls on both floors",
+   "files": {
+    "blend": "11_pearl_terrace/pearl_terrace.blend",
+    "glb": "11_pearl_terrace/pearl_terrace.glb",
+    "glb_building_only": null,
+    "lod": [
+     "11_pearl_terrace/lod/pearl_terrace_lod0.glb",
+     "11_pearl_terrace/lod/pearl_terrace_lod1.glb",
+     "11_pearl_terrace/lod/pearl_terrace_lod2.glb"
+    ],
+    "renders": [
+     "11_pearl_terrace/renders/pearl_terrace_day.jpg",
+     "11_pearl_terrace/renders/pearl_terrace_night.jpg",
+     "11_pearl_terrace/renders/pearl_terrace_road_view.jpg",
+     "11_pearl_terrace/renders/pearl_terrace_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 1.21,
+    "glb": 5.98,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "12",
+   "name": "Apex Auto Lab",
+   "folder": "12_apex_auto_lab",
+   "category": "D - Automotive service facility",
+   "status": "incomplete",
+   "concept": "Massing: compact black industrial box only 3 m from the pavement.  Three tall glass sectional doors (raised) open the workshop bays straight to the road; a diagonal cyan/magenta neon stripe slices across the black cladding and over the glass-box customer lounge on the right (double-height glazing with an office mezzanine).  Illuminated chevron + name. Inside: bay 1 car on a 2-post lift, bay 2 car being wrapped (vinyl racks, plotter), bay 3 detailing car inside an LED light-tunnel frame; tool cabinets, workbench, industrial strip lights; lounge with coffee bar. Site: direct road-facing apron to the bays (wide crossing), no parking.",
+   "storeys": "1 (+ lounge office mezzanine)",
+   "floor_levels_m": [
+    0.15,
+    4.0
+   ],
+   "roof": 8.6,
+   "frontage_width_m": 32.0,
+   "depth_m": 22.0,
+   "height_m": 9.4,
+   "lod0_bounds_m": null,
+   "setback_m": 3.0,
+   "parking": "none",
+   "access": "16 m wide road-facing crossing straight to three raised glass bay doors",
+   "glass": "glass sectional bay doors (PC_GlassBlue) + lounge PC_Glass box",
+   "files": {
+    "blend": "12_apex_auto_lab/apex_auto_lab.blend",
+    "glb": "12_apex_auto_lab/apex_auto_lab.glb",
+    "glb_building_only": "12_apex_auto_lab/apex_auto_lab_building_only.glb",
+    "lod": [
+     "12_apex_auto_lab/lod/apex_auto_lab_lod0.glb",
+     "12_apex_auto_lab/lod/apex_auto_lab_lod1.glb",
+     "12_apex_auto_lab/lod/apex_auto_lab_lod2.glb",
+     "12_apex_auto_lab/lod/apex_auto_lab_placeholder_cars.glb"
+    ],
+    "renders": [
+     "12_apex_auto_lab/renders/apex_auto_lab_day.jpg",
+     "12_apex_auto_lab/renders/apex_auto_lab_night.jpg",
+     "12_apex_auto_lab/renders/apex_auto_lab_road_view.jpg",
+     "12_apex_auto_lab/renders/apex_auto_lab_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.75,
+    "glb": 5.64,
+    "glb_building_only": 5.28
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [
+    {
+     "name": "P12_CAR_01_Coupe_CarPaintGraphite",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -13.0,
+      13.0,
+      1.85
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintGraphite",
+     "role": "bay 1 on 2-post lift (raised)",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P12_CAR_02_Sedan_CarWrapMatte",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -8.0,
+      12.5,
+      0.15
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarWrapMatte",
+     "role": "bay 2 wrap station",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P12_CAR_03_Suv_CarPaintBlack",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      -3.0,
+      12.8,
+      0.15
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintBlack",
+     "role": "bay 3 detailing light tunnel",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P12_CAR_04_Coupe_CarPaintRed",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      6.0,
+      1.4,
+      0.0
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintRed",
+     "role": "waiting on the apron (optional)",
+     "note": "",
+     "tris": 2176
+    }
+   ],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "13",
+   "name": "HydroLux Auto Spa",
+   "folder": "13_hydrolux_auto_spa",
+   "category": "D - Automotive service facility",
+   "status": "incomplete",
+   "concept": "Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a full glass side wall, so the whole wash sequence (spray arches, brushes, blowers, LED arch) is visible to passing drivers.  Over everything floats a large WAVE canopy of translucent panels on white portal frames.  Two open detailing bays sit behind the tunnel and a glass customer lounge overlooks the exit.  Separate ENTRY (left) and EXIT (right) crossings from the service road. Inside: wash equipment, floor drainage grates, guide rail, detailing carts / vacuum booms, aqua LED lighting.",
+   "storeys": 1,
+   "floor_levels_m": [
+    0.05,
+    0.2
+   ],
+   "roof": "translucent wave canopy 6.1-8.9 m over a 4.6 m tunnel",
+   "frontage_width_m": 50.0,
+   "depth_m": 19.2,
+   "height_m": 8.9,
+   "lod0_bounds_m": null,
+   "setback_m": 2.8,
+   "parking": "none (queue lane only)",
+   "access": "separate ENTRY (left) and EXIT (right) crossings; tunnel runs parallel to the road",
+   "glass": "glass tunnel side wall + glass lounge",
+   "files": {
+    "blend": "13_hydrolux_auto_spa/hydrolux_auto_spa.blend",
+    "glb": "13_hydrolux_auto_spa/hydrolux_auto_spa.glb",
+    "glb_building_only": "13_hydrolux_auto_spa/hydrolux_auto_spa_building_only.glb",
+    "lod": [
+     "13_hydrolux_auto_spa/lod/hydrolux_auto_spa_lod0.glb",
+     "13_hydrolux_auto_spa/lod/hydrolux_auto_spa_lod1.glb",
+     "13_hydrolux_auto_spa/lod/hydrolux_auto_spa_lod2.glb",
+     "13_hydrolux_auto_spa/lod/hydrolux_auto_spa_placeholder_cars.glb"
+    ],
+    "renders": [
+     "13_hydrolux_auto_spa/renders/hydrolux_auto_spa_day.jpg",
+     "13_hydrolux_auto_spa/renders/hydrolux_auto_spa_night.jpg",
+     "13_hydrolux_auto_spa/renders/hydrolux_auto_spa_road_view.jpg",
+     "13_hydrolux_auto_spa/renders/hydrolux_auto_spa_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.78,
+    "glb": 6.05,
+    "glb_building_only": 5.44
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [
+    {
+     "name": "P13_CAR_01_Sedan_CarPaintSilver",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -21.0,
+      9.0,
+      0.0
+     ],
+     "heading_deg": 0,
+     "paint": "PC_CarPaintSilver",
+     "role": "queue at the tunnel entry",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P13_CAR_02_Suv_CarPaintBlue",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      -10.5,
+      9.0,
+      0.05
+     ],
+     "heading_deg": 0,
+     "paint": "PC_CarPaintBlue",
+     "role": "inside wash tunnel (brushes)",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P13_CAR_03_Sedan_CarPaintWhite",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -1.5,
+      9.0,
+      0.05
+     ],
+     "heading_deg": 0,
+     "paint": "PC_CarPaintWhite",
+     "role": "inside wash tunnel (spray arch)",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P13_CAR_04_Coupe_CarPaintBlack",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      6.5,
+      9.0,
+      0.05
+     ],
+     "heading_deg": 0,
+     "paint": "PC_CarPaintBlack",
+     "role": "inside wash tunnel (blowers)",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P13_CAR_05_Crossover_CarPaintRed",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      -12.0,
+      17.0,
+      0.05
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintRed",
+     "role": "detailing bay 1",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P13_CAR_06_Sedan_CarPaintGraphite",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -4.0,
+      17.0,
+      0.05
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintGraphite",
+     "role": "detailing bay 2",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P13_CAR_07_Suv_CarPaintWhite",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      15.5,
+      4.2,
+      0.0
+     ],
+     "heading_deg": -90,
+     "paint": "PC_CarPaintWhite",
+     "role": "leaving via the exit lane",
+     "note": "",
+     "tris": 2204
+    }
+   ],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "14",
+   "name": "Pitlane Performance",
+   "folder": "14_pitlane_performance",
+   "category": "D - Automotive service facility",
+   "status": "incomplete",
+   "concept": "Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable faces the road (eaves 7 m, crown 11.4 m). The lower front holds four big roller doors (two open, one half-open, one closed) separated by full-height glass observation panels; the arched lunette above is glazed so the lit workshop reads from the road.  A low glass service reception box sits on the left beside a tall black/red vertical sign blade.  Red/white chequer band at the doors. Inside: two 2-post lifts and a 4-post lift with raised cars, a car on the floor with the bonnet zone lit, engine stand, tyre machine + racks, tool cabinets, workbenches and long high-bay lights following the vault. Site: wide workshop apron straight off the service road; optional customer parking left of the reception.",
+   "storeys": 1,
+   "floor_levels_m": [
+    0.15
+   ],
+   "roof": "barrel vault, eaves 7.0 m, crown 11.75 m",
+   "frontage_width_m": 50.5,
+   "depth_m": 27.2,
+   "height_m": 11.75,
+   "lod0_bounds_m": null,
+   "setback_m": 5.0,
+   "parking": "optional left customer parking, 6 bays (OPTIONAL_PARKING)",
+   "access": "40 m wide workshop apron straight off the service road to four roller doors; separate parking crossing",
+   "glass": "glass observation panels + glazed arched lunette + glass reception box",
+   "files": {
+    "blend": "14_pitlane_performance/pitlane_performance.blend",
+    "glb": "14_pitlane_performance/pitlane_performance.glb",
+    "glb_building_only": "14_pitlane_performance/pitlane_performance_building_only.glb",
+    "lod": [
+     "14_pitlane_performance/lod/pitlane_performance_lod0.glb",
+     "14_pitlane_performance/lod/pitlane_performance_lod1.glb",
+     "14_pitlane_performance/lod/pitlane_performance_lod2.glb",
+     "14_pitlane_performance/lod/pitlane_performance_placeholder_cars.glb"
+    ],
+    "renders": [
+     "14_pitlane_performance/renders/pitlane_performance_day.jpg",
+     "14_pitlane_performance/renders/pitlane_performance_night.jpg",
+     "14_pitlane_performance/renders/pitlane_performance_road_view.jpg",
+     "14_pitlane_performance/renders/pitlane_performance_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.79,
+    "glb": 5.55,
+    "glb_building_only": 5.1
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [
+    {
+     "name": "P14_CAR_01_Coupe_CarPaintRed",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      -14.5,
+      15.0,
+      1.95
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintRed",
+     "role": "bay 1 on 2-post lift (raised)",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P14_CAR_02_Sedan_CarPaintBlack",
+     "kind": "sedan",
+     "length": 4.95,
+     "width": 1.88,
+     "height": 1.45,
+     "location": [
+      -4.5,
+      15.0,
+      1.05
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintBlack",
+     "role": "bay 2 on 2-post lift (half raised)",
+     "note": "",
+     "tris": 2232
+    },
+    {
+     "name": "P14_CAR_03_Suv_CarPaintWhite",
+     "kind": "suv",
+     "length": 4.95,
+     "width": 1.96,
+     "height": 1.76,
+     "location": [
+      5.0,
+      15.5,
+      1.65
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintWhite",
+     "role": "bay 3 on 4-post lift",
+     "note": "",
+     "tris": 2204
+    },
+    {
+     "name": "P14_CAR_04_Coupe_CarPaintYellow",
+     "kind": "coupe",
+     "length": 4.55,
+     "width": 1.92,
+     "height": 1.29,
+     "location": [
+      15.0,
+      17.0,
+      0.15
+     ],
+     "heading_deg": 90,
+     "paint": "PC_CarPaintYellow",
+     "role": "bay 4 floor service",
+     "note": "",
+     "tris": 2176
+    },
+    {
+     "name": "P14_CAR_05_Crossover_CarPaintGraphite",
+     "kind": "crossover",
+     "length": 4.6,
+     "width": 1.88,
+     "height": 1.62,
+     "location": [
+      -24.0,
+      2.0,
+      0.0
+     ],
+     "heading_deg": 180,
+     "paint": "PC_CarPaintGraphite",
+     "role": "customer drop-off at reception",
+     "note": "",
+     "tris": 2204
+    }
+   ],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "15",
+   "name": "Crescent Galleria",
+   "folder": "15_crescent_galleria",
+   "category": "E - Four-storey shopping mall",
+   "status": "incomplete",
+   "concept": "Massing: 90 m frontage.  A 66 m CONCAVE (crescent) four-storey glass curtain wall with silver floor spandrels and fins is held between two taller stone 'bookend' towers that carry their own street-facing shopfronts (separate commercial frontage sections).  A crescent-shaped canopy crowns the glass with the name; a long glass entrance canopy marks the central doors; a glazed skylight covers the atrium. Interior (real 3D): four floors (0.15 / 5.6 / 11.0 / 16.4 m), a stadium-shaped central atrium through all levels with glass-railed galleries, SIX escalators placed in the glazed front zone (zig-zag GF->L1 at the sides, L1->L2 in the centre, L2->L3 at the sides) so circulation and floor separation read from the road, 56 shop units (14 per floor) with glass shopfronts, illuminated sign bands and display fixtures, kiosks, benches, hanging LED screens, atrium pool. Site: entrance plaza on the frontage; OPTIONAL surface car park on the right (separate collection, own crossing).",
+   "storeys": 4,
+   "floor_levels_m": [
+    0.15,
+    5.6,
+    11.0,
+    16.4
+   ],
+   "roof": 21.8,
+   "frontage_width_m": 90.0,
+   "depth_m": 45.0,
+   "height_m": 25.5,
+   "lod0_bounds_m": null,
+   "setback_m": 10.0,
+   "parking": "optional right-side surface car park, 32 bays (OPTIONAL_PARKING)",
+   "access": "pedestrian entrance plaza on the frontage; separate right crossing to the optional car park",
+   "glass": "66 m concave crescent curtain wall PC_Glass alpha 0.16 + skylight",
+   "files": {
+    "blend": "15_crescent_galleria/crescent_galleria.blend",
+    "glb": "15_crescent_galleria/crescent_galleria.glb",
+    "glb_building_only": null,
+    "lod": [
+     "15_crescent_galleria/lod/crescent_galleria_lod0.glb",
+     "15_crescent_galleria/lod/crescent_galleria_lod1.glb",
+     "15_crescent_galleria/lod/crescent_galleria_lod2.glb"
+    ],
+    "renders": [
+     "15_crescent_galleria/renders/crescent_galleria_day.jpg",
+     "15_crescent_galleria/renders/crescent_galleria_night.jpg",
+     "15_crescent_galleria/renders/crescent_galleria_road_view.jpg",
+     "15_crescent_galleria/renders/crescent_galleria_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 3.36,
+    "glb": 15.71,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional mall; shop names (MAISON, NOVA, LUXE ...) are invented."
+  },
+  {
+   "number": "16",
+   "name": "Serein Cafe",
+   "folder": "16_serein_cafe",
+   "category": "F - Two-storey luxury cafe",
+   "status": "incomplete",
+   "concept": "Massing: a slender 16 x 14 m glass pavilion in a fine black-steel frame (exposed corner + mid columns, thin floor edge), a razor-thin flat roof plane with a 1.6 m white soffit overhang, and an upper TERRACE BALCONY cantilevered 3 m over the pavement on the right half (wrapping the right corner) with frameless glass railing.  Entrance through a deep black-steel pivot-door portal on the left, opening into a double-height void with globe pendants. Inside: coffee counter with espresso machines + pastry case, tables, upstairs lounge seating with glass balustrade, black steel stair. Site: small pavement terrace with bistro tables directly at the frontage; no parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    4.6
+   ],
+   "roof": 8.7,
+   "frontage_width_m": 16.0,
+   "depth_m": 14.0,
+   "height_m": 8.979999999999999,
+   "lod0_bounds_m": null,
+   "setback_m": 4.0,
+   "parking": "none (pavement terrace)",
+   "access": "pedestrian only",
+   "glass": "full-height PC_GlassClear on both floors in a black steel frame",
+   "files": {
+    "blend": "16_serein_cafe/serein_cafe.blend",
+    "glb": "16_serein_cafe/serein_cafe.glb",
+    "glb_building_only": null,
+    "lod": [
+     "16_serein_cafe/lod/serein_cafe_lod0.glb",
+     "16_serein_cafe/lod/serein_cafe_lod1.glb",
+     "16_serein_cafe/lod/serein_cafe_lod2.glb"
+    ],
+    "renders": [
+     "16_serein_cafe/renders/serein_cafe_day.jpg",
+     "16_serein_cafe/renders/serein_cafe_night.jpg",
+     "16_serein_cafe/renders/serein_cafe_road_view.jpg",
+     "16_serein_cafe/renders/serein_cafe_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.75,
+    "glb": 3.65,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  },
+  {
+   "number": "17",
+   "name": "Aurelia Coffee House",
+   "folder": "17_aurelia_coffee_house",
+   "category": "F - Two-storey luxury cafe",
+   "status": "incomplete",
+   "concept": "Massing: warm travertine-clad volume whose front-LEFT corner is a 6 m radius CURVED glass wall (ground floor) under a curved bronze canopy that follows it.  The upper floor is SET BACK 4 m, leaving a roof terrace with a bronze pergola over the curve; its front is a raked (angled) glazed lounge window framed by bronze fins, and a stepped stone cornice completes a stepped roof composition.  Premium roadside stone terrace with benches and EMPTY stone planters. Inside: marble + brass coffee counter, armchairs, a curved stair to an upstairs lounge with chesterfield-style sofas, brass ring chandeliers. Site: terrace directly on the pavement; no parking.",
+   "storeys": 2,
+   "floor_levels_m": [
+    0.15,
+    4.8
+   ],
+   "roof": "stepped: terrace 4.8 m, upper roof 9.8 m, crown 10.5 m",
+   "frontage_width_m": 20.0,
+   "depth_m": 15.0,
+   "height_m": 10.5,
+   "lod0_bounds_m": null,
+   "setback_m": 5.0,
+   "parking": "none (roadside stone terrace)",
+   "access": "pedestrian only",
+   "glass": "curved GF PC_GlassClear corner + raked upper lounge glass",
+   "files": {
+    "blend": "17_aurelia_coffee_house/aurelia_coffee_house.blend",
+    "glb": "17_aurelia_coffee_house/aurelia_coffee_house.glb",
+    "glb_building_only": null,
+    "lod": [
+     "17_aurelia_coffee_house/lod/aurelia_coffee_house_lod0.glb",
+     "17_aurelia_coffee_house/lod/aurelia_coffee_house_lod1.glb",
+     "17_aurelia_coffee_house/lod/aurelia_coffee_house_lod2.glb"
+    ],
+    "renders": [
+     "17_aurelia_coffee_house/renders/aurelia_coffee_house_day.jpg",
+     "17_aurelia_coffee_house/renders/aurelia_coffee_house_night.jpg",
+     "17_aurelia_coffee_house/renders/aurelia_coffee_house_road_view.jpg",
+     "17_aurelia_coffee_house/renders/aurelia_coffee_house_interior.jpg"
+    ]
+   },
+   "file_sizes_mb": {
+    "blend": 0.95,
+    "glb": 5.01,
+    "glb_building_only": null
+   },
+   "triangles_from_glb": {
+    "LOD0": null,
+    "LOD1": null,
+    "LOD2": null,
+    "placeholder_cars": 0,
+    "site": 0,
+    "collision": null,
+    "total": null,
+    "lod_files": null
+   },
+   "lod_ranges_m": {},
+   "materials": {
+    "count_glb": null,
+    "alpha_blend": null,
+    "used": null
+   },
+   "textures": {
+    "embedded_images": 0,
+    "sizes": [],
+    "files": null
+   },
+   "lights": null,
+   "collision_boxes": null,
+   "placeholder_cars": [],
+   "validation": {
+    "passed": null,
+    "issues": null,
+    "warnings": null,
+    "degenerate_faces": null,
+    "inverted_closed_faces": null,
+    "glass": null,
+    "reimport": null,
+    "vegetation": null
+   },
+   "visibility": {
+    "road_view": null,
+    "day": null
+   },
+   "render_seconds": {
+    "day": null,
+    "night": null,
+    "road_view": null,
+    "interior": null
+   },
+   "brand_note": "Original fictional brand."
+  }
+ ]
+}

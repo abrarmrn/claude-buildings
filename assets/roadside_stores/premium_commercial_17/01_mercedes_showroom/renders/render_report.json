@@ -1,0 +1,228 @@
+{
+ "day_visibility": {
+  "cars": [
+   {
+    "car": "P01_CAR_01_Sedan_CarPaintSilver",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_FACADE_DETAILS_RoofPlate"
+    ]
+   },
+   {
+    "car": "P01_CAR_02_Suv_CarPaintBlack",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_GLASS_SYSTEM_FrontFrame"
+    ]
+   },
+   {
+    "car": "P01_CAR_03_Coupe_CarPaintWhite",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": []
+   },
+   {
+    "car": "P01_CAR_04_Sedan_CarPaintGraphite",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P01_CAR_05_Crossover_CarPaintBlue",
+    "visible_fraction": 0.83,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_GLASS_SYSTEM_LeftFrame"
+    ]
+   },
+   {
+    "car": "P01_CAR_06_Coupe_CarPaintRed",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_FACADE_DETAILS_RoofPlate"
+    ]
+   },
+   {
+    "car": "P01_CAR_07_Sedan_CarPaintSand",
+    "visible_fraction": 0.83,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_BUILDING_INTERIOR_RailFrame"
+    ]
+   },
+   {
+    "car": "P01_CAR_08_Coupe_CarPaintBlack",
+    "visible_fraction": 0.33,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_FACADE_DETAILS_RoofPlate",
+     "P01_LOD0_GLASS_SYSTEM_FrontFrame"
+    ]
+   }
+  ],
+  "probes": [
+   {
+    "name": "GF_atrium",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L1_gallery_left",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L1_gallery_right",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L2_lounge",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L2_lounge_right",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 79.0,
+ "night_seconds": 159.7,
+ "road_view_visibility": {
+  "cars": [
+   {
+    "car": "P01_CAR_01_Sedan_CarPaintSilver",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_FACADE_DETAILS_RoofPlate"
+    ]
+   },
+   {
+    "car": "P01_CAR_02_Suv_CarPaintBlack",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P01_CAR_03_Coupe_CarPaintWhite",
+    "visible_fraction": 0.5,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": [
+     "P01_LOD0_BUILDING_INTERIOR_AtriumStair",
+     "P01_LOD0_GLASS_SYSTEM_AtriumFrame"
+    ]
+   },
+   {
+    "car": "P01_CAR_04_Sedan_CarPaintGraphite",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P01_LOD0_GLASS_SYSTEM_AtriumFrame"
+    ]
+   },
+   {
+    "car": "P01_CAR_05_Crossover_CarPaintBlue",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P01_CAR_06_Coupe_CarPaintRed",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P01_LOD0_BUILDING_INTERIOR_Slabs"
+    ]
+   },
+   {
+    "car": "P01_CAR_07_Sedan_CarPaintSand",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": [
+     "P01_LOD0_BUILDING_INTERIOR_RailFrame",
+     "P01_LOD0_BUILDING_INTERIOR_Slabs"
+    ]
+   },
+   {
+    "car": "P01_CAR_08_Coupe_CarPaintBlack",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P01_LOD0_BUILDING_INTERIOR_Slabs",
+     "P01_LOD0_GLASS_SYSTEM_FrontFrame"
+    ]
+   }
+  ],
+  "probes": [
+   {
+    "name": "GF_atrium",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P01_CAR_02_Suv_CarPaintBlack"
+   },
+   {
+    "name": "L1_gallery_left",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P01_LOD0_GLASS_SYSTEM_FrontFrame"
+   },
+   {
+    "name": "L1_gallery_right",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 2,
+    "blocker": null
+   },
+   {
+    "name": "L2_lounge",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P01_LOD0_GLASS_SYSTEM_FrontFrame"
+   },
+   {
+    "name": "L2_lounge_right",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P01_LOD0_FACADE_DETAILS_RoofPlate"
+   }
+  ]
+ },
+ "road_view_seconds": 171.4,
+ "interior_seconds": 345.1
+}

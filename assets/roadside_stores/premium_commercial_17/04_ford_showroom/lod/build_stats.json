@@ -1,0 +1,245 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/SawtoothRoof": 36,
+   "BUILDING_EXTERIOR/Shell": 804,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Structure": 384,
+   "DISPLAY_OBJECTS/Platforms": 110,
+   "FACADE_DETAILS/SteelFrame": 132,
+   "FURNITURE/Main": 12844,
+   "GLASS_SYSTEM/ClerestoryFrame": 84,
+   "GLASS_SYSTEM/ClerestoryGlass": 8,
+   "GLASS_SYSTEM/Display-20Frame": 96,
+   "GLASS_SYSTEM/Display-20Glass": 16,
+   "GLASS_SYSTEM/Display5Frame": 84,
+   "GLASS_SYSTEM/Display5Glass": 12,
+   "GLASS_SYSTEM/EntranceFrame": 332,
+   "GLASS_SYSTEM/EntranceGlass": 20,
+   "GLASS_SYSTEM/NorthLightFrame": 552,
+   "GLASS_SYSTEM/NorthLightGlass": 80,
+   "GLASS_SYSTEM/PartitionFrame": 156,
+   "GLASS_SYSTEM/PartitionGlass": 36,
+   "GLASS_SYSTEM/PartsDoorFrame": 172,
+   "GLASS_SYSTEM/PartsDoorGlass": 4,
+   "SIGNAGE/Brand": 4948
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/SawtoothRoof": 36,
+   "BUILDING_EXTERIOR/Shell": 648,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Structure": 276,
+   "DISPLAY_OBJECTS/Platforms": 110,
+   "FACADE_DETAILS/SteelFrame": 108,
+   "FURNITURE/Main": 2368,
+   "GLASS_SYSTEM/ClerestoryFrame": 84,
+   "GLASS_SYSTEM/ClerestoryGlass": 8,
+   "GLASS_SYSTEM/Display-20Frame": 96,
+   "GLASS_SYSTEM/Display-20Glass": 16,
+   "GLASS_SYSTEM/Display5Frame": 84,
+   "GLASS_SYSTEM/Display5Glass": 12,
+   "GLASS_SYSTEM/EntranceFrame": 132,
+   "GLASS_SYSTEM/EntranceGlass": 20,
+   "GLASS_SYSTEM/NorthLightFrame": 552,
+   "GLASS_SYSTEM/NorthLightGlass": 80,
+   "GLASS_SYSTEM/PartitionFrame": 156,
+   "GLASS_SYSTEM/PartitionGlass": 36,
+   "GLASS_SYSTEM/PartsDoorFrame": 72,
+   "GLASS_SYSTEM/PartsDoorGlass": 4,
+   "SIGNAGE/Brand": 2680
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/SawtoothRoof": 36,
+   "BUILDING_EXTERIOR/Shell": 528,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Structure": 264,
+   "DISPLAY_OBJECTS/Platforms": 60,
+   "FACADE_DETAILS/SteelFrame": 108,
+   "FURNITURE/Main": 200,
+   "GLASS_SYSTEM/ClerestoryFrame": 24,
+   "GLASS_SYSTEM/ClerestoryGlass": 2,
+   "GLASS_SYSTEM/Display-20Frame": 24,
+   "GLASS_SYSTEM/Display-20Glass": 2,
+   "GLASS_SYSTEM/Display5Frame": 24,
+   "GLASS_SYSTEM/Display5Glass": 2,
+   "GLASS_SYSTEM/EntranceFrame": 24,
+   "GLASS_SYSTEM/EntranceGlass": 2,
+   "GLASS_SYSTEM/NorthLightFrame": 168,
+   "GLASS_SYSTEM/NorthLightGlass": 24,
+   "GLASS_SYSTEM/PartitionFrame": 48,
+   "GLASS_SYSTEM/PartitionGlass": 6,
+   "GLASS_SYSTEM/PartsDoorFrame": 24,
+   "GLASS_SYSTEM/PartsDoorGlass": 2,
+   "SIGNAGE/Brand": 271
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 56,
+   "DRIVEWAY/Markings": 8,
+   "OPTIONAL_FORECOURT/Bollards": 340,
+   "OPTIONAL_FORECOURT/Plaza": 12,
+   "OPTIONAL_PARKING/Asphalt": 24,
+   "OPTIONAL_PARKING/Markings": 128,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 20922,
+  "LOD1": 7590,
+  "LOD2": 1857,
+  "SITE": 652,
+  "PLACEHOLDER_CARS": 15428
+ },
+ "cars": [
+  {
+   "name": "P04_CAR_01_Pickup_CarPaintBlue",
+   "kind": "pickup",
+   "length": 5.6,
+   "width": 2.0,
+   "height": 1.92,
+   "location": [
+    -15.0,
+    16.75,
+    0.27
+   ],
+   "heading_deg": 160,
+   "paint": "PC_CarPaintBlue",
+   "role": "display platform",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P04_CAR_02_Suv_CarPaintWhite",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    -6.25,
+    22.0,
+    0.27
+   ],
+   "heading_deg": 200,
+   "paint": "PC_CarPaintWhite",
+   "role": "display platform",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P04_CAR_03_Coupe_CarPaintOrange",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    9.5,
+    16.75,
+    0.27
+   ],
+   "heading_deg": 200,
+   "paint": "PC_CarPaintOrange",
+   "role": "display platform",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P04_CAR_04_Crossover_CarPaintGraphite",
+   "kind": "crossover",
+   "length": 4.6,
+   "width": 1.88,
+   "height": 1.62,
+   "location": [
+    -15.0,
+    26.5,
+    0.27
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintGraphite",
+   "role": "display platform",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P04_CAR_05_Sedan_CarPaintSilver",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    9.5,
+    26.0,
+    0.27
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintSilver",
+   "role": "display platform",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P04_CAR_06_Pickup_CarPaintBlack",
+   "kind": "pickup",
+   "length": 5.6,
+   "width": 2.0,
+   "height": 1.92,
+   "location": [
+    20.0,
+    18.0,
+    0.15
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintBlack",
+   "role": "vehicle delivery bay",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P04_CAR_07_Suv_CarPaintRed",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    26.0,
+    22.0,
+    1.7
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintRed",
+   "role": "service lift (raised)",
+   "note": "",
+   "tris": 2204
+  }
+ ],
+ "meta": {
+  "floors": 1,
+  "width": 64.0,
+  "depth": 24.0,
+  "height": 10.8,
+  "footprint": [
+   -32.0,
+   6.5,
+   32.0,
+   34.0
+  ],
+  "storeys": 1,
+  "floor_levels": [
+   0.15
+  ],
+  "roof": "sawtooth, eaves 7.8 m, ridges 10.3 m, portal 10.8 m",
+  "parking": "optional left-side customer lot, 9 bays + access aisle (OPTIONAL_PARKING)",
+  "access": "direct service apron from the service road to delivery bay + 2 service doors; separate parking crossing on the left",
+  "setback_m": 10.0,
+  "glass": "36 m display glazing PC_Glass alpha 0.16 + north lights",
+  "concept": "Massing: a 64 m wide, low (7.8 m) industrial clear-span hall with an exposed dark-steel portal frame in front of a",
+  "plot_x": [
+   -47.0,
+   36.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 7,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}

@@ -1,0 +1,281 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/GraniteCore": 240,
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 96,
+   "BUILDING_INTERIOR/AtriumStair": 4088,
+   "BUILDING_INTERIOR/AtriumStairGlass": 4,
+   "BUILDING_INTERIOR/CeilingLights": 720,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Partitions": 144,
+   "BUILDING_INTERIOR/RailFrame": 160,
+   "BUILDING_INTERIOR/RailGlass": 8,
+   "BUILDING_INTERIOR/RailL2Frame": 120,
+   "BUILDING_INTERIOR/RailL2Glass": 6,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/UpperStair": 3224,
+   "BUILDING_INTERIOR/UpperStairGlass": 4,
+   "DISPLAY_OBJECTS/Platforms": 1486,
+   "FACADE_DETAILS/RoofPlate": 1404,
+   "FURNITURE/Lounges": 18140,
+   "GLASS_SYSTEM/AtriumFrame": 1212,
+   "GLASS_SYSTEM/AtriumGlass": 48,
+   "GLASS_SYSTEM/CoreEntranceFrame": 272,
+   "GLASS_SYSTEM/CoreEntranceGlass": 6,
+   "GLASS_SYSTEM/FrontFrame": 1004,
+   "GLASS_SYSTEM/FrontGlass": 68,
+   "GLASS_SYSTEM/FrontRFrame": 888,
+   "GLASS_SYSTEM/FrontRGlass": 50,
+   "GLASS_SYSTEM/LeftFrame": 312,
+   "GLASS_SYSTEM/LeftGlass": 70,
+   "SIGNAGE/Brand": 3656
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/GraniteCore": 240,
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 96,
+   "BUILDING_INTERIOR/AtriumStair": 480,
+   "BUILDING_INTERIOR/AtriumStairGlass": 4,
+   "BUILDING_INTERIOR/CeilingLights": 330,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Partitions": 144,
+   "BUILDING_INTERIOR/RailFrame": 96,
+   "BUILDING_INTERIOR/RailGlass": 8,
+   "BUILDING_INTERIOR/RailL2Frame": 72,
+   "BUILDING_INTERIOR/RailL2Glass": 6,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/UpperStair": 384,
+   "BUILDING_INTERIOR/UpperStairGlass": 4,
+   "DISPLAY_OBJECTS/Platforms": 646,
+   "FACADE_DETAILS/RoofPlate": 756,
+   "FURNITURE/Lounges": 2668,
+   "GLASS_SYSTEM/AtriumFrame": 348,
+   "GLASS_SYSTEM/AtriumGlass": 48,
+   "GLASS_SYSTEM/CoreEntranceFrame": 72,
+   "GLASS_SYSTEM/CoreEntranceGlass": 6,
+   "GLASS_SYSTEM/FrontFrame": 420,
+   "GLASS_SYSTEM/FrontGlass": 68,
+   "GLASS_SYSTEM/FrontRFrame": 312,
+   "GLASS_SYSTEM/FrontRGlass": 50,
+   "GLASS_SYSTEM/LeftFrame": 312,
+   "GLASS_SYSTEM/LeftGlass": 70,
+   "SIGNAGE/Brand": 1948
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/GraniteCore": 240,
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 96,
+   "BUILDING_INTERIOR/AtriumStair": 12,
+   "BUILDING_INTERIOR/CeilingLights": 10,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Partitions": 36,
+   "BUILDING_INTERIOR/RailGlass": 8,
+   "BUILDING_INTERIOR/RailL2Glass": 6,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/UpperStair": 12,
+   "DISPLAY_OBJECTS/Platforms": 216,
+   "FACADE_DETAILS/RoofPlate": 124,
+   "FURNITURE/Lounges": 64,
+   "GLASS_SYSTEM/AtriumFrame": 60,
+   "GLASS_SYSTEM/AtriumGlass": 12,
+   "GLASS_SYSTEM/CoreEntranceFrame": 24,
+   "GLASS_SYSTEM/CoreEntranceGlass": 2,
+   "GLASS_SYSTEM/FrontFrame": 84,
+   "GLASS_SYSTEM/FrontGlass": 20,
+   "GLASS_SYSTEM/FrontRFrame": 48,
+   "GLASS_SYSTEM/FrontRGlass": 10,
+   "GLASS_SYSTEM/LeftFrame": 84,
+   "GLASS_SYSTEM/LeftGlass": 20,
+   "SIGNAGE/Brand": 313
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 24,
+   "DRIVEWAY/Crossing": 56,
+   "DRIVEWAY/Markings": 4,
+   "OPTIONAL_FORECOURT/Bollards": 816,
+   "OPTIONAL_FORECOURT/Plaza": 24,
+   "OPTIONAL_FORECOURT/VehicleApron": 12,
+   "OPTIONAL_PARKING/Asphalt": 12,
+   "OPTIONAL_PARKING/Markings": 156,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 37538,
+  "LOD1": 9696,
+  "LOD2": 1609,
+  "SITE": 1176,
+  "PLACEHOLDER_CARS": 17632
+ },
+ "cars": [
+  {
+   "name": "P01_CAR_01_Sedan_CarPaintSilver",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -17.0,
+    16.0,
+    0.31
+   ],
+   "heading_deg": 160,
+   "paint": "PC_CarPaintSilver",
+   "role": "GF turntable",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P01_CAR_02_Suv_CarPaintBlack",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    -6.0,
+    15.5,
+    0.31
+   ],
+   "heading_deg": 200,
+   "paint": "PC_CarPaintBlack",
+   "role": "GF atrium turntable",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P01_CAR_03_Coupe_CarPaintWhite",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    4.5,
+    15.5,
+    0.31
+   ],
+   "heading_deg": 160,
+   "paint": "PC_CarPaintWhite",
+   "role": "GF atrium turntable",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P01_CAR_04_Sedan_CarPaintGraphite",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    12.8,
+    17.0,
+    0.31
+   ],
+   "heading_deg": 200,
+   "paint": "PC_CarPaintGraphite",
+   "role": "GF turntable",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P01_CAR_05_Crossover_CarPaintBlue",
+   "kind": "crossover",
+   "length": 4.6,
+   "width": 1.88,
+   "height": 1.62,
+   "location": [
+    -16.0,
+    27.8,
+    0.35
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintBlue",
+   "role": "GF rear plinth",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P01_CAR_06_Coupe_CarPaintRed",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -17.2,
+    15.2,
+    6.78
+   ],
+   "heading_deg": 170,
+   "paint": "PC_CarPaintRed",
+   "role": "L1 gallery plinth",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P01_CAR_07_Sedan_CarPaintSand",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    13.2,
+    14.8,
+    6.78
+   ],
+   "heading_deg": 190,
+   "paint": "PC_CarPaintSand",
+   "role": "L1 gallery plinth",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P01_CAR_08_Coupe_CarPaintBlack",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -15.5,
+    15.5,
+    11.72
+   ],
+   "heading_deg": 165,
+   "paint": "PC_CarPaintBlack",
+   "role": "L2 lounge turntable",
+   "note": "",
+   "tris": 2176
+  }
+ ],
+ "meta": {
+  "floors": 3,
+  "width": 48.0,
+  "depth": 28.0,
+  "height": 20.9,
+  "footprint": [
+   -24.0,
+   8.0,
+   24.0,
+   36.0
+  ],
+  "storeys": 3,
+  "floor_levels": [
+   0.15,
+   6.6,
+   11.6
+  ],
+  "roof": 16.2,
+  "parking": "optional side lot, 11 bays (OPTIONAL_PARKING)",
+  "access": "left vehicle crossing to forecourt/showroom door; right side driveway to rear service yard",
+  "setback_m": 8.0,
+  "glass": "PC_Glass alpha 0.16 curtain wall",
+  "concept": "Massing: 42 m glass box + 6 m dark-granite brand core rising to 20.6 m on the right; a floating white roof plate",
+  "plot_x": [
+   -27.0,
+   46.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 12,
+   "EXTERIOR_LIGHTING": 4
+  }
+ }
+}

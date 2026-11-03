@@ -1,0 +1,233 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Frame": 1028,
+   "BUILDING_INTERIOR/CeilingLights": 96,
+   "BUILDING_INTERIOR/GroundSlab": 80,
+   "BUILDING_INTERIOR/Mezzanine": 24,
+   "BUILDING_INTERIOR/Partitions": 348,
+   "BUILDING_INTERIOR/Rail2Frame": 40,
+   "BUILDING_INTERIOR/Rail2Glass": 2,
+   "BUILDING_INTERIOR/RailFrame": 120,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Stair": 3508,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "DISPLAY_OBJECTS/Platforms": 416,
+   "FACADE_DETAILS/Lamellas": 936,
+   "FURNITURE/Main": 7238,
+   "GLASS_SYSTEM/CurveFrame": 5200,
+   "GLASS_SYSTEM/CurveGlass": 116,
+   "GLASS_SYSTEM/DeliveryDoorFrame": 284,
+   "GLASS_SYSTEM/DeliveryDoorGlass": 8,
+   "SIGNAGE/Brand": 5972
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Frame": 388,
+   "BUILDING_INTERIOR/CeilingLights": 48,
+   "BUILDING_INTERIOR/GroundSlab": 56,
+   "BUILDING_INTERIOR/Mezzanine": 24,
+   "BUILDING_INTERIOR/Partitions": 348,
+   "BUILDING_INTERIOR/Rail2Frame": 24,
+   "BUILDING_INTERIOR/Rail2Glass": 2,
+   "BUILDING_INTERIOR/RailFrame": 72,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Stair": 408,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "DISPLAY_OBJECTS/Platforms": 248,
+   "FACADE_DETAILS/Lamellas": 474,
+   "FURNITURE/Main": 1286,
+   "GLASS_SYSTEM/CurveFrame": 912,
+   "GLASS_SYSTEM/CurveGlass": 80,
+   "GLASS_SYSTEM/DeliveryDoorFrame": 84,
+   "GLASS_SYSTEM/DeliveryDoorGlass": 8,
+   "SIGNAGE/Brand": 2948
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Frame": 188,
+   "BUILDING_INTERIOR/CeilingLights": 2,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 32,
+   "BUILDING_INTERIOR/Mezzanine": 24,
+   "BUILDING_INTERIOR/Partitions": 12,
+   "BUILDING_INTERIOR/Rail2Glass": 2,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Stair": 12,
+   "DISPLAY_OBJECTS/Platforms": 108,
+   "FURNITURE/Main": 48,
+   "GLASS_SYSTEM/CurveFrame": 144,
+   "GLASS_SYSTEM/CurveGlass": 12,
+   "GLASS_SYSTEM/DeliveryDoorFrame": 24,
+   "GLASS_SYSTEM/DeliveryDoorGlass": 2,
+   "SIGNAGE/Brand": 684
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 28,
+   "DRIVEWAY/Markings": 4,
+   "OPTIONAL_FORECOURT/Bollards": 136,
+   "OPTIONAL_FORECOURT/Plaza": 80,
+   "OPTIONAL_PARKING/Asphalt": 12,
+   "OPTIONAL_PARKING/Markings": 480,
+   "SIDEWALK_FRONTAGE/Main": 48
+  }
+ },
+ "totals": {
+  "LOD0": 25424,
+  "LOD1": 7418,
+  "LOD2": 1302,
+  "SITE": 800,
+  "PLACEHOLDER_CARS": 15456
+ },
+ "cars": [
+  {
+   "name": "P02_CAR_01_Coupe_CarPaintBlue",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -4.0,
+    12.5,
+    0.33
+   ],
+   "heading_deg": 200,
+   "paint": "PC_CarPaintBlue",
+   "role": "GF central turntable",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P02_CAR_02_Sedan_CarPaintWhite",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -15.5,
+    13.25,
+    0.35
+   ],
+   "heading_deg": 165,
+   "paint": "PC_CarPaintWhite",
+   "role": "GF plinth left",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P02_CAR_03_Suv_CarPaintGraphite",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    9.0,
+    12.05,
+    0.35
+   ],
+   "heading_deg": 195,
+   "paint": "PC_CarPaintGraphite",
+   "role": "GF plinth",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P02_CAR_04_Crossover_CarPaintSilver",
+   "kind": "crossover",
+   "length": 4.6,
+   "width": 1.88,
+   "height": 1.62,
+   "location": [
+    16.9,
+    15.1,
+    0.35
+   ],
+   "heading_deg": 150,
+   "paint": "PC_CarPaintSilver",
+   "role": "GF by delivery door",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P02_CAR_05_Sedan_CarPaintBlack",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -13.0,
+    23.75,
+    0.3
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintBlack",
+   "role": "GF under mezzanine",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P02_CAR_06_Coupe_CarPaintRed",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -14.75,
+    24.75,
+    5.95
+   ],
+   "heading_deg": 170,
+   "paint": "PC_CarPaintRed",
+   "role": "mezzanine plinth",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P02_CAR_07_Sedan_CarPaintSilver",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    14.75,
+    23.25,
+    5.95
+   ],
+   "heading_deg": 190,
+   "paint": "PC_CarPaintSilver",
+   "role": "mezzanine plinth",
+   "note": "",
+   "tris": 2232
+  }
+ ],
+ "meta": {
+  "floors": 2,
+  "width": 44.8,
+  "depth": 25.0,
+  "height": 14.6,
+  "footprint": [
+   -22.4,
+   6.0,
+   22.4,
+   31.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.8
+  ],
+  "roof": "sweeping 11.8-14.6 m",
+  "parking": "optional rear lot, 34 bays (OPTIONAL_PARKING)",
+  "access": "left side driveway from the service road to the rear yard; vehicle delivery door in the right blade",
+  "setback_m": 6.0,
+  "glass": "curved faceted curtain wall, PC_Glass alpha 0.16",
+  "concept": "Massing: a 42 m CONVEX curved glass front (plan arc, 4 m sagitta) held by a continuous white sculptural frame -",
+  "plot_x": [
+   -34.0,
+   26.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 7,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}
