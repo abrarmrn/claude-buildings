@@ -1,6 +1,6 @@
 # 14 - Pitlane Performance
 
-*D - Automotive service facility* - status: **incomplete**
+*D - Automotive service facility* - status: **complete**
 
 Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable faces the road (eaves 7 m, crown 11.4 m). The lower front holds four big roller doors (two open, one half-open, one closed) separated by full-height glass observation panels; the arched lunette above is glazed so the lit workshop reads from the road.  A low glass service reception box sits on the left beside a tall black/red vertical sign blade.  Red/white chequer band at the doors. Inside: two 2-post lifts and a 4-post lift with raised cars, a car on the floor with the bonnet zone lit, engine stand, tyre machine + racks, tool cabinets, workbenches and long high-bay lights following the vault. Site: wide workshop apron straight off the service road; optional customer parking left of the reception.
 
@@ -17,13 +17,13 @@ Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable f
 |---|---|
 | Storeys | 1 (floor levels [0.15] m, roof barrel vault, eaves 7.0 m, crown 11.75 m) |
 | Frontage x depth x height | 50.5 x 27.2 x 11.75 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [51.52, 30.7, 13.3] m |
 | Setback from plot frontage | 5.0 m |
 | Parking | optional left customer parking, 6 bays (OPTIONAL_PARKING) |
 | Vehicle access | 40 m wide workshop apron straight off the service road to four roller doors; separate parking crossing |
 | Glass | glass observation panels + glazed arched lunette + glass reception box |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 5, 'EXTERIOR_LIGHTING': 2} |
+| Collision boxes | 3 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable f
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 18555 | 7491 | 1471 | 10992 | 278 | 36 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -66,10 +66,12 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 10; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 72, 'triangles': 38823, 'glb_triangles': 38823, 'images_loaded': 22, 'lights': 7, 'lod0_size_yup_converted': [51.52, 30.7, 13.3]}
+- Ray-traced visibility from the road_view camera: cars readable 3/5 {'01_Coupe_CarPaintRed': 0.33, '02_Sedan_CarPaintBlack': 0.33, '03_Suv_CarPaintWhite': 0.0, '04_Coupe_CarPaintYellow': 0.0, '05_Crossover_CarPaintGraphite': 1.0}; interior probes reached 0/4 {'Bay1_lift': False, 'Bay2': False, 'Bay3': False, 'Reception': False}
+- Ray-traced visibility from the day camera: cars readable 3/5 {'01_Coupe_CarPaintRed': 0.67, '02_Sedan_CarPaintBlack': 0.0, '03_Suv_CarPaintWhite': 0.33, '04_Coupe_CarPaintYellow': 0.0, '05_Crossover_CarPaintGraphite': 1.0}; interior probes reached 1/4 {'Bay1_lift': False, 'Bay2': False, 'Bay3': True, 'Reception': False}
 
 Brand note: Original fictional brand.
 

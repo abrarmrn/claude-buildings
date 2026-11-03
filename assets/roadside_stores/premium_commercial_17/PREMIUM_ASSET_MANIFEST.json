@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T21:24:29.533205Z",
+ "generated": "2026-11-03T21:36:32.450874Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 13,
+ "complete": 14,
  "assets": [
   {
    "number": "01",
@@ -2757,7 +2757,7 @@
     "day": 70.9,
     "night": 86.6,
     "road_view": 76.2,
-    "interior": 196.0
+    "interior": 328.8
    },
    "brand_note": "Original fictional brand."
   },
@@ -3983,7 +3983,7 @@
    "name": "Pitlane Performance",
    "folder": "14_pitlane_performance",
    "category": "D - Automotive service facility",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable faces the road (eaves 7 m, crown 11.4 m). The lower front holds four big roller doors (two open, one half-open, one closed) separated by full-height glass observation panels; the arched lunette above is glazed so the lit workshop reads from the road.  A low glass service reception box sits on the left beside a tall black/red vertical sign blade.  Red/white chequer band at the doors. Inside: two 2-post lifts and a 4-post lift with raised cars, a car on the floor with the bonnet zone lit, engine stand, tyre machine + racks, tool cabinets, workbenches and long high-bay lights following the vault. Site: wide workshop apron straight off the service road; optional customer parking left of the reception.",
    "storeys": 1,
    "floor_levels_m": [
@@ -3993,7 +3993,23 @@
    "frontage_width_m": 50.5,
    "depth_m": 27.2,
    "height_m": 11.75,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -30.72,
+     0.9,
+     -0.3
+    ],
+    "max": [
+     20.8,
+     31.6,
+     13.0
+    ],
+    "size": [
+     51.52,
+     30.7,
+     13.3
+    ]
+   },
    "setback_m": 5.0,
    "parking": "optional left customer parking, 6 bays (OPTIONAL_PARKING)",
    "access": "40 m wide workshop apron straight off the service road to four roller doors; separate parking crossing",
@@ -4016,33 +4032,137 @@
     ]
    },
    "file_sizes_mb": {
-    "blend": 0.79,
+    "blend": 0.78,
     "glb": 5.55,
     "glb_building_only": 5.1
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
-    "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "LOD0": 18555,
+    "LOD1": 7491,
+    "LOD2": 1471,
+    "placeholder_cars": 10992,
+    "site": 278,
+    "collision": 36,
+    "total": 38823,
+    "lod_files": {
+     "LOD0": 18555,
+     "LOD1": 7491,
+     "LOD2": 1471
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 52,
+    "alpha_blend": [
+     "PC_Glass",
+     "PC_GlassClear"
+    ],
+    "used": [
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintRed",
+     "PC_CarPaintWhite",
+     "PC_CarPaintYellow",
+     "PC_CarTrim",
+     "PC_Ceiling",
+     "PC_Chrome",
+     "PC_Concrete",
+     "PC_Corrugated",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FloorDark",
+     "PC_FloorEpoxy",
+     "PC_Glass",
+     "PC_GlassClear",
+     "PC_HeadLight",
+     "PC_LeatherBlack",
+     "PC_LightCool",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LineWhite",
+     "PC_PanelBlack",
+     "PC_PaverLight",
+     "PC_PlasticGrey",
+     "PC_PlasticWhite",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_RoofMembrane",
+     "PC_RubberBlack",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_SteelPaintGrey",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_ToolBlack",
+     "PC_ToolRed",
+     "PC_Tyre",
+     "PC_WallWhite",
+     "PC_Walnut",
+     "PC_WhiteGloss",
+     "PL_Letter",
+     "PL_Red",
+     "PL_RedGlow",
+     "RS_Checker"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 22,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "256x256",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/checker_albedo.jpg",
+     "//textures/checker_normal.jpg",
+     "//textures/checker_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/pc_corrugated_albedo.jpg",
+     "//textures/pc_corrugated_normal.jpg",
+     "//textures/pc_corrugated_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 5,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 3,
    "placeholder_cars": [
     {
      "name": "P14_CAR_01_Coupe_CarPaintRed",
@@ -4131,24 +4251,82 @@
     }
    ],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 10,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 72,
+     "triangles": 38823,
+     "glb_triangles": 38823,
+     "images_loaded": 22,
+     "lights": 7,
+     "lod0_size_yup_converted": [
+      51.52,
+      30.7,
+      13.3
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 3,
+     "cars_total": 5,
+     "car_fractions": {
+      "01_Coupe_CarPaintRed": 0.33,
+      "02_Sedan_CarPaintBlack": 0.33,
+      "03_Suv_CarPaintWhite": 0.0,
+      "04_Coupe_CarPaintYellow": 0.0,
+      "05_Crossover_CarPaintGraphite": 1.0
+     },
+     "probes_reached": 0,
+     "probes_total": 4,
+     "probes": {
+      "Bay1_lift": false,
+      "Bay2": false,
+      "Bay3": false,
+      "Reception": false
+     }
+    },
+    "day": {
+     "cars_visible": 3,
+     "cars_total": 5,
+     "car_fractions": {
+      "01_Coupe_CarPaintRed": 0.67,
+      "02_Sedan_CarPaintBlack": 0.0,
+      "03_Suv_CarPaintWhite": 0.33,
+      "04_Coupe_CarPaintYellow": 0.0,
+      "05_Crossover_CarPaintGraphite": 1.0
+     },
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "Bay1_lift": false,
+      "Bay2": false,
+      "Bay3": true,
+      "Reception": false
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 71.5,
+    "night": 147.0,
+    "road_view": 139.1,
+    "interior": 338.5
    },
    "brand_note": "Original fictional brand."
   },
@@ -4192,7 +4370,7 @@
     ]
    },
    "file_sizes_mb": {
-    "blend": 3.36,
+    "blend": 3.35,
     "glb": 15.71,
     "glb_building_only": null
    },
