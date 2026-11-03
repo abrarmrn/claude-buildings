@@ -1,0 +1,72 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "Hall_tables",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Hall_tables_2",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Mezzanine",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P06_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "Mezzanine_r",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 136.6,
+ "night_seconds": 233.7,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "Hall_tables",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Hall_tables_2",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P06_LOD0_DISPLAY_OBJECTS_Products"
+   },
+   {
+    "name": "Mezzanine",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P06_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "Mezzanine_r",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 2,
+    "blocker": null
+   }
+  ]
+ },
+ "road_view_seconds": 131.3,
+ "interior_seconds": 270.4
+}

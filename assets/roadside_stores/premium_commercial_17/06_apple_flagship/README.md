@@ -1,6 +1,6 @@
 # 06 - Apple Flagship Store
 
-*B - Technology flagship* - status: **incomplete**
+*B - Technology flagship* - status: **complete**
 
 Massing: pure minimalist pavilion - five 5.6 m x 9.4 m frameless glass panes stabilised by internal glass fins, held between two thick travertine flank walls and capped by a razor-thin white roof plate cantilevering 2.5 m on all sides. Inside: a 9.4 m double-height hall under a luminous backlit ceiling, rows of light-oak product tables (iPhone, Mac, iPad zones), twin stone stairs with glass balustrades rising to a rear mezzanine with more tables and a video wall. Site: open stone plaza directly off the pavement (pedestrian only, no parking, no vehicle access).
 
@@ -58,6 +58,8 @@ P06_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 2; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 19640, 'glb_triangles': 19640, 'images_loaded': 14, 'lights': 8, 'lod0_size_yup_converted': [33.0, 30.5, 10.75]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 2/4 {'Hall_tables': True, 'Hall_tables_2': False, 'Mezzanine': False, 'Mezzanine_r': True}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 3/4 {'Hall_tables': True, 'Hall_tables_2': True, 'Mezzanine': False, 'Mezzanine_r': True}
 
 Brand note: Apple-style silhouette drawn procedurally from circles (simplified, not official artwork); no "iPhone Store" naming.
 

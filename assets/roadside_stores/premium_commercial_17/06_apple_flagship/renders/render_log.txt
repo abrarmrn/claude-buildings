@@ -384,3 +384,16 @@ Fra:1 Mem:136.77M (Peak 424.47M) | Time:00:00.60 | Mem:116.91M, Peak:276.62M | S
 Fra:1 Mem:136.77M (Peak 424.47M) | Time:00:00.60 | Mem:116.91M, Peak:276.62M | Scene, ViewLayer | Sample 0/56
 Fra:1 Mem:241.18M (Peak 424.47M) | Time:00:05.41 | Remaining:04:24.41 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 1/56
 Fra:1 Mem:241.18M (Peak 424.47M) | Time:00:47.18 | Remaining:04:03.22 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 9/56
+Fra:1 Mem:241.18M (Peak 424.47M) | Time:01:26.35 | Remaining:03:16.70 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 17/56
+Fra:1 Mem:241.18M (Peak 424.47M) | Time:02:04.45 | Remaining:02:33.57 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 25/56
+Fra:1 Mem:241.18M (Peak 424.47M) | Time:02:42.36 | Remaining:01:52.74 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 33/56
+Fra:1 Mem:241.18M (Peak 424.47M) | Time:03:21.28 | Remaining:01:13.41 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 41/56
+Fra:1 Mem:241.18M (Peak 424.47M) | Time:03:53.63 | Remaining:00:38.83 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 48/56
+Fra:1 Mem:285.13M (Peak 424.47M) | Time:04:30.29 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Sample 56/56
+Fra:1 Mem:285.13M (Peak 424.47M) | Time:04:30.29 | Mem:221.28M, Peak:276.62M | Scene, ViewLayer | Finished
+Saved: '../06_apple_flagship/renders/apple_flagship_interior.jpg'
+Time: 04:30.37 (Saving: 00:00.05)
+
+RENDERED apple_flagship_interior.jpg 1600x900 56spp 270.4s
+VIS {"day_visibility": {"cars": [], "probes": [{"name": "Hall_tables", "reached": true, "in_frame": true, "glass_layers": 1, "blocker": null}, {"name": "Hall_tables_2", "reached": true, "in_frame": true, "glass_layers": 1, "blocker": null}, {"name": "Mezzanine", "reached": false, "in_frame": true, "glass_layers": 0, "blocker": "P06_LOD0_BUILDING_EXTERIOR_Stone"}, {"name": "Mezzanine_r", "reached": true, "in_frame": true, "glass_layers": 1, "blocker": null}]}, "road_view_visibility": {"cars": [], "probes": [{"name": "Hall_tables", "reached": true, "in_frame": true, "glass_layers": 1, "blocker": null}, {"name": "Hall_tables_2", "reached": false, "in_frame": true, "glass_layers": 1, "blocker": "P06_LOD0_DISPLAY_OBJECTS_Products"}, {"name": "Mezzanine", "reached": false, "in_frame": true, "glass_layers": 0, "blocker": "P06_LOD0_BUILDING_EXTERIOR_Stone"}, {"name": "Mezzanine_r", "reached": true, "in_frame": true, "glass_layers": 2, "blocker": null}]}}
+DONE
