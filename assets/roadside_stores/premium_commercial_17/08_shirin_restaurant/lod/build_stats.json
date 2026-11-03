@@ -1,0 +1,99 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Stone": 1308,
+   "BUILDING_INTERIOR/CeilingLights": 66,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Walls": 24,
+   "FACADE_DETAILS/Bronze": 38,
+   "FACADE_DETAILS/Screen": 2,
+   "FACADE_DETAILS/Terrace": 808,
+   "FURNITURE/Dining": 25132,
+   "FURNITURE/Terrace": 9776,
+   "GLASS_SYSTEM/ArchesFrame": 1440,
+   "GLASS_SYSTEM/ArchesGlass": 130,
+   "GLASS_SYSTEM/PortalDoor": 12,
+   "GLASS_SYSTEM/PortalFrame": 144,
+   "GLASS_SYSTEM/PortalGlass": 13,
+   "SIGNAGE/Brand": 8964
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Stone": 868,
+   "BUILDING_INTERIOR/CeilingLights": 30,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Walls": 24,
+   "FACADE_DETAILS/Bronze": 38,
+   "FACADE_DETAILS/Screen": 2,
+   "FACADE_DETAILS/Terrace": 232,
+   "FURNITURE/Dining": 3832,
+   "FURNITURE/Terrace": 1544,
+   "GLASS_SYSTEM/ArchesFrame": 720,
+   "GLASS_SYSTEM/ArchesGlass": 70,
+   "GLASS_SYSTEM/PortalDoor": 12,
+   "GLASS_SYSTEM/PortalFrame": 72,
+   "GLASS_SYSTEM/PortalGlass": 7,
+   "SIGNAGE/Brand": 4816
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Stone": 692,
+   "BUILDING_INTERIOR/CeilingLights": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Walls": 12,
+   "FACADE_DETAILS/Bronze": 26,
+   "FACADE_DETAILS/Terrace": 108,
+   "FURNITURE/Dining": 24,
+   "GLASS_SYSTEM/ArchesGlass": 40,
+   "GLASS_SYSTEM/PortalGlass": 4,
+   "SIGNAGE/Brand": 136
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 28,
+   "OPTIONAL_FORECOURT/Terrace": 12,
+   "OPTIONAL_PARKING/Asphalt": 12,
+   "OPTIONAL_PARKING/Markings": 72,
+   "SIDEWALK_FRONTAGE/Main": 48
+  }
+ },
+ "totals": {
+  "LOD0": 47881,
+  "LOD1": 12291,
+  "LOD2": 1068,
+  "SITE": 184,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 1,
+  "width": 46.0,
+  "depth": 16.0,
+  "height": 11.2,
+  "footprint": [
+   -23.0,
+   3.0,
+   23.0,
+   19.0
+  ],
+  "storeys": "1 (+ 2-storey-high entrance tower)",
+  "floor_levels": [
+   0.15
+  ],
+  "roof": 7.2,
+  "parking": "optional right side, 5 bays (OPTIONAL_PARKING)",
+  "access": "terrace opens directly onto the pavement; separate right-hand crossing to optional parking",
+  "setback_m": 0.0,
+  "glass": "10 arched PC_Glass windows + portal",
+  "concept": "Massing: a long (46 m) but SHALLOW (14 m) sand-limestone frontage with ten tall arched windows and a bronze cornice,",
+  "plot_x": [
+   -26.0,
+   38.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 3
+  }
+ }
+}

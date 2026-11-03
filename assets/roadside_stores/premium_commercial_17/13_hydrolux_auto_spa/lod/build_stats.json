@@ -1,0 +1,226 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Tunnel": 240,
+   "BUILDING_EXTERIOR/WaveCanopy": 1144,
+   "BUILDING_INTERIOR/BayFloor": 12,
+   "BUILDING_INTERIOR/CeilingLights": 20,
+   "BUILDING_INTERIOR/LoungeFloor": 12,
+   "BUILDING_INTERIOR/TunnelFloor": 12,
+   "DISPLAY_OBJECTS/WashEquipment": 13308,
+   "FACADE_DETAILS/Frames": 1270,
+   "FURNITURE/LoungeAndDetailing": 2316,
+   "GLASS_SYSTEM/BayWindowFrame": 132,
+   "GLASS_SYSTEM/BayWindowGlass": 16,
+   "GLASS_SYSTEM/LoungeFrame": 488,
+   "GLASS_SYSTEM/LoungeGlass": 34,
+   "GLASS_SYSTEM/TunnelSideFrame": 192,
+   "GLASS_SYSTEM/TunnelSideGlass": 48,
+   "SIGNAGE/Brand": 2988
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Tunnel": 240,
+   "BUILDING_EXTERIOR/WaveCanopy": 332,
+   "BUILDING_INTERIOR/BayFloor": 12,
+   "BUILDING_INTERIOR/CeilingLights": 10,
+   "BUILDING_INTERIOR/LoungeFloor": 12,
+   "BUILDING_INTERIOR/TunnelFloor": 12,
+   "DISPLAY_OBJECTS/WashEquipment": 812,
+   "FACADE_DETAILS/Frames": 730,
+   "FURNITURE/LoungeAndDetailing": 616,
+   "GLASS_SYSTEM/BayWindowFrame": 132,
+   "GLASS_SYSTEM/BayWindowGlass": 16,
+   "GLASS_SYSTEM/LoungeFrame": 288,
+   "GLASS_SYSTEM/LoungeGlass": 34,
+   "GLASS_SYSTEM/TunnelSideFrame": 192,
+   "GLASS_SYSTEM/TunnelSideGlass": 48,
+   "SIGNAGE/Brand": 1436
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Tunnel": 168,
+   "BUILDING_EXTERIOR/WaveCanopy": 84,
+   "BUILDING_INTERIOR/BayFloor": 12,
+   "BUILDING_INTERIOR/CeilingLights": 2,
+   "BUILDING_INTERIOR/LoungeFloor": 12,
+   "BUILDING_INTERIOR/TunnelFloor": 12,
+   "DISPLAY_OBJECTS/WashEquipment": 482,
+   "FACADE_DETAILS/Frames": 414,
+   "FURNITURE/LoungeAndDetailing": 76,
+   "GLASS_SYSTEM/BayWindowFrame": 36,
+   "GLASS_SYSTEM/BayWindowGlass": 4,
+   "GLASS_SYSTEM/LoungeFrame": 60,
+   "GLASS_SYSTEM/LoungeGlass": 8,
+   "GLASS_SYSTEM/TunnelSideFrame": 60,
+   "GLASS_SYSTEM/TunnelSideGlass": 8,
+   "SIGNAGE/Brand": 166
+  },
+  "SITE": {
+   "DRIVEWAY/BayAccess": 24,
+   "DRIVEWAY/Crossing": 56,
+   "DRIVEWAY/EntryExitLanes": 48,
+   "DRIVEWAY/Markings": 16,
+   "OPTIONAL_FORECOURT/Bollards": 544,
+   "OPTIONAL_FORECOURT/Frontage": 24,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 22232,
+  "LOD1": 4922,
+  "LOD2": 1604,
+  "SITE": 784,
+  "PLACEHOLDER_CARS": 15484
+ },
+ "cars": [
+  {
+   "name": "P13_CAR_01_Sedan_CarPaintSilver",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -21.0,
+    9.0,
+    0.0
+   ],
+   "heading_deg": 0,
+   "paint": "PC_CarPaintSilver",
+   "role": "queue at the tunnel entry",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P13_CAR_02_Suv_CarPaintBlue",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    -10.5,
+    9.0,
+    0.05
+   ],
+   "heading_deg": 0,
+   "paint": "PC_CarPaintBlue",
+   "role": "inside wash tunnel (brushes)",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P13_CAR_03_Sedan_CarPaintWhite",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -1.5,
+    9.0,
+    0.05
+   ],
+   "heading_deg": 0,
+   "paint": "PC_CarPaintWhite",
+   "role": "inside wash tunnel (spray arch)",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P13_CAR_04_Coupe_CarPaintBlack",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    6.5,
+    9.0,
+    0.05
+   ],
+   "heading_deg": 0,
+   "paint": "PC_CarPaintBlack",
+   "role": "inside wash tunnel (blowers)",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P13_CAR_05_Crossover_CarPaintRed",
+   "kind": "crossover",
+   "length": 4.6,
+   "width": 1.88,
+   "height": 1.62,
+   "location": [
+    -12.0,
+    17.0,
+    0.05
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintRed",
+   "role": "detailing bay 1",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P13_CAR_06_Sedan_CarPaintGraphite",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -4.0,
+    17.0,
+    0.05
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintGraphite",
+   "role": "detailing bay 2",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P13_CAR_07_Suv_CarPaintWhite",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    15.5,
+    4.2,
+    0.0
+   ],
+   "heading_deg": -90,
+   "paint": "PC_CarPaintWhite",
+   "role": "leaving via the exit lane",
+   "note": "",
+   "tris": 2204
+  }
+ ],
+ "meta": {
+  "floors": 1,
+  "width": 50.0,
+  "depth": 19.2,
+  "height": 8.9,
+  "footprint": [
+   -24.0,
+   2.8,
+   26.0,
+   22.0
+  ],
+  "storeys": 1,
+  "floor_levels": [
+   0.05,
+   0.2
+  ],
+  "roof": "translucent wave canopy 6.1-8.9 m over a 4.6 m tunnel",
+  "parking": "none (queue lane only)",
+  "access": "separate ENTRY (left) and EXIT (right) crossings; tunnel runs parallel to the road",
+  "setback_m": 2.8,
+  "glass": "glass tunnel side wall + glass lounge",
+  "concept": "Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a full glass side wall, so the whole",
+  "plot_x": [
+   -30.0,
+   30.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 6,
+   "EXTERIOR_LIGHTING": 3
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Roof": 28,
+   "BUILDING_EXTERIOR/RoofPlates": 5088,
+   "BUILDING_EXTERIOR/Shell": 254,
+   "BUILDING_INTERIOR/CeilingLights": 260,
+   "BUILDING_INTERIOR/GroundSlab": 28,
+   "BUILDING_INTERIOR/RailFrame": 80,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Screens": 110,
+   "BUILDING_INTERIOR/Slabs": 48,
+   "BUILDING_INTERIOR/Stair": 400,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "FACADE_DETAILS/Timber": 1896,
+   "FURNITURE/Dining": 37004,
+   "GLASS_SYSTEM/GFFrame": 680,
+   "GLASS_SYSTEM/GFGlass": 84,
+   "GLASS_SYSTEM/L1Frame": 372,
+   "GLASS_SYSTEM/L1Glass": 40,
+   "GLASS_SYSTEM/SideFrame": 72,
+   "GLASS_SYSTEM/SideGlass": 6,
+   "SIGNAGE/Brand": 8208
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Roof": 28,
+   "BUILDING_EXTERIOR/RoofPlates": 1392,
+   "BUILDING_EXTERIOR/Shell": 254,
+   "BUILDING_INTERIOR/CeilingLights": 130,
+   "BUILDING_INTERIOR/GroundSlab": 28,
+   "BUILDING_INTERIOR/RailFrame": 48,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Screens": 110,
+   "BUILDING_INTERIOR/Slabs": 48,
+   "BUILDING_INTERIOR/Stair": 372,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "FACADE_DETAILS/Timber": 960,
+   "FURNITURE/Dining": 5383,
+   "GLASS_SYSTEM/GFFrame": 480,
+   "GLASS_SYSTEM/GFGlass": 84,
+   "GLASS_SYSTEM/L1Frame": 372,
+   "GLASS_SYSTEM/L1Glass": 40,
+   "GLASS_SYSTEM/SideFrame": 72,
+   "GLASS_SYSTEM/SideGlass": 6,
+   "SIGNAGE/Brand": 3564
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Roof": 28,
+   "BUILDING_EXTERIOR/RoofPlates": 408,
+   "BUILDING_EXTERIOR/Shell": 254,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/GroundSlab": 28,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Screens": 108,
+   "BUILDING_INTERIOR/Slabs": 48,
+   "BUILDING_INTERIOR/Stair": 12,
+   "FACADE_DETAILS/Timber": 60,
+   "FURNITURE/Dining": 24,
+   "GLASS_SYSTEM/GFFrame": 96,
+   "GLASS_SYSTEM/GFGlass": 14,
+   "GLASS_SYSTEM/L1Frame": 96,
+   "GLASS_SYSTEM/L1Glass": 14,
+   "GLASS_SYSTEM/SideFrame": 24,
+   "GLASS_SYSTEM/SideGlass": 2,
+   "SIGNAGE/Brand": 538
+  },
+  "SITE": {
+   "DRIVEWAY/Crossing": 56,
+   "OPTIONAL_FORECOURT/Bollards": 272,
+   "OPTIONAL_FORECOURT/DropOff": 12,
+   "OPTIONAL_FORECOURT/DropOffMarks": 4,
+   "OPTIONAL_FORECOURT/Paving": 36,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 54664,
+  "LOD1": 13377,
+  "LOD2": 1762,
+  "SITE": 452,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 44.0,
+  "depth": 27.0,
+  "height": 12.3,
+  "footprint": [
+   -19.0,
+   6.0,
+   19.0,
+   28.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.2
+  ],
+  "roof": "stacked upturned plates, top 12.3 m",
+  "parking": "none - compact drop-off lay-by (OPTIONAL_FORECOURT)",
+  "access": "in/out crossings to a drop-off lay-by in front of the courtyard",
+  "setback_m": 6.0,
+  "glass": "GF bronze-framed PC_Glass band + L1 glass behind timber battens",
+  "concept": "Massing: 38 m frontage whose middle 10 m is carved back 6 m into an entrance COURTYARD with a reflecting pool and",
+  "plot_x": [
+   -26.0,
+   26.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}

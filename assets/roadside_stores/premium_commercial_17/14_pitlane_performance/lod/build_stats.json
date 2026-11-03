@@ -1,0 +1,200 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Hangar": 1070,
+   "BUILDING_INTERIOR/CeilingLights": 30,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/ReceptionSlab": 12,
+   "DISPLAY_OBJECTS/Workshop": 11714,
+   "FACADE_DETAILS/Details": 52,
+   "FURNITURE/Workstations": 612,
+   "GLASS_SYSTEM/Lunette": 127,
+   "GLASS_SYSTEM/Obs-11Frame": 72,
+   "GLASS_SYSTEM/Obs-11Glass": 8,
+   "GLASS_SYSTEM/Obs-1Frame": 72,
+   "GLASS_SYSTEM/Obs-1Glass": 8,
+   "GLASS_SYSTEM/Obs8Frame": 72,
+   "GLASS_SYSTEM/Obs8Glass": 8,
+   "GLASS_SYSTEM/ReceptionFrame": 452,
+   "GLASS_SYSTEM/ReceptionGlass": 48,
+   "GLASS_SYSTEM/SideClereFrame": 144,
+   "GLASS_SYSTEM/SideClereGlass": 18,
+   "SIGNAGE/Brand": 4024
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Hangar": 678,
+   "BUILDING_INTERIOR/CeilingLights": 10,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/ReceptionSlab": 12,
+   "DISPLAY_OBJECTS/Workshop": 3748,
+   "FACADE_DETAILS/Details": 32,
+   "FURNITURE/Workstations": 156,
+   "GLASS_SYSTEM/Lunette": 117,
+   "GLASS_SYSTEM/Obs-11Frame": 72,
+   "GLASS_SYSTEM/Obs-11Glass": 8,
+   "GLASS_SYSTEM/Obs-1Frame": 72,
+   "GLASS_SYSTEM/Obs-1Glass": 8,
+   "GLASS_SYSTEM/Obs8Frame": 72,
+   "GLASS_SYSTEM/Obs8Glass": 8,
+   "GLASS_SYSTEM/ReceptionFrame": 252,
+   "GLASS_SYSTEM/ReceptionGlass": 48,
+   "GLASS_SYSTEM/SideClereFrame": 144,
+   "GLASS_SYSTEM/SideClereGlass": 18,
+   "SIGNAGE/Brand": 2024
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Hangar": 562,
+   "BUILDING_INTERIOR/CeilingLights": 2,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/ReceptionSlab": 12,
+   "DISPLAY_OBJECTS/Workshop": 392,
+   "FURNITURE/Workstations": 28,
+   "GLASS_SYSTEM/Lunette": 5,
+   "GLASS_SYSTEM/Obs-11Frame": 24,
+   "GLASS_SYSTEM/Obs-11Glass": 2,
+   "GLASS_SYSTEM/Obs-1Frame": 24,
+   "GLASS_SYSTEM/Obs-1Glass": 2,
+   "GLASS_SYSTEM/Obs8Frame": 24,
+   "GLASS_SYSTEM/Obs8Glass": 2,
+   "GLASS_SYSTEM/ReceptionFrame": 48,
+   "GLASS_SYSTEM/ReceptionGlass": 6,
+   "GLASS_SYSTEM/SideClereFrame": 48,
+   "GLASS_SYSTEM/SideClereGlass": 6,
+   "SIGNAGE/Brand": 270
+  },
+  "SITE": {
+   "DRIVEWAY/Crossing": 56,
+   "DRIVEWAY/Markings": 16,
+   "DRIVEWAY/WorkshopApron": 12,
+   "OPTIONAL_FORECOURT/ReceptionFront": 12,
+   "OPTIONAL_PARKING/Asphalt": 24,
+   "OPTIONAL_PARKING/Markings": 86,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 18555,
+  "LOD1": 7491,
+  "LOD2": 1471,
+  "SITE": 278,
+  "PLACEHOLDER_CARS": 10992
+ },
+ "cars": [
+  {
+   "name": "P14_CAR_01_Coupe_CarPaintRed",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -14.5,
+    15.0,
+    1.95
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintRed",
+   "role": "bay 1 on 2-post lift (raised)",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P14_CAR_02_Sedan_CarPaintBlack",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -4.5,
+    15.0,
+    1.05
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintBlack",
+   "role": "bay 2 on 2-post lift (half raised)",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P14_CAR_03_Suv_CarPaintWhite",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    5.0,
+    15.5,
+    1.65
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintWhite",
+   "role": "bay 3 on 4-post lift",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P14_CAR_04_Coupe_CarPaintYellow",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    15.0,
+    17.0,
+    0.15
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintYellow",
+   "role": "bay 4 floor service",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P14_CAR_05_Crossover_CarPaintGraphite",
+   "kind": "crossover",
+   "length": 4.6,
+   "width": 1.88,
+   "height": 1.62,
+   "location": [
+    -24.0,
+    2.0,
+    0.0
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintGraphite",
+   "role": "customer drop-off at reception",
+   "note": "",
+   "tris": 2204
+  }
+ ],
+ "meta": {
+  "floors": 1,
+  "width": 50.5,
+  "depth": 27.2,
+  "height": 11.75,
+  "footprint": [
+   -30.7,
+   3.8,
+   20.8,
+   31.6
+  ],
+  "storeys": 1,
+  "floor_levels": [
+   0.15
+  ],
+  "roof": "barrel vault, eaves 7.0 m, crown 11.75 m",
+  "parking": "optional left customer parking, 6 bays (OPTIONAL_PARKING)",
+  "access": "40 m wide workshop apron straight off the service road to four roller doors; separate parking crossing",
+  "setback_m": 5.0,
+  "glass": "glass observation panels + glazed arched lunette + glass reception box",
+  "concept": "Massing: a 41 m wide racing-hangar with a BARREL-VAULT roof whose arched gable faces the road (eaves 7 m, crown 11.4 m).",
+  "plot_x": [
+   -44.0,
+   26.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}

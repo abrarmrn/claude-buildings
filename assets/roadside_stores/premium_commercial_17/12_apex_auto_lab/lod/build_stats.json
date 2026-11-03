@@ -1,0 +1,188 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 312,
+   "BUILDING_INTERIOR/CeilingLights": 80,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/MezzStair": 2456,
+   "BUILDING_INTERIOR/MezzStairGlass": 4,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailFrame": 40,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "DISPLAY_OBJECTS/Equipment": 5148,
+   "FACADE_DETAILS/Neon": 8,
+   "FURNITURE/Lounge": 4046,
+   "FURNITURE/Workshop": 112,
+   "GLASS_SYSTEM/ClerestoryFrame": 108,
+   "GLASS_SYSTEM/ClerestoryGlass": 12,
+   "GLASS_SYSTEM/LoungeFrame": 524,
+   "GLASS_SYSTEM/LoungeGlass": 38,
+   "GLASS_SYSTEM/LoungeSideFrame": 84,
+   "GLASS_SYSTEM/LoungeSideGlass": 12,
+   "GLASS_SYSTEM/PartitionFrame": 144,
+   "GLASS_SYSTEM/PartitionGlass": 32,
+   "SIGNAGE/Brand": 3076
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 312,
+   "BUILDING_INTERIOR/CeilingLights": 32,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/MezzStair": 288,
+   "BUILDING_INTERIOR/MezzStairGlass": 4,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailFrame": 24,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "DISPLAY_OBJECTS/Equipment": 2348,
+   "FACADE_DETAILS/Neon": 8,
+   "FURNITURE/Lounge": 650,
+   "FURNITURE/Workshop": 112,
+   "GLASS_SYSTEM/ClerestoryFrame": 108,
+   "GLASS_SYSTEM/ClerestoryGlass": 12,
+   "GLASS_SYSTEM/LoungeFrame": 324,
+   "GLASS_SYSTEM/LoungeGlass": 38,
+   "GLASS_SYSTEM/LoungeSideFrame": 84,
+   "GLASS_SYSTEM/LoungeSideGlass": 12,
+   "GLASS_SYSTEM/PartitionFrame": 144,
+   "GLASS_SYSTEM/PartitionGlass": 32,
+   "SIGNAGE/Brand": 1844
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 312,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/MezzStair": 12,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "DISPLAY_OBJECTS/Equipment": 120,
+   "FURNITURE/Lounge": 52,
+   "GLASS_SYSTEM/ClerestoryFrame": 36,
+   "GLASS_SYSTEM/ClerestoryGlass": 4,
+   "GLASS_SYSTEM/LoungeFrame": 84,
+   "GLASS_SYSTEM/LoungeGlass": 12,
+   "GLASS_SYSTEM/LoungeSideFrame": 24,
+   "GLASS_SYSTEM/LoungeSideGlass": 2,
+   "GLASS_SYSTEM/PartitionFrame": 36,
+   "GLASS_SYSTEM/PartitionGlass": 4,
+   "SIGNAGE/Brand": 169
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 28,
+   "DRIVEWAY/Markings": 12,
+   "OPTIONAL_FORECOURT/LoungeApron": 12,
+   "SIDEWALK_FRONTAGE/Main": 48
+  }
+ },
+ "totals": {
+  "LOD0": 16274,
+  "LOD1": 6414,
+  "LOD2": 911,
+  "SITE": 112,
+  "PLACEHOLDER_CARS": 8788
+ },
+ "cars": [
+  {
+   "name": "P12_CAR_01_Coupe_CarPaintGraphite",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    -13.0,
+    13.0,
+    1.85
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintGraphite",
+   "role": "bay 1 on 2-post lift (raised)",
+   "note": "",
+   "tris": 2176
+  },
+  {
+   "name": "P12_CAR_02_Sedan_CarWrapMatte",
+   "kind": "sedan",
+   "length": 4.95,
+   "width": 1.88,
+   "height": 1.45,
+   "location": [
+    -8.0,
+    12.5,
+    0.15
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarWrapMatte",
+   "role": "bay 2 wrap station",
+   "note": "",
+   "tris": 2232
+  },
+  {
+   "name": "P12_CAR_03_Suv_CarPaintBlack",
+   "kind": "suv",
+   "length": 4.95,
+   "width": 1.96,
+   "height": 1.76,
+   "location": [
+    -3.0,
+    12.8,
+    0.15
+   ],
+   "heading_deg": 90,
+   "paint": "PC_CarPaintBlack",
+   "role": "bay 3 detailing light tunnel",
+   "note": "",
+   "tris": 2204
+  },
+  {
+   "name": "P12_CAR_04_Coupe_CarPaintRed",
+   "kind": "coupe",
+   "length": 4.55,
+   "width": 1.92,
+   "height": 1.29,
+   "location": [
+    6.0,
+    1.4,
+    0.0
+   ],
+   "heading_deg": 180,
+   "paint": "PC_CarPaintRed",
+   "role": "waiting on the apron (optional)",
+   "note": "",
+   "tris": 2176
+  }
+ ],
+ "meta": {
+  "floors": 1,
+  "width": 32.0,
+  "depth": 22.0,
+  "height": 9.4,
+  "footprint": [
+   -16.0,
+   3.0,
+   16.0,
+   25.0
+  ],
+  "storeys": "1 (+ lounge office mezzanine)",
+  "floor_levels": [
+   0.15,
+   4.0
+  ],
+  "roof": 8.6,
+  "parking": "none",
+  "access": "16 m wide road-facing crossing straight to three raised glass bay doors",
+  "setback_m": 3.0,
+  "glass": "glass sectional bay doors (PC_GlassBlue) + lounge PC_Glass box",
+  "concept": "Massing: compact black industrial box only 3 m from the pavement.  Three tall glass sectional doors (raised) open the",
+  "plot_x": [
+   -20.0,
+   20.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 1
+  }
+ }
+}

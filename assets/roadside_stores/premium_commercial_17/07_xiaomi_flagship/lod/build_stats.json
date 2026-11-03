@@ -1,0 +1,119 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Roof": 16,
+   "BUILDING_EXTERIOR/Shell": 652,
+   "BUILDING_INTERIOR/CeilingLights": 234,
+   "BUILDING_INTERIOR/GroundSlab": 16,
+   "BUILDING_INTERIOR/RailFrame": 120,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "BUILDING_INTERIOR/Stair": 3076,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "DISPLAY_OBJECTS/Products": 5518,
+   "FACADE_DETAILS/ModularPanels": 1548,
+   "FURNITURE/Main": 638,
+   "GLASS_SYSTEM/CornerFrame": 332,
+   "GLASS_SYSTEM/CornerGlass": 20,
+   "GLASS_SYSTEM/FrontFrame": 336,
+   "GLASS_SYSTEM/FrontGlass": 88,
+   "GLASS_SYSTEM/SideAFrame": 84,
+   "GLASS_SYSTEM/SideAGlass": 8,
+   "GLASS_SYSTEM/SideBFrame": 84,
+   "GLASS_SYSTEM/SideBGlass": 8,
+   "SIGNAGE/Brand": 1238
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Roof": 16,
+   "BUILDING_EXTERIOR/Shell": 396,
+   "BUILDING_INTERIOR/CeilingLights": 104,
+   "BUILDING_INTERIOR/GroundSlab": 16,
+   "BUILDING_INTERIOR/RailFrame": 72,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "BUILDING_INTERIOR/Stair": 360,
+   "BUILDING_INTERIOR/StairGlass": 2,
+   "DISPLAY_OBJECTS/Products": 1342,
+   "FACADE_DETAILS/ModularPanels": 204,
+   "FURNITURE/Main": 134,
+   "GLASS_SYSTEM/CornerFrame": 132,
+   "GLASS_SYSTEM/CornerGlass": 20,
+   "GLASS_SYSTEM/FrontFrame": 336,
+   "GLASS_SYSTEM/FrontGlass": 88,
+   "GLASS_SYSTEM/SideAFrame": 84,
+   "GLASS_SYSTEM/SideAGlass": 8,
+   "GLASS_SYSTEM/SideBFrame": 84,
+   "GLASS_SYSTEM/SideBGlass": 8,
+   "SIGNAGE/Brand": 450
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Roof": 16,
+   "BUILDING_EXTERIOR/Shell": 300,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/GroundSlab": 16,
+   "BUILDING_INTERIOR/RailGlass": 6,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "BUILDING_INTERIOR/Stair": 12,
+   "DISPLAY_OBJECTS/Products": 382,
+   "FACADE_DETAILS/ModularPanels": 204,
+   "GLASS_SYSTEM/CornerFrame": 24,
+   "GLASS_SYSTEM/CornerGlass": 2,
+   "GLASS_SYSTEM/FrontFrame": 84,
+   "GLASS_SYSTEM/FrontGlass": 24,
+   "GLASS_SYSTEM/SideAFrame": 24,
+   "GLASS_SYSTEM/SideAGlass": 2,
+   "GLASS_SYSTEM/SideBFrame": 24,
+   "GLASS_SYSTEM/SideBGlass": 2,
+   "SIGNAGE/Brand": 68
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 28,
+   "OPTIONAL_FORECOURT/Bollards": 340,
+   "OPTIONAL_FORECOURT/CornerPlaza": 16,
+   "OPTIONAL_FORECOURT/Plaza": 12,
+   "OPTIONAL_PARKING/Asphalt": 12,
+   "OPTIONAL_PARKING/Markings": 86,
+   "SIDEWALK_FRONTAGE/Main": 48
+  }
+ },
+ "totals": {
+  "LOD0": 14060,
+  "LOD1": 3898,
+  "LOD2": 1230,
+  "SITE": 554,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 26.0,
+  "depth": 20.0,
+  "height": 10.6,
+  "footprint": [
+   -13.0,
+   5.0,
+   13.0,
+   25.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.0
+  ],
+  "roof": 9.6,
+  "parking": "optional left side car park, 6 bays (OPTIONAL_PARKING)",
+  "access": "left crossing to the small side car park; corner pedestrian plaza",
+  "setback_m": 5.0,
+  "glass": "full-height PC_Glass behind ~35 % modular panel cover",
+  "concept": "Massing: compact two-storey box with a CHAMFERED right corner holding the entrance inside a big orange rounded-square",
+  "plot_x": [
+   -28.0,
+   20.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 1
+  }
+ }
+}

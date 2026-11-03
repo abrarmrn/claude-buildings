@@ -1,0 +1,359 @@
+{
+ "asset": "apple_flagship",
+ "checks": {
+  "collections_present": {
+   "LOD0": true,
+   "LOD1": true,
+   "LOD2": true,
+   "PLACEHOLDER_CARS": true,
+   "INTERIOR_LIGHTING": true,
+   "EXTERIOR_LIGHTING": true,
+   "COLLISION": true,
+   "SIDEWALK_FRONTAGE": true,
+   "OPTIONAL_FORECOURT": true,
+   "DRIVEWAY": true,
+   "OPTIONAL_PARKING": true,
+   "BUILDING_EXTERIOR": true,
+   "BUILDING_INTERIOR": true,
+   "GLASS_SYSTEM": true,
+   "SIGNAGE": true
+  },
+  "mesh_validate_errors": [],
+  "degenerate_faces": 2,
+  "closed_pieces_with_inverted_normals_faces": 0,
+  "meshes_without_uv": [],
+  "meshes_with_missing_materials": [],
+  "objects_with_unapplied_transforms": [],
+  "lod0_bounds_m": {
+   "min": [
+    -16.5,
+    3.5,
+    -0.3
+   ],
+   "max": [
+    16.5,
+    34.0,
+    10.45
+   ],
+   "size": [
+    33.0,
+    30.5,
+    10.75
+   ]
+  },
+  "footprint_m": {
+   "width": 33.0,
+   "depth": 30.5
+  },
+  "height_m": 10.45,
+  "glass_materials": {
+   "PC_GlassClear": {
+    "alpha": 0.11,
+    "blend": "BLEND",
+    "double_sided": true
+   },
+   "PC_GlassRail": {
+    "alpha": 0.14,
+    "blend": "BLEND",
+    "double_sided": true
+   }
+  },
+  "lod_tris_blender": {
+   "LOD0": 15036,
+   "LOD1": 3596,
+   "LOD2": 508
+  },
+  "interior_tris_lod0": 13994,
+  "interior_tris_lod1": 3058,
+  "interior_objects_lod0": [
+   "P06_LOD0_BUILDING_INTERIOR_GroundSlab",
+   "P06_LOD0_BUILDING_INTERIOR_LuminousCeiling",
+   "P06_LOD0_BUILDING_INTERIOR_Mezzanine",
+   "P06_LOD0_BUILDING_INTERIOR_RailAFrame",
+   "P06_LOD0_BUILDING_INTERIOR_RailAGlass",
+   "P06_LOD0_BUILDING_INTERIOR_RailBFrame",
+   "P06_LOD0_BUILDING_INTERIOR_RailBGlass",
+   "P06_LOD0_BUILDING_INTERIOR_RailCFrame",
+   "P06_LOD0_BUILDING_INTERIOR_RailCGlass",
+   "P06_LOD0_BUILDING_INTERIOR_Stair-10",
+   "P06_LOD0_BUILDING_INTERIOR_Stair-10Glass",
+   "P06_LOD0_BUILDING_INTERIOR_Stair10",
+   "P06_LOD0_BUILDING_INTERIOR_Stair10Glass",
+   "P06_LOD0_DISPLAY_OBJECTS_Products",
+   "P06_LOD0_FURNITURE_Main"
+  ],
+  "lod_extras": {
+   "LOD0": {
+    "level": 0,
+    "begin": 0.0,
+    "end": 90.0
+   },
+   "LOD1": {
+    "level": 1,
+    "begin": 90.0,
+    "end": 260.0
+   },
+   "LOD2": {
+    "level": 2,
+    "begin": 260.0,
+    "end": 1600.0
+   }
+  },
+  "placeholder_cars": {
+   "count": 0,
+   "parented_to_cars_node": true,
+   "shared_mesh": [],
+   "inside_lod_collections": [],
+   "names": []
+  },
+  "lights": {
+   "INTERIOR_LIGHTING": 7,
+   "EXTERIOR_LIGHTING": 1
+  },
+  "collision_boxes": 2,
+  "materials_used": [
+   "AP_Logo",
+   "AP_Lumi",
+   "PC_AluDark",
+   "PC_Ceiling",
+   "PC_Concrete",
+   "PC_Curb",
+   "PC_DeviceBlack",
+   "PC_DeviceSilver",
+   "PC_GlassClear",
+   "PC_GlassRail",
+   "PC_LightStrip",
+   "PC_LightWarm",
+   "PC_PanelWhite",
+   "PC_PaverLight",
+   "PC_PlasticGrey",
+   "PC_PlasticWhite",
+   "PC_RoofGravel",
+   "PC_RubberBlack",
+   "PC_Screen",
+   "PC_Stainless",
+   "PC_Travertine",
+   "PC_WhiteGloss",
+   "PC_WoodLight"
+  ],
+  "image_textures": [
+   "//textures/asphalt_albedo.jpg",
+   "//textures/asphalt_normal.jpg",
+   "//textures/asphalt_orm.jpg",
+   "//textures/concrete_albedo.jpg",
+   "//textures/concrete_normal.jpg",
+   "//textures/concrete_orm.jpg",
+   "//textures/gravel_albedo.jpg",
+   "//textures/gravel_normal.jpg",
+   "//textures/gravel_orm.jpg",
+   "//textures/pc_logo_apple.png",
+   "//textures/pc_paverlight_albedo.jpg",
+   "//textures/pc_paverlight_normal.jpg",
+   "//textures/pc_paverlight_orm.jpg",
+   "//textures/pc_screen_atlas.png",
+   "//textures/travertine_albedo.jpg",
+   "//textures/travertine_normal.jpg",
+   "//textures/travertine_orm.jpg"
+  ],
+  "missing_image_files": [],
+  "vegetation_objects_or_materials": [],
+  "glb_full": {
+   "groups": {
+    "Collision": 24,
+    "LOD0": 15036,
+    "LOD1": 3596,
+    "LOD2": 508,
+    "OPTIONAL_FORECOURT": 452,
+    "SIDEWALK_FRONTAGE": 24
+   },
+   "total": 19640,
+   "images": [
+    {
+     "name": "travertine_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "travertine_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "travertine_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_screen_atlas",
+     "mime": "image/png",
+     "size": [
+      1024,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_logo_apple",
+     "mime": "image/png",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    }
+   ],
+   "materials": 23,
+   "alpha_blend": [
+    "PC_GlassRail",
+    "PC_GlassClear",
+    "AP_Logo"
+   ],
+   "lights": 8,
+   "collision_nodes": 2,
+   "nodes": 82,
+   "meshes": 65,
+   "primitives": 107,
+   "lod_extras": {
+    "P06_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 90.0,
+     "visibility_range_margin": 8.0
+    },
+    "P06_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 90.0,
+     "visibility_range_end": 260.0,
+     "visibility_range_margin": 8.0
+    },
+    "P06_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 260.0,
+     "visibility_range_end": 1600.0,
+     "visibility_range_margin": 8.0
+    }
+   },
+   "car_nodes": 0,
+   "size_mb": 3.89
+  },
+  "glb_building_only": {
+   "total": null,
+   "car_nodes": 0,
+   "size_mb": null,
+   "note": "no cars in this asset - main GLB is building-only"
+  },
+  "glb_lod_files_tris": {
+   "LOD0": 15036,
+   "LOD1": 3596,
+   "LOD2": 508
+  },
+  "reimport": {
+   "mesh_objects": 65,
+   "triangles": 19640,
+   "glb_triangles": 19640,
+   "images_loaded": 14,
+   "lights": 8,
+   "lod0_size_yup_converted": [
+    33.0,
+    30.5,
+    10.75
+   ]
+  }
+ },
+ "issues": [],
+ "warnings": [],
+ "passed": true
+}

@@ -1,0 +1,114 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Stone": 48,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/LuminousCeiling": 216,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailAFrame": 40,
+   "BUILDING_INTERIOR/RailAGlass": 2,
+   "BUILDING_INTERIOR/RailBFrame": 40,
+   "BUILDING_INTERIOR/RailBGlass": 2,
+   "BUILDING_INTERIOR/RailCFrame": 40,
+   "BUILDING_INTERIOR/RailCGlass": 2,
+   "BUILDING_INTERIOR/Stair-10": 416,
+   "BUILDING_INTERIOR/Stair-10Glass": 4,
+   "BUILDING_INTERIOR/Stair10": 416,
+   "BUILDING_INTERIOR/Stair10Glass": 4,
+   "DISPLAY_OBJECTS/Products": 10256,
+   "FACADE_DETAILS/RoofPlate": 652,
+   "FURNITURE/Main": 2532,
+   "GLASS_SYSTEM/DoorFrame": 236,
+   "GLASS_SYSTEM/DoorGlass": 4,
+   "GLASS_SYSTEM/Fins": 72,
+   "GLASS_SYSTEM/Panes": 14,
+   "SIGNAGE/Brand": 16
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Stone": 48,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/LuminousCeiling": 30,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailAFrame": 24,
+   "BUILDING_INTERIOR/RailAGlass": 2,
+   "BUILDING_INTERIOR/RailBFrame": 24,
+   "BUILDING_INTERIOR/RailBGlass": 2,
+   "BUILDING_INTERIOR/RailCFrame": 24,
+   "BUILDING_INTERIOR/RailCGlass": 2,
+   "BUILDING_INTERIOR/Stair-10": 360,
+   "BUILDING_INTERIOR/Stair-10Glass": 4,
+   "BUILDING_INTERIOR/Stair10": 360,
+   "BUILDING_INTERIOR/Stair10Glass": 4,
+   "DISPLAY_OBJECTS/Products": 1502,
+   "FACADE_DETAILS/RoofPlate": 348,
+   "FURNITURE/Main": 696,
+   "GLASS_SYSTEM/DoorFrame": 36,
+   "GLASS_SYSTEM/DoorGlass": 4,
+   "GLASS_SYSTEM/Fins": 72,
+   "GLASS_SYSTEM/Panes": 14,
+   "SIGNAGE/Brand": 16
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Stone": 48,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/LuminousCeiling": 2,
+   "BUILDING_INTERIOR/Mezzanine": 12,
+   "BUILDING_INTERIOR/RailAGlass": 2,
+   "BUILDING_INTERIOR/RailBGlass": 2,
+   "BUILDING_INTERIOR/RailCGlass": 2,
+   "BUILDING_INTERIOR/Stair-10": 12,
+   "BUILDING_INTERIOR/Stair10": 12,
+   "DISPLAY_OBJECTS/Products": 290,
+   "FACADE_DETAILS/RoofPlate": 28,
+   "FURNITURE/Main": 24,
+   "GLASS_SYSTEM/Fins": 48,
+   "GLASS_SYSTEM/Panes": 10,
+   "SIGNAGE/Brand": 4
+  },
+  "SITE": {
+   "OPTIONAL_FORECOURT/Benches": 264,
+   "OPTIONAL_FORECOURT/Bollards": 176,
+   "OPTIONAL_FORECOURT/StonePlaza": 12,
+   "SIDEWALK_FRONTAGE/Main": 24
+  }
+ },
+ "totals": {
+  "LOD0": 15036,
+  "LOD1": 3596,
+  "LOD2": 508,
+  "SITE": 476,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 33.0,
+  "depth": 31.0,
+  "height": 10.45,
+  "footprint": [
+   -16.5,
+   3.5,
+   16.5,
+   34.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.0
+  ],
+  "roof": 10.45,
+  "parking": "none (pedestrian plaza only)",
+  "access": "pedestrian only - no vehicle access",
+  "setback_m": 5.4,
+  "glass": "frameless PC_GlassClear alpha 0.11 with glass fins",
+  "concept": "Massing: pure minimalist pavilion - five 5.6 m x 9.4 m frameless glass panes stabilised by internal glass fins, held",
+  "plot_x": [
+   -22.0,
+   22.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 7,
+   "EXTERIOR_LIGHTING": 1
+  }
+ }
+}

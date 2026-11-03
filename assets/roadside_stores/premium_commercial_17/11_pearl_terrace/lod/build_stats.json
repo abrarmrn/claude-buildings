@@ -1,0 +1,99 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/BalconySlab": 176,
+   "BUILDING_EXTERIOR/Roof": 108,
+   "BUILDING_EXTERIOR/Shell": 60,
+   "BUILDING_INTERIOR/CeilingLights": 140,
+   "BUILDING_INTERIOR/GrandStair": 2728,
+   "BUILDING_INTERIOR/GrandStairGlass": 174,
+   "BUILDING_INTERIOR/GroundSlab": 108,
+   "FACADE_DETAILS/Balcony": 1610,
+   "FURNITURE/Dining": 23476,
+   "FURNITURE/SideTerrace": 4106,
+   "GLASS_SYSTEM/GFFrame": 932,
+   "GLASS_SYSTEM/GFGlass": 60,
+   "GLASS_SYSTEM/L1Frame": 708,
+   "GLASS_SYSTEM/L1Glass": 56,
+   "SIGNAGE/Brand": 5052
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/BalconySlab": 128,
+   "BUILDING_EXTERIOR/Roof": 60,
+   "BUILDING_EXTERIOR/Shell": 60,
+   "BUILDING_INTERIOR/CeilingLights": 60,
+   "BUILDING_INTERIOR/GrandStair": 724,
+   "BUILDING_INTERIOR/GrandStairGlass": 116,
+   "BUILDING_INTERIOR/GroundSlab": 60,
+   "FACADE_DETAILS/Balcony": 842,
+   "FURNITURE/Dining": 3946,
+   "FURNITURE/SideTerrace": 635,
+   "GLASS_SYSTEM/GFFrame": 528,
+   "GLASS_SYSTEM/GFGlass": 50,
+   "GLASS_SYSTEM/L1Frame": 492,
+   "GLASS_SYSTEM/L1Glass": 44,
+   "SIGNAGE/Brand": 1888
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/BalconySlab": 112,
+   "BUILDING_EXTERIOR/Roof": 44,
+   "BUILDING_EXTERIOR/Shell": 60,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/GrandStair": 116,
+   "BUILDING_INTERIOR/GroundSlab": 44,
+   "FACADE_DETAILS/Balcony": 296,
+   "FURNITURE/Dining": 24,
+   "FURNITURE/SideTerrace": 48,
+   "GLASS_SYSTEM/GFFrame": 108,
+   "GLASS_SYSTEM/GFGlass": 16,
+   "GLASS_SYSTEM/L1Frame": 108,
+   "GLASS_SYSTEM/L1Glass": 16,
+   "SIGNAGE/Brand": 291
+  },
+  "SITE": {
+   "OPTIONAL_FORECOURT/FrontTerrace": 12,
+   "OPTIONAL_FORECOURT/SideTerrace": 12,
+   "OPTIONAL_FORECOURT/TerraceFurniture": 4888,
+   "SIDEWALK_FRONTAGE/Main": 24
+  }
+ },
+ "totals": {
+  "LOD0": 39494,
+  "LOD1": 9633,
+  "LOD2": 1287,
+  "SITE": 4936,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 34.0,
+  "depth": 22.0,
+  "height": 10.65,
+  "footprint": [
+   -18.0,
+   4.0,
+   17.0,
+   26.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.2
+  ],
+  "roof": 9.8,
+  "parking": "none (front + side terraces beside the pavement)",
+  "access": "pedestrian; no vehicle access",
+  "setback_m": 4.0,
+  "glass": "rounded champagne-framed PC_GlassClear walls on both floors",
+  "concept": "Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The upper dining room is wrapped by a",
+  "plot_x": [
+   -22.0,
+   22.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 4,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}

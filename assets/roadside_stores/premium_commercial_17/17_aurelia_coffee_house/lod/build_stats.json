@@ -1,0 +1,113 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Stone": 192,
+   "BUILDING_INTERIOR/CeilingLights": 84,
+   "BUILDING_INTERIOR/CurvedStair": 2544,
+   "BUILDING_INTERIOR/CurvedStairGlass": 162,
+   "BUILDING_INTERIOR/GroundSlab": 60,
+   "BUILDING_INTERIOR/RailFrame": 40,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "BUILDING_INTERIOR/Slabs": 80,
+   "FACADE_DETAILS/Bronze": 1348,
+   "FURNITURE/Cafe": 15522,
+   "GLASS_SYSTEM/CurveFrame": 780,
+   "GLASS_SYSTEM/CurveGlass": 64,
+   "GLASS_SYSTEM/FrontGFFrame": 380,
+   "GLASS_SYSTEM/FrontGFGlass": 36,
+   "GLASS_SYSTEM/RakedGlass": 16,
+   "GLASS_SYSTEM/SideGFFrame": 72,
+   "GLASS_SYSTEM/SideGFGlass": 6,
+   "GLASS_SYSTEM/SideL1Frame": 72,
+   "GLASS_SYSTEM/SideL1Glass": 6,
+   "SIGNAGE/Brand": 5120
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Stone": 192,
+   "BUILDING_INTERIOR/CeilingLights": 42,
+   "BUILDING_INTERIOR/CurvedStair": 676,
+   "BUILDING_INTERIOR/CurvedStairGlass": 108,
+   "BUILDING_INTERIOR/GroundSlab": 36,
+   "BUILDING_INTERIOR/RailFrame": 24,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "BUILDING_INTERIOR/Slabs": 56,
+   "FACADE_DETAILS/Bronze": 692,
+   "FURNITURE/Cafe": 1951,
+   "GLASS_SYSTEM/CurveFrame": 396,
+   "GLASS_SYSTEM/CurveGlass": 32,
+   "GLASS_SYSTEM/FrontGFFrame": 180,
+   "GLASS_SYSTEM/FrontGFGlass": 36,
+   "GLASS_SYSTEM/RakedGlass": 16,
+   "GLASS_SYSTEM/SideGFFrame": 72,
+   "GLASS_SYSTEM/SideGFGlass": 6,
+   "GLASS_SYSTEM/SideL1Frame": 72,
+   "GLASS_SYSTEM/SideL1Glass": 6,
+   "SIGNAGE/Brand": 2820
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Stone": 192,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/CurvedStair": 108,
+   "BUILDING_INTERIOR/GroundSlab": 24,
+   "BUILDING_INTERIOR/RailGlass": 2,
+   "BUILDING_INTERIOR/Slabs": 44,
+   "FACADE_DETAILS/Bronze": 176,
+   "FURNITURE/Cafe": 48,
+   "GLASS_SYSTEM/CurveFrame": 60,
+   "GLASS_SYSTEM/CurveGlass": 8,
+   "GLASS_SYSTEM/FrontGFFrame": 36,
+   "GLASS_SYSTEM/FrontGFGlass": 4,
+   "GLASS_SYSTEM/RakedGlass": 16,
+   "GLASS_SYSTEM/SideGFFrame": 24,
+   "GLASS_SYSTEM/SideGFGlass": 2,
+   "GLASS_SYSTEM/SideL1Frame": 24,
+   "GLASS_SYSTEM/SideL1Glass": 2,
+   "SIGNAGE/Brand": 180
+  },
+  "SITE": {
+   "OPTIONAL_FORECOURT/CornerTerrace": 52,
+   "OPTIONAL_FORECOURT/StoneTerrace": 12,
+   "OPTIONAL_FORECOURT/TerraceFurniture": 3238,
+   "SIDEWALK_FRONTAGE/Main": 24
+  }
+ },
+ "totals": {
+  "LOD0": 26586,
+  "LOD1": 7415,
+  "LOD2": 954,
+  "SITE": 3326,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 20.0,
+  "depth": 15.0,
+  "height": 10.5,
+  "footprint": [
+   -10.0,
+   3.4,
+   10.0,
+   20.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   4.8
+  ],
+  "roof": "stepped: terrace 4.8 m, upper roof 9.8 m, crown 10.5 m",
+  "parking": "none (roadside stone terrace)",
+  "access": "pedestrian only",
+  "setback_m": 5.0,
+  "glass": "curved GF PC_GlassClear corner + raked upper lounge glass",
+  "concept": "Massing: warm travertine-clad volume whose front-LEFT corner is a 6 m radius CURVED glass wall (ground floor) under a",
+  "plot_x": [
+   -16.0,
+   16.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 3,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}

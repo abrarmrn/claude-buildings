@@ -1,0 +1,113 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/GableRoofs": 96,
+   "BUILDING_EXTERIOR/Shell": 116,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "DISPLAY_OBJECTS/DisplayKitchen": 456,
+   "FACADE_DETAILS/SteelFrames": 804,
+   "FURNITURE/Dining": 22606,
+   "GLASS_SYSTEM/Bay0Frame": 84,
+   "GLASS_SYSTEM/Bay0Glass": 12,
+   "GLASS_SYSTEM/Bay1Frame": 332,
+   "GLASS_SYSTEM/Bay1Glass": 20,
+   "GLASS_SYSTEM/Bay2Frame": 84,
+   "GLASS_SYSTEM/Bay2Glass": 12,
+   "GLASS_SYSTEM/Bay3Frame": 84,
+   "GLASS_SYSTEM/Bay3Glass": 12,
+   "GLASS_SYSTEM/Gables": 4,
+   "GLASS_SYSTEM/SideFrame": 72,
+   "GLASS_SYSTEM/SideGlass": 6,
+   "SIGNAGE/Brand": 5920
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/GableRoofs": 96,
+   "BUILDING_EXTERIOR/Shell": 116,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "DISPLAY_OBJECTS/DisplayKitchen": 264,
+   "FACADE_DETAILS/SteelFrames": 292,
+   "FURNITURE/Dining": 2912,
+   "GLASS_SYSTEM/Bay0Frame": 84,
+   "GLASS_SYSTEM/Bay0Glass": 12,
+   "GLASS_SYSTEM/Bay1Frame": 132,
+   "GLASS_SYSTEM/Bay1Glass": 20,
+   "GLASS_SYSTEM/Bay2Frame": 84,
+   "GLASS_SYSTEM/Bay2Glass": 12,
+   "GLASS_SYSTEM/Bay3Frame": 84,
+   "GLASS_SYSTEM/Bay3Glass": 12,
+   "GLASS_SYSTEM/Gables": 4,
+   "GLASS_SYSTEM/SideFrame": 72,
+   "GLASS_SYSTEM/SideGlass": 6,
+   "SIGNAGE/Brand": 2880
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/GableRoofs": 96,
+   "BUILDING_EXTERIOR/Shell": 116,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "DISPLAY_OBJECTS/DisplayKitchen": 60,
+   "FACADE_DETAILS/SteelFrames": 252,
+   "FURNITURE/Dining": 12,
+   "GLASS_SYSTEM/Bay0Frame": 24,
+   "GLASS_SYSTEM/Bay0Glass": 2,
+   "GLASS_SYSTEM/Bay1Frame": 24,
+   "GLASS_SYSTEM/Bay1Glass": 2,
+   "GLASS_SYSTEM/Bay2Frame": 24,
+   "GLASS_SYSTEM/Bay2Glass": 2,
+   "GLASS_SYSTEM/Bay3Frame": 24,
+   "GLASS_SYSTEM/Bay3Glass": 2,
+   "GLASS_SYSTEM/Gables": 4,
+   "GLASS_SYSTEM/SideFrame": 24,
+   "GLASS_SYSTEM/SideGlass": 2,
+   "SIGNAGE/Brand": 353
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 12,
+   "DRIVEWAY/Crossing": 28,
+   "OPTIONAL_FORECOURT/Frontage": 12,
+   "OPTIONAL_FORECOURT/TerraceFurniture": 3470,
+   "OPTIONAL_PARKING/AngledMarkings": 12,
+   "OPTIONAL_PARKING/Asphalt": 12,
+   "OPTIONAL_PARKING/Markings": 4,
+   "SIDEWALK_FRONTAGE/Main": 48
+  }
+ },
+ "totals": {
+  "LOD0": 30732,
+  "LOD1": 7094,
+  "LOD2": 1037,
+  "SITE": 3598,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 1,
+  "width": 40.0,
+  "depth": 18.0,
+  "height": 9.1,
+  "footprint": [
+   -20.0,
+   4.0,
+   20.0,
+   22.0
+  ],
+  "storeys": "1 (tall, gabled)",
+  "floor_levels": [
+   0.15
+  ],
+  "roof": "4 gables, eaves 6.5 m, ridges 9.1 m",
+  "parking": "optional angled side parking, 6 bays (OPTIONAL_PARKING)",
+  "access": "right crossing to angled side parking",
+  "setback_m": 4.0,
+  "glass": "4 x 9.3 m bay windows + glazed gables (PC_Glass)",
+  "concept": "Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, ridges at 9.1 m), each bay a black-steel",
+  "plot_x": [
+   -24.0,
+   36.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 5,
+   "EXTERIOR_LIGHTING": 4
+  }
+ }
+}
