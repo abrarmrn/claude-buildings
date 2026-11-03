@@ -1,6 +1,6 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T20:21:59Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T20:23:21Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
@@ -105,6 +105,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+31bdf09 Premium Commercial 17 - Samsung flagship complete; BMW interior camera moved to show both storeys
 8cd5b95 Premium Commercial 17 - Batch A: Mercedes-Benz, BMW, Porsche and Ford showrooms
 5f14174 Add all 17 additional roadside store assets with validation, 68 renders, catalog, manifest and report
 8d330ac Add additional_17 store kit, pipeline and first six stores (ADNOC, Tim Hortons, Costa, % Arabica, PAUL, Krispy Kreme)

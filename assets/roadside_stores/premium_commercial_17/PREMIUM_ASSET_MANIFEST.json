@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:21:58.674851Z",
+ "generated": "2026-11-03T20:23:21.269912Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -819,10 +819,10 @@
     }
    },
    "render_seconds": {
-    "day": 60.8,
+    "day": 118.5,
     "night": 99.1,
-    "road_view": 124.7,
-    "interior": 266.1
+    "road_view": 187.5,
+    "interior": 441.1
    },
    "brand_note": "Simplified roundel (black ring, blue/white quarters, generic letters) on blade + pylon; not official artwork."
   },
