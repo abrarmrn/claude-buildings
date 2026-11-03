@@ -1,6 +1,6 @@
 # 16 - Serein Cafe
 
-*F - Two-storey luxury cafe* - status: **incomplete**
+*F - Two-storey luxury cafe* - status: **complete**
 
 Massing: a slender 16 x 14 m glass pavilion in a fine black-steel frame (exposed corner + mid columns, thin floor edge), a razor-thin flat roof plane with a 1.6 m white soffit overhang, and an upper TERRACE BALCONY cantilevered 3 m over the pavement on the right half (wrapping the right corner) with frameless glass railing.  Entrance through a deep black-steel pivot-door portal on the left, opening into a double-height void with globe pendants. Inside: coffee counter with espresso machines + pastry case, tables, upstairs lounge seating with glass balustrade, black steel stair. Site: small pavement terrace with bistro tables directly at the frontage; no parking.
 
@@ -58,6 +58,8 @@ P16_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 3; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 88, 'triangles': 30563, 'glb_triangles': 30563, 'images_loaded': 14, 'lights': 4, 'lod0_size_yup_converted': [19.67, 17.84, 9.28]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 2/4 {'GF_tables': True, 'Coffee_bar': True, 'L1_lounge': False, 'Void_pendants': False}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 3/4 {'GF_tables': True, 'Coffee_bar': True, 'L1_lounge': False, 'Void_pendants': True}
 
 Brand note: Original fictional brand.
 

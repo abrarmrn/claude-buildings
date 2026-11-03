@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T21:49:13.486852Z",
+ "generated": "2026-11-03T21:56:15.886861Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 15,
+ "complete": 16,
  "assets": [
   {
    "number": "01",
@@ -4621,7 +4621,7 @@
    "name": "Serein Cafe",
    "folder": "16_serein_cafe",
    "category": "F - Two-storey luxury cafe",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a slender 16 x 14 m glass pavilion in a fine black-steel frame (exposed corner + mid columns, thin floor edge), a razor-thin flat roof plane with a 1.6 m white soffit overhang, and an upper TERRACE BALCONY cantilevered 3 m over the pavement on the right half (wrapping the right corner) with frameless glass railing.  Entrance through a deep black-steel pivot-door portal on the left, opening into a double-height void with globe pendants. Inside: coffee counter with espresso machines + pastry case, tables, upstairs lounge seating with glass balustrade, black steel stair. Site: small pavement terrace with bistro tables directly at the frontage; no parking.",
    "storeys": 2,
    "floor_levels_m": [
@@ -4820,14 +4820,38 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 2,
+     "probes_total": 4,
+     "probes": {
+      "GF_tables": true,
+      "Coffee_bar": true,
+      "L1_lounge": false,
+      "Void_pendants": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 3,
+     "probes_total": 4,
+     "probes": {
+      "GF_tables": true,
+      "Coffee_bar": true,
+      "L1_lounge": false,
+      "Void_pendants": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 56.8,
+    "night": 89.7,
+    "road_view": 72.9,
+    "interior": 190.1
    },
    "brand_note": "Original fictional brand."
   },
@@ -4847,7 +4871,23 @@
    "frontage_width_m": 20.0,
    "depth_m": 15.0,
    "height_m": 10.5,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -11.6,
+     3.4,
+     -0.3
+    ],
+    "max": [
+     10.22,
+     20.0,
+     10.5
+    ],
+    "size": [
+     21.82,
+     16.6,
+     10.8
+    ]
+   },
    "setback_m": 5.0,
    "parking": "none (roadside stone terrace)",
    "access": "pedestrian only",
@@ -4874,38 +4914,152 @@
     "glb_building_only": null
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
+    "LOD0": 26586,
+    "LOD1": 7415,
+    "LOD2": 954,
     "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "site": 3326,
+    "collision": 24,
+    "total": 38305,
+    "lod_files": {
+     "LOD0": 26586,
+     "LOD1": 7415,
+     "LOD2": 954
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 31,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_GlassClear",
+     "PC_GlassSatin",
+     "PC_GlassBlue"
+    ],
+    "used": [
+     "AU_Gold",
+     "PC_AluDark",
+     "PC_BlackGloss",
+     "PC_Brass",
+     "PC_Bronze",
+     "PC_Ceiling",
+     "PC_Chrome",
+     "PC_Concrete",
+     "PC_Copper",
+     "PC_Curb",
+     "PC_FabricCream",
+     "PC_FabricRust",
+     "PC_FloorMarble",
+     "PC_GlassBlue",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_GlassSatin",
+     "PC_LampGlobe",
+     "PC_Leather",
+     "PC_LeatherCream",
+     "PC_LightWarm",
+     "PC_PaverLight",
+     "PC_RoofGravel",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneTop",
+     "PC_TimberDark",
+     "PC_Travertine",
+     "PC_WallWarm",
+     "PC_Walnut",
+     "PC_WoodLight"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 18,
+    "sizes": [
+     "1024x1024",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_marble_albedo.jpg",
+     "//textures/pc_marble_normal.jpg",
+     "//textures/pc_marble_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/travertine_albedo.jpg",
+     "//textures/travertine_normal.jpg",
+     "//textures/travertine_orm.jpg",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 3,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 2,
    "placeholder_cars": [],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 0,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 64,
+     "triangles": 38305,
+     "glb_triangles": 38305,
+     "images_loaded": 18,
+     "lights": 5,
+     "lod0_size_yup_converted": [
+      21.82,
+      16.6,
+      10.8
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
     "road_view": null,
