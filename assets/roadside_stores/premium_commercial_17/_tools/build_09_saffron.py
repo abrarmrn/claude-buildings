@@ -153,7 +153,7 @@ A.col_box('Main', X0, Y0, 0, X1, Y1, Z[2] + 2.6)
 A.camera('day', (-36.0, -24.0, 9.0), (0.0, 14.0, 5.0), 28)
 A.camera('night', (30.0, -22.0, 4.5), (0.0, 14.0, 5.0), 28)
 A.camera('road', (-24.0, -7.6, 1.1), (0.0, 12.0, 4.0), 24)
-A.camera('interior', (7.5, 9.0, 1.7), (-6.0, 24.0, 2.4), 17)
+A.camera('interior', (3.0, 21.5, 1.6), (-12.0, 7.4, 5.6), 16)
 A.checks['probes'] = [dict(name='GF_dining_L', p=[-10.5, 9.0, 1.0]), dict(name='GF_dining_R', p=[11.0, 9.0, 1.0]),
                       dict(name='L1_dining', p=[-7.0, 10.5, Z[1] + 1.0]), dict(name='Courtyard_entrance', p=[0.0, Y0 + CD + 1.0, 1.4])]
 S.finish(A, -26.0, 26.0, width=44.0, depth=27.0, height=Z[2] + 2.9, footprint=[X0, Y0, X1, Y1],

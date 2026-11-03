@@ -144,7 +144,7 @@ A.col_box('Canopy', X0 - 2.0, Y0 - 2.5, Z[2] + 0.5, X1 + 3.0, Y1 + 0.8, Z[2] + 0
 A.camera('day', (30.0, -22.0, 8.0), (-3.0, 13.0, 4.8), 28)
 A.camera('night', (-30.0, -20.0, 4.0), (-1.0, 13.0, 5.0), 28)
 A.camera('road', (22.0, -7.6, 1.1), (-3.0, 12.0, 4.4), 24)
-A.camera('interior', (8.0, 23.5, 1.7), (-12.0, 12.0, 4.0), 17)
+A.camera('interior', (7.0, 20.0, 1.6), (-10.0, 17.0, 4.6), 16)
 A.checks['probes'] = [dict(name='GF_dining', p=[-6.0, 12.0, 1.0]), dict(name='L1_dining', p=[-6.0, 11.5, Z[1] + 1.0]),
                       dict(name='Stair', p=[SPIRAL[0], SPIRAL[1] - 4.0, 2.5])]
 S.finish(A, -22.0, 22.0, width=34.0, depth=22.0, height=Z[2] + 0.85, footprint=[X0 - 1.0, Y0 - 4.0, X1 + 6.0, Y1],
