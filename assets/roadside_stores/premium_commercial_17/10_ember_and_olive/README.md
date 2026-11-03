@@ -17,13 +17,13 @@ Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, rid
 |---|---|
 | Storeys | 1 (tall, gabled) (floor levels [0.15] m, roof 4 gables, eaves 6.5 m, ridges 9.1 m) |
 | Frontage x depth x height | 40.0 x 18.0 x 9.1 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [40.8, 21.16, 9.4] m |
 | Setback from plot frontage | 4.0 m |
 | Parking | optional angled side parking, 6 bays (OPTIONAL_PARKING) |
 | Vehicle access | right crossing to angled side parking |
 | Glass | 4 x 9.3 m bay windows + glazed gables (PC_Glass) |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 5, 'EXTERIOR_LIGHTING': 4} |
+| Collision boxes | 2 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, rid
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 30732 | 7094 | 1037 | 0 | 3598 | 24 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -54,10 +54,10 @@ P10_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 8; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 42485, 'glb_triangles': 42485, 'images_loaded': 23, 'lights': 9, 'lod0_size_yup_converted': [40.8, 21.16, 9.4]}
 
 Brand note: Original fictional brand.
 

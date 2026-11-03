@@ -1,6 +1,6 @@
 # 09 - Saffron Courtyard
 
-*C - Long-frontage restaurant* - status: **incomplete**
+*C - Long-frontage restaurant* - status: **complete**
 
 Massing: 38 m frontage whose middle 10 m is carved back 6 m into an entrance COURTYARD with a reflecting pool and stepping stones.  The ground floor is a long bronze-framed horizontal glass band; the upper dining level is veiled by dense dark-timber vertical battens (strong vertical rhythm).  The whole is crowned by three stacked, progressively smaller roof plates with upturned edges and corners (contemporary pagoda silhouette). Inside: sushi / display counter, private dining rooms behind timber lattice screens, paper-lantern pendants, straight stair to the upper dining room. Site: compact drop-off lay-by in front of the courtyard (in/out crossings), no parking.
 
@@ -58,6 +58,8 @@ P09_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 1; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 70267, 'glb_triangles': 70267, 'images_loaded': 22, 'lights': 7, 'lod0_size_yup_converted': [44.0, 27.0, 12.78]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 3/4 {'GF_dining_L': True, 'GF_dining_R': True, 'L1_dining': False, 'Courtyard_entrance': True}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 3/4 {'GF_dining_L': True, 'GF_dining_R': True, 'L1_dining': False, 'Courtyard_entrance': True}
 
 Brand note: Original fictional brand.
 

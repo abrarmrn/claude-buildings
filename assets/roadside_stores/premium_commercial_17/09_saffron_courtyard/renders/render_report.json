@@ -1,0 +1,72 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_dining_L",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "GF_dining_R",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L1_dining",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P09_LOD0_FACADE_DETAILS_Timber"
+   },
+   {
+    "name": "Courtyard_entrance",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 3,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 70.9,
+ "night_seconds": 86.6,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_dining_L",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "GF_dining_R",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L1_dining",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P09_LOD0_BUILDING_EXTERIOR_Shell"
+   },
+   {
+    "name": "Courtyard_entrance",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 3,
+    "blocker": null
+   }
+  ]
+ },
+ "road_view_seconds": 76.2,
+ "interior_seconds": 196.0
+}
