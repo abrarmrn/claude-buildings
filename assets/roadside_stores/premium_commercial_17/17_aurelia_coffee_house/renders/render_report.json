@@ -1,0 +1,58 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_curve_tables",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P17_LOD0_GLASS_SYSTEM_CurveFrame"
+   },
+   {
+    "name": "Counter",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L1_lounge",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 57.5,
+ "night_seconds": 79.3,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_curve_tables",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Counter",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P17_LOD0_GLASS_SYSTEM_CurveFrame"
+   },
+   {
+    "name": "L1_lounge",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P17_LOD0_FACADE_DETAILS_Bronze"
+   }
+  ]
+ },
+ "road_view_seconds": 66.1,
+ "interior_seconds": 220.0
+}

@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T21:56:15.886861Z",
+ "generated": "2026-11-03T22:03:03.481253Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 16,
+ "complete": 17,
  "assets": [
   {
    "number": "01",
@@ -4860,7 +4860,7 @@
    "name": "Aurelia Coffee House",
    "folder": "17_aurelia_coffee_house",
    "category": "F - Two-storey luxury cafe",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: warm travertine-clad volume whose front-LEFT corner is a 6 m radius CURVED glass wall (ground floor) under a curved bronze canopy that follows it.  The upper floor is SET BACK 4 m, leaving a roof terrace with a bronze pergola over the curve; its front is a raked (angled) glazed lounge window framed by bronze fins, and a stepped stone cornice completes a stepped roof composition.  Premium roadside stone terrace with benches and EMPTY stone planters. Inside: marble + brass coffee counter, armchairs, a curved stair to an upstairs lounge with chesterfield-style sofas, brass ring chandeliers. Site: terrace directly on the pavement; no parking.",
    "storeys": 2,
    "floor_levels_m": [
@@ -5062,14 +5062,36 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 1,
+     "probes_total": 3,
+     "probes": {
+      "GF_curve_tables": true,
+      "Counter": false,
+      "L1_lounge": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 2,
+     "probes_total": 3,
+     "probes": {
+      "GF_curve_tables": false,
+      "Counter": true,
+      "L1_lounge": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 57.5,
+    "night": 79.3,
+    "road_view": 66.1,
+    "interior": 220.0
    },
    "brand_note": "Original fictional brand."
   }

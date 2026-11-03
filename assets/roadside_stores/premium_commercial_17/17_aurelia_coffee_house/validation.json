@@ -1,0 +1,411 @@
+{
+ "asset": "aurelia_coffee_house",
+ "checks": {
+  "collections_present": {
+   "LOD0": true,
+   "LOD1": true,
+   "LOD2": true,
+   "PLACEHOLDER_CARS": true,
+   "INTERIOR_LIGHTING": true,
+   "EXTERIOR_LIGHTING": true,
+   "COLLISION": true,
+   "SIDEWALK_FRONTAGE": true,
+   "OPTIONAL_FORECOURT": true,
+   "DRIVEWAY": true,
+   "OPTIONAL_PARKING": true,
+   "BUILDING_EXTERIOR": true,
+   "BUILDING_INTERIOR": true,
+   "GLASS_SYSTEM": true,
+   "SIGNAGE": true
+  },
+  "mesh_validate_errors": [],
+  "degenerate_faces": 0,
+  "closed_pieces_with_inverted_normals_faces": 0,
+  "meshes_without_uv": [],
+  "meshes_with_missing_materials": [],
+  "objects_with_unapplied_transforms": [],
+  "lod0_bounds_m": {
+   "min": [
+    -11.6,
+    3.4,
+    -0.3
+   ],
+   "max": [
+    10.22,
+    20.0,
+    10.5
+   ],
+   "size": [
+    21.82,
+    16.6,
+    10.8
+   ]
+  },
+  "footprint_m": {
+   "width": 20.0,
+   "depth": 16.6
+  },
+  "height_m": 10.5,
+  "glass_materials": {
+   "PC_GlassBlue": {
+    "alpha": 0.3,
+    "blend": "BLEND",
+    "double_sided": true
+   },
+   "PC_GlassClear": {
+    "alpha": 0.11,
+    "blend": "BLEND",
+    "double_sided": true
+   },
+   "PC_GlassRail": {
+    "alpha": 0.14,
+    "blend": "BLEND",
+    "double_sided": true
+   },
+   "PC_GlassSatin": {
+    "alpha": 0.55,
+    "blend": "BLEND",
+    "double_sided": true
+   }
+  },
+  "lod_tris_blender": {
+   "LOD0": 26586,
+   "LOD1": 7415,
+   "LOD2": 954
+  },
+  "interior_tris_lod0": 18494,
+  "interior_tris_lod1": 2895,
+  "interior_objects_lod0": [
+   "P17_LOD0_BUILDING_INTERIOR_CeilingLights",
+   "P17_LOD0_BUILDING_INTERIOR_CurvedStair",
+   "P17_LOD0_BUILDING_INTERIOR_CurvedStairGlass",
+   "P17_LOD0_BUILDING_INTERIOR_GroundSlab",
+   "P17_LOD0_BUILDING_INTERIOR_RailFrame",
+   "P17_LOD0_BUILDING_INTERIOR_RailGlass",
+   "P17_LOD0_BUILDING_INTERIOR_Slabs",
+   "P17_LOD0_FURNITURE_Cafe"
+  ],
+  "lod_extras": {
+   "LOD0": {
+    "level": 0,
+    "begin": 0.0,
+    "end": 90.0
+   },
+   "LOD1": {
+    "level": 1,
+    "begin": 90.0,
+    "end": 260.0
+   },
+   "LOD2": {
+    "level": 2,
+    "begin": 260.0,
+    "end": 1600.0
+   }
+  },
+  "placeholder_cars": {
+   "count": 0,
+   "parented_to_cars_node": true,
+   "shared_mesh": [],
+   "inside_lod_collections": [],
+   "names": []
+  },
+  "lights": {
+   "INTERIOR_LIGHTING": 3,
+   "EXTERIOR_LIGHTING": 2
+  },
+  "collision_boxes": 2,
+  "materials_used": [
+   "AU_Gold",
+   "PC_AluDark",
+   "PC_BlackGloss",
+   "PC_Brass",
+   "PC_Bronze",
+   "PC_Ceiling",
+   "PC_Chrome",
+   "PC_Concrete",
+   "PC_Copper",
+   "PC_Curb",
+   "PC_FabricCream",
+   "PC_FabricRust",
+   "PC_FloorMarble",
+   "PC_GlassBlue",
+   "PC_GlassClear",
+   "PC_GlassRail",
+   "PC_GlassSatin",
+   "PC_LampGlobe",
+   "PC_Leather",
+   "PC_LeatherCream",
+   "PC_LightWarm",
+   "PC_PaverLight",
+   "PC_RoofGravel",
+   "PC_Stainless",
+   "PC_SteelDark",
+   "PC_StoneTop",
+   "PC_TimberDark",
+   "PC_Travertine",
+   "PC_WallWarm",
+   "PC_Walnut",
+   "PC_WoodLight"
+  ],
+  "image_textures": [
+   "//textures/asphalt_albedo.jpg",
+   "//textures/asphalt_normal.jpg",
+   "//textures/asphalt_orm.jpg",
+   "//textures/concrete_albedo.jpg",
+   "//textures/concrete_normal.jpg",
+   "//textures/concrete_orm.jpg",
+   "//textures/gravel_albedo.jpg",
+   "//textures/gravel_normal.jpg",
+   "//textures/gravel_orm.jpg",
+   "//textures/pc_marble_albedo.jpg",
+   "//textures/pc_marble_normal.jpg",
+   "//textures/pc_marble_orm.jpg",
+   "//textures/pc_paverlight_albedo.jpg",
+   "//textures/pc_paverlight_normal.jpg",
+   "//textures/pc_paverlight_orm.jpg",
+   "//textures/travertine_albedo.jpg",
+   "//textures/travertine_normal.jpg",
+   "//textures/travertine_orm.jpg",
+   "//textures/wood_albedo.jpg",
+   "//textures/wood_normal.jpg",
+   "//textures/wood_orm.jpg"
+  ],
+  "missing_image_files": [],
+  "vegetation_objects_or_materials": [],
+  "glb_full": {
+   "groups": {
+    "Collision": 24,
+    "LOD0": 26586,
+    "LOD1": 7415,
+    "LOD2": 954,
+    "OPTIONAL_FORECOURT": 3302,
+    "SIDEWALK_FRONTAGE": 24
+   },
+   "total": 38305,
+   "images": [
+    {
+     "name": "travertine_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "travertine_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "travertine_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_marble_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_marble_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_marble_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    }
+   ],
+   "materials": 31,
+   "alpha_blend": [
+    "PC_GlassRail",
+    "PC_GlassClear",
+    "PC_GlassSatin",
+    "PC_GlassBlue"
+   ],
+   "lights": 5,
+   "collision_nodes": 2,
+   "nodes": 78,
+   "meshes": 64,
+   "primitives": 140,
+   "lod_extras": {
+    "P17_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 90.0,
+     "visibility_range_margin": 8.0
+    },
+    "P17_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 90.0,
+     "visibility_range_end": 260.0,
+     "visibility_range_margin": 8.0
+    },
+    "P17_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 260.0,
+     "visibility_range_end": 1600.0,
+     "visibility_range_margin": 8.0
+    }
+   },
+   "car_nodes": 0,
+   "size_mb": 5.01
+  },
+  "glb_building_only": {
+   "total": null,
+   "car_nodes": 0,
+   "size_mb": null,
+   "note": "no cars in this asset - main GLB is building-only"
+  },
+  "glb_lod_files_tris": {
+   "LOD0": 26586,
+   "LOD1": 7415,
+   "LOD2": 954
+  },
+  "reimport": {
+   "mesh_objects": 64,
+   "triangles": 38305,
+   "glb_triangles": 38305,
+   "images_loaded": 18,
+   "lights": 5,
+   "lod0_size_yup_converted": [
+    21.82,
+    16.6,
+    10.8
+   ]
+  }
+ },
+ "issues": [],
+ "warnings": [],
+ "passed": true
+}

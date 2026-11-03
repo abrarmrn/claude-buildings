@@ -1,6 +1,6 @@
 # 17 - Aurelia Coffee House
 
-*F - Two-storey luxury cafe* - status: **incomplete**
+*F - Two-storey luxury cafe* - status: **complete**
 
 Massing: warm travertine-clad volume whose front-LEFT corner is a 6 m radius CURVED glass wall (ground floor) under a curved bronze canopy that follows it.  The upper floor is SET BACK 4 m, leaving a roof terrace with a bronze pergola over the curve; its front is a raked (angled) glazed lounge window framed by bronze fins, and a stepped stone cornice completes a stepped roof composition.  Premium roadside stone terrace with benches and EMPTY stone planters. Inside: marble + brass coffee counter, armchairs, a curved stair to an upstairs lounge with chesterfield-style sofas, brass ring chandeliers. Site: terrace directly on the pavement; no parking.
 
@@ -58,6 +58,8 @@ P17_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 0; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 64, 'triangles': 38305, 'glb_triangles': 38305, 'images_loaded': 18, 'lights': 5, 'lod0_size_yup_converted': [21.82, 16.6, 10.8]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 1/3 {'GF_curve_tables': True, 'Counter': False, 'L1_lounge': False}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 2/3 {'GF_curve_tables': False, 'Counter': True, 'L1_lounge': True}
 
 Brand note: Original fictional brand.
 
