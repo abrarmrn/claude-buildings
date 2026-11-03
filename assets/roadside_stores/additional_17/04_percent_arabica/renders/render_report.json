@@ -1,0 +1,30 @@
+{
+ "day_seconds": 90.7,
+ "night_seconds": 152.0,
+ "road_view_sign": [
+  {
+   "name": "% ARABICA wall lockup",
+   "cap_height_m": 0.46,
+   "pixel_height": 18.3,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.71,
+   "distance_m": 35.8,
+   "readable": true
+  },
+  {
+   "name": "% ARABICA stele lockup",
+   "cap_height_m": 0.4,
+   "pixel_height": 18.6,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.29,
+   "distance_m": 33.6,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 71.2,
+ "detail_seconds": 218.5
+}

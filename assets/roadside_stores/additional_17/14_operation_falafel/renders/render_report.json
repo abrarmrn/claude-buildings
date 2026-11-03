@@ -1,0 +1,41 @@
+{
+ "day_seconds": 64.8,
+ "night_seconds": 98.4,
+ "road_view_sign": [
+  {
+   "name": "Operation Falafel tower",
+   "cap_height_m": 0.36,
+   "pixel_height": 21.1,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.99,
+   "distance_m": 25.1,
+   "readable": true
+  },
+  {
+   "name": "Operation Falafel fascia wordmark",
+   "cap_height_m": 0.58,
+   "pixel_height": 30.4,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.95,
+   "distance_m": 26.8,
+   "readable": true
+  },
+  {
+   "name": "Operation Falafel stele",
+   "cap_height_m": 0.33,
+   "pixel_height": 31.6,
+   "visible_fraction": 0.0,
+   "in_frame": false,
+   "occluders": [],
+   "facing_dot": 0.47,
+   "distance_m": 20.7,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 57.2,
+ "detail_seconds": 100.7
+}

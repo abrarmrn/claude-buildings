@@ -1,43 +1,41 @@
 {
- "day_seconds": 128.5,
- "night_seconds": 143.9,
+ "day_seconds": 53.9,
+ "night_seconds": 84.4,
  "road_view_sign": [
   {
    "name": "Tim Hortons fascia wordmark",
    "cap_height_m": 0.72,
-   "pixel_height": 26.9,
+   "pixel_height": 34.1,
    "visible_fraction": 1.0,
    "in_frame": true,
    "occluders": [],
-   "facing_dot": 0.81,
-   "distance_m": 37.4,
+   "facing_dot": 0.97,
+   "distance_m": 31.5,
    "readable": true
   },
   {
    "name": "Tim Hortons tower panel",
    "cap_height_m": 0.58,
-   "pixel_height": 17.7,
-   "visible_fraction": 0.6,
+   "pixel_height": 23.0,
+   "visible_fraction": 1.0,
    "in_frame": true,
-   "occluders": [
-    "TIMS_LOD0_Signage"
-   ],
-   "facing_dot": 0.71,
-   "distance_m": 44.1,
-   "readable": false
+   "occluders": [],
+   "facing_dot": 0.87,
+   "distance_m": 35.7,
+   "readable": true
   },
   {
    "name": "Tim Hortons pole sign",
    "cap_height_m": 0.7,
-   "pixel_height": 22.4,
-   "visible_fraction": 1.0,
-   "in_frame": true,
+   "pixel_height": 40.2,
+   "visible_fraction": 0.0,
+   "in_frame": false,
    "occluders": [],
-   "facing_dot": 0.21,
-   "distance_m": 45.6,
+   "facing_dot": 0.29,
+   "distance_m": 32.1,
    "readable": false
   }
  ],
- "road_view_seconds": 69.8,
+ "road_view_seconds": 49.7,
  "detail_seconds": 176.6
 }

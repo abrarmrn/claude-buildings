@@ -1,8 +1,8 @@
 {
  "blender_loop_triangles": {
-  "0": 42935,
-  "1": 13120,
-  "2": 2265
+  "0": 42655,
+  "1": 13066,
+  "2": 2237
  },
  "parts": {
   "0": {
@@ -14,7 +14,7 @@
    "Glass": 6,
    "Ground": 310,
    "Interior": 7904,
-   "LampPosts": 1680,
+   "LampPosts": 1400,
    "Landscape": 6437,
    "Markings": 1144,
    "Pylon": 430,
@@ -30,7 +30,7 @@
    "Glass": 6,
    "Ground": 214,
    "Interior": 1161,
-   "LampPosts": 324,
+   "LampPosts": 270,
    "Landscape": 2016,
    "Markings": 84,
    "Pylon": 46,
@@ -44,7 +44,7 @@
    "Furniture": 362,
    "Glass": 4,
    "Ground": 118,
-   "LampPosts": 168,
+   "LampPosts": 140,
    "Landscape": 468,
    "Pylon": 46,
    "Signage": 626,

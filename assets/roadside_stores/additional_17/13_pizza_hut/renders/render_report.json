@@ -1,0 +1,30 @@
+{
+ "day_seconds": 55.0,
+ "night_seconds": 76.6,
+ "road_view_sign": [
+  {
+   "name": "Pizza Hut roof-slope logo",
+   "cap_height_m": 1.1,
+   "pixel_height": 24.5,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.41,
+   "distance_m": 33.3,
+   "readable": true
+  },
+  {
+   "name": "Pizza Hut pole sign",
+   "cap_height_m": 0.54,
+   "pixel_height": 43.6,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.52,
+   "distance_m": 18.4,
+   "readable": true
+  }
+ ],
+ "road_view_seconds": 50.0,
+ "detail_seconds": 67.8
+}

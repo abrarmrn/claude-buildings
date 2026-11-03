@@ -1,0 +1,19 @@
+{
+ "day_seconds": 114.6,
+ "night_seconds": 149.2,
+ "road_view_sign": [
+  {
+   "name": "PAUL sign board",
+   "cap_height_m": 0.8,
+   "pixel_height": 33.7,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.69,
+   "distance_m": 33.8,
+   "readable": true
+  }
+ ],
+ "road_view_seconds": 85.0,
+ "detail_seconds": 187.0
+}

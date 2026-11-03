@@ -1,0 +1,32 @@
+{
+ "day_seconds": 66.0,
+ "night_seconds": 94.3,
+ "road_view_sign": [
+  {
+   "name": "life PHARMACY lockup",
+   "cap_height_m": 0.82,
+   "pixel_height": 36.0,
+   "visible_fraction": 0.9,
+   "in_frame": true,
+   "occluders": [
+    "LIFE_LOD0_Signage"
+   ],
+   "facing_dot": 0.72,
+   "distance_m": 32.3,
+   "readable": true
+  },
+  {
+   "name": "life PHARMACY totem",
+   "cap_height_m": 0.72,
+   "pixel_height": 32.4,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.27,
+   "distance_m": 35.0,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 48.4,
+ "detail_seconds": 99.5
+}

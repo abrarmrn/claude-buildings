@@ -52,16 +52,17 @@ def sign_check(key):
     dg = bpy.context.evaluated_depsgraph_get()
     for s in signs:
         ctr = Vector(s['center']); n = Vector(s['normal'])
-        top = ctr + Vector((0, 0, s['cap_height'] / 2)); bot = ctr - Vector((0, 0, s['cap_height'] / 2))
+        top = ctr + Vector((0, 0, s['cap_height'] / 2 * (1 - n.z * n.z) ** 0.5)); bot = ctr - Vector((0, 0, s['cap_height'] / 2 * (1 - n.z * n.z) ** 0.5))
         pt, pb = world_to_camera_view(sc, cam, top), world_to_camera_view(sc, cam, bot)
         pc = world_to_camera_view(sc, cam, ctr)
         px = abs(pt.y - pb.y) * 900.0   # normalised to the real 1600x900 frame
         tdir = Vector((-n.y, n.x, 0)).normalized()
+        up = (Vector((0, 0, 1)) - n * n.z).normalized()          # 'up' along the sign surface (matters for signs on sloped roofs)
         w = s.get('width', 2.0)
         vis, total, occ = 0, 0, set()
         for fx in (-0.45, -0.22, 0.0, 0.22, 0.45):
             for fz in (-0.3, 0.3):
-                p = ctr + tdir * (fx * w) + Vector((0, 0, fz * s['cap_height'])) + n * 0.12
+                p = ctr + tdir * (fx * w) + up * (fz * s['cap_height']) + n * 0.12
                 q = world_to_camera_view(sc, cam, p)
                 total += 1
                 d = p - cam.location
@@ -94,10 +95,10 @@ for view in views:
     colls[f'{prefix}_NightLights'].hide_render = (mode != 'night')
     key = 'day' if view in ('day', 'night') else view.replace('_view', '')
     set_cam(key)
-    R.setup_render(sc, 1600, 900, {'day': 40, 'night': 64, 'road_view': 40, 'detail': 44}[view])
+    R.setup_render(sc, 1600, 900, {'day': 32, 'night': 52, 'road_view': 32, 'detail': 30}[view])
     sc.cycles.max_bounces = 4
-    sc.cycles.transparent_max_bounces = 8
-    sc.cycles.adaptive_threshold = 0.04
+    sc.cycles.transparent_max_bounces = 6
+    sc.cycles.adaptive_threshold = 0.05
     sc.render.image_settings.file_format = 'JPEG'
     sc.render.image_settings.quality = 93
     name = f'{base}_{view}' + ('_lowres' if quick else '')

@@ -12,16 +12,16 @@
   "lod_budgets_decreasing": {
    "ok": true,
    "detail": {
-    "0": 42935,
-    "1": 13120,
-    "2": 2265
+    "0": 42655,
+    "1": 13066,
+    "2": 2237
    }
   },
   "lod_ratio": {
    "ok": true,
    "detail": {
     "l1_over_l0": 0.306,
-    "l2_over_l1": 0.173
+    "l2_over_l1": 0.171
    }
   },
   "no_nan_geometry": {
@@ -34,8 +34,8 @@
     "no_uv": 0,
     "uv_nan": 0,
     "flipped": 0,
-    "watertight": 547,
-    "pieces": 989
+    "watertight": 546,
+    "pieces": 984
    }
   },
   "uvs_present": {
@@ -54,8 +54,8 @@
    "ok": true,
    "detail": {
     "flipped_pieces": 0,
-    "watertight_pieces": 547,
-    "pieces": 989
+    "watertight_pieces": 546,
+    "pieces": 984
    }
   },
   "dimensions_sane": {
@@ -106,11 +106,11 @@
   },
   "collision_proxies": {
    "ok": true,
-   "detail": 13
+   "detail": 12
   },
   "night_lights": {
    "ok": true,
-   "detail": 19
+   "detail": 18
   },
   "lod_extras": {
    "ok": true,
@@ -136,35 +136,35 @@
    "ok": true,
    "detail": {
     "glb": {
-     "0": 42935,
-     "1": 13120,
-     "2": 2265
+     "0": 42655,
+     "1": 13066,
+     "2": 2237
     },
     "blend": {
-     "0": 42935,
-     "1": 13120,
-     "2": 2265
+     "0": 42655,
+     "1": 13066,
+     "2": 2237
     }
    }
   },
   "glb_collision_nodes": {
    "ok": true,
-   "detail": 13
+   "detail": 12
   },
   "lod_glb_tris": {
    "ok": true,
    "detail": {
     "0": {
-     "triangles": 42935,
-     "bytes": 2005104
+     "triangles": 42655,
+     "bytes": 1993348
     },
     "1": {
-     "triangles": 13120,
-     "bytes": 831952
+     "triangles": 13066,
+     "bytes": 827568
     },
     "2": {
-     "triangles": 2265,
-     "bytes": 179768
+     "triangles": 2237,
+     "bytes": 177004
     }
    }
   },
@@ -175,9 +175,9 @@
   "reimport_tris": {
    "ok": true,
    "detail": {
-    "0": 42935,
-    "1": 13120,
-    "2": 2265
+    "0": 42655,
+    "1": 13066,
+    "2": 2237
    }
   },
   "reimport_bounds": {
@@ -212,24 +212,24 @@
   "no_uv": 0,
   "uv_nan": 0,
   "flipped": 0,
-  "watertight": 547,
-  "pieces": 989
+  "watertight": 546,
+  "pieces": 984
  },
  "blend": {
   "lod": {
    "0": {
-    "triangles": 42935,
-    "vertices": 24985,
+    "triangles": 42655,
+    "vertices": 24825,
     "objects": 14
    },
    "1": {
-    "triangles": 13120,
-    "vertices": 8586,
+    "triangles": 13066,
+    "vertices": 8546,
     "objects": 14
    },
    "2": {
-    "triangles": 2265,
-    "vertices": 2078,
+    "triangles": 2237,
+    "vertices": 2054,
     "objects": 11
    }
   },
@@ -474,7 +474,7 @@
     ]
    }
   ],
-  "collision_proxies": 13,
+  "collision_proxies": 12,
   "declared_dimensions": {
    "plot": [
     56.0,
@@ -490,24 +490,24 @@
   }
  },
  "glb": {
-  "bytes": 6881556,
+  "bytes": 6864024,
   "lod_triangles": {
-   "0": 42935,
-   "1": 13120,
-   "2": 2265
+   "0": 42655,
+   "1": 13066,
+   "2": 2237
   },
   "lod_files": {
    "0": {
-    "triangles": 42935,
-    "bytes": 2005104
+    "triangles": 42655,
+    "bytes": 1993348
    },
    "1": {
-    "triangles": 13120,
-    "bytes": 831952
+    "triangles": 13066,
+    "bytes": 827568
    },
    "2": {
-    "triangles": 2265,
-    "bytes": 179768
+    "triangles": 2237,
+    "bytes": 177004
    }
   },
   "materials": 47,
@@ -674,17 +674,17 @@
    "KHR_materials_specular",
    "KHR_lights_punctual"
   ],
-  "lights": 18,
-  "nodes": 76,
-  "meshes": 52,
-  "primitives": 203,
-  "collision_nodes": 13,
+  "lights": 17,
+  "nodes": 74,
+  "meshes": 51,
+  "primitives": 202,
+  "collision_nodes": 12,
   "reimport": {
    "meshes": 39,
    "tris": {
-    "0": 42935,
-    "1": 13120,
-    "2": 2265
+    "0": 42655,
+    "1": 13066,
+    "2": 2237
    },
    "size": [
     59.392,
@@ -694,8 +694,8 @@
   }
  },
  "files": {
-  "blend_bytes": 1552951,
-  "glb_bytes": 6881556
+  "blend_bytes": 1557871,
+  "glb_bytes": 6864024
  },
  "passed": true
 }

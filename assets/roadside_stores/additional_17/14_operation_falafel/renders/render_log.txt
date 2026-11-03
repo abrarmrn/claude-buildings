@@ -1,0 +1,317 @@
+Read blend: "/home/user/claude-buildings/assets/roadside_stores/additional_17/14_operation_falafel/operation_falafel.blend"
+Fra:1 Mem:18.84M (Peak 18.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Building
+Fra:1 Mem:18.84M (Peak 18.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Furniture
+Fra:1 Mem:20.87M (Peak 20.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sun
+Fra:1 Mem:20.87M (Peak 20.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Road
+Fra:1 Mem:21.12M (Peak 21.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sand
+Fra:1 Mem:21.12M (Peak 21.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Vehicles
+Fra:1 Mem:21.29M (Peak 21.29M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Totem
+Fra:1 Mem:21.79M (Peak 21.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Signage
+Fra:1 Mem:22.23M (Peak 22.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Glass
+Fra:1 Mem:22.32M (Peak 22.32M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Ground
+Fra:1 Mem:22.94M (Peak 22.94M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Interior
+Fra:1 Mem:23.36M (Peak 23.36M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_LampPosts
+Fra:1 Mem:25.80M (Peak 25.80M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Landscape
+Fra:1 Mem:26.23M (Peak 26.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Markings
+Fra:1 Mem:25.30M (Peak 27.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:23.02M (Peak 27.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:23.02M (Peak 27.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:23.02M (Peak 27.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:23.02M (Peak 27.35M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:23.13M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:23.14M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:23.14M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:23.14M (Peak 27.35M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:23.60M (Peak 27.35M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:23.60M (Peak 27.35M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.06 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.06 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.06 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.06 | Mem:2.65M, Peak:2.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.07 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:24.86M (Peak 27.35M) | Time:00:00.07 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:26.73M (Peak 27.35M) | Time:00:00.08 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:26.73M (Peak 27.35M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:26.73M (Peak 27.35M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:26.73M (Peak 27.35M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:26.73M (Peak 27.35M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading gravel_normal.jpg
+Fra:1 Mem:27.73M (Peak 27.73M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading sky_nishita
+Fra:1 Mem:27.73M (Peak 27.73M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading asphalt_albedo.jpg
+Fra:1 Mem:32.73M (Peak 32.73M) | Time:00:00.08 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading concrete_albedo.jpg
+Fra:1 Mem:36.74M (Peak 36.74M) | Time:00:00.09 | Mem:7.01M, Peak:7.01M | Scene, ViewLayer | Updating Images | Loading gravel_orm.jpg
+Fra:1 Mem:37.74M (Peak 37.74M) | Time:00:00.09 | Mem:11.01M, Peak:11.01M | Scene, ViewLayer | Updating Images | Loading paver_albedo.jpg
+Fra:1 Mem:41.74M (Peak 41.74M) | Time:00:00.10 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Images | Loading gravel_albedo.jpg
+Fra:1 Mem:42.74M (Peak 42.74M) | Time:00:00.10 | Mem:17.01M, Peak:17.01M | Scene, ViewLayer | Updating Images | Loading concrete_normal.jpg
+Fra:1 Mem:46.74M (Peak 46.74M) | Time:00:00.12 | Mem:25.01M, Peak:25.01M | Scene, ViewLayer | Updating Images | Loading paver_normal.jpg
+Fra:1 Mem:50.74M (Peak 50.74M) | Time:00:00.14 | Mem:29.01M, Peak:29.01M | Scene, ViewLayer | Updating Images | Loading asphalt_normal.jpg
+Fra:1 Mem:54.74M (Peak 54.74M) | Time:00:00.17 | Mem:33.01M, Peak:33.01M | Scene, ViewLayer | Updating Images | Loading concrete_orm.jpg
+Fra:1 Mem:58.74M (Peak 58.74M) | Time:00:00.18 | Mem:37.01M, Peak:37.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_orm.jpg
+Fra:1 Mem:59.74M (Peak 59.74M) | Time:00:00.18 | Mem:38.01M, Peak:38.01M | Scene, ViewLayer | Updating Images | Loading paver_orm.jpg
+Fra:1 Mem:63.74M (Peak 63.74M) | Time:00:00.20 | Mem:42.01M, Peak:42.01M | Scene, ViewLayer | Updating Images | Loading asphalt_orm.jpg
+Fra:1 Mem:67.74M (Peak 67.74M) | Time:00:00.21 | Mem:46.01M, Peak:46.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_albedo.jpg
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.25 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.25 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.25 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:68.74M (Peak 68.74M) | Time:00:00.25 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:1 Mem:132.78M (Peak 420.74M) | Time:00:00.92 | Mem:112.14M, Peak:272.10M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.39M, Peak:272.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:134.12M (Peak 420.74M) | Time:00:00.96 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:238.53M (Peak 420.74M) | Time:00:02.82 | Remaining:00:57.80 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:238.53M (Peak 420.74M) | Time:00:30.65 | Remaining:00:26.20 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 17/32
+Fra:1 Mem:282.48M (Peak 420.74M) | Time:01:04.56 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:282.48M (Peak 420.74M) | Time:01:04.56 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Finished
+Saved: '../14_operation_falafel/renders/operation_falafel_day.jpg'
+Time: 01:04.84 (Saving: 00:00.24)
+
+RENDERED operation_falafel_day.jpg 1600x900 32spp 64.8s
+Fra:1 Mem:22.20M (Peak 22.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Building
+Fra:1 Mem:22.21M (Peak 22.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Furniture
+Fra:1 Mem:22.38M (Peak 22.38M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sun
+Fra:1 Mem:22.69M (Peak 22.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Road
+Fra:1 Mem:23.05M (Peak 23.05M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sand
+Fra:1 Mem:23.09M (Peak 23.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LampPost4
+Fra:1 Mem:23.11M (Peak 23.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LampPost3
+Fra:1 Mem:23.11M (Peak 23.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LampPost2
+Fra:1 Mem:23.11M (Peak 23.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LampPost1
+Fra:1 Mem:23.10M (Peak 23.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LampPost0
+Fra:1 Mem:23.10M (Peak 23.11M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_SteleGlow
+Fra:1 Mem:23.14M (Peak 23.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_FasciaGlow
+Fra:1 Mem:23.21M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Ground
+Fra:1 Mem:22.82M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_TowerUp
+Fra:1 Mem:22.87M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Arch
+Fra:1 Mem:22.87M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Pergola1
+Fra:1 Mem:22.87M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Pergola0
+Fra:1 Mem:22.86M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Interior2
+Fra:1 Mem:22.97M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Interior1
+Fra:1 Mem:22.98M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_Interior0
+Fra:1 Mem:23.05M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Vehicles
+Fra:1 Mem:23.03M (Peak 23.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Interior
+Fra:1 Mem:23.75M (Peak 23.75M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Totem
+Fra:1 Mem:24.09M (Peak 24.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Signage
+Fra:1 Mem:25.00M (Peak 25.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_LampPosts
+Fra:1 Mem:26.48M (Peak 26.52M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Landscape
+Fra:1 Mem:26.78M (Peak 26.78M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Markings
+Fra:1 Mem:25.61M (Peak 27.44M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:23.06M (Peak 27.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:23.06M (Peak 27.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:23.06M (Peak 27.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:23.06M (Peak 27.44M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:23.18M (Peak 27.44M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:23.19M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:23.19M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:23.19M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:23.65M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:23.65M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.02 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.02 | Mem:1.30M, Peak:1.30M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.02 | Mem:1.30M, Peak:1.30M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.02 | Mem:2.66M, Peak:2.66M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.03 | Mem:4.14M, Peak:5.50M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:24.91M (Peak 27.44M) | Time:00:00.03 | Mem:4.14M, Peak:5.50M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:4.14M, Peak:5.50M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Images | Loading asphalt_normal.jpg
+Fra:1 Mem:26.78M (Peak 27.44M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Images | Loading tilefloor_orm.jpg
+Fra:1 Mem:31.78M (Peak 31.78M) | Time:00:00.03 | Mem:6.02M, Peak:6.02M | Scene, ViewLayer | Updating Images | Loading concrete_albedo.jpg
+Fra:1 Mem:36.80M (Peak 36.80M) | Time:00:00.03 | Mem:7.02M, Peak:7.02M | Scene, ViewLayer | Updating Images | Loading paver_albedo.jpg
+Fra:1 Mem:40.80M (Peak 40.80M) | Time:00:00.03 | Mem:8.02M, Peak:8.02M | Scene, ViewLayer | Updating Images | Loading concrete_orm.jpg
+Fra:1 Mem:44.80M (Peak 44.80M) | Time:00:00.04 | Mem:12.02M, Peak:12.02M | Scene, ViewLayer | Updating Images | Loading asphalt_albedo.jpg
+Fra:1 Mem:48.80M (Peak 48.80M) | Time:00:00.04 | Mem:16.02M, Peak:16.02M | Scene, ViewLayer | Updating Images | Loading concrete_normal.jpg
+Fra:1 Mem:52.80M (Peak 52.80M) | Time:00:00.05 | Mem:20.02M, Peak:20.02M | Scene, ViewLayer | Updating Images | Loading paver_orm.jpg
+Fra:1 Mem:56.80M (Peak 56.80M) | Time:00:00.06 | Mem:24.02M, Peak:24.02M | Scene, ViewLayer | Updating Images | Loading asphalt_orm.jpg
+Fra:1 Mem:60.80M (Peak 60.80M) | Time:00:00.06 | Mem:28.02M, Peak:28.02M | Scene, ViewLayer | Updating Images | Loading gravel_albedo.jpg
+Fra:1 Mem:61.80M (Peak 61.80M) | Time:00:00.06 | Mem:29.02M, Peak:29.02M | Scene, ViewLayer | Updating Images | Loading paver_normal.jpg
+Fra:1 Mem:65.80M (Peak 65.80M) | Time:00:00.06 | Mem:33.02M, Peak:33.02M | Scene, ViewLayer | Updating Images | Loading gravel_orm.jpg
+Fra:1 Mem:66.80M (Peak 66.80M) | Time:00:00.07 | Mem:34.02M, Peak:34.02M | Scene, ViewLayer | Updating Images | Loading gravel_normal.jpg
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.08 | Mem:47.02M, Peak:47.02M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.08 | Mem:47.02M, Peak:47.02M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.08 | Mem:47.10M, Peak:47.10M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:67.80M (Peak 67.80M) | Time:00:00.08 | Mem:47.10M, Peak:47.10M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:1 Mem:131.83M (Peak 419.80M) | Time:00:00.64 | Mem:111.14M, Peak:271.11M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:133.17M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:133.17M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:133.18M (Peak 419.80M) | Time:00:00.70 | Mem:112.41M, Peak:271.11M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:133.18M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:133.18M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:133.18M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:133.18M (Peak 419.80M) | Time:00:00.70 | Mem:112.49M, Peak:271.11M | Scene, ViewLayer | Sample 0/52
+Fra:1 Mem:237.59M (Peak 419.80M) | Time:00:02.66 | Remaining:01:40.32 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Sample 1/52
+Fra:1 Mem:237.59M (Peak 419.80M) | Time:00:31.59 | Remaining:01:03.60 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Sample 17/52
+Fra:1 Mem:237.59M (Peak 419.80M) | Time:00:59.98 | Remaining:00:34.13 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Sample 33/52
+Fra:1 Mem:237.59M (Peak 419.80M) | Time:01:27.11 | Remaining:00:07.20 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Sample 48/52
+Fra:1 Mem:281.54M (Peak 419.80M) | Time:01:38.30 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Sample 52/52
+Fra:1 Mem:281.54M (Peak 419.80M) | Time:01:38.30 | Mem:216.86M, Peak:271.11M | Scene, ViewLayer | Finished
+Saved: '../14_operation_falafel/renders/operation_falafel_night.jpg'
+Time: 01:38.43 (Saving: 00:00.10)
+
+RENDERED operation_falafel_night.jpg 1600x900 52spp 98.4s
+Fra:1 Mem:26.48M (Peak 26.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Building
+Fra:1 Mem:26.48M (Peak 26.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Furniture
+Fra:1 Mem:26.62M (Peak 26.62M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Road
+Fra:1 Mem:27.06M (Peak 27.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Glass
+Fra:1 Mem:27.17M (Peak 27.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Ground
+Fra:1 Mem:27.16M (Peak 27.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Interior
+Fra:1 Mem:27.15M (Peak 27.17M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sand
+Fra:1 Mem:27.23M (Peak 27.23M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Vehicles
+Fra:1 Mem:27.56M (Peak 27.56M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Totem
+Fra:1 Mem:28.59M (Peak 28.59M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Signage
+Fra:1 Mem:29.30M (Peak 29.30M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_LampPosts
+Fra:1 Mem:30.66M (Peak 30.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Landscape
+Fra:1 Mem:30.83M (Peak 30.96M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Markings
+Fra:1 Mem:29.88M (Peak 32.02M) | Time:00:00.02 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:27.60M (Peak 32.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:27.60M (Peak 32.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:27.60M (Peak 32.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:27.60M (Peak 32.02M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:27.71M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:28.18M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:28.18M (Peak 32.02M) | Time:00:00.03 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:29.44M (Peak 32.02M) | Time:00:00.04 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:29.43M (Peak 32.02M) | Time:00:00.04 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:29.43M (Peak 32.02M) | Time:00:00.04 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:29.43M (Peak 32.02M) | Time:00:00.04 | Mem:2.65M, Peak:2.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:29.43M (Peak 32.02M) | Time:00:00.04 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:29.43M (Peak 32.02M) | Time:00:00.04 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:31.31M (Peak 32.02M) | Time:00:00.05 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:31.31M (Peak 32.02M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:31.31M (Peak 32.02M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:31.31M (Peak 32.02M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:31.31M (Peak 32.02M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading gravel_normal.jpg
+Fra:1 Mem:32.31M (Peak 32.31M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading sky_nishita
+Fra:1 Mem:33.31M (Peak 33.31M) | Time:00:00.05 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading concrete_albedo.jpg
+Fra:1 Mem:37.32M (Peak 37.32M) | Time:00:00.05 | Mem:7.01M, Peak:7.01M | Scene, ViewLayer | Updating Images | Loading gravel_orm.jpg
+Fra:1 Mem:38.32M (Peak 38.32M) | Time:00:00.06 | Mem:8.01M, Peak:8.01M | Scene, ViewLayer | Updating Images | Loading concrete_normal.jpg
+Fra:1 Mem:42.32M (Peak 42.32M) | Time:00:00.08 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Images | Loading gravel_albedo.jpg
+Fra:1 Mem:43.32M (Peak 43.32M) | Time:00:00.08 | Mem:17.01M, Peak:17.01M | Scene, ViewLayer | Updating Images | Loading asphalt_normal.jpg
+Fra:1 Mem:47.32M (Peak 47.32M) | Time:00:00.12 | Mem:21.01M, Peak:21.01M | Scene, ViewLayer | Updating Images | Loading paver_normal.jpg
+Fra:1 Mem:51.32M (Peak 51.32M) | Time:00:00.14 | Mem:25.01M, Peak:25.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_orm.jpg
+Fra:1 Mem:52.32M (Peak 52.32M) | Time:00:00.15 | Mem:26.01M, Peak:26.01M | Scene, ViewLayer | Updating Images | Loading concrete_orm.jpg
+Fra:1 Mem:56.32M (Peak 56.32M) | Time:00:00.16 | Mem:30.01M, Peak:30.01M | Scene, ViewLayer | Updating Images | Loading asphalt_orm.jpg
+Fra:1 Mem:60.32M (Peak 60.32M) | Time:00:00.18 | Mem:34.01M, Peak:34.01M | Scene, ViewLayer | Updating Images | Loading paver_orm.jpg
+Fra:1 Mem:64.32M (Peak 64.32M) | Time:00:00.20 | Mem:38.01M, Peak:38.01M | Scene, ViewLayer | Updating Images | Loading paver_albedo.jpg
+Fra:1 Mem:68.32M (Peak 68.32M) | Time:00:00.22 | Mem:42.01M, Peak:42.01M | Scene, ViewLayer | Updating Images | Loading asphalt_albedo.jpg
+Fra:1 Mem:72.32M (Peak 72.32M) | Time:00:00.22 | Mem:42.01M, Peak:42.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_albedo.jpg
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.26 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.26 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.26 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.26 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:1 Mem:137.35M (Peak 425.32M) | Time:00:01.06 | Mem:112.14M, Peak:272.10M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:138.69M (Peak 425.32M) | Time:00:01.11 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:138.69M (Peak 425.32M) | Time:00:01.11 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.11 | Mem:113.39M, Peak:272.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.11 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.11 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.11 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.11 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:00:02.89 | Remaining:00:55.08 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:00:26.20 | Remaining:00:22.13 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 17/32
+Fra:1 Mem:287.06M (Peak 425.32M) | Time:00:56.30 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:287.06M (Peak 425.32M) | Time:00:56.30 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Finished
+Saved: '../14_operation_falafel/renders/operation_falafel_road_view.jpg'
+Time: 00:56.41 (Saving: 00:00.09)
+
+RENDERED operation_falafel_road_view.jpg 1600x900 32spp 56.4s
+Fra:1 Mem:26.47M (Peak 26.47M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Building
+Fra:1 Mem:26.48M (Peak 26.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Frames
+Fra:1 Mem:26.55M (Peak 26.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sun
+Fra:1 Mem:26.56M (Peak 26.56M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Road
+Fra:1 Mem:27.07M (Peak 27.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PV_Sand
+Fra:1 Mem:27.08M (Peak 27.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Vehicles
+Fra:1 Mem:26.94M (Peak 27.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Totem
+Fra:1 Mem:26.97M (Peak 27.08M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Furniture
+Fra:1 Mem:27.09M (Peak 27.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Signage
+Fra:1 Mem:30.07M (Peak 30.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Glass
+Fra:1 Mem:30.07M (Peak 30.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Ground
+Fra:1 Mem:30.19M (Peak 30.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Interior
+Fra:1 Mem:31.40M (Peak 31.40M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_LampPosts
+Fra:1 Mem:31.47M (Peak 31.47M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Landscape
+Fra:1 Mem:31.89M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPF_LOD0_Markings
+Fra:1 Mem:29.88M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:27.60M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:27.60M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:27.60M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:27.60M (Peak 31.89M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:27.71M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:28.18M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:28.18M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:29.44M (Peak 31.89M) | Time:00:00.02 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:29.43M (Peak 31.89M) | Time:00:00.02 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:29.43M (Peak 31.89M) | Time:00:00.02 | Mem:1.29M, Peak:1.29M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:29.43M (Peak 31.89M) | Time:00:00.02 | Mem:2.65M, Peak:2.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:29.43M (Peak 31.89M) | Time:00:00.03 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:29.43M (Peak 31.89M) | Time:00:00.03 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:4.13M, Peak:5.49M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading paver_normal.jpg
+Fra:1 Mem:31.31M (Peak 31.89M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_albedo.jpg
+Fra:1 Mem:35.31M (Peak 35.31M) | Time:00:00.03 | Mem:6.01M, Peak:6.01M | Scene, ViewLayer | Updating Images | Loading sky_nishita
+Fra:1 Mem:41.32M (Peak 41.32M) | Time:00:00.05 | Mem:15.01M, Peak:15.01M | Scene, ViewLayer | Updating Images | Loading concrete_normal.jpg
+Fra:1 Mem:45.32M (Peak 45.32M) | Time:00:00.06 | Mem:19.01M, Peak:19.01M | Scene, ViewLayer | Updating Images | Loading gravel_normal.jpg
+Fra:1 Mem:46.32M (Peak 46.32M) | Time:00:00.07 | Mem:20.01M, Peak:20.01M | Scene, ViewLayer | Updating Images | Loading paver_orm.jpg
+Fra:1 Mem:50.32M (Peak 50.32M) | Time:00:00.08 | Mem:24.01M, Peak:24.01M | Scene, ViewLayer | Updating Images | Loading asphalt_normal.jpg
+Fra:1 Mem:54.32M (Peak 54.32M) | Time:00:00.11 | Mem:28.01M, Peak:28.01M | Scene, ViewLayer | Updating Images | Loading gravel_orm.jpg
+Fra:1 Mem:55.32M (Peak 55.32M) | Time:00:00.11 | Mem:29.01M, Peak:29.01M | Scene, ViewLayer | Updating Images | Loading concrete_orm.jpg
+Fra:1 Mem:59.32M (Peak 59.32M) | Time:00:00.12 | Mem:33.01M, Peak:33.01M | Scene, ViewLayer | Updating Images | Loading asphalt_orm.jpg
+Fra:1 Mem:63.32M (Peak 63.32M) | Time:00:00.14 | Mem:37.01M, Peak:37.01M | Scene, ViewLayer | Updating Images | Loading gravel_albedo.jpg
+Fra:1 Mem:64.32M (Peak 64.32M) | Time:00:00.14 | Mem:38.01M, Peak:38.01M | Scene, ViewLayer | Updating Images | Loading tilefloor_orm.jpg
+Fra:1 Mem:65.32M (Peak 65.32M) | Time:00:00.15 | Mem:39.01M, Peak:39.01M | Scene, ViewLayer | Updating Images | Loading paver_albedo.jpg
+Fra:1 Mem:69.32M (Peak 69.32M) | Time:00:00.16 | Mem:43.01M, Peak:43.01M | Scene, ViewLayer | Updating Images | Loading asphalt_albedo.jpg
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.23 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.23 | Mem:48.01M, Peak:48.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.23 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:73.32M (Peak 73.32M) | Time:00:00.23 | Mem:48.09M, Peak:48.09M | Scene, ViewLayer | Updating Lights | Importance map
+Fra:1 Mem:137.35M (Peak 425.32M) | Time:00:00.96 | Mem:112.13M, Peak:272.10M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:138.69M (Peak 425.32M) | Time:00:01.00 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:138.69M (Peak 425.32M) | Time:00:01.00 | Mem:113.47M, Peak:272.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.00 | Mem:113.39M, Peak:272.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.00 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.00 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.00 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:138.70M (Peak 425.32M) | Time:00:01.00 | Mem:113.48M, Peak:272.10M | Scene, ViewLayer | Sample 0/30
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:00:04.37 | Remaining:01:37.69 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 1/30
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:00:28.20 | Remaining:01:03.47 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 9/30
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:00:52.74 | Remaining:00:39.56 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 17/30
+Fra:1 Mem:243.11M (Peak 425.32M) | Time:01:17.35 | Remaining:00:15.27 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 25/30
+Fra:1 Mem:287.06M (Peak 425.32M) | Time:01:40.58 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Sample 30/30
+Fra:1 Mem:287.06M (Peak 425.32M) | Time:01:40.58 | Mem:217.85M, Peak:272.10M | Scene, ViewLayer | Finished
+Saved: '../14_operation_falafel/renders/operation_falafel_detail.jpg'
+Time: 01:40.71 (Saving: 00:00.10)
+
+RENDERED operation_falafel_detail.jpg 1600x900 30spp 100.7s
+SIGN [{"name": "Operation Falafel tower", "cap_height_m": 0.36, "pixel_height": 18.9, "visible_fraction": 1.0, "in_frame": true, "occluders": [], "facing_dot": 0.9, "distance_m": 27.6, "readable": true}, {"name": "Operation Falafel fascia wordmark", "cap_height_m": 0.58, "pixel_height": 25.8, "visible_fraction": 1.0, "in_frame": true, "occluders": [], "facing_dot": 0.8, "distance_m": 31.7, "readable": true}, {"name": "Operation Falafel stele", "cap_height_m": 0.33, "pixel_height": 18.3, "visible_fraction": 0.0, "in_frame": false, "occluders": [], "facing_dot": 0.31, "distance_m": 30.9, "readable": false}]
+DONE

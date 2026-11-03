@@ -1,0 +1,30 @@
+{
+ "day_seconds": 60.3,
+ "night_seconds": 86.6,
+ "road_view_sign": [
+  {
+   "name": "FIVE GUYS sign board",
+   "cap_height_m": 0.72,
+   "pixel_height": 29.3,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.72,
+   "distance_m": 35.0,
+   "readable": true
+  },
+  {
+   "name": "FIVE GUYS totem",
+   "cap_height_m": 0.62,
+   "pixel_height": 26.4,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.26,
+   "distance_m": 36.6,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 47.0,
+ "detail_seconds": 96.3
+}

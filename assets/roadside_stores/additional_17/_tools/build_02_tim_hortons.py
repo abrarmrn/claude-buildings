@@ -219,7 +219,7 @@ def build_lamps(A, L):
     lamp_set(A, L, LAMPS)
 
 
-LAMPS = [(-10.0, -19.8, 0, 1), (4.0, -19.8, 0, 1), (22.0, -19.8, 0, 1), (-26.0, 4.0, 1, 0), (26.0, 4.0, -1, 0), (10.0, 19.6, 0, -1)]
+LAMPS = [(6.0, -19.8, 0, 1), (22.0, -19.8, 0, 1), (-26.0, 4.0, 1, 0), (26.0, 4.0, -1, 0), (10.0, 19.6, 0, -1)]
 
 
 def build_collision(A):
@@ -251,7 +251,7 @@ def main():
         build_ground(A, L); build_building(A, L); build_interior(A, L); build_pylon(A, L); build_lamps(A, L)
     build_collision(A); build_lights(A)
     A.camera('day', (-22.0, -29.0, 3.6), (-5.0, 3.0, 2.9), 32)
-    A.camera('road', (-30.0, PLOT[1] - 8.6, 1.25), (2.0, -6.0, 3.3), 30)
+    A.camera('road', (-16.0, PLOT[1] - 8.6, 1.25), (-1.0, -6.0, 3.5), 32)
     A.camera('detail', (3.0, -10.5, 1.7), (-5.0, 2.0, 3.5), 26)
     finish(A, PLOT)
 

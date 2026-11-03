@@ -1,0 +1,6002 @@
+{
+ "project": "Dubai Open World PC game - 17 additional roadside store assets",
+ "generated_utc": "2026-11-03T17:30:44Z",
+ "blender": "4.5.15 LTS (bpy module)",
+ "conventions": "1 unit = 1 m, Z up in Blender (Y up in glTF), road-facing front = Blender -Y = glTF/Godot +Z, origin = plot centre at finished ground; LOD nodes <PREFIX>_LOD0/1/2 with visibility-range extras (compatible with prototypes/roadside_lod_post_import.gd), collision *-convcolonly boxes, KHR_lights_punctual night lights (shadows off).",
+ "godot_import_tested": false,
+ "checkpoint": {
+  "last_completed_asset": "17 Premium Auto Care",
+  "completed": 17,
+  "total": 17,
+  "remaining": [],
+  "batches": {
+   "A": [
+    "01",
+    "02",
+    "03",
+    "04"
+   ],
+   "B": [
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+   ],
+   "C": [
+    "10",
+    "11",
+    "12",
+    "13"
+   ],
+   "D": [
+    "14",
+    "15",
+    "16",
+    "17"
+   ]
+  }
+ },
+ "totals": {
+  "stores": 17,
+  "complete": 17,
+  "jpeg_renders": 68,
+  "glb_files": 17,
+  "blend_files": 17
+ },
+ "assets": [
+  {
+   "id": "01",
+   "name": "ADNOC Service Station",
+   "brand": "ADNOC",
+   "folder": "assets/roadside_stores/additional_17/01_adnoc",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Service station cluster",
+    "alternatives": [
+     "E11 roadside"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     76.468,
+     54.835,
+     12.9
+    ],
+    "lod0_min": [
+     -38.195,
+     -26.436,
+     -0.3
+    ],
+    "lod0_max": [
+     38.273,
+     28.399,
+     12.6
+    ],
+    "declared": {
+     "plot": [
+      72.0,
+      52.0
+     ],
+     "building": [
+      28.0,
+      12.0,
+      4.5
+     ],
+     "canopy_height": 6.699999999999999,
+     "pylon_height": 12.6
+    }
+   },
+   "triangles": {
+    "lod0": 93903,
+    "lod1": 17126,
+    "lod2": 2915,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "01_adnoc/adnoc.blend",
+     "bytes": 2409869,
+     "mib": 2.3
+    },
+    "glb": {
+     "path": "01_adnoc/adnoc.glb",
+     "bytes": 9585616,
+     "mib": 9.14
+    },
+    "lod0_glb": {
+     "path": "01_adnoc/lod/adnoc_lod0.glb",
+     "bytes": 4768480,
+     "mib": 4.55
+    },
+    "lod1_glb": {
+     "path": "01_adnoc/lod/adnoc_lod1.glb",
+     "bytes": 1079468,
+     "mib": 1.03
+    },
+    "lod2_glb": {
+     "path": "01_adnoc/lod/adnoc_lod2.glb",
+     "bytes": 220788,
+     "mib": 0.21
+    }
+   },
+   "materials": 41,
+   "texture_files": [
+    "adnoc_price_albedo.png",
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "products_albedo.png",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 23,
+   "glb": {
+    "materials": 41,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 20,
+    "nodes": 89,
+    "meshes": 63,
+    "primitives": 205,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     },
+     {
+      "name": "products_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 7105
+     },
+     {
+      "name": "adnoc_price_albedo",
+      "size": [
+       512,
+       640
+      ],
+      "bytes": 33225
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "9 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "01_adnoc/renders/adnoc_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 166203
+    },
+    "night": {
+     "path": "01_adnoc/renders/adnoc_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 146177
+    },
+    "road_view": {
+     "path": "01_adnoc/renders/adnoc_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 194976
+    },
+    "detail": {
+     "path": "01_adnoc/renders/adnoc_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 248946
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "ADNOC canopy fascia wordmark",
+     "cap_height_m": 0.72,
+     "pixel_height": 33.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.5,
+     "distance_m": 30.7,
+     "readable": true
+    },
+    {
+     "name": "ADNOC pylon wordmark",
+     "cap_height_m": 0.44,
+     "pixel_height": 11.9,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.18,
+     "distance_m": 53.5,
+     "readable": false
+    }
+   ],
+   "brand_note": "ADNOC wordmark + simplified round emblem (blue/white/red), OASIS shop sign; simplified recreation, not official artwork.",
+   "render_seconds": {
+    "day": 80.8,
+    "night": 126.9,
+    "road_view": 126.3,
+    "detail": 318.8
+   }
+  },
+  {
+   "id": "02",
+   "name": "Tim Hortons",
+   "brand": "Tim Hortons",
+   "folder": "assets/roadside_stores/additional_17/02_tim_hortons",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Drive-through cluster",
+    "alternatives": [
+     "E11 roadside"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     59.392,
+     44.689,
+     8.92
+    ],
+    "lod0_min": [
+     -29.84,
+     -22.269,
+     -0.3
+    ],
+    "lod0_max": [
+     29.552,
+     22.42,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      56.0,
+      42.0
+     ],
+     "building": [
+      18.0,
+      11.0,
+      4.4
+     ],
+     "tower_height": 7.9,
+     "pylon_height": 6.75
+    }
+   },
+   "triangles": {
+    "lod0": 42655,
+    "lod1": 13066,
+    "lod2": 2237,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "02_tim_hortons/tim_hortons.blend",
+     "bytes": 1557871,
+     "mib": 1.49
+    },
+    "glb": {
+     "path": "02_tim_hortons/tim_hortons.glb",
+     "bytes": 6864024,
+     "mib": 6.55
+    },
+    "lod0_glb": {
+     "path": "02_tim_hortons/lod/tim_hortons_lod0.glb",
+     "bytes": 1993348,
+     "mib": 1.9
+    },
+    "lod1_glb": {
+     "path": "02_tim_hortons/lod/tim_hortons_lod1.glb",
+     "bytes": 827568,
+     "mib": 0.79
+    },
+    "lod2_glb": {
+     "path": "02_tim_hortons/lod/tim_hortons_lod2.glb",
+     "bytes": 177004,
+     "mib": 0.17
+    }
+   },
+   "materials": 47,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "brick_albedo.jpg",
+    "brick_normal.jpg",
+    "brick_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 12,
+   "glb": {
+    "materials": 47,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 17,
+    "nodes": 74,
+    "meshes": 51,
+    "primitives": 202,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "brick_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 218876
+     },
+     {
+      "name": "brick_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 58270
+     },
+     {
+      "name": "brick_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 86431
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "30 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "02_tim_hortons/renders/tim_hortons_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 214676
+    },
+    "night": {
+     "path": "02_tim_hortons/renders/tim_hortons_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 196596
+    },
+    "road_view": {
+     "path": "02_tim_hortons/renders/tim_hortons_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 210395
+    },
+    "detail": {
+     "path": "02_tim_hortons/renders/tim_hortons_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 282231
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Tim Hortons fascia wordmark",
+     "cap_height_m": 0.72,
+     "pixel_height": 34.1,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.97,
+     "distance_m": 31.5,
+     "readable": true
+    },
+    {
+     "name": "Tim Hortons tower panel",
+     "cap_height_m": 0.58,
+     "pixel_height": 23.0,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.87,
+     "distance_m": 35.7,
+     "readable": true
+    },
+    {
+     "name": "Tim Hortons pole sign",
+     "cap_height_m": 0.7,
+     "pixel_height": 40.2,
+     "visible_fraction": 0.0,
+     "in_frame": false,
+     "occluders": [],
+     "facing_dot": 0.29,
+     "distance_m": 32.1,
+     "readable": false
+    }
+   ],
+   "brand_note": "Red/white wordmark in sheared bold italic (the official script lettering is not reproduced); simplified cup icon.",
+   "render_seconds": {
+    "day": 53.9,
+    "night": 84.4,
+    "road_view": 49.7,
+    "detail": 176.6
+   }
+  },
+  {
+   "id": "03",
+   "name": "Costa Coffee",
+   "brand": "Costa Coffee",
+   "folder": "assets/roadside_stores/additional_17/03_costa_coffee",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Boulevard podium retail",
+    "alternatives": [
+     "Premium restaurant frontage"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     47.042,
+     37.813,
+     8.92
+    ],
+    "lod0_min": [
+     -23.613,
+     -18.512,
+     -0.3
+    ],
+    "lod0_max": [
+     23.429,
+     19.302,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      44.0,
+      34.0
+     ],
+     "building": [
+      16.0,
+      10.0,
+      4.3
+     ],
+     "cube_height": 5.9,
+     "totem_height": 4.75
+    }
+   },
+   "triangles": {
+    "lod0": 31900,
+    "lod1": 8690,
+    "lod2": 1516,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "03_costa_coffee/costa_coffee.blend",
+     "bytes": 1215488,
+     "mib": 1.16
+    },
+    "glb": {
+     "path": "03_costa_coffee/costa_coffee.glb",
+     "bytes": 4975124,
+     "mib": 4.74
+    },
+    "lod0_glb": {
+     "path": "03_costa_coffee/lod/costa_coffee_lod0.glb",
+     "bytes": 1446176,
+     "mib": 1.38
+    },
+    "lod1_glb": {
+     "path": "03_costa_coffee/lod/costa_coffee_lod1.glb",
+     "bytes": 575384,
+     "mib": 0.55
+    },
+    "lod2_glb": {
+     "path": "03_costa_coffee/lod/costa_coffee_lod2.glb",
+     "bytes": 127384,
+     "mib": 0.12
+    }
+   },
+   "materials": 39,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "wood_albedo.jpg",
+    "wood_normal.jpg",
+    "wood_orm.jpg",
+    "woodv_albedo.jpg",
+    "woodv_orm.jpg"
+   ],
+   "collision_proxies": 11,
+   "glb": {
+    "materials": 39,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 14,
+    "nodes": 64,
+    "meshes": 44,
+    "primitives": 161,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "woodv_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 47552
+     },
+     {
+      "name": "woodv_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53420
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "wood_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53838
+     },
+     {
+      "name": "wood_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44948
+     },
+     {
+      "name": "wood_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 49695
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "14 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "03_costa_coffee/renders/costa_coffee_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 204525
+    },
+    "night": {
+     "path": "03_costa_coffee/renders/costa_coffee_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 201738
+    },
+    "road_view": {
+     "path": "03_costa_coffee/renders/costa_coffee_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 172815
+    },
+    "detail": {
+     "path": "03_costa_coffee/renders/costa_coffee_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203484
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Costa cube wordmark",
+     "cap_height_m": 1.08,
+     "pixel_height": 38.2,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.69,
+     "distance_m": 37.9,
+     "readable": true
+    },
+    {
+     "name": "Costa totem wordmark",
+     "cap_height_m": 0.7,
+     "pixel_height": 44.8,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.44,
+     "distance_m": 21.1,
+     "readable": true
+    }
+   ],
+   "brand_note": "Burgundy/cream wordmark in a generic sans; simplified, not the official typeface or logo artwork.",
+   "render_seconds": {
+    "day": 71.8,
+    "night": 130.3,
+    "road_view": 77.2,
+    "detail": 153.7
+   }
+  },
+  {
+   "id": "04",
+   "name": "% Arabica",
+   "brand": "% ARABICA",
+   "folder": "assets/roadside_stores/additional_17/04_percent_arabica",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Premium restaurant frontage",
+    "alternatives": [
+     "Boulevard podium retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     42.968,
+     32.157,
+     7.861
+    ],
+    "lod0_min": [
+     -21.537,
+     -16.157,
+     -0.3
+    ],
+    "lod0_max": [
+     21.431,
+     16.0,
+     7.561
+    ],
+    "declared": {
+     "plot": [
+      40.0,
+      32.0
+     ],
+     "building": [
+      12.0,
+      8.5,
+      4.6
+     ],
+     "roof_cantilever": 5.6,
+     "stele_height": 4.6
+    }
+   },
+   "triangles": {
+    "lod0": 21511,
+    "lod1": 6265,
+    "lod2": 1222,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "04_percent_arabica/percent_arabica.blend",
+     "bytes": 800579,
+     "mib": 0.76
+    },
+    "glb": {
+     "path": "04_percent_arabica/percent_arabica.glb",
+     "bytes": 5193580,
+     "mib": 4.95
+    },
+    "lod0_glb": {
+     "path": "04_percent_arabica/lod/percent_arabica_lod0.glb",
+     "bytes": 1016484,
+     "mib": 0.97
+    },
+    "lod1_glb": {
+     "path": "04_percent_arabica/lod/percent_arabica_lod1.glb",
+     "bytes": 413744,
+     "mib": 0.39
+    },
+    "lod2_glb": {
+     "path": "04_percent_arabica/lod/percent_arabica_lod2.glb",
+     "bytes": 102804,
+     "mib": 0.1
+    }
+   },
+   "materials": 32,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "travertine_albedo.jpg",
+    "travertine_normal.jpg",
+    "travertine_orm.jpg"
+   ],
+   "collision_proxies": 12,
+   "glb": {
+    "materials": 32,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 13,
+    "nodes": 66,
+    "meshes": 47,
+    "primitives": 129,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "travertine_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 579107
+     },
+     {
+      "name": "travertine_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 228140
+     },
+     {
+      "name": "travertine_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 278040
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "04_percent_arabica/renders/percent_arabica_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 202161
+    },
+    "night": {
+     "path": "04_percent_arabica/renders/percent_arabica_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 196114
+    },
+    "road_view": {
+     "path": "04_percent_arabica/renders/percent_arabica_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 221605
+    },
+    "detail": {
+     "path": "04_percent_arabica/renders/percent_arabica_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 179766
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "% ARABICA wall lockup",
+     "cap_height_m": 0.46,
+     "pixel_height": 18.3,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.71,
+     "distance_m": 35.8,
+     "readable": true
+    },
+    {
+     "name": "% ARABICA stele lockup",
+     "cap_height_m": 0.4,
+     "pixel_height": 18.6,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.29,
+     "distance_m": 33.6,
+     "readable": false
+    }
+   ],
+   "brand_note": "Black \"% ARABICA\" in a light geometric sans on white; simplified recreation.",
+   "render_seconds": {
+    "day": 90.7,
+    "night": 152.0,
+    "road_view": 71.2,
+    "detail": 218.5
+   }
+  },
+  {
+   "id": "05",
+   "name": "PAUL Bakery & Cafe",
+   "brand": "PAUL",
+   "folder": "assets/roadside_stores/additional_17/05_paul_bakery",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Boulevard podium retail",
+    "alternatives": [
+     "Premium restaurant frontage"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     39.122,
+     28.0,
+     9.67
+    ],
+    "lod0_min": [
+     -19.366,
+     -14.0,
+     -0.3
+    ],
+    "lod0_max": [
+     19.755,
+     14.0,
+     9.37
+    ],
+    "declared": {
+     "plot": [
+      36.0,
+      28.0
+     ],
+     "building": [
+      16.0,
+      9.0,
+      8.4
+     ],
+     "cornice_height": 8.540000000000001
+    }
+   },
+   "triangles": {
+    "lod0": 29938,
+    "lod1": 9479,
+    "lod2": 1918,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "05_paul_bakery/paul_bakery.blend",
+     "bytes": 1054924,
+     "mib": 1.01
+    },
+    "glb": {
+     "path": "05_paul_bakery/paul_bakery.glb",
+     "bytes": 5863928,
+     "mib": 5.59
+    },
+    "lod0_glb": {
+     "path": "05_paul_bakery/lod/paul_bakery_lod0.glb",
+     "bytes": 1440660,
+     "mib": 1.37
+    },
+    "lod1_glb": {
+     "path": "05_paul_bakery/lod/paul_bakery_lod1.glb",
+     "bytes": 601432,
+     "mib": 0.57
+    },
+    "lod2_glb": {
+     "path": "05_paul_bakery/lod/paul_bakery_lod2.glb",
+     "bytes": 151364,
+     "mib": 0.14
+    }
+   },
+   "materials": 41,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "travertine_albedo.jpg",
+    "travertine_normal.jpg",
+    "travertine_orm.jpg"
+   ],
+   "collision_proxies": 7,
+   "glb": {
+    "materials": 41,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 18,
+    "nodes": 64,
+    "meshes": 40,
+    "primitives": 138,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "travertine_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 579107
+     },
+     {
+      "name": "travertine_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 228140
+     },
+     {
+      "name": "travertine_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 278040
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "05_paul_bakery/renders/paul_bakery_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 231188
+    },
+    "night": {
+     "path": "05_paul_bakery/renders/paul_bakery_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 236322
+    },
+    "road_view": {
+     "path": "05_paul_bakery/renders/paul_bakery_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 221869
+    },
+    "detail": {
+     "path": "05_paul_bakery/renders/paul_bakery_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 204764
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "PAUL sign board",
+     "cap_height_m": 0.8,
+     "pixel_height": 33.7,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.69,
+     "distance_m": 33.8,
+     "readable": true
+    }
+   ],
+   "brand_note": "Gold serif \"PAUL\" on black facade; simplified, not the official typeface.",
+   "render_seconds": {
+    "day": 114.6,
+    "night": 149.2,
+    "road_view": 85.0,
+    "detail": 187.0
+   }
+  },
+  {
+   "id": "06",
+   "name": "Krispy Kreme",
+   "brand": "Krispy Kreme",
+   "folder": "assets/roadside_stores/additional_17/06_krispy_kreme",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Drive-through cluster",
+    "alternatives": [
+     "General commercial retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     50.856,
+     40.324,
+     8.92
+    ],
+    "lod0_min": [
+     -25.521,
+     -18.0,
+     -0.3
+    ],
+    "lod0_max": [
+     25.335,
+     22.324,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      48.0,
+      38.0
+     ],
+     "building": [
+      18.0,
+      10.0,
+      4.8
+     ],
+     "pylon_height": 7.6,
+     "vault_height": 5.25
+    }
+   },
+   "triangles": {
+    "lod0": 33323,
+    "lod1": 11720,
+    "lod2": 2107,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "06_krispy_kreme/krispy_kreme.blend",
+     "bytes": 1244658,
+     "mib": 1.19
+    },
+    "glb": {
+     "path": "06_krispy_kreme/krispy_kreme.glb",
+     "bytes": 5993904,
+     "mib": 5.72
+    },
+    "lod0_glb": {
+     "path": "06_krispy_kreme/lod/krispy_kreme_lod0.glb",
+     "bytes": 1609984,
+     "mib": 1.54
+    },
+    "lod1_glb": {
+     "path": "06_krispy_kreme/lod/krispy_kreme_lod1.glb",
+     "bytes": 722360,
+     "mib": 0.69
+    },
+    "lod2_glb": {
+     "path": "06_krispy_kreme/lod/krispy_kreme_lod2.glb",
+     "bytes": 154576,
+     "mib": 0.15
+    }
+   },
+   "materials": 44,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 10,
+   "glb": {
+    "materials": 44,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 15,
+    "nodes": 70,
+    "meshes": 49,
+    "primitives": 187,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "16 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "06_krispy_kreme/renders/krispy_kreme_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 212558
+    },
+    "night": {
+     "path": "06_krispy_kreme/renders/krispy_kreme_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 193756
+    },
+    "road_view": {
+     "path": "06_krispy_kreme/renders/krispy_kreme_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203199
+    },
+    "detail": {
+     "path": "06_krispy_kreme/renders/krispy_kreme_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 227346
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Krispy Kreme oval badge",
+     "cap_height_m": 0.68,
+     "pixel_height": 23.7,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.72,
+     "distance_m": 38.8,
+     "readable": true
+    },
+    {
+     "name": "Krispy Kreme pole sign",
+     "cap_height_m": 0.55,
+     "pixel_height": 17.2,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.2,
+     "distance_m": 46.6,
+     "readable": false
+    }
+   ],
+   "brand_note": "Red italic wordmark on green/white; the official script lettering is not reproduced.",
+   "render_seconds": {
+    "day": 66.3,
+    "night": 118.5,
+    "road_view": 69.0,
+    "detail": 158.2
+   }
+  },
+  {
+   "id": "07",
+   "name": "Baskin Robbins",
+   "brand": "Baskin Robbins",
+   "folder": "assets/roadside_stores/additional_17/07_baskin_robbins",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "General commercial retail",
+    "alternatives": [
+     "Boulevard podium retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     41.441,
+     32.268,
+     9.029
+    ],
+    "lod0_min": [
+     -20.65,
+     -15.107,
+     -0.3
+    ],
+    "lod0_max": [
+     20.792,
+     17.161,
+     8.729
+    ],
+    "declared": {
+     "plot": [
+      38.0,
+      30.0
+     ],
+     "building": [
+      12.0,
+      8.5,
+      5.0
+     ],
+     "cone_height": 8.776,
+     "totem_height": 6.0
+    }
+   },
+   "triangles": {
+    "lod0": 28994,
+    "lod1": 9332,
+    "lod2": 1707,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "07_baskin_robbins/baskin_robbins.blend",
+     "bytes": 1078290,
+     "mib": 1.03
+    },
+    "glb": {
+     "path": "07_baskin_robbins/baskin_robbins.glb",
+     "bytes": 5652528,
+     "mib": 5.39
+    },
+    "lod0_glb": {
+     "path": "07_baskin_robbins/lod/baskin_robbins_lod0.glb",
+     "bytes": 1409052,
+     "mib": 1.34
+    },
+    "lod1_glb": {
+     "path": "07_baskin_robbins/lod/baskin_robbins_lod1.glb",
+     "bytes": 592744,
+     "mib": 0.57
+    },
+    "lod2_glb": {
+     "path": "07_baskin_robbins/lod/baskin_robbins_lod2.glb",
+     "bytes": 139204,
+     "mib": 0.13
+    }
+   },
+   "materials": 40,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 8,
+   "glb": {
+    "materials": 40,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 13,
+    "nodes": 63,
+    "meshes": 44,
+    "primitives": 187,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "07_baskin_robbins/renders/baskin_robbins_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 211821
+    },
+    "night": {
+     "path": "07_baskin_robbins/renders/baskin_robbins_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 204839
+    },
+    "road_view": {
+     "path": "07_baskin_robbins/renders/baskin_robbins_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 197761
+    },
+    "detail": {
+     "path": "07_baskin_robbins/renders/baskin_robbins_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 202580
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Baskin Robbins wordmark",
+     "cap_height_m": 0.7,
+     "pixel_height": 40.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.98,
+     "distance_m": 24.6,
+     "readable": true
+    }
+   ],
+   "brand_note": "Blue wordmark with a pink \"31\" mark; simplified recreation.",
+   "render_seconds": {
+    "day": 104.4,
+    "night": 119.0,
+    "road_view": 55.2,
+    "detail": 133.4
+   }
+  },
+  {
+   "id": "08",
+   "name": "McDonald's",
+   "brand": "McDonald's",
+   "folder": "assets/roadside_stores/additional_17/08_mcdonalds",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Drive-through cluster",
+    "alternatives": [
+     "E11 roadside"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     66.538,
+     50.271,
+     9.8
+    ],
+    "lod0_min": [
+     -33.239,
+     -24.0,
+     -0.3
+    ],
+    "lod0_max": [
+     33.3,
+     26.271,
+     9.5
+    ],
+    "declared": {
+     "plot": [
+      64.0,
+      48.0
+     ],
+     "building": [
+      26.0,
+      16.0,
+      5.2
+     ],
+     "tower_height": 8.05,
+     "pylon_height": 9.5
+    }
+   },
+   "triangles": {
+    "lod0": 37483,
+    "lod1": 11735,
+    "lod2": 2170,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "08_mcdonalds/mcdonalds.blend",
+     "bytes": 1301094,
+     "mib": 1.24
+    },
+    "glb": {
+     "path": "08_mcdonalds/mcdonalds.glb",
+     "bytes": 6244328,
+     "mib": 5.96
+    },
+    "lod0_glb": {
+     "path": "08_mcdonalds/lod/mcdonalds_lod0.glb",
+     "bytes": 1734080,
+     "mib": 1.65
+    },
+    "lod1_glb": {
+     "path": "08_mcdonalds/lod/mcdonalds_lod1.glb",
+     "bytes": 739428,
+     "mib": 0.71
+    },
+    "lod2_glb": {
+     "path": "08_mcdonalds/lod/mcdonalds_lod2.glb",
+     "bytes": 171280,
+     "mib": 0.16
+    }
+   },
+   "materials": 45,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "woodv_albedo.jpg",
+    "woodv_orm.jpg"
+   ],
+   "collision_proxies": 14,
+   "glb": {
+    "materials": 45,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 18,
+    "nodes": 74,
+    "meshes": 50,
+    "primitives": 189,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "woodv_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 47552
+     },
+     {
+      "name": "woodv_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53420
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "08_mcdonalds/renders/mcdonalds_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203317
+    },
+    "night": {
+     "path": "08_mcdonalds/renders/mcdonalds_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 202404
+    },
+    "road_view": {
+     "path": "08_mcdonalds/renders/mcdonalds_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 194518
+    },
+    "detail": {
+     "path": "08_mcdonalds/renders/mcdonalds_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 206145
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "McDonalds tower arches",
+     "cap_height_m": 3.0,
+     "pixel_height": 91.1,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.78,
+     "distance_m": 44.3,
+     "readable": true
+    },
+    {
+     "name": "McDonalds wordmark",
+     "cap_height_m": 0.56,
+     "pixel_height": 17.1,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.79,
+     "distance_m": 44.4,
+     "readable": false
+    },
+    {
+     "name": "McDonalds pylon arches",
+     "cap_height_m": 1.9,
+     "pixel_height": 49.1,
+     "visible_fraction": 0.0,
+     "in_frame": false,
+     "occluders": [],
+     "facing_dot": 0.16,
+     "distance_m": 61.8,
+     "readable": false
+    }
+   ],
+   "brand_note": "Golden arches built as extruded arcs (simplified geometry, not the official artwork); red/yellow identity.",
+   "render_seconds": {
+    "day": 82.5,
+    "night": 120.4,
+    "road_view": 44.2,
+    "detail": 94.7
+   }
+  },
+  {
+   "id": "09",
+   "name": "KFC",
+   "brand": "KFC",
+   "folder": "assets/roadside_stores/additional_17/09_kfc",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Drive-through cluster",
+    "alternatives": [
+     "E11 roadside"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     59.401,
+     44.155,
+     8.92
+    ],
+    "lod0_min": [
+     -29.828,
+     -21.06,
+     -0.3
+    ],
+    "lod0_max": [
+     29.573,
+     23.095,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      56.0,
+      42.0
+     ],
+     "building": [
+      20.0,
+      11.0,
+      4.7
+     ],
+     "roof_sign_height": 7.6,
+     "pylon_height": 8.1
+    }
+   },
+   "triangles": {
+    "lod0": 32533,
+    "lod1": 10265,
+    "lod2": 1519,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "09_kfc/kfc.blend",
+     "bytes": 1110373,
+     "mib": 1.06
+    },
+    "glb": {
+     "path": "09_kfc/kfc.glb",
+     "bytes": 5850324,
+     "mib": 5.58
+    },
+    "lod0_glb": {
+     "path": "09_kfc/lod/kfc_lod0.glb",
+     "bytes": 1536392,
+     "mib": 1.47
+    },
+    "lod1_glb": {
+     "path": "09_kfc/lod/kfc_lod1.glb",
+     "bytes": 672812,
+     "mib": 0.64
+    },
+    "lod2_glb": {
+     "path": "09_kfc/lod/kfc_lod2.glb",
+     "bytes": 139636,
+     "mib": 0.13
+    }
+   },
+   "materials": 39,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 12,
+   "glb": {
+    "materials": 39,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 16,
+    "nodes": 76,
+    "meshes": 54,
+    "primitives": 194,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "10 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "09_kfc/renders/kfc_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 190515
+    },
+    "night": {
+     "path": "09_kfc/renders/kfc_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 188228
+    },
+    "road_view": {
+     "path": "09_kfc/renders/kfc_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 195910
+    },
+    "detail": {
+     "path": "09_kfc/renders/kfc_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 190739
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "KFC roof sign",
+     "cap_height_m": 1.22,
+     "pixel_height": 38.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.75,
+     "distance_m": 42.5,
+     "readable": true
+    },
+    {
+     "name": "KFC pole sign",
+     "cap_height_m": 0.8,
+     "pixel_height": 24.0,
+     "visible_fraction": 0.6,
+     "in_frame": true,
+     "occluders": [
+      "KFC_LOD0_Signage"
+     ],
+     "facing_dot": 0.18,
+     "distance_m": 51.4,
+     "readable": false
+    }
+   ],
+   "brand_note": "Red \"KFC\" lettering + striped bucket sign; the Colonel portrait is NOT reproduced.",
+   "render_seconds": {
+    "day": 73.3,
+    "night": 103.2,
+    "road_view": 44.2,
+    "detail": 86.9
+   }
+  },
+  {
+   "id": "10",
+   "name": "Five Guys",
+   "brand": "FIVE GUYS",
+   "folder": "assets/roadside_stores/additional_17/10_five_guys",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Premium restaurant frontage",
+    "alternatives": [
+     "General commercial retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     43.476,
+     32.269,
+     8.399
+    ],
+    "lod0_min": [
+     -21.912,
+     -16.269,
+     -0.3
+    ],
+    "lod0_max": [
+     21.565,
+     16.0,
+     8.099
+    ],
+    "declared": {
+     "plot": [
+      40.0,
+      32.0
+     ],
+     "building": [
+      14.0,
+      10.0,
+      5.8
+     ],
+     "totem_height": 4.3
+    }
+   },
+   "triangles": {
+    "lod0": 25874,
+    "lod1": 9718,
+    "lod2": 1239,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "10_five_guys/five_guys.blend",
+     "bytes": 976032,
+     "mib": 0.93
+    },
+    "glb": {
+     "path": "10_five_guys/five_guys.glb",
+     "bytes": 4876560,
+     "mib": 4.65
+    },
+    "lod0_glb": {
+     "path": "10_five_guys/lod/five_guys_lod0.glb",
+     "bytes": 1238832,
+     "mib": 1.18
+    },
+    "lod1_glb": {
+     "path": "10_five_guys/lod/five_guys_lod1.glb",
+     "bytes": 611980,
+     "mib": 0.58
+    },
+    "lod2_glb": {
+     "path": "10_five_guys/lod/five_guys_lod2.glb",
+     "bytes": 111064,
+     "mib": 0.11
+    }
+   },
+   "materials": 34,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "brick_albedo.jpg",
+    "brick_normal.jpg",
+    "brick_orm.jpg",
+    "checker_albedo.jpg",
+    "checker_normal.jpg",
+    "checker_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg"
+   ],
+   "collision_proxies": 10,
+   "glb": {
+    "materials": 34,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 13,
+    "nodes": 65,
+    "meshes": 46,
+    "primitives": 148,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "brick_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 218876
+     },
+     {
+      "name": "brick_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 58270
+     },
+     {
+      "name": "brick_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 86431
+     },
+     {
+      "name": "checker_normal",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 8727
+     },
+     {
+      "name": "checker_albedo",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 6802
+     },
+     {
+      "name": "checker_orm",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 9134
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "10_five_guys/renders/five_guys_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 224320
+    },
+    "night": {
+     "path": "10_five_guys/renders/five_guys_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203488
+    },
+    "road_view": {
+     "path": "10_five_guys/renders/five_guys_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 234406
+    },
+    "detail": {
+     "path": "10_five_guys/renders/five_guys_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 259645
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "FIVE GUYS sign board",
+     "cap_height_m": 0.72,
+     "pixel_height": 29.3,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.72,
+     "distance_m": 35.0,
+     "readable": true
+    },
+    {
+     "name": "FIVE GUYS totem",
+     "cap_height_m": 0.62,
+     "pixel_height": 26.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.26,
+     "distance_m": 36.6,
+     "readable": false
+    }
+   ],
+   "brand_note": "Red/white checker identity and wordmark in a bold sans; simplified recreation.",
+   "render_seconds": {
+    "day": 60.3,
+    "night": 86.6,
+    "road_view": 47.0,
+    "detail": 96.3
+   }
+  },
+  {
+   "id": "11",
+   "name": "Shake Shack",
+   "brand": "SHAKE SHACK",
+   "folder": "assets/roadside_stores/additional_17/11_shake_shack",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Premium restaurant frontage",
+    "alternatives": [
+     "Boulevard podium retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     46.876,
+     35.928,
+     8.92
+    ],
+    "lod0_min": [
+     -23.245,
+     -17.0,
+     -0.3
+    ],
+    "lod0_max": [
+     23.632,
+     18.928,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      44.0,
+      34.0
+     ],
+     "building": [
+      15.0,
+      9.0,
+      4.9
+     ],
+     "porch_ridge_height": 4.2,
+     "totem_height": 4.6
+    }
+   },
+   "triangles": {
+    "lod0": 31016,
+    "lod1": 8510,
+    "lod2": 1526,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "11_shake_shack/shake_shack.blend",
+     "bytes": 1106503,
+     "mib": 1.06
+    },
+    "glb": {
+     "path": "11_shake_shack/shake_shack.glb",
+     "bytes": 5007880,
+     "mib": 4.78
+    },
+    "lod0_glb": {
+     "path": "11_shake_shack/lod/shake_shack_lod0.glb",
+     "bytes": 1485652,
+     "mib": 1.42
+    },
+    "lod1_glb": {
+     "path": "11_shake_shack/lod/shake_shack_lod1.glb",
+     "bytes": 560440,
+     "mib": 0.53
+    },
+    "lod2_glb": {
+     "path": "11_shake_shack/lod/shake_shack_lod2.glb",
+     "bytes": 133536,
+     "mib": 0.13
+    }
+   },
+   "materials": 36,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "wood_albedo.jpg",
+    "wood_normal.jpg",
+    "wood_orm.jpg",
+    "woodv_albedo.jpg",
+    "woodv_orm.jpg"
+   ],
+   "collision_proxies": 10,
+   "glb": {
+    "materials": 36,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 15,
+    "nodes": 67,
+    "meshes": 46,
+    "primitives": 157,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "woodv_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 47552
+     },
+     {
+      "name": "woodv_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53420
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "wood_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53838
+     },
+     {
+      "name": "wood_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44948
+     },
+     {
+      "name": "wood_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 49695
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "6 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "11_shake_shack/renders/shake_shack_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 214804
+    },
+    "night": {
+     "path": "11_shake_shack/renders/shake_shack_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 218797
+    },
+    "road_view": {
+     "path": "11_shake_shack/renders/shake_shack_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 218143
+    },
+    "detail": {
+     "path": "11_shake_shack/renders/shake_shack_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 243696
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "SHAKE SHACK sign band",
+     "cap_height_m": 0.58,
+     "pixel_height": 20.8,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.69,
+     "distance_m": 39.7,
+     "readable": true
+    },
+    {
+     "name": "SHAKE SHACK totem",
+     "cap_height_m": 0.36,
+     "pixel_height": 13.9,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.23,
+     "distance_m": 40.4,
+     "readable": false
+    }
+   ],
+   "brand_note": "Green wordmark in a bold sans with a simplified shack-roof mark; not the official artwork.",
+   "render_seconds": {
+    "day": 60.6,
+    "night": 87.7,
+    "road_view": 50.0,
+    "detail": 91.7
+   }
+  },
+  {
+   "id": "12",
+   "name": "Subway",
+   "brand": "SUBWAY",
+   "folder": "assets/roadside_stores/additional_17/12_subway",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "General commercial retail",
+    "alternatives": [
+     "E11 roadside"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     39.346,
+     28.565,
+     8.701
+    ],
+    "lod0_min": [
+     -19.556,
+     -13.444,
+     -0.3
+    ],
+    "lod0_max": [
+     19.79,
+     15.121,
+     8.401
+    ],
+    "declared": {
+     "plot": [
+      36.0,
+      26.0
+     ],
+     "building": [
+      11.0,
+      7.0,
+      5.6
+     ],
+     "pole_sign_height": 6.4
+    }
+   },
+   "triangles": {
+    "lod0": 20068,
+    "lod1": 6628,
+    "lod2": 1519,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "12_subway/subway.blend",
+     "bytes": 819750,
+     "mib": 0.78
+    },
+    "glb": {
+     "path": "12_subway/subway.glb",
+     "bytes": 5027244,
+     "mib": 4.79
+    },
+    "lod0_glb": {
+     "path": "12_subway/lod/subway_lod0.glb",
+     "bytes": 960480,
+     "mib": 0.92
+    },
+    "lod1_glb": {
+     "path": "12_subway/lod/subway_lod1.glb",
+     "bytes": 432012,
+     "mib": 0.41
+    },
+    "lod2_glb": {
+     "path": "12_subway/lod/subway_lod2.glb",
+     "bytes": 123032,
+     "mib": 0.12
+    }
+   },
+   "materials": 39,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 8,
+   "glb": {
+    "materials": 39,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 11,
+    "nodes": 61,
+    "meshes": 44,
+    "primitives": 169,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "4 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "12_subway/renders/subway_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 200974
+    },
+    "night": {
+     "path": "12_subway/renders/subway_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 193324
+    },
+    "road_view": {
+     "path": "12_subway/renders/subway_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 208283
+    },
+    "detail": {
+     "path": "12_subway/renders/subway_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 189188
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "SUBWAY wordmark",
+     "cap_height_m": 0.62,
+     "pixel_height": 29.2,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.74,
+     "distance_m": 30.2,
+     "readable": true
+    },
+    {
+     "name": "SUBWAY pole sign",
+     "cap_height_m": 0.36,
+     "pixel_height": 16.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.28,
+     "distance_m": 34.1,
+     "readable": false
+    }
+   ],
+   "brand_note": "Green/yellow wordmark with double arrow ends built from simple polygons; simplified recreation.",
+   "render_seconds": {
+    "day": 65.4,
+    "night": 91.8,
+    "road_view": 48.0,
+    "detail": 93.5
+   }
+  },
+  {
+   "id": "13",
+   "name": "Pizza Hut",
+   "brand": "Pizza Hut",
+   "folder": "assets/roadside_stores/additional_17/13_pizza_hut",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "E11 roadside",
+    "alternatives": [
+     "Drive-through cluster"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     51.535,
+     37.806,
+     8.92
+    ],
+    "lod0_min": [
+     -25.624,
+     -18.0,
+     -0.3
+    ],
+    "lod0_max": [
+     25.912,
+     19.806,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      48.0,
+      36.0
+     ],
+     "building": [
+      17.0,
+      12.0,
+      3.6
+     ],
+     "roof_top_height": 7.6,
+     "roof_footprint": [
+      19.8,
+      14.799999999999999
+     ],
+     "pole_sign_height": 7.4
+    }
+   },
+   "triangles": {
+    "lod0": 28776,
+    "lod1": 10152,
+    "lod2": 1312,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "13_pizza_hut/pizza_hut.blend",
+     "bytes": 1099715,
+     "mib": 1.05
+    },
+    "glb": {
+     "path": "13_pizza_hut/pizza_hut.glb",
+     "bytes": 6021064,
+     "mib": 5.74
+    },
+    "lod0_glb": {
+     "path": "13_pizza_hut/lod/pizza_hut_lod0.glb",
+     "bytes": 1366716,
+     "mib": 1.3
+    },
+    "lod1_glb": {
+     "path": "13_pizza_hut/lod/pizza_hut_lod1.glb",
+     "bytes": 640064,
+     "mib": 0.61
+    },
+    "lod2_glb": {
+     "path": "13_pizza_hut/lod/pizza_hut_lod2.glb",
+     "bytes": 118120,
+     "mib": 0.11
+    }
+   },
+   "materials": 41,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "brick_albedo.jpg",
+    "brick_normal.jpg",
+    "brick_orm.jpg",
+    "checker_albedo.jpg",
+    "checker_normal.jpg",
+    "checker_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 10,
+   "glb": {
+    "materials": 41,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 14,
+    "nodes": 66,
+    "meshes": 46,
+    "primitives": 163,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "brick_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 218876
+     },
+     {
+      "name": "brick_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 58270
+     },
+     {
+      "name": "brick_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 86431
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     },
+     {
+      "name": "checker_normal",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 8727
+     },
+     {
+      "name": "checker_albedo",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 6802
+     },
+     {
+      "name": "checker_orm",
+      "size": [
+       256,
+       256
+      ],
+      "bytes": 9134
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "18 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "13_pizza_hut/renders/pizza_hut_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 204139
+    },
+    "night": {
+     "path": "13_pizza_hut/renders/pizza_hut_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 193394
+    },
+    "road_view": {
+     "path": "13_pizza_hut/renders/pizza_hut_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 201810
+    },
+    "detail": {
+     "path": "13_pizza_hut/renders/pizza_hut_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 243736
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Pizza Hut roof-slope logo",
+     "cap_height_m": 1.1,
+     "pixel_height": 24.5,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.41,
+     "distance_m": 33.3,
+     "readable": true
+    },
+    {
+     "name": "Pizza Hut pole sign",
+     "cap_height_m": 0.54,
+     "pixel_height": 43.6,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.52,
+     "distance_m": 18.4,
+     "readable": true
+    }
+   ],
+   "brand_note": "Red-roof silhouette with white wordmark; simplified recreation, not the official logo.",
+   "render_seconds": {
+    "day": 55.0,
+    "night": 76.6,
+    "road_view": 50.0,
+    "detail": 67.8
+   }
+  },
+  {
+   "id": "14",
+   "name": "Operation Falafel",
+   "brand": "OPERATION FALAFEL",
+   "folder": "assets/roadside_stores/additional_17/14_operation_falafel",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "Boulevard podium retail",
+    "alternatives": [
+     "Premium restaurant frontage"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     43.403,
+     33.029,
+     11.2
+    ],
+    "lod0_min": [
+     -21.922,
+     -16.0,
+     -0.3
+    ],
+    "lod0_max": [
+     21.48,
+     17.029,
+     10.9
+    ],
+    "declared": {
+     "plot": [
+      40.0,
+      32.0
+     ],
+     "building": [
+      14.0,
+      10.0,
+      7.0
+     ],
+     "tower_height": 10.9,
+     "stele_height": 3.5
+    }
+   },
+   "triangles": {
+    "lod0": 43242,
+    "lod1": 15698,
+    "lod2": 1769,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "14_operation_falafel/operation_falafel.blend",
+     "bytes": 1577501,
+     "mib": 1.5
+    },
+    "glb": {
+     "path": "14_operation_falafel/operation_falafel.glb",
+     "bytes": 6532316,
+     "mib": 6.23
+    },
+    "lod0_glb": {
+     "path": "14_operation_falafel/lod/operation_falafel_lod0.glb",
+     "bytes": 1992084,
+     "mib": 1.9
+    },
+    "lod1_glb": {
+     "path": "14_operation_falafel/lod/operation_falafel_lod1.glb",
+     "bytes": 894164,
+     "mib": 0.85
+    },
+    "lod2_glb": {
+     "path": "14_operation_falafel/lod/operation_falafel_lod2.glb",
+     "bytes": 137292,
+     "mib": 0.13
+    }
+   },
+   "materials": 36,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 10,
+   "glb": {
+    "materials": 36,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 14,
+    "nodes": 63,
+    "meshes": 43,
+    "primitives": 149,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "145 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "14_operation_falafel/renders/operation_falafel_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 221575
+    },
+    "night": {
+     "path": "14_operation_falafel/renders/operation_falafel_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 210416
+    },
+    "road_view": {
+     "path": "14_operation_falafel/renders/operation_falafel_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 211068
+    },
+    "detail": {
+     "path": "14_operation_falafel/renders/operation_falafel_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 234198
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Operation Falafel tower",
+     "cap_height_m": 0.36,
+     "pixel_height": 21.1,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.99,
+     "distance_m": 25.1,
+     "readable": true
+    },
+    {
+     "name": "Operation Falafel fascia wordmark",
+     "cap_height_m": 0.58,
+     "pixel_height": 30.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.95,
+     "distance_m": 26.8,
+     "readable": true
+    },
+    {
+     "name": "Operation Falafel stele",
+     "cap_height_m": 0.33,
+     "pixel_height": 31.6,
+     "visible_fraction": 0.0,
+     "in_frame": false,
+     "occluders": [],
+     "facing_dot": 0.47,
+     "distance_m": 20.7,
+     "readable": false
+    }
+   ],
+   "brand_note": "Wordmark + Arabic text in simplified form; not the official logo artwork.",
+   "render_seconds": {
+    "day": 64.8,
+    "night": 98.4,
+    "road_view": 57.2,
+    "detail": 100.7
+   }
+  },
+  {
+   "id": "15",
+   "name": "Spinneys Market",
+   "brand": "Spinneys",
+   "folder": "assets/roadside_stores/additional_17/15_spinneys",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "General commercial retail",
+    "alternatives": [
+     "Boulevard podium retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     67.839,
+     46.306,
+     8.92
+    ],
+    "lod0_min": [
+     -34.088,
+     -22.0,
+     -0.3
+    ],
+    "lod0_max": [
+     33.75,
+     24.306,
+     8.62
+    ],
+    "declared": {
+     "plot": [
+      64.0,
+      44.0
+     ],
+     "building": [
+      36.0,
+      16.0,
+      7.4
+     ],
+     "portico_depth": 6.0,
+     "pylon_height": 8.1
+    }
+   },
+   "triangles": {
+    "lod0": 100818,
+    "lod1": 14400,
+    "lod2": 2397,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "15_spinneys/spinneys.blend",
+     "bytes": 2419758,
+     "mib": 2.31
+    },
+    "glb": {
+     "path": "15_spinneys/spinneys.glb",
+     "bytes": 12448468,
+     "mib": 11.87
+    },
+    "lod0_glb": {
+     "path": "15_spinneys/lod/spinneys_lod0.glb",
+     "bytes": 6664092,
+     "mib": 6.36
+    },
+    "lod1_glb": {
+     "path": "15_spinneys/lod/spinneys_lod1.glb",
+     "bytes": 915484,
+     "mib": 0.87
+    },
+    "lod2_glb": {
+     "path": "15_spinneys/lod/spinneys_lod2.glb",
+     "bytes": 182884,
+     "mib": 0.17
+    }
+   },
+   "materials": 45,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "products_albedo.png",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg",
+    "travertine_albedo.jpg",
+    "travertine_normal.jpg",
+    "travertine_orm.jpg",
+    "woodv_albedo.jpg",
+    "woodv_orm.jpg"
+   ],
+   "collision_proxies": 14,
+   "glb": {
+    "materials": 45,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 17,
+    "nodes": 70,
+    "meshes": 47,
+    "primitives": 168,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "travertine_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 579107
+     },
+     {
+      "name": "travertine_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 228140
+     },
+     {
+      "name": "travertine_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 278040
+     },
+     {
+      "name": "woodv_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 47552
+     },
+     {
+      "name": "woodv_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 53420
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     },
+     {
+      "name": "products_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 7105
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "6 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "15_spinneys/renders/spinneys_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203459
+    },
+    "night": {
+     "path": "15_spinneys/renders/spinneys_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 193862
+    },
+    "road_view": {
+     "path": "15_spinneys/renders/spinneys_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 201723
+    },
+    "detail": {
+     "path": "15_spinneys/renders/spinneys_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 205005
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "Spinneys fascia wordmark",
+     "cap_height_m": 0.97,
+     "pixel_height": 35.8,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.93,
+     "distance_m": 35.8,
+     "readable": true
+    },
+    {
+     "name": "Spinneys pylon",
+     "cap_height_m": 0.68,
+     "pixel_height": 37.1,
+     "visible_fraction": 0.0,
+     "in_frame": false,
+     "occluders": [],
+     "facing_dot": 0.25,
+     "distance_m": 38.0,
+     "readable": false
+    }
+   ],
+   "brand_note": "Green wordmark in a rounded sans; simplified recreation.",
+   "render_seconds": {
+    "day": 58.7,
+    "night": 86.8,
+    "road_view": 60.1,
+    "detail": 133.5
+   }
+  },
+  {
+   "id": "16",
+   "name": "Life Pharmacy",
+   "brand": "life PHARMACY",
+   "folder": "assets/roadside_stores/additional_17/16_life_pharmacy",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "General commercial retail",
+    "alternatives": [
+     "Boulevard podium retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     39.815,
+     29.857,
+     8.482
+    ],
+    "lod0_min": [
+     -20.065,
+     -14.222,
+     -0.3
+    ],
+    "lod0_max": [
+     19.749,
+     15.635,
+     8.182
+    ],
+    "declared": {
+     "plot": [
+      36.0,
+      28.0
+     ],
+     "building": [
+      14.0,
+      9.0,
+      5.4
+     ],
+     "totem_height": 5.3,
+     "blade_cross_height": 4.9
+    }
+   },
+   "triangles": {
+    "lod0": 32774,
+    "lod1": 8402,
+    "lod2": 1369,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "16_life_pharmacy/life_pharmacy.blend",
+     "bytes": 1005033,
+     "mib": 0.96
+    },
+    "glb": {
+     "path": "16_life_pharmacy/life_pharmacy.glb",
+     "bytes": 6130256,
+     "mib": 5.85
+    },
+    "lod0_glb": {
+     "path": "16_life_pharmacy/lod/life_pharmacy_lod0.glb",
+     "bytes": 1949912,
+     "mib": 1.86
+    },
+    "lod1_glb": {
+     "path": "16_life_pharmacy/lod/life_pharmacy_lod1.glb",
+     "bytes": 547068,
+     "mib": 0.52
+    },
+    "lod2_glb": {
+     "path": "16_life_pharmacy/lod/life_pharmacy_lod2.glb",
+     "bytes": 115928,
+     "mib": 0.11
+    }
+   },
+   "materials": 35,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "paver_albedo.jpg",
+    "paver_normal.jpg",
+    "paver_orm.jpg",
+    "products_albedo.png",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 8,
+   "glb": {
+    "materials": 35,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 12,
+    "nodes": 61,
+    "meshes": 43,
+    "primitives": 138,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "paver_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 501637
+     },
+     {
+      "name": "paver_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 201702
+     },
+     {
+      "name": "paver_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 227618
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     },
+     {
+      "name": "products_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 7105
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "17 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "16_life_pharmacy/renders/life_pharmacy_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 206778
+    },
+    "night": {
+     "path": "16_life_pharmacy/renders/life_pharmacy_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 196739
+    },
+    "road_view": {
+     "path": "16_life_pharmacy/renders/life_pharmacy_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 204023
+    },
+    "detail": {
+     "path": "16_life_pharmacy/renders/life_pharmacy_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 208869
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "life PHARMACY lockup",
+     "cap_height_m": 0.82,
+     "pixel_height": 36.0,
+     "visible_fraction": 0.9,
+     "in_frame": true,
+     "occluders": [
+      "LIFE_LOD0_Signage"
+     ],
+     "facing_dot": 0.72,
+     "distance_m": 32.3,
+     "readable": true
+    },
+    {
+     "name": "life PHARMACY totem",
+     "cap_height_m": 0.72,
+     "pixel_height": 32.4,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.27,
+     "distance_m": 35.0,
+     "readable": false
+    }
+   ],
+   "brand_note": "Blue wordmark with a simplified green cross; recreation, not official artwork.",
+   "render_seconds": {
+    "day": 66.0,
+    "night": 94.3,
+    "road_view": 48.4,
+    "detail": 99.5
+   }
+  },
+  {
+   "id": "17",
+   "name": "Premium Auto Care",
+   "brand": "PREMIUM AUTO CARE",
+   "folder": "assets/roadside_stores/additional_17/17_premium_auto_care",
+   "status": "complete",
+   "recommended_placement": {
+    "primary": "E11 roadside",
+    "alternatives": [
+     "General commercial retail"
+    ],
+    "note": "Reusable asset: not a geographic placement; real-world positions are handled separately from Dubai road/building data."
+   },
+   "dimensions_m": {
+    "lod0_bounding_box_xyz": [
+     55.36,
+     41.988,
+     8.75
+    ],
+    "lod0_min": [
+     -27.66,
+     -20.211,
+     -0.3
+    ],
+    "lod0_max": [
+     27.7,
+     21.777,
+     8.45
+    ],
+    "declared": {
+     "plot": [
+      52.0,
+      40.0
+     ],
+     "building": [
+      30.0,
+      15.0,
+      6.4
+     ],
+     "showroom_height": 5.6,
+     "pylon_height": 8.45,
+     "bays": 3
+    }
+   },
+   "triangles": {
+    "lod0": 32289,
+    "lod1": 13223,
+    "lod2": 1616,
+    "source": "read back from exported GLB JSON (accessor index counts), cross-checked against Blender and re-import"
+   },
+   "lod_ranges_m": {
+    "lod0": [
+     0,
+     60
+    ],
+    "lod1": [
+     60,
+     170
+    ],
+    "lod2": [
+     170,
+     900
+    ]
+   },
+   "files": {
+    "blend": {
+     "path": "17_premium_auto_care/premium_auto_care.blend",
+     "bytes": 1256602,
+     "mib": 1.2
+    },
+    "glb": {
+     "path": "17_premium_auto_care/premium_auto_care.glb",
+     "bytes": 5150428,
+     "mib": 4.91
+    },
+    "lod0_glb": {
+     "path": "17_premium_auto_care/lod/premium_auto_care_lod0.glb",
+     "bytes": 1631440,
+     "mib": 1.56
+    },
+    "lod1_glb": {
+     "path": "17_premium_auto_care/lod/premium_auto_care_lod1.glb",
+     "bytes": 809100,
+     "mib": 0.77
+    },
+    "lod2_glb": {
+     "path": "17_premium_auto_care/lod/premium_auto_care_lod2.glb",
+     "bytes": 138288,
+     "mib": 0.13
+    }
+   },
+   "materials": 42,
+   "texture_files": [
+    "asphalt_albedo.jpg",
+    "asphalt_normal.jpg",
+    "asphalt_orm.jpg",
+    "concrete_albedo.jpg",
+    "concrete_normal.jpg",
+    "concrete_orm.jpg",
+    "gravel_albedo.jpg",
+    "gravel_normal.jpg",
+    "gravel_orm.jpg",
+    "products_albedo.png",
+    "tilefloor_albedo.jpg",
+    "tilefloor_orm.jpg"
+   ],
+   "collision_proxies": 16,
+   "glb": {
+    "materials": 42,
+    "alpha_blend_materials": [
+     "RS_Glass"
+    ],
+    "lights": 22,
+    "nodes": 82,
+    "meshes": 54,
+    "primitives": 185,
+    "extensions": [
+     "KHR_materials_emissive_strength",
+     "KHR_materials_specular",
+     "KHR_lights_punctual"
+    ],
+    "embedded_images": [
+     {
+      "name": "concrete_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 469407
+     },
+     {
+      "name": "concrete_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 148835
+     },
+     {
+      "name": "concrete_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 186169
+     },
+     {
+      "name": "asphalt_normal",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 1130883
+     },
+     {
+      "name": "asphalt_albedo",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 145846
+     },
+     {
+      "name": "asphalt_orm",
+      "size": [
+       1024,
+       1024
+      ],
+      "bytes": 263234
+     },
+     {
+      "name": "gravel_normal",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 115472
+     },
+     {
+      "name": "gravel_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 52812
+     },
+     {
+      "name": "gravel_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 44281
+     },
+     {
+      "name": "tilefloor_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 31732
+     },
+     {
+      "name": "tilefloor_orm",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 21338
+     },
+     {
+      "name": "products_albedo",
+      "size": [
+       512,
+       512
+      ],
+      "bytes": 7105
+     }
+    ]
+   },
+   "validation": {
+    "passed": true,
+    "failed_checks": [],
+    "warnings": [
+     "22 zero-area faces in LOD0 (font triangulation slivers)"
+    ],
+    "checks": {
+     "lod_objects_exist": true,
+     "lod_budgets_decreasing": true,
+     "lod_ratio": true,
+     "no_nan_geometry": true,
+     "uvs_present": true,
+     "material_indices_valid": true,
+     "no_loose_vertices": true,
+     "normals_not_flipped": true,
+     "dimensions_sane": true,
+     "ground_at_z0": true,
+     "lod1_bounds_match_lod0": true,
+     "lod2_bounds_match_lod0": true,
+     "collision_proxies": true,
+     "night_lights": true,
+     "lod_extras": true,
+     "texture_files_ok": true,
+     "materials": true,
+     "glb_textures_decode": true,
+     "glb_tris_match_blend": true,
+     "glb_collision_nodes": true,
+     "lod_glb_tris": true,
+     "reimport_meshes": true,
+     "reimport_tris": true,
+     "reimport_bounds": true,
+     "reimport_textures": true
+    }
+   },
+   "renders": {
+    "day": {
+     "path": "17_premium_auto_care/renders/premium_auto_care_day.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203250
+    },
+    "night": {
+     "path": "17_premium_auto_care/renders/premium_auto_care_night.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 203480
+    },
+    "road_view": {
+     "path": "17_premium_auto_care/renders/premium_auto_care_road_view.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 211494
+    },
+    "detail": {
+     "path": "17_premium_auto_care/renders/premium_auto_care_detail.jpg",
+     "size": [
+      1600,
+      900
+     ],
+     "bytes": 149531
+    }
+   },
+   "road_view_sign_check": [
+    {
+     "name": "PREMIUM AUTO CARE wordmark",
+     "cap_height_m": 0.66,
+     "pixel_height": 20.3,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.7,
+     "distance_m": 43.2,
+     "readable": true
+    },
+    {
+     "name": "PREMIUM AUTO CARE pylon",
+     "cap_height_m": 0.38,
+     "pixel_height": 23.1,
+     "visible_fraction": 1.0,
+     "in_frame": true,
+     "occluders": [],
+     "facing_dot": 0.41,
+     "distance_m": 22.8,
+     "readable": true
+    }
+   ],
+   "brand_note": "Generic (original) detailing-centre brand created for this asset; no third-party partnership implied.",
+   "render_seconds": {
+    "day": 58.3,
+    "night": 88.8,
+    "road_view": 52.8,
+    "detail": 81.7
+   }
+  }
+ ]
+}

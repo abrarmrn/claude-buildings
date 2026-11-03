@@ -1,0 +1,41 @@
+{
+ "day_seconds": 82.5,
+ "night_seconds": 120.4,
+ "road_view_sign": [
+  {
+   "name": "McDonalds tower arches",
+   "cap_height_m": 3.0,
+   "pixel_height": 91.1,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.78,
+   "distance_m": 44.3,
+   "readable": true
+  },
+  {
+   "name": "McDonalds wordmark",
+   "cap_height_m": 0.56,
+   "pixel_height": 17.1,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.79,
+   "distance_m": 44.4,
+   "readable": false
+  },
+  {
+   "name": "McDonalds pylon arches",
+   "cap_height_m": 1.9,
+   "pixel_height": 49.1,
+   "visible_fraction": 0.0,
+   "in_frame": false,
+   "occluders": [],
+   "facing_dot": 0.16,
+   "distance_m": 61.8,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 44.2,
+ "detail_seconds": 94.7
+}

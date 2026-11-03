@@ -1,0 +1,673 @@
+{
+ "store": "shake_shack",
+ "checks": {
+  "lod_objects_exist": {
+   "ok": true,
+   "detail": {
+    "0": 13,
+    "1": 13,
+    "2": 10
+   }
+  },
+  "lod_budgets_decreasing": {
+   "ok": true,
+   "detail": {
+    "0": 31016,
+    "1": 8510,
+    "2": 1526
+   }
+  },
+  "lod_ratio": {
+   "ok": true,
+   "detail": {
+    "l1_over_l0": 0.274,
+    "l2_over_l1": 0.179
+   }
+  },
+  "no_nan_geometry": {
+   "ok": true,
+   "detail": {
+    "nan": 0,
+    "zero_area": 6,
+    "loose": 0,
+    "bad_matidx": 0,
+    "no_uv": 0,
+    "uv_nan": 0,
+    "flipped": 0,
+    "watertight": 435,
+    "pieces": 719
+   }
+  },
+  "uvs_present": {
+   "ok": true,
+   "detail": 0
+  },
+  "material_indices_valid": {
+   "ok": true,
+   "detail": 0
+  },
+  "no_loose_vertices": {
+   "ok": true,
+   "detail": 0
+  },
+  "normals_not_flipped": {
+   "ok": true,
+   "detail": {
+    "flipped_pieces": 0,
+    "watertight_pieces": 435,
+    "pieces": 719
+   }
+  },
+  "dimensions_sane": {
+   "ok": true,
+   "detail": [
+    46.876,
+    35.928,
+    8.92
+   ]
+  },
+  "ground_at_z0": {
+   "ok": true,
+   "detail": [
+    -23.245,
+    -17.0,
+    -0.3
+   ]
+  },
+  "lod1_bounds_match_lod0": {
+   "ok": true,
+   "detail": {
+    "lod0": [
+     46.876,
+     35.928,
+     8.92
+    ],
+    "lod": [
+     47.195,
+     35.975,
+     8.92
+    ]
+   }
+  },
+  "lod2_bounds_match_lod0": {
+   "ok": true,
+   "detail": {
+    "lod0": [
+     46.876,
+     35.928,
+     8.92
+    ],
+    "lod": [
+     47.276,
+     35.94,
+     8.92
+    ]
+   }
+  },
+  "collision_proxies": {
+   "ok": true,
+   "detail": 10
+  },
+  "night_lights": {
+   "ok": true,
+   "detail": 16
+  },
+  "lod_extras": {
+   "ok": true,
+   "detail": [
+    "SHACK_LOD0",
+    "SHACK_LOD1",
+    "SHACK_LOD2"
+   ]
+  },
+  "texture_files_ok": {
+   "ok": true,
+   "detail": "16 distinct texture refs"
+  },
+  "materials": {
+   "ok": true,
+   "detail": 36
+  },
+  "glb_textures_decode": {
+   "ok": true,
+   "detail": "16 embedded images decoded"
+  },
+  "glb_tris_match_blend": {
+   "ok": true,
+   "detail": {
+    "glb": {
+     "0": 31016,
+     "1": 8510,
+     "2": 1526
+    },
+    "blend": {
+     "0": 31016,
+     "1": 8510,
+     "2": 1526
+    }
+   }
+  },
+  "glb_collision_nodes": {
+   "ok": true,
+   "detail": 10
+  },
+  "lod_glb_tris": {
+   "ok": true,
+   "detail": {
+    "0": {
+     "triangles": 31016,
+     "bytes": 1485652
+    },
+    "1": {
+     "triangles": 8510,
+     "bytes": 560440
+    },
+    "2": {
+     "triangles": 1526,
+     "bytes": 133536
+    }
+   }
+  },
+  "reimport_meshes": {
+   "ok": true,
+   "detail": 36
+  },
+  "reimport_tris": {
+   "ok": true,
+   "detail": {
+    "0": 31016,
+    "1": 8510,
+    "2": 1526
+   }
+  },
+  "reimport_bounds": {
+   "ok": true,
+   "detail": {
+    "reimport": [
+     46.876,
+     35.928,
+     8.92
+    ],
+    "blend": [
+     46.876,
+     35.928,
+     8.92
+    ]
+   }
+  },
+  "reimport_textures": {
+   "ok": true,
+   "detail": "16 images"
+  }
+ },
+ "warnings": [
+  "6 zero-area faces in LOD0 (font triangulation slivers)"
+ ],
+ "errors": [],
+ "mesh_integrity": {
+  "nan": 0,
+  "zero_area": 6,
+  "loose": 0,
+  "bad_matidx": 0,
+  "no_uv": 0,
+  "uv_nan": 0,
+  "flipped": 0,
+  "watertight": 435,
+  "pieces": 719
+ },
+ "blend": {
+  "lod": {
+   "0": {
+    "triangles": 31016,
+    "vertices": 18064,
+    "objects": 13
+   },
+   "1": {
+    "triangles": 8510,
+    "vertices": 5618,
+    "objects": 13
+   },
+   "2": {
+    "triangles": 1526,
+    "vertices": 1286,
+    "objects": 10
+   }
+  },
+  "bounds": {
+   "0": {
+    "min": [
+     -23.245,
+     -17.0,
+     -0.3
+    ],
+    "max": [
+     23.632,
+     18.928,
+     8.62
+    ],
+    "size": [
+     46.876,
+     35.928,
+     8.92
+    ]
+   },
+   "1": {
+    "min": [
+     -23.563,
+     -17.0,
+     -0.3
+    ],
+    "max": [
+     23.632,
+     18.975,
+     8.62
+    ],
+    "size": [
+     47.195,
+     35.975,
+     8.92
+    ]
+   },
+   "2": {
+    "min": [
+     -23.644,
+     -17.0,
+     -0.3
+    ],
+    "max": [
+     23.632,
+     18.94,
+     8.62
+    ],
+    "size": [
+     47.276,
+     35.94,
+     8.92
+    ]
+   }
+  },
+  "materials": [
+   "RS_Asphalt",
+   "RS_CarBlue",
+   "RS_CarGlass",
+   "RS_CarSilver",
+   "RS_Concrete",
+   "RS_Foliage",
+   "RS_Foliage2",
+   "RS_Glass",
+   "RS_GlassLOD",
+   "RS_Gravel",
+   "RS_LampHead",
+   "RS_LightWarm",
+   "RS_LineWhite",
+   "RS_MetalBrushed",
+   "RS_MetalDark",
+   "RS_MetalGalv",
+   "RS_PaintCharcoal",
+   "RS_PaintWhite",
+   "RS_PalmFrond",
+   "RS_PalmTrunk",
+   "RS_PlasticBlack",
+   "RS_ReflectorYellow",
+   "RS_Rubber",
+   "RS_Soil",
+   "RS_Tail",
+   "RS_TileFloor",
+   "RS_Wood",
+   "RS_WoodV",
+   "SS_Bulb",
+   "SS_Cream",
+   "SS_DarkGreen",
+   "SS_Green",
+   "SS_GreenLit",
+   "SS_Menu",
+   "SS_Panel",
+   "SS_Roof"
+  ],
+  "material_count": 36,
+  "textures": [
+   {
+    "image": "asphalt_albedo.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "asphalt_normal.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "asphalt_orm.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_albedo.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_normal.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_orm.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "gravel_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "gravel_normal.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "gravel_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "tilefloor_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "tilefloor_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "wood_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "wood_normal.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "wood_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "woodv_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "woodv_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   }
+  ],
+  "collision_proxies": 10,
+  "declared_dimensions": {
+   "plot": [
+    44.0,
+    34.0
+   ],
+   "building": [
+    15.0,
+    9.0,
+    4.9
+   ],
+   "porch_ridge_height": 4.2,
+   "totem_height": 4.6
+  }
+ },
+ "glb": {
+  "bytes": 5007880,
+  "lod_triangles": {
+   "0": 31016,
+   "1": 8510,
+   "2": 1526
+  },
+  "lod_files": {
+   "0": {
+    "triangles": 31016,
+    "bytes": 1485652
+   },
+   "1": {
+    "triangles": 8510,
+    "bytes": 560440
+   },
+   "2": {
+    "triangles": 1526,
+    "bytes": 133536
+   }
+  },
+  "materials": 36,
+  "alpha_blend": [
+   "RS_Glass"
+  ],
+  "images": [
+   {
+    "name": "concrete_normal",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 469407
+   },
+   {
+    "name": "concrete_albedo",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 148835
+   },
+   {
+    "name": "concrete_orm",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 186169
+   },
+   {
+    "name": "woodv_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 47552
+   },
+   {
+    "name": "woodv_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 53420
+   },
+   {
+    "name": "asphalt_normal",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 1130883
+   },
+   {
+    "name": "asphalt_albedo",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 145846
+   },
+   {
+    "name": "asphalt_orm",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 263234
+   },
+   {
+    "name": "wood_normal",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 53838
+   },
+   {
+    "name": "wood_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 44948
+   },
+   {
+    "name": "wood_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 49695
+   },
+   {
+    "name": "gravel_normal",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 115472
+   },
+   {
+    "name": "gravel_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 52812
+   },
+   {
+    "name": "gravel_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 44281
+   },
+   {
+    "name": "tilefloor_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 31732
+   },
+   {
+    "name": "tilefloor_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 21338
+   }
+  ],
+  "extensions": [
+   "KHR_materials_emissive_strength",
+   "KHR_materials_specular",
+   "KHR_lights_punctual"
+  ],
+  "lights": 15,
+  "nodes": 67,
+  "meshes": 46,
+  "primitives": 157,
+  "collision_nodes": 10,
+  "reimport": {
+   "meshes": 36,
+   "tris": {
+    "0": 31016,
+    "1": 8510,
+    "2": 1526
+   },
+   "size": [
+    46.876,
+    35.928,
+    8.92
+   ]
+  }
+ },
+ "files": {
+  "blend_bytes": 1106503,
+  "glb_bytes": 5007880
+ },
+ "passed": true
+}

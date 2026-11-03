@@ -1,0 +1,30 @@
+{
+ "day_seconds": 65.4,
+ "night_seconds": 91.8,
+ "road_view_sign": [
+  {
+   "name": "SUBWAY wordmark",
+   "cap_height_m": 0.62,
+   "pixel_height": 29.2,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.74,
+   "distance_m": 30.2,
+   "readable": true
+  },
+  {
+   "name": "SUBWAY pole sign",
+   "cap_height_m": 0.36,
+   "pixel_height": 16.4,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.28,
+   "distance_m": 34.1,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 48.0,
+ "detail_seconds": 93.5
+}

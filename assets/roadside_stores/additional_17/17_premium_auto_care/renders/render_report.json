@@ -1,0 +1,30 @@
+{
+ "day_seconds": 58.3,
+ "night_seconds": 88.8,
+ "road_view_sign": [
+  {
+   "name": "PREMIUM AUTO CARE wordmark",
+   "cap_height_m": 0.66,
+   "pixel_height": 20.3,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.7,
+   "distance_m": 43.2,
+   "readable": true
+  },
+  {
+   "name": "PREMIUM AUTO CARE pylon",
+   "cap_height_m": 0.38,
+   "pixel_height": 23.1,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.41,
+   "distance_m": 22.8,
+   "readable": true
+  }
+ ],
+ "road_view_seconds": 52.8,
+ "detail_seconds": 81.7
+}
