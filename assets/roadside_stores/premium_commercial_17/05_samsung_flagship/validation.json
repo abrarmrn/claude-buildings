@@ -1,0 +1,475 @@
+{
+ "asset": "samsung_flagship",
+ "checks": {
+  "collections_present": {
+   "LOD0": true,
+   "LOD1": true,
+   "LOD2": true,
+   "PLACEHOLDER_CARS": true,
+   "INTERIOR_LIGHTING": true,
+   "EXTERIOR_LIGHTING": true,
+   "COLLISION": true,
+   "SIDEWALK_FRONTAGE": true,
+   "OPTIONAL_FORECOURT": true,
+   "DRIVEWAY": true,
+   "OPTIONAL_PARKING": true,
+   "BUILDING_EXTERIOR": true,
+   "BUILDING_INTERIOR": true,
+   "GLASS_SYSTEM": true,
+   "SIGNAGE": true
+  },
+  "mesh_validate_errors": [],
+  "degenerate_faces": 0,
+  "closed_pieces_with_inverted_normals_faces": 0,
+  "meshes_without_uv": [],
+  "meshes_with_missing_materials": [],
+  "objects_with_unapplied_transforms": [],
+  "lod0_bounds_m": {
+   "min": [
+    -17.08,
+    6.25,
+    -0.3
+   ],
+   "max": [
+    17.6,
+    29.0,
+    12.6
+   ],
+   "size": [
+    34.68,
+    22.75,
+    12.9
+   ]
+  },
+  "footprint_m": {
+   "width": 34.6,
+   "depth": 22.7
+  },
+  "height_m": 12.6,
+  "glass_materials": {
+   "PC_Glass": {
+    "alpha": 0.16,
+    "blend": "BLEND",
+    "double_sided": true
+   },
+   "PC_GlassRail": {
+    "alpha": 0.14,
+    "blend": "BLEND",
+    "double_sided": true
+   }
+  },
+  "lod_tris_blender": {
+   "LOD0": 13208,
+   "LOD1": 4736,
+   "LOD2": 1039
+  },
+  "interior_tris_lod0": 9454,
+  "interior_tris_lod1": 2494,
+  "interior_objects_lod0": [
+   "P05_LOD0_BUILDING_INTERIOR_CeilingLights",
+   "P05_LOD0_BUILDING_INTERIOR_Escalator",
+   "P05_LOD0_BUILDING_INTERIOR_EscalatorGlass",
+   "P05_LOD0_BUILDING_INTERIOR_GroundSlab",
+   "P05_LOD0_BUILDING_INTERIOR_Rail2Frame",
+   "P05_LOD0_BUILDING_INTERIOR_Rail2Glass",
+   "P05_LOD0_BUILDING_INTERIOR_RailFrame",
+   "P05_LOD0_BUILDING_INTERIOR_RailGlass",
+   "P05_LOD0_BUILDING_INTERIOR_Slabs",
+   "P05_LOD0_DISPLAY_OBJECTS_Products",
+   "P05_LOD0_FURNITURE_Main"
+  ],
+  "lod_extras": {
+   "LOD0": {
+    "level": 0,
+    "begin": 0.0,
+    "end": 90.0
+   },
+   "LOD1": {
+    "level": 1,
+    "begin": 90.0,
+    "end": 260.0
+   },
+   "LOD2": {
+    "level": 2,
+    "begin": 260.0,
+    "end": 1600.0
+   }
+  },
+  "placeholder_cars": {
+   "count": 0,
+   "parented_to_cars_node": true,
+   "shared_mesh": [],
+   "inside_lod_collections": [],
+   "names": []
+  },
+  "lights": {
+   "INTERIOR_LIGHTING": 6,
+   "EXTERIOR_LIGHTING": 2
+  },
+  "collision_boxes": 2,
+  "materials_used": [
+   "PC_AluBlack",
+   "PC_AluDark",
+   "PC_AluSilver",
+   "PC_Asphalt",
+   "PC_Ceiling",
+   "PC_Concrete",
+   "PC_Curb",
+   "PC_DeviceBlack",
+   "PC_DeviceSilver",
+   "PC_FabricGrey",
+   "PC_FabricNavy",
+   "PC_FloorOak",
+   "PC_FloorTerrazzo",
+   "PC_Glass",
+   "PC_GlassRail",
+   "PC_LightCool",
+   "PC_LightPanel",
+   "PC_LightStrip",
+   "PC_LineWhite",
+   "PC_PanelBlack",
+   "PC_PanelSilver",
+   "PC_PaverLight",
+   "PC_RoofGravel",
+   "PC_RubberBlack",
+   "PC_Screen",
+   "PC_Stainless",
+   "PC_SteelDark",
+   "PC_StoneDark",
+   "PC_StoneTop",
+   "PC_WallWhite",
+   "PC_Walnut",
+   "PC_WhiteGloss",
+   "PC_WoodLight",
+   "SS_Blue",
+   "SS_Letter",
+   "SS_Media"
+  ],
+  "image_textures": [
+   "//textures/asphalt_albedo.jpg",
+   "//textures/asphalt_normal.jpg",
+   "//textures/asphalt_orm.jpg",
+   "//textures/concrete_albedo.jpg",
+   "//textures/concrete_normal.jpg",
+   "//textures/concrete_orm.jpg",
+   "//textures/gravel_albedo.jpg",
+   "//textures/gravel_normal.jpg",
+   "//textures/gravel_orm.jpg",
+   "//textures/pc_granite_albedo.jpg",
+   "//textures/pc_granite_normal.jpg",
+   "//textures/pc_granite_orm.jpg",
+   "//textures/pc_media_samsung.png",
+   "//textures/pc_oak_albedo.jpg",
+   "//textures/pc_oak_normal.jpg",
+   "//textures/pc_oak_orm.jpg",
+   "//textures/pc_paverlight_albedo.jpg",
+   "//textures/pc_paverlight_normal.jpg",
+   "//textures/pc_paverlight_orm.jpg",
+   "//textures/pc_screen_atlas.png",
+   "//textures/pc_terrazzo_albedo.jpg",
+   "//textures/pc_terrazzo_orm.jpg",
+   "//textures/wood_albedo.jpg",
+   "//textures/wood_normal.jpg",
+   "//textures/wood_orm.jpg"
+  ],
+  "missing_image_files": [],
+  "vegetation_objects_or_materials": [],
+  "glb_full": {
+   "groups": {
+    "Collision": 24,
+    "DRIVEWAY": 80,
+    "LOD0": 13208,
+    "LOD1": 4736,
+    "LOD2": 1039,
+    "OPTIONAL_FORECOURT": 856,
+    "SIDEWALK_FRONTAGE": 72
+   },
+   "total": 20015,
+   "images": [
+    {
+     "name": "asphalt_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "asphalt_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "asphalt_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "gravel_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_granite_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_granite_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_granite_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "concrete_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_terrazzo_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_terrazzo_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_oak_normal",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_oak_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_oak_orm",
+     "mime": "image/jpeg",
+     "size": [
+      1024,
+      1024
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_screen_atlas",
+     "mime": "image/png",
+     "size": [
+      1024,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_media_samsung",
+     "mime": "image/png",
+     "size": [
+      2048,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "wood_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_normal",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_albedo",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    },
+    {
+     "name": "pc_paverlight_orm",
+     "mime": "image/jpeg",
+     "size": [
+      512,
+      512
+     ],
+     "ok": true
+    }
+   ],
+   "materials": 36,
+   "alpha_blend": [
+    "PC_GlassRail",
+    "PC_Glass"
+   ],
+   "lights": 8,
+   "collision_nodes": 2,
+   "nodes": 88,
+   "meshes": 70,
+   "primitives": 153,
+   "lod_extras": {
+    "P05_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 90.0,
+     "visibility_range_margin": 8.0
+    },
+    "P05_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 90.0,
+     "visibility_range_end": 260.0,
+     "visibility_range_margin": 8.0
+    },
+    "P05_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 260.0,
+     "visibility_range_end": 1600.0,
+     "visibility_range_margin": 8.0
+    }
+   },
+   "car_nodes": 0,
+   "size_mb": 6.14
+  },
+  "glb_building_only": {
+   "total": null,
+   "car_nodes": 0,
+   "size_mb": null,
+   "note": "no cars in this asset - main GLB is building-only"
+  },
+  "glb_lod_files_tris": {
+   "LOD0": 13208,
+   "LOD1": 4736,
+   "LOD2": 1039
+  },
+  "reimport": {
+   "mesh_objects": 70,
+   "triangles": 20015,
+   "glb_triangles": 20015,
+   "images_loaded": 25,
+   "lights": 8,
+   "lod0_size_yup_converted": [
+    34.68,
+    22.75,
+    12.9
+   ]
+  }
+ },
+ "issues": [],
+ "warnings": [],
+ "passed": true
+}

@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:07:48.847776Z",
+ "generated": "2026-11-03T20:21:58.674851Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 4,
+ "complete": 5,
  "assets": [
   {
    "number": "01",
@@ -1609,7 +1609,7 @@
    "name": "Samsung Flagship Experience Store",
    "folder": "05_samsung_flagship",
    "category": "B - Technology flagship",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a black-metal framed box whose LEFT corner is wrapped by a curved 11 m tall LED media wall (rounded corner, radius 4 m); the right two thirds are a two-storey glass exhibition front split by a slim black floor band, with a grand recessed full-height entrance portal in brushed silver.  Upper floor is set back 3 m from the glass so both levels read through the facade; an escalator links the floors. Site: shallow pedestrian forecourt with a short drop-off lay-by (service-road side), no dedicated parking.",
    "storeys": 2,
    "floor_levels_m": [
@@ -1810,14 +1810,38 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 1,
+     "probes_total": 4,
+     "probes": {
+      "GF_islands": false,
+      "GF_tvwall": true,
+      "L1_tables": false,
+      "L1_tvwall": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 2,
+     "probes_total": 4,
+     "probes": {
+      "GF_islands": false,
+      "GF_tvwall": true,
+      "L1_tables": false,
+      "L1_tvwall": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 69.2,
+    "night": 75.9,
+    "road_view": 86.5,
+    "interior": 436.3
    },
    "brand_note": "\"SAMSUNG\" in Inter ExtraBold (not the official typeface); LED media wall shows abstract generated content."
   },
@@ -1837,7 +1861,23 @@
    "frontage_width_m": 33.0,
    "depth_m": 31.0,
    "height_m": 10.45,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -16.5,
+     3.5,
+     -0.3
+    ],
+    "max": [
+     16.5,
+     34.0,
+     10.45
+    ],
+    "size": [
+     33.0,
+     30.5,
+     10.75
+    ]
+   },
    "setback_m": 5.4,
    "parking": "none (pedestrian plaza only)",
    "access": "pedestrian only - no vehicle access",
@@ -1864,38 +1904,130 @@
     "glb_building_only": null
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
+    "LOD0": 15036,
+    "LOD1": 3596,
+    "LOD2": 508,
     "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "site": 476,
+    "collision": 24,
+    "total": 19640,
+    "lod_files": {
+     "LOD0": 15036,
+     "LOD1": 3596,
+     "LOD2": 508
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 23,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_GlassClear",
+     "AP_Logo"
+    ],
+    "used": [
+     "AP_Logo",
+     "AP_Lumi",
+     "PC_AluDark",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_LightStrip",
+     "PC_LightWarm",
+     "PC_PanelWhite",
+     "PC_PaverLight",
+     "PC_PlasticGrey",
+     "PC_PlasticWhite",
+     "PC_RoofGravel",
+     "PC_RubberBlack",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_Travertine",
+     "PC_WhiteGloss",
+     "PC_WoodLight"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 14,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_logo_apple.png",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/travertine_albedo.jpg",
+     "//textures/travertine_normal.jpg",
+     "//textures/travertine_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 7,
+    "EXTERIOR_LIGHTING": 1
+   },
+   "collision_boxes": 2,
    "placeholder_cars": [],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 2,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 65,
+     "triangles": 19640,
+     "glb_triangles": 19640,
+     "images_loaded": 14,
+     "lights": 8,
+     "lod0_size_yup_converted": [
+      33.0,
+      30.5,
+      10.75
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
     "road_view": null,

@@ -219,7 +219,7 @@ A.col_box('Pylon', -HW - 4.3, 1.2, 0, -HW - 3.5, 2.0, 8.2)
 A.camera('day', (44.0, -30.0, 9.5), (0.0, 16.0, 6.0), 28)
 A.camera('night', (36.0, -26.0, 5.0), (-1.0, 16.0, 6.5), 28)
 A.camera('road', (30.0, -7.6, 1.1), (-2.0, 14.0, 4.5), 24)
-A.camera('interior', (2.0, 29.6, ZM + 2.0), (-7.0, 9.0, 0.6), 17)
+A.camera('interior', (9.5, 9.0, 1.7), (-9.0, 25.0, 5.6), 17)
 A.checks['probes'] = [dict(name='GF_hall', p=[-4.0, 15.0, 1.2]), dict(name='GF_right', p=[9.0, 14.0, 1.2]),
                       dict(name='Mezzanine_left', p=[-14.0, 22.0, ZM + 1.0]), dict(name='Mezzanine_right', p=[14.0, 21.5, ZM + 1.0])]
 S.finish(A, -34.0, 26.0, width=44.8, depth=25.0, height=14.6, footprint=[-HW - 1.4, 6.0, HW + 1.4, Y1],

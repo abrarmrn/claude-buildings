@@ -1,16 +1,16 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T20:07:49Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T20:21:59Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
 - Batch A: 01 Mercedes-Benz Flagship Showroom (complete), 02 BMW Flagship Showroom (complete), 03 Porsche Flagship Showroom (complete), 04 Ford Showroom (complete)
-- Batch B: 05 Samsung Flagship Experience Store (remaining), 06 Apple Flagship Store (remaining), 07 Xiaomi Flagship Store (remaining), 08 Shirin Restaurant (remaining)
+- Batch B: 05 Samsung Flagship Experience Store (complete), 06 Apple Flagship Store (remaining), 07 Xiaomi Flagship Store (remaining), 08 Shirin Restaurant (remaining)
 - Batch C: 09 Saffron Courtyard (remaining), 10 Ember & Olive (remaining), 11 Pearl Terrace (remaining), 12 Apex Auto Lab (remaining), 13 HydroLux Auto Spa (remaining)
 - Batch D: 14 Pitlane Performance (remaining), 15 Crescent Galleria (remaining), 16 Serein Cafe (remaining), 17 Aurelia Coffee House (remaining)
 
-**4 / 17 assets complete.** Remaining: Samsung Flagship Experience Store, Apple Flagship Store, Xiaomi Flagship Store, Shirin Restaurant, Saffron Courtyard, Ember & Olive, Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
-Last successful asset: Ford Showroom
+**5 / 17 assets complete.** Remaining: Apple Flagship Store, Xiaomi Flagship Store, Shirin Restaurant, Saffron Courtyard, Ember & Olive, Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
+Last successful asset: Samsung Flagship Experience Store
 
 ## Summary table (triangles read from the exported GLBs)
 
@@ -20,7 +20,7 @@ Last successful asset: Ford Showroom
 | 02 | BMW Flagship Showroom | 2 | 44.8 x 25.0 x 14.6 | 25,424 | 7,418 | 1,302 | 7 (15,456) | 5.95 | 49 | 16 | 7/2 | PASS |
 | 03 | Porsche Flagship Showroom | 3 | 33.0 x 28.0 x 15.2 | 21,046 | 6,326 | 1,238 | 6 (13,084) | 7.45 | 58 | 28 | 10/2 | PASS |
 | 04 | Ford Showroom | 1 | 64.0 x 24.0 x 10.8 | 20,922 | 7,590 | 1,857 | 7 (15,428) | 5.5 | 59 | 16 | 7/2 | PASS |
-| 05 | Samsung Flagship Experience Store | - | - | - | - | - | - | - | - | - | - | pending |
+| 05 | Samsung Flagship Experience Store | 2 | 35.2 x 22.6 x 12.6 | 13,208 | 4,736 | 1,039 | 0 (0) | 6.14 | 36 | 25 | 6/2 | PASS |
 | 06 | Apple Flagship Store | - | - | - | - | - | - | - | - | - | - | pending |
 | 07 | Xiaomi Flagship Store | - | - | - | - | - | - | - | - | - | - | pending |
 | 08 | Shirin Restaurant | - | - | - | - | - | - | - | - | - | - | pending |
@@ -34,7 +34,7 @@ Last successful asset: Ford Showroom
 | 16 | Serein Cafe | - | - | - | - | - | - | - | - | - | - | pending |
 | 17 | Aurelia Coffee House | - | - | - | - | - | - | - | - | - | - | pending |
 
-Totals over complete assets: LOD0 104,930 tris, LOD1 31,030, LOD2 6,006, placeholder cars 61,600; 28 placeholder cars; 16 renders + contact sheet + offline gallery.
+Totals over complete assets: LOD0 118,138 tris, LOD1 35,766, LOD2 7,045, placeholder cars 61,600; 28 placeholder cars; 20 renders + contact sheet + offline gallery.
 
 ## Architectural diversity (why these are not one generator with different colours)
 
@@ -80,6 +80,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - 02 BMW Flagship Showroom: PASS; road view: cars readable 5/7, probes 1/4; day view: cars 6/7, probes 1/4
 - 03 Porsche Flagship Showroom: PASS; road view: cars readable 3/6, probes 1/4; day view: cars 5/6, probes 3/4
 - 04 Ford Showroom: PASS; road view: cars readable 2/7, probes 0/3; day view: cars 4/7, probes 1/3
+- 05 Samsung Flagship Experience Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
 
 ## LOD transition recommendations
 
@@ -104,6 +105,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+8cd5b95 Premium Commercial 17 - Batch A: Mercedes-Benz, BMW, Porsche and Ford showrooms
 5f14174 Add all 17 additional roadside store assets with validation, 68 renders, catalog, manifest and report
 8d330ac Add additional_17 store kit, pipeline and first six stores (ADNOC, Tim Hortons, Costa, % Arabica, PAUL, Krispy Kreme)
 15c359b Add Starbucks and ZOOM inspection renders and measured results

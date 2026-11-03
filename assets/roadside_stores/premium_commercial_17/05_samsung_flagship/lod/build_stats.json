@@ -1,0 +1,119 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 266,
+   "BUILDING_INTERIOR/CeilingLights": 362,
+   "BUILDING_INTERIOR/Escalator": 452,
+   "BUILDING_INTERIOR/EscalatorGlass": 12,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Rail2Frame": 80,
+   "BUILDING_INTERIOR/Rail2Glass": 4,
+   "BUILDING_INTERIOR/RailFrame": 80,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "DISPLAY_OBJECTS/Products": 6802,
+   "FACADE_DETAILS/MediaWall": 196,
+   "FURNITURE/Main": 1610,
+   "GLASS_SYSTEM/Front-5Frame": 132,
+   "GLASS_SYSTEM/Front-5Glass": 12,
+   "GLASS_SYSTEM/Front9Frame": 132,
+   "GLASS_SYSTEM/Front9Glass": 12,
+   "GLASS_SYSTEM/PortalFrame": 344,
+   "GLASS_SYSTEM/PortalGlass": 20,
+   "SIGNAGE/Brand": 2628
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 218,
+   "BUILDING_INTERIOR/CeilingLights": 172,
+   "BUILDING_INTERIOR/Escalator": 30,
+   "BUILDING_INTERIOR/EscalatorGlass": 12,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Rail2Frame": 48,
+   "BUILDING_INTERIOR/Rail2Glass": 4,
+   "BUILDING_INTERIOR/RailFrame": 48,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "DISPLAY_OBJECTS/Products": 1814,
+   "FACADE_DETAILS/MediaWall": 112,
+   "FURNITURE/Main": 314,
+   "GLASS_SYSTEM/Front-5Frame": 132,
+   "GLASS_SYSTEM/Front-5Glass": 12,
+   "GLASS_SYSTEM/Front9Frame": 132,
+   "GLASS_SYSTEM/Front9Glass": 12,
+   "GLASS_SYSTEM/PortalFrame": 144,
+   "GLASS_SYSTEM/PortalGlass": 20,
+   "SIGNAGE/Brand": 1448
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/Roof": 12,
+   "BUILDING_EXTERIOR/Shell": 156,
+   "BUILDING_INTERIOR/CeilingLights": 4,
+   "BUILDING_INTERIOR/Escalator": 28,
+   "BUILDING_INTERIOR/GlowProxy": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Rail2Glass": 4,
+   "BUILDING_INTERIOR/RailGlass": 4,
+   "BUILDING_INTERIOR/Slabs": 36,
+   "DISPLAY_OBJECTS/Products": 492,
+   "FACADE_DETAILS/MediaWall": 70,
+   "FURNITURE/Main": 24,
+   "GLASS_SYSTEM/Front-5Frame": 36,
+   "GLASS_SYSTEM/Front-5Glass": 4,
+   "GLASS_SYSTEM/Front9Frame": 36,
+   "GLASS_SYSTEM/Front9Glass": 4,
+   "GLASS_SYSTEM/PortalFrame": 24,
+   "GLASS_SYSTEM/PortalGlass": 2,
+   "SIGNAGE/Brand": 89
+  },
+  "SITE": {
+   "DRIVEWAY/Asphalt": 24,
+   "DRIVEWAY/Crossing": 56,
+   "OPTIONAL_FORECOURT/Bollards": 816,
+   "OPTIONAL_FORECOURT/DropOffLayBy": 12,
+   "OPTIONAL_FORECOURT/LayByMarks": 16,
+   "OPTIONAL_FORECOURT/Plaza": 12,
+   "SIDEWALK_FRONTAGE/Main": 72
+  }
+ },
+ "totals": {
+  "LOD0": 13208,
+  "LOD1": 4736,
+  "LOD2": 1039,
+  "SITE": 1008,
+  "PLACEHOLDER_CARS": 0
+ },
+ "cars": [],
+ "meta": {
+  "floors": 2,
+  "width": 35.2,
+  "depth": 22.6,
+  "height": 12.6,
+  "footprint": [
+   -17.0,
+   6.3,
+   17.6,
+   29.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   6.0
+  ],
+  "roof": 12.0,
+  "parking": "none - short drop-off lay-by in OPTIONAL_FORECOURT",
+  "access": "in/out crossings to a 2.8 m drop-off lay-by along the frontage (service road side)",
+  "setback_m": 7.0,
+  "glass": "two-storey PC_Glass front + recessed entrance portal",
+  "concept": "Massing: a black-metal framed box whose LEFT corner is wrapped by a curved 11 m tall LED media wall (rounded corner,",
+  "plot_x": [
+   -24.0,
+   22.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 6,
+   "EXTERIOR_LIGHTING": 2
+  }
+ }
+}
