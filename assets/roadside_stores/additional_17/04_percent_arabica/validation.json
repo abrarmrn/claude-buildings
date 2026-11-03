@@ -1,0 +1,635 @@
+{
+ "store": "percent_arabica",
+ "checks": {
+  "lod_objects_exist": {
+   "ok": true,
+   "detail": {
+    "0": 13,
+    "1": 13,
+    "2": 9
+   }
+  },
+  "lod_budgets_decreasing": {
+   "ok": true,
+   "detail": {
+    "0": 21511,
+    "1": 6265,
+    "2": 1222
+   }
+  },
+  "lod_ratio": {
+   "ok": true,
+   "detail": {
+    "l1_over_l0": 0.291,
+    "l2_over_l1": 0.195
+   }
+  },
+  "no_nan_geometry": {
+   "ok": true,
+   "detail": {
+    "nan": 0,
+    "zero_area": 4,
+    "loose": 0,
+    "bad_matidx": 0,
+    "no_uv": 0,
+    "uv_nan": 0,
+    "flipped": 0,
+    "watertight": 249,
+    "pieces": 736
+   }
+  },
+  "uvs_present": {
+   "ok": true,
+   "detail": 0
+  },
+  "material_indices_valid": {
+   "ok": true,
+   "detail": 0
+  },
+  "no_loose_vertices": {
+   "ok": true,
+   "detail": 0
+  },
+  "normals_not_flipped": {
+   "ok": true,
+   "detail": {
+    "flipped_pieces": 0,
+    "watertight_pieces": 249,
+    "pieces": 736
+   }
+  },
+  "dimensions_sane": {
+   "ok": true,
+   "detail": [
+    42.968,
+    32.157,
+    7.861
+   ]
+  },
+  "ground_at_z0": {
+   "ok": true,
+   "detail": [
+    -21.537,
+    -16.157,
+    -0.3
+   ]
+  },
+  "lod1_bounds_match_lod0": {
+   "ok": true,
+   "detail": {
+    "lod0": [
+     42.968,
+     32.157,
+     7.861
+    ],
+    "lod": [
+     43.127,
+     32.0,
+     7.84
+    ]
+   }
+  },
+  "lod2_bounds_match_lod0": {
+   "ok": true,
+   "detail": {
+    "lod0": [
+     42.968,
+     32.157,
+     7.861
+    ],
+    "lod": [
+     43.014,
+     32.0,
+     7.695
+    ]
+   }
+  },
+  "collision_proxies": {
+   "ok": true,
+   "detail": 12
+  },
+  "night_lights": {
+   "ok": true,
+   "detail": 14
+  },
+  "lod_extras": {
+   "ok": true,
+   "detail": [
+    "ARAB_LOD0",
+    "ARAB_LOD1",
+    "ARAB_LOD2"
+   ]
+  },
+  "texture_files_ok": {
+   "ok": true,
+   "detail": "14 distinct texture refs"
+  },
+  "materials": {
+   "ok": true,
+   "detail": 32
+  },
+  "glb_textures_decode": {
+   "ok": true,
+   "detail": "14 embedded images decoded"
+  },
+  "glb_tris_match_blend": {
+   "ok": true,
+   "detail": {
+    "glb": {
+     "0": 21511,
+     "1": 6265,
+     "2": 1222
+    },
+    "blend": {
+     "0": 21511,
+     "1": 6265,
+     "2": 1222
+    }
+   }
+  },
+  "glb_collision_nodes": {
+   "ok": true,
+   "detail": 12
+  },
+  "lod_glb_tris": {
+   "ok": true,
+   "detail": {
+    "0": {
+     "triangles": 21511,
+     "bytes": 1016484
+    },
+    "1": {
+     "triangles": 6265,
+     "bytes": 413744
+    },
+    "2": {
+     "triangles": 1222,
+     "bytes": 102804
+    }
+   }
+  },
+  "reimport_meshes": {
+   "ok": true,
+   "detail": 35
+  },
+  "reimport_tris": {
+   "ok": true,
+   "detail": {
+    "0": 21511,
+    "1": 6265,
+    "2": 1222
+   }
+  },
+  "reimport_bounds": {
+   "ok": true,
+   "detail": {
+    "reimport": [
+     42.968,
+     32.157,
+     7.861
+    ],
+    "blend": [
+     42.968,
+     32.157,
+     7.861
+    ]
+   }
+  },
+  "reimport_textures": {
+   "ok": true,
+   "detail": "14 images"
+  }
+ },
+ "warnings": [
+  "4 zero-area faces in LOD0 (font triangulation slivers)"
+ ],
+ "errors": [],
+ "mesh_integrity": {
+  "nan": 0,
+  "zero_area": 4,
+  "loose": 0,
+  "bad_matidx": 0,
+  "no_uv": 0,
+  "uv_nan": 0,
+  "flipped": 0,
+  "watertight": 249,
+  "pieces": 736
+ },
+ "blend": {
+  "lod": {
+   "0": {
+    "triangles": 21511,
+    "vertices": 13337,
+    "objects": 13
+   },
+   "1": {
+    "triangles": 6265,
+    "vertices": 4154,
+    "objects": 13
+   },
+   "2": {
+    "triangles": 1222,
+    "vertices": 1106,
+    "objects": 9
+   }
+  },
+  "bounds": {
+   "0": {
+    "min": [
+     -21.537,
+     -16.157,
+     -0.3
+    ],
+    "max": [
+     21.431,
+     16.0,
+     7.561
+    ],
+    "size": [
+     42.968,
+     32.157,
+     7.861
+    ]
+   },
+   "1": {
+    "min": [
+     -21.696,
+     -16.0,
+     -0.3
+    ],
+    "max": [
+     21.431,
+     16.0,
+     7.54
+    ],
+    "size": [
+     43.127,
+     32.0,
+     7.84
+    ]
+   },
+   "2": {
+    "min": [
+     -21.583,
+     -16.0,
+     -0.3
+    ],
+    "max": [
+     21.431,
+     16.0,
+     7.395
+    ],
+    "size": [
+     43.014,
+     32.0,
+     7.695
+    ]
+   }
+  },
+  "materials": [
+   "AR_Black",
+   "AR_Letter",
+   "AR_Menu",
+   "AR_Panel",
+   "AR_Warm",
+   "AR_White",
+   "AR_WhiteGlow",
+   "AR_Wood",
+   "RS_Asphalt",
+   "RS_CarGlass",
+   "RS_CarWhite",
+   "RS_Concrete",
+   "RS_Foliage2",
+   "RS_Glass",
+   "RS_GlassLOD",
+   "RS_Gravel",
+   "RS_LampHead",
+   "RS_LightPanel",
+   "RS_LineWhite",
+   "RS_MetalBrushed",
+   "RS_MetalDark",
+   "RS_MetalGalv",
+   "RS_PaintWhite",
+   "RS_PalmFrond",
+   "RS_PalmTrunk",
+   "RS_PlasticBlack",
+   "RS_ReflectorYellow",
+   "RS_Rubber",
+   "RS_Soil",
+   "RS_Tail",
+   "RS_TileFloor",
+   "RS_Travertine"
+  ],
+  "material_count": 32,
+  "textures": [
+   {
+    "image": "asphalt_albedo.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "asphalt_normal.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "asphalt_orm.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_albedo.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_normal.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "concrete_orm.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "gravel_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "gravel_normal.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "gravel_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "tilefloor_albedo.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "tilefloor_orm.jpg",
+    "ok": true,
+    "size": [
+     512,
+     512
+    ]
+   },
+   {
+    "image": "travertine_albedo.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "travertine_normal.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "image": "travertine_orm.jpg",
+    "ok": true,
+    "size": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "collision_proxies": 12,
+  "declared_dimensions": {
+   "plot": [
+    40.0,
+    32.0
+   ],
+   "building": [
+    12.0,
+    8.5,
+    4.6
+   ],
+   "roof_cantilever": 5.6,
+   "stele_height": 4.6
+  }
+ },
+ "glb": {
+  "bytes": 5193580,
+  "lod_triangles": {
+   "0": 21511,
+   "1": 6265,
+   "2": 1222
+  },
+  "lod_files": {
+   "0": {
+    "triangles": 21511,
+    "bytes": 1016484
+   },
+   "1": {
+    "triangles": 6265,
+    "bytes": 413744
+   },
+   "2": {
+    "triangles": 1222,
+    "bytes": 102804
+   }
+  },
+  "materials": 32,
+  "alpha_blend": [
+   "RS_Glass"
+  ],
+  "images": [
+   {
+    "name": "concrete_normal",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 469407
+   },
+   {
+    "name": "concrete_albedo",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 148835
+   },
+   {
+    "name": "concrete_orm",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 186169
+   },
+   {
+    "name": "asphalt_normal",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 1130883
+   },
+   {
+    "name": "asphalt_albedo",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 145846
+   },
+   {
+    "name": "asphalt_orm",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 263234
+   },
+   {
+    "name": "travertine_normal",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 579107
+   },
+   {
+    "name": "travertine_albedo",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 228140
+   },
+   {
+    "name": "travertine_orm",
+    "size": [
+     1024,
+     1024
+    ],
+    "mime": "image/jpeg",
+    "bytes": 278040
+   },
+   {
+    "name": "gravel_normal",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 115472
+   },
+   {
+    "name": "gravel_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 52812
+   },
+   {
+    "name": "gravel_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 44281
+   },
+   {
+    "name": "tilefloor_albedo",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 31732
+   },
+   {
+    "name": "tilefloor_orm",
+    "size": [
+     512,
+     512
+    ],
+    "mime": "image/jpeg",
+    "bytes": 21338
+   }
+  ],
+  "extensions": [
+   "KHR_materials_emissive_strength",
+   "KHR_materials_specular",
+   "KHR_lights_punctual"
+  ],
+  "lights": 13,
+  "nodes": 66,
+  "meshes": 47,
+  "primitives": 129,
+  "collision_nodes": 12,
+  "reimport": {
+   "meshes": 35,
+   "tris": {
+    "0": 21511,
+    "1": 6265,
+    "2": 1222
+   },
+   "size": [
+    42.968,
+    32.157,
+    7.861
+   ]
+  }
+ },
+ "files": {
+  "blend_bytes": 800579,
+  "glb_bytes": 5193580
+ },
+ "passed": true
+}

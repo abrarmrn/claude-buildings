@@ -1,0 +1,55 @@
+{
+ "blender_loop_triangles": {
+  "0": 93903,
+  "1": 17126,
+  "2": 2915
+ },
+ "parts": {
+  "0": {
+   "Canopy": 1432,
+   "CanopyLights": 444,
+   "Frames": 228,
+   "Glass": 2,
+   "Ground": 408,
+   "Interior": 20106,
+   "LampPosts": 2240,
+   "Landscape": 8361,
+   "Markings": 682,
+   "Props": 118,
+   "PumpIslands": 42108,
+   "Pylon": 454,
+   "Signage": 13892,
+   "Store": 1652,
+   "Vehicles": 1776
+  },
+  "1": {
+   "Canopy": 760,
+   "CanopyLights": 444,
+   "Frames": 158,
+   "Glass": 2,
+   "Ground": 216,
+   "Interior": 1288,
+   "LampPosts": 432,
+   "Landscape": 2648,
+   "Markings": 46,
+   "Props": 22,
+   "PumpIslands": 3420,
+   "Pylon": 70,
+   "Signage": 6560,
+   "Store": 244,
+   "Vehicles": 816
+  },
+  "2": {
+   "Canopy": 264,
+   "Glass": 2,
+   "Ground": 120,
+   "LampPosts": 224,
+   "Landscape": 624,
+   "PumpIslands": 324,
+   "Pylon": 70,
+   "Signage": 967,
+   "Store": 128,
+   "Vehicles": 192
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "blender_loop_triangles": {
+  "0": 42935,
+  "1": 13120,
+  "2": 2265
+ },
+ "parts": {
+  "0": {
+   "Building": 1836,
+   "Canopy": 382,
+   "DriveThru": 344,
+   "Frames": 292,
+   "Furniture": 7766,
+   "Glass": 6,
+   "Ground": 310,
+   "Interior": 7904,
+   "LampPosts": 1680,
+   "Landscape": 6437,
+   "Markings": 1144,
+   "Pylon": 430,
+   "Signage": 13220,
+   "Vehicles": 1184
+  },
+  "1": {
+   "Building": 292,
+   "Canopy": 189,
+   "DriveThru": 106,
+   "Frames": 222,
+   "Furniture": 1428,
+   "Glass": 6,
+   "Ground": 214,
+   "Interior": 1161,
+   "LampPosts": 324,
+   "Landscape": 2016,
+   "Markings": 84,
+   "Pylon": 46,
+   "Signage": 6488,
+   "Vehicles": 544
+  },
+  "2": {
+   "Building": 236,
+   "Canopy": 89,
+   "DriveThru": 20,
+   "Furniture": 362,
+   "Glass": 4,
+   "Ground": 118,
+   "LampPosts": 168,
+   "Landscape": 468,
+   "Pylon": 46,
+   "Signage": 626,
+   "Vehicles": 128
+  }
+ }
+}

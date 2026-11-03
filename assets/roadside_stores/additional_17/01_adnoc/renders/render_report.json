@@ -1,0 +1,30 @@
+{
+ "day_seconds": 80.8,
+ "road_view_sign": [
+  {
+   "name": "ADNOC canopy fascia wordmark",
+   "cap_height_m": 0.72,
+   "pixel_height": 33.4,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.5,
+   "distance_m": 30.7,
+   "readable": true
+  },
+  {
+   "name": "ADNOC pylon wordmark",
+   "cap_height_m": 0.44,
+   "pixel_height": 11.9,
+   "visible_fraction": 1.0,
+   "in_frame": true,
+   "occluders": [],
+   "facing_dot": 0.18,
+   "distance_m": 53.5,
+   "readable": false
+  }
+ ],
+ "road_view_seconds": 126.3,
+ "night_seconds": 126.9,
+ "detail_seconds": 318.8
+}

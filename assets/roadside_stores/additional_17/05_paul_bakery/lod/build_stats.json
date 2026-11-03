@@ -1,0 +1,48 @@
+{
+ "blender_loop_triangles": {
+  "0": 29938,
+  "1": 9479,
+  "2": 1918
+ },
+ "parts": {
+  "0": {
+   "Awnings": 280,
+   "Building": 5936,
+   "Frames": 1040,
+   "Furniture": 6592,
+   "Glass": 64,
+   "Ground": 252,
+   "Interior": 4758,
+   "LampPosts": 1120,
+   "Landscape": 2884,
+   "Markings": 660,
+   "Signage": 5760,
+   "Vehicles": 592
+  },
+  "1": {
+   "Awnings": 120,
+   "Building": 932,
+   "Frames": 880,
+   "Furniture": 1448,
+   "Glass": 44,
+   "Ground": 156,
+   "Interior": 627,
+   "LampPosts": 216,
+   "Landscape": 892,
+   "Markings": 24,
+   "Signage": 3868,
+   "Vehicles": 272
+  },
+  "2": {
+   "Awnings": 32,
+   "Building": 652,
+   "Furniture": 550,
+   "Glass": 36,
+   "Ground": 92,
+   "LampPosts": 112,
+   "Landscape": 234,
+   "Signage": 146,
+   "Vehicles": 64
+  }
+ }
+}
