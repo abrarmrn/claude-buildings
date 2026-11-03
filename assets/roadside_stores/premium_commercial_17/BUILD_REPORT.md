@@ -1,16 +1,16 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T21:40:26Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T21:49:15Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
 - Batch A: 01 Mercedes-Benz Flagship Showroom (complete), 02 BMW Flagship Showroom (complete), 03 Porsche Flagship Showroom (complete), 04 Ford Showroom (complete)
 - Batch B: 05 Samsung Flagship Experience Store (complete), 06 Apple Flagship Store (complete), 07 Xiaomi Flagship Store (complete), 08 Shirin Restaurant (complete)
 - Batch C: 09 Saffron Courtyard (complete), 10 Ember & Olive (complete), 11 Pearl Terrace (complete), 12 Apex Auto Lab (complete), 13 HydroLux Auto Spa (complete)
-- Batch D: 14 Pitlane Performance (complete), 15 Crescent Galleria (remaining), 16 Serein Cafe (remaining), 17 Aurelia Coffee House (remaining)
+- Batch D: 14 Pitlane Performance (complete), 15 Crescent Galleria (complete), 16 Serein Cafe (remaining), 17 Aurelia Coffee House (remaining)
 
-**14 / 17 assets complete.** Remaining: Crescent Galleria, Serein Cafe, Aurelia Coffee House
-Last successful asset: Pitlane Performance
+**15 / 17 assets complete.** Remaining: Serein Cafe, Aurelia Coffee House
+Last successful asset: Crescent Galleria
 
 ## Summary table (triangles read from the exported GLBs)
 
@@ -30,11 +30,11 @@ Last successful asset: Pitlane Performance
 | 12 | Apex Auto Lab | 1 (+ lounge office mezzanine) | 32.0 x 22.0 x 9.4 | 16,274 | 6,414 | 911 | 4 (8,788) | 5.64 | 64 | 22 | 5/1 | PASS |
 | 13 | HydroLux Auto Spa | 1 | 50.0 x 19.2 x 8.9 | 22,232 | 4,922 | 1,604 | 7 (15,484) | 6.05 | 57 | 17 | 6/3 | PASS |
 | 14 | Pitlane Performance | 1 | 50.5 x 27.2 x 11.75 | 18,555 | 7,491 | 1,471 | 5 (10,992) | 5.55 | 52 | 22 | 5/2 | PASS |
-| 15 | Crescent Galleria | - | - | - | - | - | - | - | - | - | - | pending |
+| 15 | Crescent Galleria | 4 | 90.0 x 45.0 x 25.5 | 137,874 | 27,349 | 5,260 | 0 (0) | 15.71 | 60 | 30 | 13/3 | PASS |
 | 16 | Serein Cafe | - | - | - | - | - | - | - | - | - | - | pending |
 | 17 | Aurelia Coffee House | - | - | - | - | - | - | - | - | - | - | pending |
 
-Totals over complete assets: LOD0 377,066 tris, LOD1 104,482, LOD2 17,923, placeholder cars 96,864; 44 placeholder cars; 56 renders + contact sheet + offline gallery.
+Totals over complete assets: LOD0 514,940 tris, LOD1 131,831, LOD2 23,183, placeholder cars 96,864; 44 placeholder cars; 60 renders + contact sheet + offline gallery.
 
 ## Architectural diversity (why these are not one generator with different colours)
 
@@ -90,6 +90,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - 12 Apex Auto Lab: PASS; road view: cars readable 3/4, probes 0/4; day view: cars 3/4, probes 1/4
 - 13 HydroLux Auto Spa: PASS; road view: cars readable 4/7, probes 0/3; day view: cars 5/7, probes 2/3
 - 14 Pitlane Performance: PASS; road view: cars readable 3/5, probes 0/4; day view: cars 3/5, probes 1/4
+- 15 Crescent Galleria: PASS; road view: cars readable 0/0, probes 4/8; day view: cars 0/0, probes 7/8
 
 ## LOD transition recommendations
 
@@ -114,6 +115,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+0aaa813 Premium Commercial 17 - Saffron Courtyard and Pearl Terrace interiors re-shot to show the stair to the upper floor
 79c2adc Premium Commercial 17 - 14_pitlane_performance validated and rendered (batch D)
 d9c064e Premium Commercial 17 - in-progress render output
 fd22599 Premium Commercial 17 - Saffron/Pearl interior camera updates (re-shoot in progress), Batch D progress
@@ -121,5 +123,4 @@ dc2dabc Premium Commercial 17 - 13_hydrolux_auto_spa validated and rendered (bat
 cfddf94 Premium Commercial 17 - 12_apex_auto_lab validated and rendered (batch C)
 322d38f Premium Commercial 17 - 11_pearl_terrace validated and rendered (batch C)
 3d8bc05 Premium Commercial 17 - 10_ember_and_olive validated and rendered (batch C)
-714d3e0 Premium Commercial 17 - 09_saffron_courtyard validated and rendered (batch C)
 ```

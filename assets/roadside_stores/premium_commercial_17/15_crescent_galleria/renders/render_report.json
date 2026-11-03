@@ -1,0 +1,128 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "Level0_front_gallery",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level1_front_gallery",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level2_front_gallery",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level3_front_gallery",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level0_escalator",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level1_escalator",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P15_LOD0_GLASS_SYSTEM_CrescentFrame"
+   },
+   {
+    "name": "Level2_escalator",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Atrium_pool",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 149.0,
+ "night_seconds": 152.7,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "Level0_front_gallery",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level1_front_gallery",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P15_LOD0_GLASS_SYSTEM_CrescentFrame"
+   },
+   {
+    "name": "Level2_front_gallery",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P15_LOD0_BUILDING_INTERIOR_Slabs"
+   },
+   {
+    "name": "Level3_front_gallery",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P15_LOD0_BUILDING_INTERIOR_Slabs"
+   },
+   {
+    "name": "Level0_escalator",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level1_escalator",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Level2_escalator",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P15_LOD0_BUILDING_INTERIOR_Slabs"
+   },
+   {
+    "name": "Atrium_pool",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "road_view_seconds": 126.1,
+ "interior_seconds": 322.5
+}

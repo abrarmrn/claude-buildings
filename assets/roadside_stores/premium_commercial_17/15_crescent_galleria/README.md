@@ -1,6 +1,6 @@
 # 15 - Crescent Galleria
 
-*E - Four-storey shopping mall* - status: **incomplete**
+*E - Four-storey shopping mall* - status: **complete**
 
 Massing: 90 m frontage.  A 66 m CONCAVE (crescent) four-storey glass curtain wall with silver floor spandrels and fins is held between two taller stone 'bookend' towers that carry their own street-facing shopfronts (separate commercial frontage sections).  A crescent-shaped canopy crowns the glass with the name; a long glass entrance canopy marks the central doors; a glazed skylight covers the atrium. Interior (real 3D): four floors (0.15 / 5.6 / 11.0 / 16.4 m), a stadium-shaped central atrium through all levels with glass-railed galleries, SIX escalators placed in the glazed front zone (zig-zag GF->L1 at the sides, L1->L2 in the centre, L2->L3 at the sides) so circulation and floor separation read from the road, 56 shop units (14 per floor) with glass shopfronts, illuminated sign bands and display fixtures, kiosks, benches, hanging LED screens, atrium pool. Site: entrance plaza on the frontage; OPTIONAL surface car park on the right (separate collection, own crossing).
 
@@ -58,6 +58,8 @@ P15_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 36; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 196, 'triangles': 172695, 'glb_triangles': 172695, 'images_loaded': 30, 'lights': 16, 'lod0_size_yup_converted': [90.4, 49.01, 25.9]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 4/8 {'Level0_front_gallery': True, 'Level1_front_gallery': False, 'Level2_front_gallery': False, 'Level3_front_gallery': False, 'Level0_escalator': True, 'Level1_escalator': True, 'Level2_escalator': False, 'Atrium_pool': True}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 7/8 {'Level0_front_gallery': True, 'Level1_front_gallery': True, 'Level2_front_gallery': True, 'Level3_front_gallery': True, 'Level0_escalator': True, 'Level1_escalator': False, 'Level2_escalator': True, 'Atrium_pool': True}
 
 Brand note: Original fictional mall; shop names (MAISON, NOVA, LUXE ...) are invented.
 

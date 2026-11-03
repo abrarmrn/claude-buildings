@@ -17,13 +17,13 @@ Massing: a slender 16 x 14 m glass pavilion in a fine black-steel frame (exposed
 |---|---|
 | Storeys | 2 (floor levels [0.15, 4.6] m, roof 8.7) |
 | Frontage x depth x height | 16.0 x 14.0 x 8.979999999999999 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [19.67, 17.84, 9.28] m |
 | Setback from plot frontage | 4.0 m |
 | Parking | none (pavement terrace) |
 | Vehicle access | pedestrian only |
 | Glass | full-height PC_GlassClear on both floors in a black steel frame |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 3, 'EXTERIOR_LIGHTING': 1} |
+| Collision boxes | 3 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: a slender 16 x 14 m glass pavilion in a fine black-steel frame (exposed
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 21702 | 5311 | 702 | 0 | 2812 | 36 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -54,10 +54,10 @@ P16_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 3; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 88, 'triangles': 30563, 'glb_triangles': 30563, 'images_loaded': 14, 'lights': 4, 'lod0_size_yup_converted': [19.67, 17.84, 9.28]}
 
 Brand note: Original fictional brand.
 
