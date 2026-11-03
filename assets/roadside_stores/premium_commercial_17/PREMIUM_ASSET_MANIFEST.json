@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T21:17:45.722890Z",
+ "generated": "2026-11-03T21:24:29.533205Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 12,
+ "complete": 13,
  "assets": [
   {
    "number": "01",
@@ -3589,7 +3589,7 @@
    "name": "HydroLux Auto Spa",
    "folder": "13_hydrolux_auto_spa",
    "category": "D - Automotive service facility",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a full glass side wall, so the whole wash sequence (spray arches, brushes, blowers, LED arch) is visible to passing drivers.  Over everything floats a large WAVE canopy of translucent panels on white portal frames.  Two open detailing bays sit behind the tunnel and a glass customer lounge overlooks the exit.  Separate ENTRY (left) and EXIT (right) crossings from the service road. Inside: wash equipment, floor drainage grates, guide rail, detailing carts / vacuum booms, aqua LED lighting.",
    "storeys": 1,
    "floor_levels_m": [
@@ -3929,14 +3929,52 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 4,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Sedan_CarPaintSilver": 0.0,
+      "02_Suv_CarPaintBlue": 1.0,
+      "03_Sedan_CarPaintWhite": 0.5,
+      "04_Coupe_CarPaintBlack": 0.33,
+      "05_Crossover_CarPaintRed": 0.0,
+      "06_Sedan_CarPaintGraphite": 0.0,
+      "07_Suv_CarPaintWhite": 1.0
+     },
+     "probes_reached": 0,
+     "probes_total": 3,
+     "probes": {
+      "Tunnel_brushes": false,
+      "Tunnel_blower": false,
+      "Lounge": false
+     }
+    },
+    "day": {
+     "cars_visible": 5,
+     "cars_total": 7,
+     "car_fractions": {
+      "01_Sedan_CarPaintSilver": 0.67,
+      "02_Suv_CarPaintBlue": 1.0,
+      "03_Sedan_CarPaintWhite": 0.83,
+      "04_Coupe_CarPaintBlack": 1.0,
+      "05_Crossover_CarPaintRed": 0.0,
+      "06_Sedan_CarPaintGraphite": 0.17,
+      "07_Suv_CarPaintWhite": 0.67
+     },
+     "probes_reached": 2,
+     "probes_total": 3,
+     "probes": {
+      "Tunnel_brushes": false,
+      "Tunnel_blower": true,
+      "Lounge": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 53.1,
+    "night": 82.9,
+    "road_view": 84.3,
+    "interior": 181.6
    },
    "brand_note": "Original fictional brand."
   },

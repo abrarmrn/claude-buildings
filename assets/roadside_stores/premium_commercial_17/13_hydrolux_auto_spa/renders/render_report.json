@@ -1,0 +1,181 @@
+{
+ "day_visibility": {
+  "cars": [
+   {
+    "car": "P13_CAR_01_Sedan_CarPaintSilver",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P13_LOD0_SIGNAGE_Brand"
+    ]
+   },
+   {
+    "car": "P13_CAR_02_Suv_CarPaintBlue",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P13_CAR_03_Sedan_CarPaintWhite",
+    "visible_fraction": 0.83,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P13_LOD0_DISPLAY_OBJECTS_WashEquipment"
+    ]
+   },
+   {
+    "car": "P13_CAR_04_Coupe_CarPaintBlack",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P13_CAR_05_Crossover_CarPaintRed",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P13_LOD0_BUILDING_EXTERIOR_Tunnel"
+    ]
+   },
+   {
+    "car": "P13_CAR_06_Sedan_CarPaintGraphite",
+    "visible_fraction": 0.17,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": [
+     "P13_LOD0_DISPLAY_OBJECTS_WashEquipment",
+     "P13_LOD0_FACADE_DETAILS_Frames"
+    ]
+   },
+   {
+    "car": "P13_CAR_07_Suv_CarPaintWhite",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P13_LOD0_FACADE_DETAILS_Frames"
+    ]
+   }
+  ],
+  "probes": [
+   {
+    "name": "Tunnel_brushes",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P13_LOD0_DISPLAY_OBJECTS_WashEquipment"
+   },
+   {
+    "name": "Tunnel_blower",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Lounge",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "day_seconds": 53.1,
+ "night_seconds": 82.9,
+ "road_view_visibility": {
+  "cars": [
+   {
+    "car": "P13_CAR_01_Sedan_CarPaintSilver",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 0.0,
+    "max_glass_layers": 0,
+    "blockers": []
+   },
+   {
+    "car": "P13_CAR_02_Suv_CarPaintBlue",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P13_CAR_03_Sedan_CarPaintWhite",
+    "visible_fraction": 0.5,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P13_LOD0_GLASS_SYSTEM_TunnelSideFrame",
+     "P13_OPTIONAL_FORECOURT_Bollards"
+    ]
+   },
+   {
+    "car": "P13_CAR_04_Coupe_CarPaintBlack",
+    "visible_fraction": 0.33,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P13_LOD0_GLASS_SYSTEM_TunnelSideFrame",
+     "P13_OPTIONAL_FORECOURT_Bollards"
+    ]
+   },
+   {
+    "car": "P13_CAR_05_Crossover_CarPaintRed",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P13_LOD0_BUILDING_EXTERIOR_Tunnel",
+     "P13_LOD0_DISPLAY_OBJECTS_WashEquipment"
+    ]
+   },
+   {
+    "car": "P13_CAR_06_Sedan_CarPaintGraphite",
+    "visible_fraction": 0.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P13_CAR_02_Suv_CarPaintBlue",
+     "P13_LOD0_BUILDING_EXTERIOR_Tunnel"
+    ]
+   },
+   {
+    "car": "P13_CAR_07_Suv_CarPaintWhite",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": []
+   }
+  ],
+  "probes": [
+   {
+    "name": "Tunnel_brushes",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P13_CAR_02_Suv_CarPaintBlue"
+   },
+   {
+    "name": "Tunnel_blower",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P13_LOD0_DISPLAY_OBJECTS_WashEquipment"
+   },
+   {
+    "name": "Lounge",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P13_LOD0_FACADE_DETAILS_Frames"
+   }
+  ]
+ },
+ "road_view_seconds": 84.3,
+ "interior_seconds": 181.6
+}

@@ -1,6 +1,6 @@
 # 13 - HydroLux Auto Spa
 
-*D - Automotive service facility* - status: **incomplete**
+*D - Automotive service facility* - status: **complete**
 
 Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a full glass side wall, so the whole wash sequence (spray arches, brushes, blowers, LED arch) is visible to passing drivers.  Over everything floats a large WAVE canopy of translucent panels on white portal frames.  Two open detailing bays sit behind the tunnel and a glass customer lounge overlooks the exit.  Separate ENTRY (left) and EXIT (right) crossings from the service road. Inside: wash equipment, floor drainage grates, guide rail, detailing carts / vacuum booms, aqua LED lighting.
 
@@ -72,6 +72,8 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 - Degenerate faces: 3; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 45062, 'glb_triangles': 45062, 'images_loaded': 17, 'lights': 9, 'lod0_size_yup_converted': [51.76, 21.58, 8.9]}
+- Ray-traced visibility from the road_view camera: cars readable 4/7 {'01_Sedan_CarPaintSilver': 0.0, '02_Suv_CarPaintBlue': 1.0, '03_Sedan_CarPaintWhite': 0.5, '04_Coupe_CarPaintBlack': 0.33, '05_Crossover_CarPaintRed': 0.0, '06_Sedan_CarPaintGraphite': 0.0, '07_Suv_CarPaintWhite': 1.0}; interior probes reached 0/3 {'Tunnel_brushes': False, 'Tunnel_blower': False, 'Lounge': False}
+- Ray-traced visibility from the day camera: cars readable 5/7 {'01_Sedan_CarPaintSilver': 0.67, '02_Suv_CarPaintBlue': 1.0, '03_Sedan_CarPaintWhite': 0.83, '04_Coupe_CarPaintBlack': 1.0, '05_Crossover_CarPaintRed': 0.0, '06_Sedan_CarPaintGraphite': 0.17, '07_Suv_CarPaintWhite': 0.67}; interior probes reached 2/3 {'Tunnel_brushes': False, 'Tunnel_blower': True, 'Lounge': True}
 
 Brand note: Original fictional brand.
 
