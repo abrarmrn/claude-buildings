@@ -32,7 +32,7 @@
    }
   ]
  },
- "day_seconds": 56.2,
+ "day_seconds": 119.1,
  "night_seconds": 82.9,
  "road_view_visibility": {
   "cars": [],
@@ -67,6 +67,6 @@
    }
   ]
  },
- "road_view_seconds": 84.7,
- "interior_seconds": 230.3
+ "road_view_seconds": 171.2,
+ "interior_seconds": 467.1
 }

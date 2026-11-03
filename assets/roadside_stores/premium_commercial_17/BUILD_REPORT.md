@@ -1,6 +1,6 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T20:49:43Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T20:50:32Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
@@ -108,6 +108,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+91d1e3a Premium Commercial 17 - 08_shirin_restaurant validated and rendered (batch B)
 7e18bc5 Stop tracking verbose Cycles render logs (timings are kept in render_report.json)
 387ca5e Premium Commercial 17 - Xiaomi day re-render, render logs
 2fd6536 Premium Commercial 17 - work-in-progress checkpoint (Shirin rendering, Xiaomi interior re-shoot running)
@@ -115,5 +116,4 @@ d6a9b21 Premium Commercial 17 - 07_xiaomi_flagship validated and rendered (batch
 f8f6dd2 Premium Commercial 17 - Apple flagship validated and rendered
 4139a51 Premium Commercial 17 - checkpoint: Batch B-D buildings built and exported (renders in progress)
 9d05b25 Premium Commercial 17 - BMW two-storey interior render
-31bdf09 Premium Commercial 17 - Samsung flagship complete; BMW interior camera moved to show both storeys
 ```

@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:49:42.842846Z",
+ "generated": "2026-11-03T20:50:31.057861Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -2297,10 +2297,10 @@
     }
    },
    "render_seconds": {
-    "day": 56.2,
+    "day": 119.1,
     "night": 82.9,
-    "road_view": 84.7,
-    "interior": 230.3
+    "road_view": 171.2,
+    "interior": 467.1
    },
    "brand_note": "Orange rounded-square badge with \"mi\" in Inter Bold + \"Xiaomi\" wordmark (simplified recreation)."
   },
