@@ -17,13 +17,13 @@ Massing: compact black industrial box only 3 m from the pavement.  Three tall gl
 |---|---|
 | Storeys | 1 (+ lounge office mezzanine) (floor levels [0.15, 4.0] m, roof 8.6) |
 | Frontage x depth x height | 32.0 x 22.0 x 9.4 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [32.25, 22.51, 9.7] m |
 | Setback from plot frontage | 3.0 m |
 | Parking | none |
 | Vehicle access | 16 m wide road-facing crossing straight to three raised glass bay doors |
 | Glass | glass sectional bay doors (PC_GlassBlue) + lounge PC_Glass box |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 5, 'EXTERIOR_LIGHTING': 1} |
+| Collision boxes | 1 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: compact black industrial box only 3 m from the pavement.  Three tall gl
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 16274 | 6414 | 911 | 8788 | 112 | 12 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -65,10 +65,10 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 20; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 73, 'triangles': 32511, 'glb_triangles': 32511, 'images_loaded': 22, 'lights': 6, 'lod0_size_yup_converted': [32.25, 22.51, 9.7]}
 
 Brand note: Original fictional brand.
 

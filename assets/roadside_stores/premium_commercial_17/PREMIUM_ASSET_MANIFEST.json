@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T21:03:12.870873Z",
+ "generated": "2026-11-03T21:11:44.404517Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 10,
+ "complete": 11,
  "assets": [
   {
    "number": "01",
@@ -3002,7 +3002,7 @@
    "name": "Pearl Terrace",
    "folder": "11_pearl_terrace",
    "category": "C - Long-frontage restaurant",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The upper dining room is wrapped by a deep cantilevered BALCONY TERRACE (rounded, 4 m projection on the front, 6 m over the side terrace) with a solid pearl parapet and a glass top rail; the ground floor sits back behind a full-height terrace-facing glass wall. A thin rounded roof canopy with a ring of LED floats above.  Footprint is wider than deep with a side garden terrace (empty stone planters only) under the balcony overhang. Inside: grand sweeping curved staircase, premium reception with a chandelier ring, visible upper floor. Site: terrace directly beside the pavement; no parking.",
    "storeys": 2,
    "floor_levels_m": [
@@ -3188,14 +3188,36 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 1,
+     "probes_total": 3,
+     "probes": {
+      "GF_dining": false,
+      "L1_dining": false,
+      "Stair": true
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 3,
+     "probes_total": 3,
+     "probes": {
+      "GF_dining": true,
+      "L1_dining": true,
+      "Stair": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 62.0,
+    "night": 101.1,
+    "road_view": 84.7,
+    "interior": 266.5
    },
    "brand_note": "Original fictional brand."
   },
@@ -3215,7 +3237,23 @@
    "frontage_width_m": 32.0,
    "depth_m": 22.0,
    "height_m": 9.4,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -16.2,
+     2.49,
+     -0.3
+    ],
+    "max": [
+     16.05,
+     25.0,
+     9.4
+    ],
+    "size": [
+     32.25,
+     22.51,
+     9.7
+    ]
+   },
    "setback_m": 3.0,
    "parking": "none",
    "access": "16 m wide road-facing crossing straight to three raised glass bay doors",
@@ -3243,28 +3281,146 @@
     "glb_building_only": 5.28
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
-    "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "LOD0": 16274,
+    "LOD1": 6414,
+    "LOD2": 911,
+    "placeholder_cars": 8788,
+    "site": 112,
+    "collision": 12,
+    "total": 32511,
+    "lod_files": {
+     "LOD0": 16274,
+     "LOD1": 6414,
+     "LOD2": 911
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 64,
+    "alpha_blend": [
+     "PC_GlassBlue",
+     "PC_GlassRail",
+     "PC_GlassSatin",
+     "PC_Glass",
+     "PC_GlassClear"
+    ],
+    "used": [
+     "AX_Letter",
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_AluSilver",
+     "PC_Asphalt",
+     "PC_BlackGloss",
+     "PC_Brass",
+     "PC_CarGlass",
+     "PC_CarPaintBlack",
+     "PC_CarPaintBlue",
+     "PC_CarPaintGraphite",
+     "PC_CarPaintGreen",
+     "PC_CarPaintOrange",
+     "PC_CarPaintRed",
+     "PC_CarPaintWhite",
+     "PC_CarPaintYellow",
+     "PC_CarTrim",
+     "PC_CarWrapMatte",
+     "PC_Ceiling",
+     "PC_CeilingDark",
+     "PC_Chrome",
+     "PC_Concrete",
+     "PC_Copper",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FloorEpoxyDark",
+     "PC_FloorOak",
+     "PC_Glass",
+     "PC_GlassBlue",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_GlassSatin",
+     "PC_HeadLight",
+     "PC_LEDCyan",
+     "PC_LEDMagenta",
+     "PC_LEDWhite",
+     "PC_LeatherBlack",
+     "PC_LiftBlue",
+     "PC_LightCool",
+     "PC_LightPanel",
+     "PC_LightStrip",
+     "PC_LineWhite",
+     "PC_LineYellow",
+     "PC_PanelBlack",
+     "PC_PaverLight",
+     "PC_PlasticWhite",
+     "PC_Rim",
+     "PC_RimDark",
+     "PC_RoofGravel",
+     "PC_RubberBlack",
+     "PC_Screen",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_SteelPaintGrey",
+     "PC_StoneDark",
+     "PC_StoneTop",
+     "PC_TailLight",
+     "PC_ToolBlack",
+     "PC_ToolRed",
+     "PC_Tyre",
+     "PC_WallDark",
+     "PC_Walnut",
+     "PC_WhiteGloss"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 22,
+    "sizes": [
+     "1024x1024",
+     "1024x512",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_screen_atlas.png",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 5,
+    "EXTERIOR_LIGHTING": 1
+   },
+   "collision_boxes": 1,
    "placeholder_cars": [
     {
      "name": "P12_CAR_01_Coupe_CarPaintGraphite",
@@ -3336,14 +3492,51 @@
     }
    ],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 20,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 73,
+     "triangles": 32511,
+     "glb_triangles": 32511,
+     "images_loaded": 22,
+     "lights": 6,
+     "lod0_size_yup_converted": [
+      32.25,
+      22.51,
+      9.7
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
     "road_view": null,

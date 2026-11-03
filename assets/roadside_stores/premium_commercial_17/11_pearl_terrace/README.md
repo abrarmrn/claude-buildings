@@ -1,6 +1,6 @@
 # 11 - Pearl Terrace
 
-*C - Long-frontage restaurant* - status: **incomplete**
+*C - Long-frontage restaurant* - status: **complete**
 
 Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The upper dining room is wrapped by a deep cantilevered BALCONY TERRACE (rounded, 4 m projection on the front, 6 m over the side terrace) with a solid pearl parapet and a glass top rail; the ground floor sits back behind a full-height terrace-facing glass wall. A thin rounded roof canopy with a ring of LED floats above.  Footprint is wider than deep with a side garden terrace (empty stone planters only) under the balcony overhang. Inside: grand sweeping curved staircase, premium reception with a chandelier ring, visible upper floor. Site: terrace directly beside the pavement; no parking.
 
@@ -58,6 +58,8 @@ P11_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 0; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 51, 'triangles': 55386, 'glb_triangles': 55386, 'images_loaded': 18, 'lights': 6, 'lod0_size_yup_converted': [36.0, 22.9, 10.95]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 1/3 {'GF_dining': False, 'L1_dining': False, 'Stair': True}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 3/3 {'GF_dining': True, 'L1_dining': True, 'Stair': True}
 
 Brand note: Original fictional brand.
 
