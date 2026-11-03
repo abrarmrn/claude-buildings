@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:57:00.374871Z",
+ "generated": "2026-11-03T21:03:12.870873Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 9,
+ "complete": 10,
  "assets": [
   {
    "number": "01",
@@ -2766,7 +2766,7 @@
    "name": "Ember & Olive",
    "folder": "10_ember_and_olive",
    "category": "C - Long-frontage restaurant",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, ridges at 9.1 m), each bay a black-steel portal frame holding a 9 m wide floor-to-eave window with a glazed gable triangle above - strong dark framing on a dark stone plinth, warm copper eave beam carrying the name, a projecting copper entrance box in bay 2. Inside: open dining under timber-lined gable ceilings, a central grill feature counter with copper hood and live-fire glow (display kitchen), wine wall, booths and dome pendants. Site: frontage paving directly off the pavement, optional ANGLED side parking on the right (separate collection).",
    "storeys": "1 (tall, gabled)",
    "floor_levels_m": [
@@ -2964,14 +2964,36 @@
     "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 2,
+     "probes_total": 3,
+     "probes": {
+      "Dining_L": true,
+      "Dining_R": true,
+      "Grill": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 3,
+     "probes_total": 3,
+     "probes": {
+      "Dining_L": true,
+      "Dining_R": true,
+      "Grill": true
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 51.4,
+    "night": 70.0,
+    "road_view": 80.0,
+    "interior": 156.1
    },
    "brand_note": "Original fictional brand."
   },
@@ -2991,7 +3013,23 @@
    "frontage_width_m": 34.0,
    "depth_m": 22.0,
    "height_m": 10.65,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -19.0,
+     3.9,
+     -0.3
+    ],
+    "max": [
+     17.0,
+     26.8,
+     10.65
+    ],
+    "size": [
+     36.0,
+     22.9,
+     10.95
+    ]
+   },
    "setback_m": 4.0,
    "parking": "none (front + side terraces beside the pavement)",
    "access": "pedestrian; no vehicle access",
@@ -3018,38 +3056,136 @@
     "glb_building_only": null
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
+    "LOD0": 39494,
+    "LOD1": 9633,
+    "LOD2": 1287,
     "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "site": 4936,
+    "collision": 36,
+    "total": 55386,
+    "lod_files": {
+     "LOD0": 39494,
+     "LOD1": 9633,
+     "LOD2": 1287
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 27,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_GlassClear"
+    ],
+    "used": [
+     "PC_AluBlack",
+     "PC_AluChampagne",
+     "PC_Brass",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_DeviceBlack",
+     "PC_DeviceSilver",
+     "PC_FabricCream",
+     "PC_FabricTeal",
+     "PC_FloorMarble",
+     "PC_FloorOak",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_LampGlobe",
+     "PC_LeatherCream",
+     "PC_LightStrip",
+     "PC_LightWarm",
+     "PC_PanelPearl",
+     "PC_PaverLight",
+     "PC_RoofGravel",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneTop",
+     "PC_Travertine",
+     "PC_WallWarm",
+     "PT_Letter"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 18,
+    "sizes": [
+     "1024x1024",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_marble_albedo.jpg",
+     "//textures/pc_marble_normal.jpg",
+     "//textures/pc_marble_orm.jpg",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/travertine_albedo.jpg",
+     "//textures/travertine_normal.jpg",
+     "//textures/travertine_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 4,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 3,
    "placeholder_cars": [],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 0,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 51,
+     "triangles": 55386,
+     "glb_triangles": 55386,
+     "images_loaded": 18,
+     "lights": 6,
+     "lod0_size_yup_converted": [
+      36.0,
+      22.9,
+      10.95
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
     "road_view": null,

@@ -1,16 +1,16 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T20:57:01Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T21:03:13Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
 - Batch A: 01 Mercedes-Benz Flagship Showroom (complete), 02 BMW Flagship Showroom (complete), 03 Porsche Flagship Showroom (complete), 04 Ford Showroom (complete)
 - Batch B: 05 Samsung Flagship Experience Store (complete), 06 Apple Flagship Store (complete), 07 Xiaomi Flagship Store (complete), 08 Shirin Restaurant (complete)
-- Batch C: 09 Saffron Courtyard (complete), 10 Ember & Olive (remaining), 11 Pearl Terrace (remaining), 12 Apex Auto Lab (remaining), 13 HydroLux Auto Spa (remaining)
+- Batch C: 09 Saffron Courtyard (complete), 10 Ember & Olive (complete), 11 Pearl Terrace (remaining), 12 Apex Auto Lab (remaining), 13 HydroLux Auto Spa (remaining)
 - Batch D: 14 Pitlane Performance (remaining), 15 Crescent Galleria (remaining), 16 Serein Cafe (remaining), 17 Aurelia Coffee House (remaining)
 
-**9 / 17 assets complete.** Remaining: Ember & Olive, Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
-Last successful asset: Saffron Courtyard
+**10 / 17 assets complete.** Remaining: Pearl Terrace, Apex Auto Lab, HydroLux Auto Spa, Pitlane Performance, Crescent Galleria, Serein Cafe, Aurelia Coffee House
+Last successful asset: Ember & Olive
 
 ## Summary table (triangles read from the exported GLBs)
 
@@ -25,7 +25,7 @@ Last successful asset: Saffron Courtyard
 | 07 | Xiaomi Flagship Store | 2 | 26.0 x 20.0 x 10.6 | 14,060 | 3,898 | 1,230 | 0 (0) | 4.73 | 37 | 16 | 5/1 | PASS |
 | 08 | Shirin Restaurant | 1 (+ 2-storey-high entrance tower) | 46.0 x 16.0 x 11.2 | 47,881 | 12,291 | 1,068 | 0 (0) | 7.61 | 25 | 25 | 5/3 | PASS |
 | 09 | Saffron Courtyard | 2 | 44.0 x 27.0 x 12.3 | 54,664 | 13,377 | 1,762 | 0 (0) | 7.66 | 30 | 22 | 5/2 | PASS |
-| 10 | Ember & Olive | - | - | - | - | - | - | - | - | - | - | pending |
+| 10 | Ember & Olive | 1 (tall, gabled) | 40.0 x 18.0 x 9.1 | 30,732 | 7,094 | 1,037 | 0 (0) | 7.44 | 32 | 23 | 5/4 | PASS |
 | 11 | Pearl Terrace | - | - | - | - | - | - | - | - | - | - | pending |
 | 12 | Apex Auto Lab | - | - | - | - | - | - | - | - | - | - | pending |
 | 13 | HydroLux Auto Spa | - | - | - | - | - | - | - | - | - | - | pending |
@@ -34,7 +34,7 @@ Last successful asset: Saffron Courtyard
 | 16 | Serein Cafe | - | - | - | - | - | - | - | - | - | - | pending |
 | 17 | Aurelia Coffee House | - | - | - | - | - | - | - | - | - | - | pending |
 
-Totals over complete assets: LOD0 249,779 tris, LOD1 68,928, LOD2 11,613, placeholder cars 61,600; 28 placeholder cars; 36 renders + contact sheet + offline gallery.
+Totals over complete assets: LOD0 280,511 tris, LOD1 76,022, LOD2 12,650, placeholder cars 61,600; 28 placeholder cars; 40 renders + contact sheet + offline gallery.
 
 ## Architectural diversity (why these are not one generator with different colours)
 
@@ -85,6 +85,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - 07 Xiaomi Flagship Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
 - 08 Shirin Restaurant: PASS; road view: cars readable 0/0, probes 0/3; day view: cars 0/0, probes 0/3
 - 09 Saffron Courtyard: PASS; road view: cars readable 0/0, probes 3/4; day view: cars 0/0, probes 3/4
+- 10 Ember & Olive: PASS; road view: cars readable 0/0, probes 2/3; day view: cars 0/0, probes 3/3
 
 ## LOD transition recommendations
 
@@ -109,6 +110,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+714d3e0 Premium Commercial 17 - 09_saffron_courtyard validated and rendered (batch C)
 83a6690 Premium Commercial 17 - Saffron Courtyard day render
 389de49 Premium Commercial 17 - Saffron Courtyard validation (renders in progress)
 eb2c52e Premium Commercial 17 - Xiaomi interior re-shot from ground floor (stair + both levels); Batch B complete
@@ -116,5 +118,4 @@ eb2c52e Premium Commercial 17 - Xiaomi interior re-shot from ground floor (stair
 7e18bc5 Stop tracking verbose Cycles render logs (timings are kept in render_report.json)
 387ca5e Premium Commercial 17 - Xiaomi day re-render, render logs
 2fd6536 Premium Commercial 17 - work-in-progress checkpoint (Shirin rendering, Xiaomi interior re-shoot running)
-d6a9b21 Premium Commercial 17 - 07_xiaomi_flagship validated and rendered (batch B)
 ```

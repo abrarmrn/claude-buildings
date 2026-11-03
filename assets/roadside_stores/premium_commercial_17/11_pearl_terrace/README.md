@@ -17,13 +17,13 @@ Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The 
 |---|---|
 | Storeys | 2 (floor levels [0.15, 5.2] m, roof 9.8) |
 | Frontage x depth x height | 34.0 x 22.0 x 10.65 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [36.0, 22.9, 10.95] m |
 | Setback from plot frontage | 4.0 m |
 | Parking | none (front + side terraces beside the pavement) |
 | Vehicle access | pedestrian; no vehicle access |
 | Glass | rounded champagne-framed PC_GlassClear walls on both floors |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 4, 'EXTERIOR_LIGHTING': 2} |
+| Collision boxes | 3 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: a soft, pearl-white two-storey volume with fully rounded corners.  The 
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 39494 | 9633 | 1287 | 0 | 4936 | 36 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -54,10 +54,10 @@ P11_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 0; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 51, 'triangles': 55386, 'glb_triangles': 55386, 'images_loaded': 18, 'lights': 6, 'lod0_size_yup_converted': [36.0, 22.9, 10.95]}
 
 Brand note: Original fictional brand.
 

@@ -1,6 +1,6 @@
 # 10 - Ember & Olive
 
-*C - Long-frontage restaurant* - status: **incomplete**
+*C - Long-frontage restaurant* - status: **complete**
 
 Massing: 40 m frontage of FOUR road-facing gables (dark standing-seam roofs, ridges at 9.1 m), each bay a black-steel portal frame holding a 9 m wide floor-to-eave window with a glazed gable triangle above - strong dark framing on a dark stone plinth, warm copper eave beam carrying the name, a projecting copper entrance box in bay 2. Inside: open dining under timber-lined gable ceilings, a central grill feature counter with copper hood and live-fire glow (display kitchen), wine wall, booths and dome pendants. Site: frontage paving directly off the pavement, optional ANGLED side parking on the right (separate collection).
 
@@ -58,6 +58,8 @@ P10_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 - Degenerate faces: 8; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 42485, 'glb_triangles': 42485, 'images_loaded': 23, 'lights': 9, 'lod0_size_yup_converted': [40.8, 21.16, 9.4]}
+- Ray-traced visibility from the road_view camera: cars readable 0/0 {}; interior probes reached 2/3 {'Dining_L': True, 'Dining_R': True, 'Grill': False}
+- Ray-traced visibility from the day camera: cars readable 0/0 {}; interior probes reached 3/3 {'Dining_L': True, 'Dining_R': True, 'Grill': True}
 
 Brand note: Original fictional brand.
 
