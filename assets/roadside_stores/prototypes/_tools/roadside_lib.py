@@ -830,6 +830,7 @@ class Asset:
 
 def reset_scene():
     bpy.ops.wm.read_factory_settings(use_empty=True)
+    bpy.context.preferences.filepaths.save_version = 0     # no .blend1 backups
     sc = bpy.context.scene
     sc.unit_settings.system = 'METRIC'
     sc.unit_settings.scale_length = 1.0
@@ -876,17 +877,17 @@ def curb_bed(acc, L, x0, y0, x1, y1, h=0.15, w=0.15, fill='RS_Gravel', curb='RS_
         acc.add(bm_box(x0, y0, 0, x1, y1, h, open_bottom=True), fill)
 
 
-def shrub(acc, L, x, y, s=1.0, seed=0, mat='RS_Foliage'):
+def shrub(acc, L, x, y, s=1.0, seed=0, mat='RS_Foliage', z=0.0):
     if L == 0:
-        acc.add(bm_sphere((x, y, 0.35 * s), 0.55 * s, 2, (1.0, 1.0, 0.75), 0.18, seed), mat)
+        acc.add(bm_sphere((x, y, z + 0.35 * s), 0.55 * s, 2, (1.0, 1.0, 0.75), 0.18, seed), mat)
     elif L == 1:
-        acc.add(bm_sphere((x, y, 0.35 * s), 0.55 * s, 1, (1.0, 1.0, 0.75), 0.12, seed), mat)
+        acc.add(bm_sphere((x, y, z + 0.35 * s), 0.55 * s, 1, (1.0, 1.0, 0.75), 0.12, seed), mat)
 
 
-def grass_clump(acc, L, x, y, h=0.7, seed=0, mat='RS_Foliage2'):
+def grass_clump(acc, L, x, y, h=0.7, seed=0, mat='RS_Foliage2', z=0.0):
     if L > 0:
         if L == 1:
-            acc.add(bm_cyl(x, y, 0.0, h * 0.8, 0.28, 6, r2=0.4, caps=True, open_bottom=True), mat)
+            acc.add(bm_cyl(x, y, z, z + h * 0.8, 0.28, 6, r2=0.4, caps=True, open_bottom=True), mat)
         return
     rng = random.Random(seed)
     bm = bmesh.new()
@@ -895,7 +896,7 @@ def grass_clump(acc, L, x, y, h=0.7, seed=0, mat='RS_Foliage2'):
         lean = rng.uniform(0.15, 0.45)
         hh = h * rng.uniform(0.7, 1.1)
         w = 0.035
-        base = Vector((x + 0.08 * math.cos(a), y + 0.08 * math.sin(a), 0.0))
+        base = Vector((x + 0.08 * math.cos(a), y + 0.08 * math.sin(a), z))
         tipd = Vector((math.cos(a) * lean, math.sin(a) * lean, hh))
         side = Vector((-math.sin(a), math.cos(a), 0)) * w
         v0 = bm.verts.new(base - side); v1 = bm.verts.new(base + side)

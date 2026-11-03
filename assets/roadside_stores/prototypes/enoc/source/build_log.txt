@@ -1,0 +1,125 @@
+Info: Saved as "enoc_service_station.blend"
+INFO Draco mesh compression is available, use library at /tmp/claude-0/-home-user-claude-buildings/c731a97a-ca25-55ce-9c2b-54594c676420/scratchpad/bvenv/lib/python3.11/site-packages/bpy/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+13:22:59 | INFO: Starting glTF 2.0 export
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Canopy
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Column0
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Column1
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Column2
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Column3
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_GroundPad
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Island0
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Island1
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Island2
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Island3
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_LampPost0
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_LampPost1
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_LampPost2
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_LampPost3
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Store
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_COL_Totem
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Canopy
+13:22:59 | INFO: Primitives created: 5
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_CanopyLights
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Columns
+13:22:59 | INFO: Primitives created: 5
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Ground
+13:22:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+13:22:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+13:22:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+13:22:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Interior
+13:22:59 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+13:22:59 | INFO: Primitives created: 9
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_LampPosts
+13:22:59 | INFO: Primitives created: 3
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Landscape
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Markings
+13:22:59 | INFO: Primitives created: 3
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_PriceTotem
+13:22:59 | INFO: Primitives created: 7
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_PumpIslands
+13:22:59 | INFO: Primitives created: 10
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Roof
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Signage
+13:22:59 | INFO: Primitives created: 9
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_Store
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_StoreFrames
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD0_StoreGlass
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Canopy
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_CanopyLights
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Columns
+13:22:59 | INFO: Primitives created: 3
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Ground
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Interior
+13:22:59 | INFO: Primitives created: 9
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_LampPosts
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Landscape
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Markings
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_PriceTotem
+13:22:59 | INFO: Primitives created: 7
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_PumpIslands
+13:22:59 | INFO: Primitives created: 8
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Roof
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Signage
+13:22:59 | INFO: Primitives created: 9
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_Store
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_StoreFrames
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD1_StoreGlass
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Canopy
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Columns
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Ground
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_LampPosts
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Landscape
+13:22:59 | INFO: Primitives created: 2
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_PriceTotem
+13:22:59 | INFO: Primitives created: 7
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_PumpIslands
+13:22:59 | INFO: Primitives created: 3
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Signage
+13:22:59 | INFO: Primitives created: 8
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_Store
+13:22:59 | INFO: Primitives created: 4
+13:22:59 | INFO: Extracting primitive: ENOC_LOD2_StoreGlass
+13:22:59 | INFO: Primitives created: 1
+13:22:59 | INFO: Finished glTF 2.0 export in 0.5630311965942383 s
+
+Info: Saved as "enoc_service_station.blend"
+STATS {"0": {"Canopy": 860, "CanopyLights": 568, "Columns": 1024, "Ground": 310, "Interior": 15520, "LampPosts": 1120, "Landscape": 7663, "Markings": 927, "PriceTotem": 466, "PumpIslands": 31080, "Roof": 678, "Signage": 18840, "Store": 484, "StoreFrames": 288, "StoreGlass": 2}, "1": {"Canopy": 356, "CanopyLights": 196, "Columns": 176, "Ground": 214, "Interior": 862, "LampPosts": 216, "Landscape": 2040, "Markings": 79, "PriceTotem": 82, "PumpIslands": 2632, "Roof": 30, "Signage": 6932, "Store": 100, "StoreFrames": 192, "StoreGlass": 2}, "2": {"Canopy": 212, "Columns": 32, "Ground": 98, "LampPosts": 112, "Landscape": 390, "PriceTotem": 82, "PumpIslands": 216, "Signage": 1202, "Store": 100, "StoreGlass": 2}}
+EXPORT {'FINISHED'} /home/user/claude-buildings/assets/roadside_stores/prototypes/enoc/source/enoc_service_station.blend /home/user/claude-buildings/assets/roadside_stores/prototypes/enoc/enoc_service_station.glb

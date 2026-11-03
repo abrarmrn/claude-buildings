@@ -1,0 +1,1362 @@
+[
+ {
+  "asset": "enoc_service_station",
+  "blend_path": "enoc/source/enoc_service_station.blend",
+  "glb_path": "enoc/enoc_service_station.glb",
+  "blend_bytes": 2126074,
+  "glb_bytes": 10805876,
+  "lods": {
+   "0": {
+    "triangles": 79830,
+    "vertices": 50236,
+    "mesh_objects": 15,
+    "materials": 40,
+    "objects": {
+     "ENOC_LOD0_Canopy": 860,
+     "ENOC_LOD0_CanopyLights": 568,
+     "ENOC_LOD0_Columns": 1024,
+     "ENOC_LOD0_Ground": 310,
+     "ENOC_LOD0_Interior": 15520,
+     "ENOC_LOD0_LampPosts": 1120,
+     "ENOC_LOD0_Landscape": 7663,
+     "ENOC_LOD0_Markings": 927,
+     "ENOC_LOD0_PriceTotem": 466,
+     "ENOC_LOD0_PumpIslands": 31080,
+     "ENOC_LOD0_Roof": 678,
+     "ENOC_LOD0_Signage": 18840,
+     "ENOC_LOD0_Store": 484,
+     "ENOC_LOD0_StoreFrames": 288,
+     "ENOC_LOD0_StoreGlass": 2
+    },
+    "visibility_range": [
+     0.0,
+     60.0
+    ]
+   },
+   "1": {
+    "triangles": 14109,
+    "vertices": 9115,
+    "mesh_objects": 15,
+    "materials": 39,
+    "objects": {
+     "ENOC_LOD1_Canopy": 356,
+     "ENOC_LOD1_CanopyLights": 196,
+     "ENOC_LOD1_Columns": 176,
+     "ENOC_LOD1_Ground": 214,
+     "ENOC_LOD1_Interior": 862,
+     "ENOC_LOD1_LampPosts": 216,
+     "ENOC_LOD1_Landscape": 2040,
+     "ENOC_LOD1_Markings": 79,
+     "ENOC_LOD1_PriceTotem": 82,
+     "ENOC_LOD1_PumpIslands": 2632,
+     "ENOC_LOD1_Roof": 30,
+     "ENOC_LOD1_Signage": 6932,
+     "ENOC_LOD1_Store": 100,
+     "ENOC_LOD1_StoreFrames": 192,
+     "ENOC_LOD1_StoreGlass": 2
+    },
+    "visibility_range": [
+     60.0,
+     170.0
+    ]
+   },
+   "2": {
+    "triangles": 2446,
+    "vertices": 2170,
+    "mesh_objects": 10,
+    "materials": 24,
+    "objects": {
+     "ENOC_LOD2_Canopy": 212,
+     "ENOC_LOD2_Columns": 32,
+     "ENOC_LOD2_Ground": 98,
+     "ENOC_LOD2_LampPosts": 112,
+     "ENOC_LOD2_Landscape": 390,
+     "ENOC_LOD2_PriceTotem": 82,
+     "ENOC_LOD2_PumpIslands": 216,
+     "ENOC_LOD2_Signage": 1202,
+     "ENOC_LOD2_Store": 100,
+     "ENOC_LOD2_StoreGlass": 2
+    },
+    "visibility_range": [
+     170.0,
+     900.0
+    ]
+   }
+  },
+  "materials_total": 41,
+  "material_names": [
+   "ENOC_Charcoal",
+   "ENOC_Green",
+   "ENOC_GreenLit",
+   "ENOC_LogoGreen",
+   "ENOC_LogoRed",
+   "ENOC_PriceScreen",
+   "ENOC_Red",
+   "ENOC_RedLit",
+   "ENOC_SignWhite",
+   "RS_Asphalt",
+   "RS_Concrete",
+   "RS_Cooler",
+   "RS_Foliage",
+   "RS_Foliage2",
+   "RS_Glass",
+   "RS_GlassLOD",
+   "RS_Gravel",
+   "RS_InteriorFloor",
+   "RS_InteriorWall",
+   "RS_LampHead",
+   "RS_LightPanel",
+   "RS_LightWarm",
+   "RS_LineWhite",
+   "RS_LineYellow",
+   "RS_MetalBrushed",
+   "RS_MetalDark",
+   "RS_MetalGalv",
+   "RS_PaintCharcoal",
+   "RS_PaintOffWhite",
+   "RS_PaintWhite",
+   "RS_PalmFrond",
+   "RS_PalmTrunk",
+   "RS_Paver",
+   "RS_PlasticBlack",
+   "RS_Products",
+   "RS_ReflectorYellow",
+   "RS_Rubber",
+   "RS_ScreenDark",
+   "RS_Wood",
+   "ZOOM_Red",
+   "ZOOM_SignWhite"
+  ],
+  "textures": {
+   "enoc_price_albedo.png": {
+    "file": "source/textures/enoc_price_albedo.png",
+    "width": 512,
+    "height": 1024,
+    "file_bytes": 55379,
+    "rgba8_mips_mib": 2.67,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "ENOC_PriceScreen"
+    ]
+   },
+   "asphalt_albedo.jpg": {
+    "file": "source/textures/asphalt_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 248497,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_orm.jpg": {
+    "file": "source/textures/asphalt_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 436905,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_normal.jpg": {
+    "file": "source/textures/asphalt_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 1579529,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "concrete_albedo.jpg": {
+    "file": "source/textures/concrete_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 249897,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_orm.jpg": {
+    "file": "source/textures/concrete_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 299534,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_normal.jpg": {
+    "file": "source/textures/concrete_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 848300,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "gravel_albedo.jpg": {
+    "file": "source/textures/gravel_albedo.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 74757,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_orm.jpg": {
+    "file": "source/textures/gravel_orm.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 62406,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_normal.jpg": {
+    "file": "source/textures/gravel_normal.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 166997,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "paver_albedo.jpg": {
+    "file": "source/textures/paver_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 318298,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_orm.jpg": {
+    "file": "source/textures/paver_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 420190,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_normal.jpg": {
+    "file": "source/textures/paver_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 867161,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "products_albedo.png": {
+    "file": "source/textures/products_albedo.png",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 7105,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Products"
+    ]
+   },
+   "wood_albedo.jpg": {
+    "file": "source/textures/wood_albedo.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 66893,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Wood"
+    ]
+   },
+   "wood_orm.jpg": {
+    "file": "source/textures/wood_orm.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 76457,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Wood"
+    ]
+   },
+   "wood_normal.jpg": {
+    "file": "source/textures/wood_normal.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 76966,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "RS_Wood"
+    ]
+   }
+  },
+  "texture_rgba8_mib_total": 59.95,
+  "texture_vram_bc_mib_total": 9.85,
+  "collision_shapes": 16,
+  "night_lights": 16,
+  "glb": {
+   "lod_tris": {
+    "0": 79830,
+    "1": 14109,
+    "2": 2446
+   },
+   "materials": 41,
+   "alpha_blend": [
+    "RS_Glass"
+   ],
+   "double_sided": [
+    "RS_PalmFrond",
+    "RS_Glass"
+   ],
+   "images": [
+    [
+     "enoc_price_albedo",
+     "image/png"
+    ],
+    [
+     "asphalt_normal",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_albedo",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_orm",
+     "image/jpeg"
+    ],
+    [
+     "paver_normal",
+     "image/jpeg"
+    ],
+    [
+     "paver_albedo",
+     "image/jpeg"
+    ],
+    [
+     "paver_orm",
+     "image/jpeg"
+    ],
+    [
+     "concrete_normal",
+     "image/jpeg"
+    ],
+    [
+     "concrete_albedo",
+     "image/jpeg"
+    ],
+    [
+     "concrete_orm",
+     "image/jpeg"
+    ],
+    [
+     "gravel_normal",
+     "image/jpeg"
+    ],
+    [
+     "gravel_albedo",
+     "image/jpeg"
+    ],
+    [
+     "gravel_orm",
+     "image/jpeg"
+    ],
+    [
+     "products_albedo",
+     "image/png"
+    ],
+    [
+     "wood_normal",
+     "image/jpeg"
+    ],
+    [
+     "wood_albedo",
+     "image/jpeg"
+    ],
+    [
+     "wood_orm",
+     "image/jpeg"
+    ]
+   ],
+   "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_specular",
+    "KHR_lights_punctual"
+   ],
+   "lights": 16,
+   "collision_nodes": [
+    "ENOC_COL_Canopy-convcolonly",
+    "ENOC_COL_Column0-convcolonly",
+    "ENOC_COL_Column1-convcolonly",
+    "ENOC_COL_Column2-convcolonly",
+    "ENOC_COL_Column3-convcolonly",
+    "ENOC_COL_GroundPad-convcolonly",
+    "ENOC_COL_Island0-convcolonly",
+    "ENOC_COL_Island1-convcolonly",
+    "ENOC_COL_Island2-convcolonly",
+    "ENOC_COL_Island3-convcolonly",
+    "ENOC_COL_LampPost0-convcolonly",
+    "ENOC_COL_LampPost1-convcolonly",
+    "ENOC_COL_LampPost2-convcolonly",
+    "ENOC_COL_LampPost3-convcolonly",
+    "ENOC_COL_Store-convcolonly",
+    "ENOC_COL_Totem-convcolonly"
+   ],
+   "lod_extras": {
+    "ENOC_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 60.0,
+     "visibility_range_margin": 6.0
+    },
+    "ENOC_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 60.0,
+     "visibility_range_end": 170.0,
+     "visibility_range_margin": 6.0
+    },
+    "ENOC_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 170.0,
+     "visibility_range_end": 900.0,
+     "visibility_range_margin": 6.0
+    }
+   },
+   "nodes": 78,
+   "meshes": 56,
+   "primitives": 183
+  },
+  "export_warnings": [
+   "WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image."
+  ]
+ },
+ {
+  "asset": "starbucks_drive_thru",
+  "blend_path": "starbucks/source/starbucks_drive_thru.blend",
+  "glb_path": "starbucks/starbucks_drive_thru.glb",
+  "blend_bytes": 1356518,
+  "glb_bytes": 10277772,
+  "lods": {
+   "0": {
+    "triangles": 36357,
+    "vertices": 23323,
+    "mesh_objects": 16,
+    "materials": 33,
+    "objects": {
+     "SBX_LOD0_Building": 286,
+     "SBX_LOD0_Fins": 2376,
+     "SBX_LOD0_Frames": 216,
+     "SBX_LOD0_Gantry": 760,
+     "SBX_LOD0_Glass": 4,
+     "SBX_LOD0_Ground": 354,
+     "SBX_LOD0_Interior": 3478,
+     "SBX_LOD0_LampPosts": 840,
+     "SBX_LOD0_Landscape": 8845,
+     "SBX_LOD0_LaneScreen": 222,
+     "SBX_LOD0_Markings": 175,
+     "SBX_LOD0_PickupWindow": 304,
+     "SBX_LOD0_Roof": 214,
+     "SBX_LOD0_Signage": 8228,
+     "SBX_LOD0_Terrace": 9705,
+     "SBX_LOD0_Uplights": 350
+    },
+    "visibility_range": [
+     0.0,
+     60.0
+    ]
+   },
+   "1": {
+    "triangles": 10687,
+    "vertices": 7373,
+    "mesh_objects": 16,
+    "materials": 33,
+    "objects": {
+     "SBX_LOD1_Building": 94,
+     "SBX_LOD1_Fins": 144,
+     "SBX_LOD1_Frames": 160,
+     "SBX_LOD1_Gantry": 88,
+     "SBX_LOD1_Glass": 4,
+     "SBX_LOD1_Ground": 258,
+     "SBX_LOD1_Interior": 710,
+     "SBX_LOD1_LampPosts": 162,
+     "SBX_LOD1_Landscape": 2900,
+     "SBX_LOD1_LaneScreen": 122,
+     "SBX_LOD1_Markings": 175,
+     "SBX_LOD1_PickupWindow": 112,
+     "SBX_LOD1_Roof": 22,
+     "SBX_LOD1_Signage": 3768,
+     "SBX_LOD1_Terrace": 1716,
+     "SBX_LOD1_Uplights": 252
+    },
+    "visibility_range": [
+     60.0,
+     170.0
+    ]
+   },
+   "2": {
+    "triangles": 2360,
+    "vertices": 2180,
+    "mesh_objects": 11,
+    "materials": 23,
+    "objects": {
+     "SBX_LOD2_Building": 72,
+     "SBX_LOD2_Fins": 72,
+     "SBX_LOD2_Gantry": 76,
+     "SBX_LOD2_Glass": 4,
+     "SBX_LOD2_Ground": 146,
+     "SBX_LOD2_LampPosts": 84,
+     "SBX_LOD2_Landscape": 702,
+     "SBX_LOD2_LaneScreen": 72,
+     "SBX_LOD2_PickupWindow": 48,
+     "SBX_LOD2_Signage": 778,
+     "SBX_LOD2_Terrace": 306
+    },
+    "visibility_range": [
+     170.0,
+     900.0
+    ]
+   }
+  },
+  "materials_total": 34,
+  "material_names": [
+   "RS_Asphalt",
+   "RS_Concrete",
+   "RS_Cooler",
+   "RS_Foliage",
+   "RS_Foliage2",
+   "RS_Glass",
+   "RS_GlassLOD",
+   "RS_Gravel",
+   "RS_InteriorFloor",
+   "RS_InteriorWall",
+   "RS_LampHead",
+   "RS_LightWarm",
+   "RS_LineWhite",
+   "RS_LineYellow",
+   "RS_MetalBrushed",
+   "RS_MetalDark",
+   "RS_MetalGalv",
+   "RS_PaintCharcoal",
+   "RS_PaintOffWhite",
+   "RS_PaintWhite",
+   "RS_PalmFrond",
+   "RS_PalmTrunk",
+   "RS_Paver",
+   "RS_PlasticBlack",
+   "RS_Travertine",
+   "RS_Wood",
+   "SBX_Emblem",
+   "SBX_Frame",
+   "SBX_Green",
+   "SBX_HouseGreen",
+   "SBX_Leather",
+   "SBX_Menu",
+   "SBX_SignWhite",
+   "SBX_Umbrella"
+  ],
+  "textures": {
+   "asphalt_albedo.jpg": {
+    "file": "source/textures/asphalt_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 248497,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_orm.jpg": {
+    "file": "source/textures/asphalt_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 436905,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_normal.jpg": {
+    "file": "source/textures/asphalt_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 1579529,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "concrete_albedo.jpg": {
+    "file": "source/textures/concrete_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 249897,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_orm.jpg": {
+    "file": "source/textures/concrete_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 299534,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_normal.jpg": {
+    "file": "source/textures/concrete_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 848300,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "gravel_albedo.jpg": {
+    "file": "source/textures/gravel_albedo.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 74757,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_orm.jpg": {
+    "file": "source/textures/gravel_orm.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 62406,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_normal.jpg": {
+    "file": "source/textures/gravel_normal.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 166997,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "paver_albedo.jpg": {
+    "file": "source/textures/paver_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 318298,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_orm.jpg": {
+    "file": "source/textures/paver_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 420190,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_normal.jpg": {
+    "file": "source/textures/paver_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 867161,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "travertine_albedo.jpg": {
+    "file": "source/textures/travertine_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 346135,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Travertine"
+    ]
+   },
+   "travertine_orm.jpg": {
+    "file": "source/textures/travertine_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 473959,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Travertine"
+    ]
+   },
+   "travertine_normal.jpg": {
+    "file": "source/textures/travertine_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 973308,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Travertine"
+    ]
+   },
+   "wood_albedo.jpg": {
+    "file": "source/textures/wood_albedo.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 66893,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Wood"
+    ]
+   },
+   "wood_orm.jpg": {
+    "file": "source/textures/wood_orm.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 76457,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Wood"
+    ]
+   },
+   "wood_normal.jpg": {
+    "file": "source/textures/wood_normal.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 76966,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "RS_Wood"
+    ]
+   },
+   "sbx_emblem_albedo.png": {
+    "file": "source/textures/sbx_emblem_albedo.png",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 112321,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "SBX_Emblem"
+    ]
+   },
+   "sbx_menu_albedo.png": {
+    "file": "source/textures/sbx_menu_albedo.png",
+    "width": 512,
+    "height": 1024,
+    "file_bytes": 50583,
+    "rgba8_mips_mib": 2.67,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "SBX_Menu"
+    ]
+   }
+  },
+  "texture_rgba8_mib_total": 79.94,
+  "texture_vram_bc_mib_total": 13.02,
+  "collision_shapes": 12,
+  "night_lights": 16,
+  "glb": {
+   "lod_tris": {
+    "0": 36357,
+    "1": 10687,
+    "2": 2360
+   },
+   "materials": 34,
+   "alpha_blend": [
+    "RS_Glass"
+   ],
+   "double_sided": [
+    "RS_Glass",
+    "RS_PalmFrond",
+    "SBX_Umbrella"
+   ],
+   "images": [
+    [
+     "travertine_normal",
+     "image/jpeg"
+    ],
+    [
+     "travertine_albedo",
+     "image/jpeg"
+    ],
+    [
+     "travertine_orm",
+     "image/jpeg"
+    ],
+    [
+     "concrete_normal",
+     "image/jpeg"
+    ],
+    [
+     "concrete_albedo",
+     "image/jpeg"
+    ],
+    [
+     "concrete_orm",
+     "image/jpeg"
+    ],
+    [
+     "wood_normal",
+     "image/jpeg"
+    ],
+    [
+     "wood_albedo",
+     "image/jpeg"
+    ],
+    [
+     "wood_orm",
+     "image/jpeg"
+    ],
+    [
+     "sbx_menu_albedo",
+     "image/png"
+    ],
+    [
+     "asphalt_normal",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_albedo",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_orm",
+     "image/jpeg"
+    ],
+    [
+     "paver_normal",
+     "image/jpeg"
+    ],
+    [
+     "paver_albedo",
+     "image/jpeg"
+    ],
+    [
+     "paver_orm",
+     "image/jpeg"
+    ],
+    [
+     "gravel_normal",
+     "image/jpeg"
+    ],
+    [
+     "gravel_albedo",
+     "image/jpeg"
+    ],
+    [
+     "gravel_orm",
+     "image/jpeg"
+    ],
+    [
+     "sbx_emblem_albedo",
+     "image/png"
+    ]
+   ],
+   "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_specular",
+    "KHR_lights_punctual"
+   ],
+   "lights": 16,
+   "collision_nodes": [
+    "SBX_COL_Building-convcolonly",
+    "SBX_COL_GantryBeam-convcolonly",
+    "SBX_COL_GantryColumn-convcolonly",
+    "SBX_COL_GantryPost-convcolonly",
+    "SBX_COL_GroundPad-convcolonly",
+    "SBX_COL_LampPost0-convcolonly",
+    "SBX_COL_LampPost1-convcolonly",
+    "SBX_COL_LampPost2-convcolonly",
+    "SBX_COL_LaneScreen-convcolonly",
+    "SBX_COL_MenuBoard-convcolonly",
+    "SBX_COL_Terrace-convcolonly",
+    "SBX_COL_UpperFront-convcolonly"
+   ],
+   "lod_extras": {
+    "SBX_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 60.0,
+     "visibility_range_margin": 6.0
+    },
+    "SBX_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 60.0,
+     "visibility_range_end": 170.0,
+     "visibility_range_margin": 6.0
+    },
+    "SBX_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 170.0,
+     "visibility_range_end": 900.0,
+     "visibility_range_margin": 6.0
+    }
+   },
+   "nodes": 77,
+   "meshes": 55,
+   "primitives": 168
+  },
+  "export_warnings": [
+   "WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image."
+  ]
+ },
+ {
+  "asset": "zoom_convenience_store",
+  "blend_path": "zoom/source/zoom_convenience_store.blend",
+  "glb_path": "zoom/zoom_convenience_store.glb",
+  "blend_bytes": 1432466,
+  "glb_bytes": 8845824,
+  "lods": {
+   "0": {
+    "triangles": 45455,
+    "vertices": 30607,
+    "mesh_objects": 12,
+    "materials": 32,
+    "objects": {
+     "ZOOM_LOD0_Building": 912,
+     "ZOOM_LOD0_Canopy": 2868,
+     "ZOOM_LOD0_CanopyLights": 880,
+     "ZOOM_LOD0_Frames": 274,
+     "ZOOM_LOD0_Glass": 6,
+     "ZOOM_LOD0_Ground": 286,
+     "ZOOM_LOD0_Interior": 18250,
+     "ZOOM_LOD0_LampPosts": 1120,
+     "ZOOM_LOD0_Landscape": 7237,
+     "ZOOM_LOD0_Markings": 1004,
+     "ZOOM_LOD0_Signage": 12296,
+     "ZOOM_LOD0_Totem": 322
+    },
+    "visibility_range": [
+     0.0,
+     60.0
+    ]
+   },
+   "1": {
+    "triangles": 10086,
+    "vertices": 6602,
+    "mesh_objects": 12,
+    "materials": 29,
+    "objects": {
+     "ZOOM_LOD1_Building": 208,
+     "ZOOM_LOD1_Canopy": 276,
+     "ZOOM_LOD1_CanopyLights": 400,
+     "ZOOM_LOD1_Frames": 178,
+     "ZOOM_LOD1_Glass": 6,
+     "ZOOM_LOD1_Ground": 190,
+     "ZOOM_LOD1_Interior": 1324,
+     "ZOOM_LOD1_LampPosts": 216,
+     "ZOOM_LOD1_Landscape": 2216,
+     "ZOOM_LOD1_Markings": 50,
+     "ZOOM_LOD1_Signage": 4988,
+     "ZOOM_LOD1_Totem": 34
+    },
+    "visibility_range": [
+     60.0,
+     170.0
+    ]
+   },
+   "2": {
+    "triangles": 1672,
+    "vertices": 1668,
+    "mesh_objects": 8,
+    "materials": 19,
+    "objects": {
+     "ZOOM_LOD2_Building": 138,
+     "ZOOM_LOD2_Canopy": 56,
+     "ZOOM_LOD2_Glass": 2,
+     "ZOOM_LOD2_Ground": 94,
+     "ZOOM_LOD2_LampPosts": 112,
+     "ZOOM_LOD2_Landscape": 468,
+     "ZOOM_LOD2_Signage": 768,
+     "ZOOM_LOD2_Totem": 34
+    },
+    "visibility_range": [
+     170.0,
+     900.0
+    ]
+   }
+  },
+  "materials_total": 33,
+  "material_names": [
+   "RS_Asphalt",
+   "RS_Concrete",
+   "RS_Cooler",
+   "RS_Foliage",
+   "RS_Foliage2",
+   "RS_Glass",
+   "RS_GlassLOD",
+   "RS_Gravel",
+   "RS_InteriorFloor",
+   "RS_InteriorWall",
+   "RS_LampHead",
+   "RS_LightPanel",
+   "RS_LineWhite",
+   "RS_MetalBrushed",
+   "RS_MetalDark",
+   "RS_MetalGalv",
+   "RS_PaintCharcoal",
+   "RS_PaintOffWhite",
+   "RS_PaintWhite",
+   "RS_PalmFrond",
+   "RS_PalmTrunk",
+   "RS_Paver",
+   "RS_PlasticBlack",
+   "RS_Products",
+   "RS_ReflectorRed",
+   "RS_ScreenDark",
+   "ZOOM_AdScreen",
+   "ZOOM_CladWhite",
+   "ZOOM_Cylinder",
+   "ZOOM_Red",
+   "ZOOM_RedLit",
+   "ZOOM_Services",
+   "ZOOM_SignWhite"
+  ],
+  "textures": {
+   "asphalt_albedo.jpg": {
+    "file": "source/textures/asphalt_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 248497,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_orm.jpg": {
+    "file": "source/textures/asphalt_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 436905,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "asphalt_normal.jpg": {
+    "file": "source/textures/asphalt_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 1579529,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Asphalt"
+    ]
+   },
+   "concrete_albedo.jpg": {
+    "file": "source/textures/concrete_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 249897,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_orm.jpg": {
+    "file": "source/textures/concrete_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 299534,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "concrete_normal.jpg": {
+    "file": "source/textures/concrete_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 848300,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Concrete"
+    ]
+   },
+   "gravel_albedo.jpg": {
+    "file": "source/textures/gravel_albedo.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 74757,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_orm.jpg": {
+    "file": "source/textures/gravel_orm.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 62406,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "gravel_normal.jpg": {
+    "file": "source/textures/gravel_normal.jpg",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 166997,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "RS_Gravel"
+    ]
+   },
+   "paver_albedo.jpg": {
+    "file": "source/textures/paver_albedo.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 318298,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_orm.jpg": {
+    "file": "source/textures/paver_orm.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 420190,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 0.67,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "paver_normal.jpg": {
+    "file": "source/textures/paver_normal.jpg",
+    "width": 1024,
+    "height": 1024,
+    "file_bytes": 867161,
+    "rgba8_mips_mib": 5.33,
+    "vram_bc_mips_mib": 1.33,
+    "used_by": [
+     "RS_Paver"
+    ]
+   },
+   "products_albedo.png": {
+    "file": "source/textures/products_albedo.png",
+    "width": 512,
+    "height": 512,
+    "file_bytes": 7105,
+    "rgba8_mips_mib": 1.33,
+    "vram_bc_mips_mib": 0.17,
+    "used_by": [
+     "RS_Products"
+    ]
+   },
+   "zoom_ad_albedo.png": {
+    "file": "source/textures/zoom_ad_albedo.png",
+    "width": 512,
+    "height": 640,
+    "file_bytes": 15999,
+    "rgba8_mips_mib": 1.67,
+    "vram_bc_mips_mib": 0.21,
+    "used_by": [
+     "ZOOM_AdScreen"
+    ]
+   },
+   "zoom_services_albedo.png": {
+    "file": "source/textures/zoom_services_albedo.png",
+    "width": 512,
+    "height": 1024,
+    "file_bytes": 14748,
+    "rgba8_mips_mib": 2.67,
+    "vram_bc_mips_mib": 0.33,
+    "used_by": [
+     "ZOOM_Services"
+    ]
+   }
+  },
+  "texture_rgba8_mib_total": 57.63,
+  "texture_vram_bc_mib_total": 9.39,
+  "collision_shapes": 13,
+  "night_lights": 11,
+  "glb": {
+   "lod_tris": {
+    "0": 45455,
+    "1": 10086,
+    "2": 1672
+   },
+   "materials": 33,
+   "alpha_blend": [
+    "RS_Glass"
+   ],
+   "double_sided": [
+    "RS_Glass",
+    "RS_PalmFrond"
+   ],
+   "images": [
+    [
+     "concrete_normal",
+     "image/jpeg"
+    ],
+    [
+     "concrete_albedo",
+     "image/jpeg"
+    ],
+    [
+     "concrete_orm",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_normal",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_albedo",
+     "image/jpeg"
+    ],
+    [
+     "asphalt_orm",
+     "image/jpeg"
+    ],
+    [
+     "paver_normal",
+     "image/jpeg"
+    ],
+    [
+     "paver_albedo",
+     "image/jpeg"
+    ],
+    [
+     "paver_orm",
+     "image/jpeg"
+    ],
+    [
+     "gravel_normal",
+     "image/jpeg"
+    ],
+    [
+     "gravel_albedo",
+     "image/jpeg"
+    ],
+    [
+     "gravel_orm",
+     "image/jpeg"
+    ],
+    [
+     "products_albedo",
+     "image/png"
+    ],
+    [
+     "zoom_services_albedo",
+     "image/png"
+    ],
+    [
+     "zoom_ad_albedo",
+     "image/png"
+    ]
+   ],
+   "extensions": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_specular",
+    "KHR_lights_punctual"
+   ],
+   "lights": 11,
+   "collision_nodes": [
+    "ZOOM_COL_Building-convcolonly",
+    "ZOOM_COL_Canopy-convcolonly",
+    "ZOOM_COL_CanopyColumn0-convcolonly",
+    "ZOOM_COL_CanopyColumn1-convcolonly",
+    "ZOOM_COL_CanopyColumn2-convcolonly",
+    "ZOOM_COL_CanopyColumn3-convcolonly",
+    "ZOOM_COL_GroundPad-convcolonly",
+    "ZOOM_COL_LampPost0-convcolonly",
+    "ZOOM_COL_LampPost1-convcolonly",
+    "ZOOM_COL_LampPost2-convcolonly",
+    "ZOOM_COL_LampPost3-convcolonly",
+    "ZOOM_COL_Totem-convcolonly",
+    "ZOOM_COL_Walkway-convcolonly"
+   ],
+   "lod_extras": {
+    "ZOOM_LOD0": {
+     "lod_level": 0,
+     "visibility_range_begin": 0.0,
+     "visibility_range_end": 60.0,
+     "visibility_range_margin": 6.0
+    },
+    "ZOOM_LOD1": {
+     "lod_level": 1,
+     "visibility_range_begin": 60.0,
+     "visibility_range_end": 170.0,
+     "visibility_range_margin": 6.0
+    },
+    "ZOOM_LOD2": {
+     "lod_level": 2,
+     "visibility_range_begin": 170.0,
+     "visibility_range_end": 900.0,
+     "visibility_range_margin": 6.0
+    }
+   },
+   "nodes": 62,
+   "meshes": 45,
+   "primitives": 144
+  },
+  "export_warnings": [
+   "WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image."
+  ]
+ }
+]
