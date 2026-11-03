@@ -5,3 +5,4 @@ assets/roadside_stores/additional_17/_tools/__pycache__/
 assets/roadside_stores/premium_commercial_17/_tools/texcache/
 assets/roadside_stores/premium_commercial_17/_tools/*.log
 *_lowres.jpg
+assets/roadside_stores/premium_commercial_17/*/renders/render_log*.txt
