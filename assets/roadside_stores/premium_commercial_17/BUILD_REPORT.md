@@ -1,6 +1,6 @@
 # Premium Commercial 17 - build report
 
-Generated 2026-11-03T22:03:05Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
+Generated 2026-11-03T22:06:46Z from the files on disk (Blender 4.5.15 LTS via the `bpy` module, Cycles CPU + OpenImageDenoise, headless Linux cloud container).
 
 ## Checkpoint
 
@@ -79,7 +79,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - 01 Mercedes-Benz Flagship Showroom: PASS; road view: cars readable 6/8, probes 1/5; day view: cars 8/8, probes 5/5
 - 02 BMW Flagship Showroom: PASS; road view: cars readable 5/7, probes 1/4; day view: cars 6/7, probes 1/4
 - 03 Porsche Flagship Showroom: PASS; road view: cars readable 3/6, probes 1/4; day view: cars 5/6, probes 3/4
-- 04 Ford Showroom: PASS; road view: cars readable 2/7, probes 0/3; day view: cars 4/7, probes 1/3
+- 04 Ford Showroom: PASS; road view: cars readable 3/7, probes 0/3; day view: cars 7/7, probes 1/3
 - 05 Samsung Flagship Experience Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
 - 06 Apple Flagship Store: PASS; road view: cars readable 0/0, probes 2/4; day view: cars 0/0, probes 3/4
 - 07 Xiaomi Flagship Store: PASS; road view: cars readable 0/0, probes 1/4; day view: cars 0/0, probes 2/4
@@ -117,6 +117,7 @@ Every asset has its own build script (`_tools/build_NN_*.py`) that designs its o
 - Branch: `claude/dubai-premium-commercial-17` (based on `claude/dubai-17-store-assets`).
 - Recent commits:
 ```
+5b2a4e8 Premium Commercial 17 - 17_aurelia_coffee_house validated and rendered (batch D)
 7019013 Premium Commercial 17 - 16_serein_cafe validated and rendered (batch D)
 e0dae68 Premium Commercial 17 - 15_crescent_galleria validated and rendered (batch D)
 0aaa813 Premium Commercial 17 - Saffron Courtyard and Pearl Terrace interiors re-shot to show the stair to the upper floor
@@ -124,5 +125,4 @@ e0dae68 Premium Commercial 17 - 15_crescent_galleria validated and rendered (bat
 d9c064e Premium Commercial 17 - in-progress render output
 fd22599 Premium Commercial 17 - Saffron/Pearl interior camera updates (re-shoot in progress), Batch D progress
 dc2dabc Premium Commercial 17 - 13_hydrolux_auto_spa validated and rendered (batch C)
-cfddf94 Premium Commercial 17 - 12_apex_auto_lab validated and rendered (batch C)
 ```

@@ -175,9 +175,9 @@ A.col_box('Hall', X0, Y0, 0, X1, Y1, ZT + 0.35)
 A.col_box('Portal', -5.0, Y0 - 3.5, 0, 5.0, Y0, 10.8)
 for i, x in enumerate((-20.0, -12.0, 8.5, 16.0)):
     A.col_box(f'Column{i}', x - 0.2, Y0 - 1.6, 0, x + 0.2, Y0 - 1.2, ZE + 1.0)
-A.camera('day', (-52.0, -34.0, 11.0), (2.0, 20.0, 3.5), 26)
+A.camera('day', (-30.0, -40.0, 12.0), (0.0, 20.0, 3.0), 26)
 A.camera('night', (40.0, -30.0, 6.0), (-4.0, 20.0, 4.0), 26)
-A.camera('road', (-34.0, -7.6, 1.1), (-2.0, 16.0, 3.2), 24)
+A.camera('road', (-20.0, -7.6, 1.1), (-3.0, 18.0, 2.8), 24)
 A.camera('interior', (13.5, 31.5, 1.7), (-14.0, 14.0, 3.6), 16)
 A.checks['probes'] = [dict(name='Hall_left', p=[-15.0, 20.0, 1.2]), dict(name='Hall_right', p=[9.0, 20.0, 1.2]),
                       dict(name='Reception', p=[0.0, 16.0, 1.2])]

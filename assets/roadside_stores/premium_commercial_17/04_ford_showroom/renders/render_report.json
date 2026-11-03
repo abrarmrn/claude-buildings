@@ -3,13 +3,10 @@
   "cars": [
    {
     "car": "P04_CAR_01_Pickup_CarPaintBlue",
-    "visible_fraction": 0.33,
+    "visible_fraction": 1.0,
     "in_frame_fraction": 1.0,
     "max_glass_layers": 1,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell",
-     "P04_LOD0_GLASS_SYSTEM_Display-20Frame"
-    ]
+    "blockers": []
    },
    {
     "car": "P04_CAR_02_Suv_CarPaintWhite",
@@ -22,9 +19,100 @@
     "car": "P04_CAR_03_Coupe_CarPaintOrange",
     "visible_fraction": 0.33,
     "in_frame_fraction": 1.0,
+    "max_glass_layers": 0,
+    "blockers": [
+     "P04_LOD0_BUILDING_EXTERIOR_Shell"
+    ]
+   },
+   {
+    "car": "P04_CAR_04_Crossover_CarPaintGraphite",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
     "max_glass_layers": 1,
     "blockers": [
+     "P04_LOD0_FACADE_DETAILS_SteelFrame"
+    ]
+   },
+   {
+    "car": "P04_CAR_05_Sedan_CarPaintSilver",
+    "visible_fraction": 0.5,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P04_LOD0_GLASS_SYSTEM_EntranceFrame"
+    ]
+   },
+   {
+    "car": "P04_CAR_06_Pickup_CarPaintBlack",
+    "visible_fraction": 0.5,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": [
+     "P04_LOD0_GLASS_SYSTEM_PartitionFrame"
+    ]
+   },
+   {
+    "car": "P04_CAR_07_Suv_CarPaintRed",
+    "visible_fraction": 0.33,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 2,
+    "blockers": [
      "P04_LOD0_BUILDING_EXTERIOR_Shell",
+     "P04_LOD0_FURNITURE_Main"
+    ]
+   }
+  ],
+  "probes": [
+   {
+    "name": "Hall_left",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "P04_CAR_01_Pickup_CarPaintBlue"
+   },
+   {
+    "name": "Hall_right",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "Reception",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "P04_LOD0_BUILDING_EXTERIOR_Shell"
+   }
+  ]
+ },
+ "day_seconds": 55.7,
+ "night_seconds": 105.6,
+ "road_view_visibility": {
+  "cars": [
+   {
+    "car": "P04_CAR_01_Pickup_CarPaintBlue",
+    "visible_fraction": 1.0,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": []
+   },
+   {
+    "car": "P04_CAR_02_Suv_CarPaintWhite",
+    "visible_fraction": 0.33,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
+     "P04_LOD0_FACADE_DETAILS_SteelFrame",
+     "P04_LOD0_GLASS_SYSTEM_Display-20Frame"
+    ]
+   },
+   {
+    "car": "P04_CAR_03_Coupe_CarPaintOrange",
+    "visible_fraction": 0.67,
+    "in_frame_fraction": 1.0,
+    "max_glass_layers": 1,
+    "blockers": [
      "P04_LOD0_GLASS_SYSTEM_EntranceFrame"
     ]
    },
@@ -34,109 +122,17 @@
     "in_frame_fraction": 1.0,
     "max_glass_layers": 0,
     "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell"
-    ]
-   },
-   {
-    "car": "P04_CAR_05_Sedan_CarPaintSilver",
-    "visible_fraction": 1.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 1,
-    "blockers": []
-   },
-   {
-    "car": "P04_CAR_06_Pickup_CarPaintBlack",
-    "visible_fraction": 0.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 0,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell",
-     "P04_LOD0_FACADE_DETAILS_SteelFrame"
-    ]
-   },
-   {
-    "car": "P04_CAR_07_Suv_CarPaintRed",
-    "visible_fraction": 0.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 0,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell",
-     "P04_LOD0_FACADE_DETAILS_SteelFrame"
-    ]
-   }
-  ],
-  "probes": [
-   {
-    "name": "Hall_left",
-    "reached": false,
-    "in_frame": true,
-    "glass_layers": 0,
-    "blocker": "P04_LOD0_BUILDING_EXTERIOR_Shell"
-   },
-   {
-    "name": "Hall_right",
-    "reached": false,
-    "in_frame": true,
-    "glass_layers": 0,
-    "blocker": "P04_LOD0_BUILDING_EXTERIOR_Shell"
-   },
-   {
-    "name": "Reception",
-    "reached": true,
-    "in_frame": true,
-    "glass_layers": 1,
-    "blocker": null
-   }
-  ]
- },
- "day_seconds": 48.3,
- "night_seconds": 105.6,
- "road_view_visibility": {
-  "cars": [
-   {
-    "car": "P04_CAR_01_Pickup_CarPaintBlue",
-    "visible_fraction": 0.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 0,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell",
-     "P04_LOD0_FACADE_DETAILS_SteelFrame"
-    ]
-   },
-   {
-    "car": "P04_CAR_02_Suv_CarPaintWhite",
-    "visible_fraction": 0.33,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 1,
-    "blockers": [
      "P04_CAR_01_Pickup_CarPaintBlue"
     ]
    },
    {
-    "car": "P04_CAR_03_Coupe_CarPaintOrange",
-    "visible_fraction": 0.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 0,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell"
-    ]
-   },
-   {
-    "car": "P04_CAR_04_Crossover_CarPaintGraphite",
-    "visible_fraction": 0.0,
-    "in_frame_fraction": 1.0,
-    "max_glass_layers": 0,
-    "blockers": [
-     "P04_LOD0_BUILDING_EXTERIOR_Shell"
-    ]
-   },
-   {
     "car": "P04_CAR_05_Sedan_CarPaintSilver",
-    "visible_fraction": 0.67,
+    "visible_fraction": 0.17,
     "in_frame_fraction": 1.0,
     "max_glass_layers": 1,
     "blockers": [
-     "P04_LOD0_FACADE_DETAILS_SteelFrame"
+     "P04_LOD0_BUILDING_EXTERIOR_Shell",
+     "P04_LOD0_FURNITURE_Main"
     ]
    },
    {
@@ -163,25 +159,25 @@
     "name": "Hall_left",
     "reached": false,
     "in_frame": true,
-    "glass_layers": 0,
-    "blocker": "P04_LOD0_BUILDING_EXTERIOR_Shell"
+    "glass_layers": 1,
+    "blocker": "P04_CAR_01_Pickup_CarPaintBlue"
    },
    {
     "name": "Hall_right",
     "reached": false,
     "in_frame": true,
-    "glass_layers": 1,
-    "blocker": "P04_LOD0_FURNITURE_Main"
+    "glass_layers": 0,
+    "blocker": "P04_LOD0_BUILDING_EXTERIOR_Shell"
    },
    {
     "name": "Reception",
     "reached": false,
     "in_frame": true,
-    "glass_layers": 0,
+    "glass_layers": 1,
     "blocker": "P04_LOD0_GLASS_SYSTEM_Display-20Frame"
    }
   ]
  },
- "road_view_seconds": 109.5,
+ "road_view_seconds": 95.8,
  "interior_seconds": 250.1
 }

@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T22:03:03.481253Z",
+ "generated": "2026-11-03T22:06:44.772136Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -1556,14 +1556,14 @@
    },
    "visibility": {
     "road_view": {
-     "cars_visible": 2,
+     "cars_visible": 3,
      "cars_total": 7,
      "car_fractions": {
-      "01_Pickup_CarPaintBlue": 0.0,
+      "01_Pickup_CarPaintBlue": 1.0,
       "02_Suv_CarPaintWhite": 0.33,
-      "03_Coupe_CarPaintOrange": 0.0,
+      "03_Coupe_CarPaintOrange": 0.67,
       "04_Crossover_CarPaintGraphite": 0.0,
-      "05_Sedan_CarPaintSilver": 0.67,
+      "05_Sedan_CarPaintSilver": 0.17,
       "06_Pickup_CarPaintBlack": 0.0,
       "07_Suv_CarPaintRed": 0.0
      },
@@ -1576,30 +1576,30 @@
      }
     },
     "day": {
-     "cars_visible": 4,
+     "cars_visible": 7,
      "cars_total": 7,
      "car_fractions": {
-      "01_Pickup_CarPaintBlue": 0.33,
+      "01_Pickup_CarPaintBlue": 1.0,
       "02_Suv_CarPaintWhite": 1.0,
       "03_Coupe_CarPaintOrange": 0.33,
-      "04_Crossover_CarPaintGraphite": 0.0,
-      "05_Sedan_CarPaintSilver": 1.0,
-      "06_Pickup_CarPaintBlack": 0.0,
-      "07_Suv_CarPaintRed": 0.0
+      "04_Crossover_CarPaintGraphite": 0.67,
+      "05_Sedan_CarPaintSilver": 0.5,
+      "06_Pickup_CarPaintBlack": 0.5,
+      "07_Suv_CarPaintRed": 0.33
      },
      "probes_reached": 1,
      "probes_total": 3,
      "probes": {
       "Hall_left": false,
-      "Hall_right": false,
-      "Reception": true
+      "Hall_right": true,
+      "Reception": false
      }
     }
    },
    "render_seconds": {
-    "day": 48.3,
+    "day": 55.7,
     "night": 105.6,
-    "road_view": 109.5,
+    "road_view": 95.8,
     "interior": 250.1
    },
    "brand_note": "Generic blue oval with \"Ford\" in Liberation Serif Bold Italic (the official script lettering is not reproduced)."
