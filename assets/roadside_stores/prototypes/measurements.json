@@ -3,7 +3,7 @@
   "asset": "enoc_service_station",
   "blend_path": "enoc/source/enoc_service_station.blend",
   "glb_path": "enoc/enoc_service_station.glb",
-  "blend_bytes": 2126074,
+  "blend_bytes": 2129538,
   "glb_bytes": 10805876,
   "lods": {
    "0": {
@@ -460,7 +460,7 @@
   "asset": "starbucks_drive_thru",
   "blend_path": "starbucks/source/starbucks_drive_thru.blend",
   "glb_path": "starbucks/starbucks_drive_thru.glb",
-  "blend_bytes": 1356518,
+  "blend_bytes": 1359030,
   "glb_bytes": 10277772,
   "lods": {
    "0": {
@@ -955,7 +955,7 @@
   "asset": "zoom_convenience_store",
   "blend_path": "zoom/source/zoom_convenience_store.blend",
   "glb_path": "zoom/zoom_convenience_store.glb",
-  "blend_bytes": 1432466,
+  "blend_bytes": 1433596,
   "glb_bytes": 8845824,
   "lods": {
    "0": {

@@ -12,7 +12,13 @@ Quality-benchmark assets for the Downtown Dubai / E11 driving game (Godot 4.7.2,
 Measured triangle counts, materials, texture sizes, memory estimates, file sizes and export warnings:
 [`MEASUREMENTS.md`](MEASUREMENTS.md) (machine-readable: `measurements.json`).
 
-<!-- MEASURED_SUMMARY -->
+| Asset | LOD0 tris | LOD1 tris | LOD2 tris | Materials | .glb | .blend |
+|---|---:|---:|---:|---:|---:|---:|
+| enoc_service_station | 79,830 | 14,109 | 2,446 | 41 | 10.3 MiB | 2.0 MiB |
+| starbucks_drive_thru | 36,357 | 10,687 | 2,360 | 34 | 9.8 MiB | 1.3 MiB |
+| zoom_convenience_store | 45,455 | 10,086 | 1,672 | 33 | 8.4 MiB | 1.4 MiB |
+
+.blend and .glb export succeeded for all three (exporter result `FINISHED`); the triangle counts in the `.glb` match Blender exactly.
 
 ## How these were made (and what was not done)
 

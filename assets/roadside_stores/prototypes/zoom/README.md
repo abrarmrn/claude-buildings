@@ -20,4 +20,4 @@
 - 6.4 m ZOOM pylon (lit red head, `24/7`), 9 parking bays incl. accessible hatch, wheel stops, arrows,
   landscaped beds with palms, 4 street lights, rooftop HVAC.
 
-**Godot extras:** 12 `-convcolonly` collision boxes, 11 optional night lights. See `../README.md`.
+**Godot extras:** 13 `-convcolonly` collision boxes, 11 optional night lights. See `../README.md`.

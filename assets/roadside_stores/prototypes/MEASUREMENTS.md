@@ -17,7 +17,7 @@ Visibility ranges written into the LOD empties (glTF extras): LOD0: 0-60 m, LOD1
 | Asset | .glb size | .blend size | Materials (all LODs) | Textures | Texture memory, RGBA8 + mips | Est. VRAM-compressed + mips | Collision shapes | Night lights |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | enoc_service_station | 10.31 MiB | 2.03 MiB | 41 | 17 | 59.95 MiB | 9.85 MiB | 16 | 16 |
-| starbucks_drive_thru | 9.80 MiB | 1.29 MiB | 34 | 20 | 79.94 MiB | 13.02 MiB | 12 | 16 |
+| starbucks_drive_thru | 9.80 MiB | 1.30 MiB | 34 | 20 | 79.94 MiB | 13.02 MiB | 12 | 16 |
 | zoom_convenience_store | 8.44 MiB | 1.37 MiB | 33 | 15 | 57.63 MiB | 9.39 MiB | 13 | 11 |
 
 Texture memory: "RGBA8 + mips" = width x height x 4 bytes x 4/3. "VRAM-compressed" assumes Godot's default desktop VRAM compression (BC1/DXT1 at 0.5 B/px for colour and ORM maps, BC5/RGTC at 1 B/px for normal maps) x 4/3 for mipmaps. This is an estimate from the formula, not a measurement inside Godot.
