@@ -1,6 +1,6 @@
 {
  "collection": "Premium Commercial 17",
- "generated": "2026-11-03T20:36:29.088008Z",
+ "generated": "2026-11-03T20:49:42.842846Z",
  "blender": "4.5.15 LTS",
  "units": "metres",
  "axes": {
@@ -10,7 +10,7 @@
  },
  "origin": "centre of the plot frontage line (back of pavement), ground level",
  "lod_post_import_script": "premium_lod_post_import.gd",
- "complete": 7,
+ "complete": 8,
  "assets": [
   {
    "number": "01",
@@ -2119,7 +2119,7 @@
     ]
    },
    "file_sizes_mb": {
-    "blend": 0.52,
+    "blend": 0.51,
     "glb": 4.73,
     "glb_building_only": null
    },
@@ -2309,7 +2309,7 @@
    "name": "Shirin Restaurant",
    "folder": "08_shirin_restaurant",
    "category": "C - Long-frontage restaurant",
-   "status": "incomplete",
+   "status": "complete",
    "concept": "Massing: a long (46 m) but SHALLOW (14 m) sand-limestone frontage with ten tall arched windows and a bronze cornice, broken in the middle by an 11 m entrance tower carrying a tall pointed-arch portal and a back-lit bronze mashrabiya screen.  A 4.6 m deep terrace runs along the pavement: shaded on the left by a bronze pergola with lattice screens, open with a low stone balustrade on the right.  Inside: one tall (5.7 m) dining hall with lanterns, banquettes and a back-lit screen wall hiding the kitchen. Site: terrace directly on the pavement; optional side parking on the right (separate collection).",
    "storeys": "1 (+ 2-storey-high entrance tower)",
    "floor_levels_m": [
@@ -2319,7 +2319,23 @@
    "frontage_width_m": 46.0,
    "depth_m": 16.0,
    "height_m": 11.2,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -23.2,
+     0.6,
+     -0.3
+    ],
+    "max": [
+     23.2,
+     19.0,
+     11.2
+    ],
+    "size": [
+     46.4,
+     18.4,
+     11.5
+    ]
+   },
    "setback_m": 0.0,
    "parking": "optional right side, 5 bays (OPTIONAL_PARKING)",
    "access": "terrace opens directly onto the pavement; separate right-hand crossing to optional parking",
@@ -2346,48 +2362,165 @@
     "glb_building_only": null
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
+    "LOD0": 47881,
+    "LOD1": 12291,
+    "LOD2": 1068,
     "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "site": 184,
+    "collision": 36,
+    "total": 61460,
+    "lod_files": {
+     "LOD0": 47881,
+     "LOD1": 12291,
+     "LOD2": 1068
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 25,
+    "alpha_blend": [
+     "PC_Mashrabiya",
+     "PC_Glass"
+    ],
+    "used": [
+     "PC_Asphalt",
+     "PC_Brass",
+     "PC_Bronze",
+     "PC_Ceiling",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_FabricCream",
+     "PC_FabricRust",
+     "PC_FloorMarble",
+     "PC_Glass",
+     "PC_LampGlobe",
+     "PC_LightWarm",
+     "PC_LineWhite",
+     "PC_Mashrabiya",
+     "PC_PaverLight",
+     "PC_RoofGravel",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneSand",
+     "PC_StoneTop",
+     "PC_TimberDark",
+     "PC_WallWarm",
+     "PC_Walnut",
+     "SH_Gold",
+     "SH_ScreenGlow"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 25,
+    "sizes": [
+     "1024x1024",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_marble_albedo.jpg",
+     "//textures/pc_marble_normal.jpg",
+     "//textures/pc_marble_orm.jpg",
+     "//textures/pc_mashrabiya.png",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_stonesand_albedo.jpg",
+     "//textures/pc_stonesand_normal.jpg",
+     "//textures/pc_stonesand_orm.jpg",
+     "//textures/wood_albedo.jpg",
+     "//textures/wood_normal.jpg",
+     "//textures/wood_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 5,
+    "EXTERIOR_LIGHTING": 3
+   },
+   "collision_boxes": 3,
    "placeholder_cars": [],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 26,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 52,
+     "triangles": 61460,
+     "glb_triangles": 61460,
+     "images_loaded": 25,
+     "lights": 8,
+     "lod0_size_yup_converted": [
+      46.4,
+      18.4,
+      11.5
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
-    "road_view": null,
-    "day": null
+    "road_view": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 0,
+     "probes_total": 3,
+     "probes": {
+      "Dining_front_L": false,
+      "Dining_front_R": false,
+      "Dining_round": false
+     }
+    },
+    "day": {
+     "cars_visible": 0,
+     "cars_total": 0,
+     "car_fractions": {},
+     "probes_reached": 0,
+     "probes_total": 3,
+     "probes": {
+      "Dining_front_L": false,
+      "Dining_front_R": false,
+      "Dining_round": false
+     }
+    }
    },
    "render_seconds": {
-    "day": null,
-    "night": null,
-    "road_view": null,
-    "interior": null
+    "day": 52.8,
+    "night": 147.2,
+    "road_view": 150.9,
+    "interior": 436.6
    },
    "brand_note": "Original fictional brand (Latin + Arabic name)."
   },
@@ -2407,7 +2540,23 @@
    "frontage_width_m": 44.0,
    "depth_m": 27.0,
    "height_m": 12.3,
-   "lod0_bounds_m": null,
+   "lod0_bounds_m": {
+    "min": [
+     -22.0,
+     3.0,
+     -0.3
+    ],
+    "max": [
+     22.0,
+     30.0,
+     12.48
+    ],
+    "size": [
+     44.0,
+     27.0,
+     12.78
+    ]
+   },
    "setback_m": 6.0,
    "parking": "none - compact drop-off lay-by (OPTIONAL_FORECOURT)",
    "access": "in/out crossings to a drop-off lay-by in front of the courtyard",
@@ -2434,38 +2583,147 @@
     "glb_building_only": null
    },
    "triangles_from_glb": {
-    "LOD0": null,
-    "LOD1": null,
-    "LOD2": null,
+    "LOD0": 54664,
+    "LOD1": 13377,
+    "LOD2": 1762,
     "placeholder_cars": 0,
-    "site": 0,
-    "collision": null,
-    "total": null,
-    "lod_files": null
+    "site": 452,
+    "collision": 12,
+    "total": 70267,
+    "lod_files": {
+     "LOD0": 54664,
+     "LOD1": 13377,
+     "LOD2": 1762
+    }
    },
-   "lod_ranges_m": {},
+   "lod_ranges_m": {
+    "LOD0": [
+     0.0,
+     90.0
+    ],
+    "LOD1": [
+     90.0,
+     260.0
+    ],
+    "LOD2": [
+     260.0,
+     1600.0
+    ]
+   },
    "materials": {
-    "count_glb": null,
-    "alpha_blend": null,
-    "used": null
+    "count_glb": 30,
+    "alpha_blend": [
+     "PC_GlassRail",
+     "PC_LatticeTimber",
+     "PC_GlassClear",
+     "PC_Glass"
+    ],
+    "used": [
+     "PC_AluBlack",
+     "PC_AluDark",
+     "PC_Asphalt",
+     "PC_Brass",
+     "PC_Bronze",
+     "PC_CarPaintOrange",
+     "PC_Concrete",
+     "PC_Curb",
+     "PC_FabricCream",
+     "PC_FabricRust",
+     "PC_FloorOak",
+     "PC_Glass",
+     "PC_GlassClear",
+     "PC_GlassRail",
+     "PC_LatticeTimber",
+     "PC_LightWarm",
+     "PC_LineWhite",
+     "PC_PaverLight",
+     "PC_RoofGravel",
+     "PC_Stainless",
+     "PC_SteelDark",
+     "PC_StoneDark",
+     "PC_StoneSand",
+     "PC_StoneTop",
+     "PC_TimberDark",
+     "PC_WallWarm",
+     "PC_Water",
+     "SF_Paper",
+     "SF_Red",
+     "SF_Saffron"
+    ]
    },
    "textures": {
-    "embedded_images": 0,
-    "sizes": [],
-    "files": null
+    "embedded_images": 22,
+    "sizes": [
+     "1024x1024",
+     "512x512"
+    ],
+    "files": [
+     "//textures/asphalt_albedo.jpg",
+     "//textures/asphalt_normal.jpg",
+     "//textures/asphalt_orm.jpg",
+     "//textures/concrete_albedo.jpg",
+     "//textures/concrete_normal.jpg",
+     "//textures/concrete_orm.jpg",
+     "//textures/gravel_albedo.jpg",
+     "//textures/gravel_normal.jpg",
+     "//textures/gravel_orm.jpg",
+     "//textures/pc_granite_albedo.jpg",
+     "//textures/pc_granite_normal.jpg",
+     "//textures/pc_granite_orm.jpg",
+     "//textures/pc_lattice.png",
+     "//textures/pc_oak_albedo.jpg",
+     "//textures/pc_oak_normal.jpg",
+     "//textures/pc_oak_orm.jpg",
+     "//textures/pc_paverlight_albedo.jpg",
+     "//textures/pc_paverlight_normal.jpg",
+     "//textures/pc_paverlight_orm.jpg",
+     "//textures/pc_stonesand_albedo.jpg",
+     "//textures/pc_stonesand_normal.jpg",
+     "//textures/pc_stonesand_orm.jpg"
+    ]
    },
-   "lights": null,
-   "collision_boxes": null,
+   "lights": {
+    "INTERIOR_LIGHTING": 5,
+    "EXTERIOR_LIGHTING": 2
+   },
+   "collision_boxes": 1,
    "placeholder_cars": [],
    "validation": {
-    "passed": null,
-    "issues": null,
-    "warnings": null,
-    "degenerate_faces": null,
-    "inverted_closed_faces": null,
-    "glass": null,
-    "reimport": null,
-    "vegetation": null
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "degenerate_faces": 1,
+    "inverted_closed_faces": 0,
+    "glass": {
+     "PC_Glass": {
+      "alpha": 0.16,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "reimport": {
+     "mesh_objects": 65,
+     "triangles": 70267,
+     "glb_triangles": 70267,
+     "images_loaded": 22,
+     "lights": 7,
+     "lod0_size_yup_converted": [
+      44.0,
+      27.0,
+      12.78
+     ]
+    },
+    "vegetation": []
    },
    "visibility": {
     "road_view": null,

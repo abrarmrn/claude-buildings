@@ -17,13 +17,13 @@ Massing: 38 m frontage whose middle 10 m is carved back 6 m into an entrance COU
 |---|---|
 | Storeys | 2 (floor levels [0.15, 5.2] m, roof stacked upturned plates, top 12.3 m) |
 | Frontage x depth x height | 44.0 x 27.0 x 12.3 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [44.0, 27.0, 12.78] m |
 | Setback from plot frontage | 6.0 m |
 | Parking | none - compact drop-off lay-by (OPTIONAL_FORECOURT) |
 | Vehicle access | in/out crossings to a drop-off lay-by in front of the courtyard |
 | Glass | GF bronze-framed PC_Glass band + L1 glass behind timber battens |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 5, 'EXTERIOR_LIGHTING': 2} |
+| Collision boxes | 1 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: 38 m frontage whose middle 10 m is carved back 6 m into an entrance COU
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 54664 | 13377 | 1762 | 0 | 452 | 12 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -54,10 +54,10 @@ P09_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 1; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 70267, 'glb_triangles': 70267, 'images_loaded': 22, 'lights': 7, 'lod0_size_yup_converted': [44.0, 27.0, 12.78]}
 
 Brand note: Original fictional brand.
 
