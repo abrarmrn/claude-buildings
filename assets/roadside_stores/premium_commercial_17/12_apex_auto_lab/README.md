@@ -1,6 +1,6 @@
 # 12 - Apex Auto Lab
 
-*D - Automotive service facility* - status: **incomplete**
+*D - Automotive service facility* - status: **complete**
 
 Massing: compact black industrial box only 3 m from the pavement.  Three tall glass sectional doors (raised) open the workshop bays straight to the road; a diagonal cyan/magenta neon stripe slices across the black cladding and over the glass-box customer lounge on the right (double-height glazing with an office mezzanine).  Illuminated chevron + name. Inside: bay 1 car on a 2-post lift, bay 2 car being wrapped (vinyl racks, plotter), bay 3 detailing car inside an LED light-tunnel frame; tool cabinets, workbench, industrial strip lights; lounge with coffee bar. Site: direct road-facing apron to the bays (wide crossing), no parking.
 
@@ -69,6 +69,8 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 - Degenerate faces: 20; inverted faces in watertight pieces: 0; vegetation: none
 - Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassBlue': {'alpha': 0.3, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassRail': {'alpha': 0.14, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
 - GLB re-import into a clean scene: {'mesh_objects': 73, 'triangles': 32511, 'glb_triangles': 32511, 'images_loaded': 22, 'lights': 6, 'lod0_size_yup_converted': [32.25, 22.51, 9.7]}
+- Ray-traced visibility from the road_view camera: cars readable 3/4 {'01_Coupe_CarPaintGraphite': 0.0, '02_Sedan_CarWrapMatte': 1.0, '03_Suv_CarPaintBlack': 0.67, '04_Coupe_CarPaintRed': 1.0}; interior probes reached 0/4 {'Bay1_lift': False, 'Bay2_wrap': False, 'Bay3_tunnel': False, 'Lounge': False}
+- Ray-traced visibility from the day camera: cars readable 3/4 {'01_Coupe_CarPaintGraphite': 0.0, '02_Sedan_CarWrapMatte': 1.0, '03_Suv_CarPaintBlack': 0.33, '04_Coupe_CarPaintRed': 1.0}; interior probes reached 1/4 {'Bay1_lift': False, 'Bay2_wrap': False, 'Bay3_tunnel': False, 'Lounge': True}
 
 Brand note: Original fictional brand.
 

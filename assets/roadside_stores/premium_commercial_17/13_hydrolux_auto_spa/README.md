@@ -17,13 +17,13 @@ Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a 
 |---|---|
 | Storeys | 1 (floor levels [0.05, 0.2] m, roof translucent wave canopy 6.1-8.9 m over a 4.6 m tunnel) |
 | Frontage x depth x height | 50.0 x 19.2 x 8.9 m |
-| LOD0 bounds (Blender) | - m |
+| LOD0 bounds (Blender) | [51.76, 21.58, 8.9] m |
 | Setback from plot frontage | 2.8 m |
 | Parking | none (queue lane only) |
 | Vehicle access | separate ENTRY (left) and EXIT (right) crossings; tunnel runs parallel to the road |
 | Glass | glass tunnel side wall + glass lounge |
-| Lights | None |
-| Collision boxes | None |
+| Lights | {'INTERIOR_LIGHTING': 6, 'EXTERIOR_LIGHTING': 3} |
+| Collision boxes | 3 |
 
 ## Files
 
@@ -39,9 +39,9 @@ Massing: a 28 m drive-through wash TUNNEL running PARALLEL to the road behind a 
 
 | LOD0 | LOD1 | LOD2 | Placeholder cars | Site pieces | Collision |
 |---|---|---|---|---|---|
-| None | None | None | 0 | 0 | None |
+| 22232 | 4922 | 1604 | 15484 | 784 | 36 |
 
-LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {}; placeholder cars 0-340 m.
+LOD visibility ranges (glTF extras, applied by `../premium_lod_post_import.gd`): {'LOD0': [0.0, 90.0], 'LOD1': [90.0, 260.0], 'LOD2': [260.0, 1600.0]}; placeholder cars 0-340 m.
 
 ## Hierarchy
 
@@ -68,10 +68,10 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 
 ## Validation
 
-- Result: **FAIL**; issues: None; warnings: None
-- Degenerate faces: None; inverted faces in watertight pieces: None; vegetation: none
-- Glass materials: None
-- GLB re-import into a clean scene: None
+- Result: **PASS**; issues: []; warnings: []
+- Degenerate faces: 3; inverted faces in watertight pieces: 0; vegetation: none
+- Glass materials: {'PC_Glass': {'alpha': 0.16, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassClear': {'alpha': 0.11, 'blend': 'BLEND', 'double_sided': True}, 'PC_GlassSatin': {'alpha': 0.55, 'blend': 'BLEND', 'double_sided': True}}
+- GLB re-import into a clean scene: {'mesh_objects': 65, 'triangles': 45062, 'glb_triangles': 45062, 'images_loaded': 17, 'lights': 9, 'lod0_size_yup_converted': [51.76, 21.58, 8.9]}
 
 Brand note: Original fictional brand.
 
