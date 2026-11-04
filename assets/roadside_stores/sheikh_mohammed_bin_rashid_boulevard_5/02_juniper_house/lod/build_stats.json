@@ -126,18 +126,18 @@
    "SIGNAGE/Brand": 502
   },
   "SITE": {
-   "OPTIONAL_TERRACE/DeckC1": 12,
-   "OPTIONAL_TERRACE/DeckC1Screen": 72,
-   "OPTIONAL_TERRACE/DeckC2": 12,
-   "OPTIONAL_TERRACE/DeckC2Screen": 72,
-   "OPTIONAL_TERRACE/DeckL": 12,
-   "OPTIONAL_TERRACE/DeckLScreen": 72,
-   "OPTIONAL_TERRACE/DeckR": 12,
-   "OPTIONAL_TERRACE/DeckRScreen": 72,
-   "OPTIONAL_TERRACE/EmptyPlanters": 100,
-   "OPTIONAL_TERRACE/StreetFurniture": 476,
-   "OPTIONAL_TERRACE/TerraceFurniture": 8328,
-   "PROMENADE_FRONTAGE/Paving": 108
+   "OPTIONAL_FORECOURT/DeckC1": 12,
+   "OPTIONAL_FORECOURT/DeckC1Screen": 72,
+   "OPTIONAL_FORECOURT/DeckC2": 12,
+   "OPTIONAL_FORECOURT/DeckC2Screen": 72,
+   "OPTIONAL_FORECOURT/DeckL": 12,
+   "OPTIONAL_FORECOURT/DeckLScreen": 72,
+   "OPTIONAL_FORECOURT/DeckR": 12,
+   "OPTIONAL_FORECOURT/DeckRScreen": 72,
+   "OPTIONAL_FORECOURT/EmptyPlanters": 100,
+   "OPTIONAL_FORECOURT/PromenadeFurniture": 476,
+   "OPTIONAL_FORECOURT/TerraceFurniture": 8328,
+   "SIDEWALK_FRONTAGE/Paving": 108
   }
  },
  "totals": {
@@ -179,7 +179,7 @@
   "glass": "BV_Glass alpha 0.11, bronze frames",
   "concept": "Massing: a long, low, horizontal frontage - eleven slender travertine mullion-piers on a 3 m grid carry a continuous",
   "frontage_m": 30.0,
-  "terrace": "long timber terrace decks under the 4.6 m canopy (OPTIONAL_TERRACE)",
+  "terrace": "long timber terrace decks under the 4.6 m canopy (OPTIONAL_FORECOURT)",
   "plot_x": [
    -16.0,
    16.0
