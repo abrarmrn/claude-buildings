@@ -30,7 +30,7 @@
    "GLASS_SYSTEM/EntTransomGlass": 6,
    "GLASS_SYSTEM/EntranceFrame": 320,
    "GLASS_SYSTEM/EntranceGlass": 12,
-   "SIGNAGE/Brand": 13013
+   "SIGNAGE/Brand": 13065
   },
   "LOD1": {
    "BUILDING_EXTERIOR/RearInterface": 12,
@@ -92,16 +92,16 @@
    "SIGNAGE/Brand": 641
   },
   "SITE": {
-   "OPTIONAL_TERRACE/Deck": 12,
-   "OPTIONAL_TERRACE/DeckScreen": 72,
-   "OPTIONAL_TERRACE/EmptyPlanters": 100,
-   "OPTIONAL_TERRACE/StreetFurniture": 808,
-   "OPTIONAL_TERRACE/TerraceFurniture": 2864,
-   "PROMENADE_FRONTAGE/Paving": 60
+   "OPTIONAL_FORECOURT/Deck": 12,
+   "OPTIONAL_FORECOURT/DeckScreen": 72,
+   "OPTIONAL_FORECOURT/EmptyPlanters": 100,
+   "OPTIONAL_FORECOURT/PromenadeFurniture": 808,
+   "OPTIONAL_FORECOURT/TerraceFurniture": 2864,
+   "SIDEWALK_FRONTAGE/Paving": 60
   }
  },
  "totals": {
-  "LOD0": 40431,
+  "LOD0": 40483,
   "LOD1": 12731,
   "LOD2": 1367,
   "SITE": 3916
@@ -138,7 +138,7 @@
   "glass": "BV_Glass alpha 0.11, bronze frames",
   "concept": "Massing: symmetrical beige-limestone podium frontage of five tall vertical bays between deep stone piers; the four side",
   "frontage_m": 22.0,
-  "terrace": "optional raised timber deck 7.4 x 5.2 m (OPTIONAL_TERRACE)",
+  "terrace": "optional raised timber deck 7.4 x 5.2 m (OPTIONAL_FORECOURT)",
   "plot_x": [
    -12.0,
    12.0
