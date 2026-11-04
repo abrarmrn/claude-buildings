@@ -1,0 +1,151 @@
+{
+ "parts": {
+  "LOD0": {
+   "BUILDING_EXTERIOR/RearInterface": 12,
+   "BUILDING_EXTERIOR/Roof": 26,
+   "BUILDING_EXTERIOR/Stone": 576,
+   "BUILDING_INTERIOR/CeilingLights": 88,
+   "BUILDING_INTERIOR/GrandStair": 400,
+   "BUILDING_INTERIOR/GrandStairGlass": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/PartitionGlass": 12,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/StairRailFrame": 40,
+   "BUILDING_INTERIOR/StairRailGlass": 2,
+   "BUILDING_INTERIOR/VoidRailFrame": 120,
+   "BUILDING_INTERIOR/VoidRailGlass": 6,
+   "BUILDING_INTERIOR/Walls": 24,
+   "DISPLAY_OBJECTS/Decor": 24,
+   "FACADE_DETAILS/Bronze": 356,
+   "FURNITURE/Dining": 24728,
+   "GLASS_SYSTEM/Bay0Frame": 108,
+   "GLASS_SYSTEM/Bay0Glass": 16,
+   "GLASS_SYSTEM/Bay1Frame": 108,
+   "GLASS_SYSTEM/Bay1Glass": 16,
+   "GLASS_SYSTEM/Bay2Frame": 108,
+   "GLASS_SYSTEM/Bay2Glass": 16,
+   "GLASS_SYSTEM/Bay3Frame": 108,
+   "GLASS_SYSTEM/Bay3Glass": 16,
+   "GLASS_SYSTEM/EntTransomFrame": 72,
+   "GLASS_SYSTEM/EntTransomGlass": 6,
+   "GLASS_SYSTEM/EntranceFrame": 320,
+   "GLASS_SYSTEM/EntranceGlass": 12,
+   "SIGNAGE/Brand": 13013
+  },
+  "LOD1": {
+   "BUILDING_EXTERIOR/RearInterface": 12,
+   "BUILDING_EXTERIOR/Roof": 26,
+   "BUILDING_EXTERIOR/Stone": 380,
+   "BUILDING_INTERIOR/CeilingLights": 46,
+   "BUILDING_INTERIOR/GrandStair": 372,
+   "BUILDING_INTERIOR/GrandStairGlass": 2,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/PartitionGlass": 12,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/StairRailFrame": 24,
+   "BUILDING_INTERIOR/StairRailGlass": 2,
+   "BUILDING_INTERIOR/VoidRailFrame": 72,
+   "BUILDING_INTERIOR/VoidRailGlass": 6,
+   "BUILDING_INTERIOR/Walls": 24,
+   "DISPLAY_OBJECTS/Decor": 24,
+   "FACADE_DETAILS/Bronze": 204,
+   "FURNITURE/Dining": 3740,
+   "GLASS_SYSTEM/Bay0Frame": 108,
+   "GLASS_SYSTEM/Bay0Glass": 16,
+   "GLASS_SYSTEM/Bay1Frame": 108,
+   "GLASS_SYSTEM/Bay1Glass": 16,
+   "GLASS_SYSTEM/Bay2Frame": 108,
+   "GLASS_SYSTEM/Bay2Glass": 16,
+   "GLASS_SYSTEM/Bay3Frame": 108,
+   "GLASS_SYSTEM/Bay3Glass": 16,
+   "GLASS_SYSTEM/EntTransomFrame": 72,
+   "GLASS_SYSTEM/EntTransomGlass": 6,
+   "GLASS_SYSTEM/EntranceFrame": 120,
+   "GLASS_SYSTEM/EntranceGlass": 12,
+   "SIGNAGE/Brand": 6983
+  },
+  "LOD2": {
+   "BUILDING_EXTERIOR/RearInterface": 12,
+   "BUILDING_EXTERIOR/Roof": 14,
+   "BUILDING_EXTERIOR/Stone": 264,
+   "BUILDING_INTERIOR/CeilingLights": 8,
+   "BUILDING_INTERIOR/GrandStair": 12,
+   "BUILDING_INTERIOR/GroundSlab": 12,
+   "BUILDING_INTERIOR/Slabs": 84,
+   "BUILDING_INTERIOR/StairRailGlass": 2,
+   "BUILDING_INTERIOR/VoidRailGlass": 6,
+   "BUILDING_INTERIOR/Walls": 24,
+   "FACADE_DETAILS/Bronze": 36,
+   "FURNITURE/Dining": 24,
+   "GLASS_SYSTEM/Bay0Frame": 36,
+   "GLASS_SYSTEM/Bay0Glass": 8,
+   "GLASS_SYSTEM/Bay1Frame": 36,
+   "GLASS_SYSTEM/Bay1Glass": 8,
+   "GLASS_SYSTEM/Bay2Frame": 36,
+   "GLASS_SYSTEM/Bay2Glass": 8,
+   "GLASS_SYSTEM/Bay3Frame": 36,
+   "GLASS_SYSTEM/Bay3Glass": 8,
+   "GLASS_SYSTEM/EntTransomFrame": 24,
+   "GLASS_SYSTEM/EntTransomGlass": 2,
+   "GLASS_SYSTEM/EntranceFrame": 24,
+   "GLASS_SYSTEM/EntranceGlass": 2,
+   "SIGNAGE/Brand": 641
+  },
+  "SITE": {
+   "OPTIONAL_TERRACE/Deck": 12,
+   "OPTIONAL_TERRACE/DeckScreen": 72,
+   "OPTIONAL_TERRACE/EmptyPlanters": 100,
+   "OPTIONAL_TERRACE/StreetFurniture": 808,
+   "OPTIONAL_TERRACE/TerraceFurniture": 2864,
+   "PROMENADE_FRONTAGE/Paving": 60
+  }
+ },
+ "totals": {
+  "LOD0": 40431,
+  "LOD1": 12731,
+  "LOD2": 1367,
+  "SITE": 3916
+ },
+ "meta": {
+  "floors": 2,
+  "tower_interface": {
+   "rear_plane_y": 18.0,
+   "podium_roof_z": 11.22,
+   "top_z": 12.52,
+   "x": [
+    -11.0,
+    11.0
+   ]
+  },
+  "width": 22.0,
+  "depth": 18.0,
+  "height": 11.22,
+  "footprint": [
+   -11.0,
+   0.0,
+   11.0,
+   18.0
+  ],
+  "storeys": 2,
+  "floor_levels": [
+   0.15,
+   5.0
+  ],
+  "roof": 9.2,
+  "parking": "none (promenade frontage)",
+  "access": "pedestrian from the promenade; service via the rear",
+  "setback_m": 0.0,
+  "glass": "BV_Glass alpha 0.11, bronze frames",
+  "concept": "Massing: symmetrical beige-limestone podium frontage of five tall vertical bays between deep stone piers; the four side",
+  "frontage_m": 22.0,
+  "terrace": "optional raised timber deck 7.4 x 5.2 m (OPTIONAL_TERRACE)",
+  "plot_x": [
+   -12.0,
+   12.0
+  ],
+  "light_counts": {
+   "INTERIOR_LIGHTING": 9,
+   "EXTERIOR_LIGHTING": 6
+  }
+ }
+}

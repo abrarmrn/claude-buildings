@@ -1,0 +1,89 @@
+{
+ "note": "Presentation layout only - not real geographic placement or real tenant positions.",
+ "order": [
+  {
+   "asset": "04_galerie_dor",
+   "x_centre": -51.0,
+   "width": 26.0
+  },
+  {
+   "asset": "01_maison_levant",
+   "x_centre": -27.0,
+   "width": 22.0
+  },
+  {
+   "asset": "05_the_promenade_galleria",
+   "x_centre": 1.0,
+   "width": 34.0
+  },
+  {
+   "asset": "02_juniper_house",
+   "x_centre": 33.0,
+   "width": 30.0
+  },
+  {
+   "asset": "03_lune_and_laurel",
+   "x_centre": 56.0,
+   "width": 16.0
+  }
+ ],
+ "total_frontage_m": 128.0,
+ "views": {
+  "overview_day": {
+   "loc": [
+    -70.0,
+    -78.0,
+    26.0
+   ],
+   "target": [
+    -6.0,
+    6.0,
+    6.0
+   ],
+   "lens": 30,
+   "mode": "day"
+  },
+  "overview_night": {
+   "loc": [
+    -62.0,
+    -70.0,
+    16.0
+   ],
+   "target": [
+    -6.0,
+    6.0,
+    6.0
+   ],
+   "lens": 30,
+   "mode": "night"
+  },
+  "promenade_day": {
+   "loc": [
+    -62.0,
+    -4.6,
+    1.7
+   ],
+   "target": [
+    10.0,
+    2.0,
+    6.5
+   ],
+   "lens": 26,
+   "mode": "day"
+  },
+  "driver_night": {
+   "loc": [
+    -58.0,
+    -12.5,
+    1.15
+   ],
+   "target": [
+    8.0,
+    2.0,
+    6.0
+   ],
+   "lens": 26,
+   "mode": "night"
+  }
+ }
+}
