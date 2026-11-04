@@ -78,3 +78,7 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 Brand note: Generic blue oval with "Ford" in Liberation Serif Bold Italic (the official script lettering is not reproduced).
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Blue Oval (7.4 x 2.78 m) with raised white script and rim on the portal; supporting SERVICE / PARTS texts re-set in Inter. Artwork: ford.com navigation logo SVG (official vector, #00095B). Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/ford_showroom_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

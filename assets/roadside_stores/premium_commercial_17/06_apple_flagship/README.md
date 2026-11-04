@@ -64,3 +64,7 @@ P06_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 Brand note: Apple-style silhouette drawn procedurally from circles (simplified, not official artwork); no "iPhone Store" naming.
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Illuminated Apple logo (1.95 m) suspended behind the glass on the existing rod + small flank logo (1.0 m); no store-name text. Artwork: apple.com global navigation SVG (official vector). Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/apple_flagship_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

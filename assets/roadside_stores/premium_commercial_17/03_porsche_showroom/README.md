@@ -77,3 +77,7 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 Brand note: Spaced "PORSCHE" wordmark in a generic sans; the crest is NOT reproduced.
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Official PORSCHE wordmark on the upper box fascia (7.5 m); coloured crest (1.22 m) + wordmark (3.5 m) on the forecourt monolith. Artwork: Wordmark: Porsche Design System (official vector). Crest: simple-icons line-art coloured from the official 2023 crest image (recreation). Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/porsche_showroom_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

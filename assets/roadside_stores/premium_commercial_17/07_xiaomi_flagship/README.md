@@ -64,3 +64,7 @@ P07_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 Brand note: Orange rounded-square badge with "mi" in Inter Bold + "Xiaomi" wordmark (simplified recreation).
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Orange MI symbol (2.2 m) on the portal; lowercase "xiaomi" wordmark (3.6 m) as dark halo-lit letters on the white fascia. Artwork: Squircle + #ff6900 from mi.com; MI glyph simple-icons (source mi.com); wordmark typeset in MiSans (recreation). Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/xiaomi_flagship_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

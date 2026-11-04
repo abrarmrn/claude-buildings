@@ -64,3 +64,7 @@ P05_<Title> (root, origin = centre of the plot frontage line, ground; front = -Y
 Brand note: "SAMSUNG" in Inter ExtraBold (not the official typeface); LED media wall shows abstract generated content.
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. SAMSUNG wordmark (4.9 m, white reversed on the black fascia) as illuminated channel letters; EXPERIENCE STORE line re-set in Inter. Artwork: simple-icons samsung (source samsung.com brand identity). Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/samsung_flagship_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

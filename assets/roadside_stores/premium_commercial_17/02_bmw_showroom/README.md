@@ -78,3 +78,7 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 Brand note: Simplified roundel (black ring, blue/white quarters, generic letters) on blade + pylon; not official artwork.
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Dealership roundel (black ring, white letters, blue/white quarters, chrome rims) on the blade (3.8 m) and pylon (2.3 m). Artwork: simple-icons bmw (source bmw.com); physical-emblem colours composed from that vector. Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/bmw_showroom_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.

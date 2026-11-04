@@ -79,3 +79,7 @@ Generic, badge-free silhouettes for replacement by the game's own vehicles. Each
 Brand note: Rooftop "MERCEDES-BENZ" wordmark in a generic sans + simplified three-pointed star in a ring (geometric recreation, not official artwork).
 
 Godot import has NOT been tested from the cloud session. If you copy this folder into a Godot project, delete or exclude the `.blend` (Godot would try to import it) - `textures/` and `renders/` contain `.gdignore`.
+
+## Brand signage correction
+
+The brand identity was corrected on branch `claude/flagship-brand-fixes-boulevard-5`, and only the signage changed. Dimensional three-pointed star in ring on the granite core (4.0 m), official wordmark on the roof plate (11.0 m) and under the star (3.4 m). Artwork: Star: simple-icons 5.0.0 (source mercedes-benz.com). Wordmark: official 1792 px image from mercedes-benz.com, potrace-vectorised. Old signage: `BRAND_SIGNAGE_ORIGINAL_DISABLED` collection in the .blend (not exported). New signage: `BRAND_SIGNAGE_CORRECTED` (+ `LOD1_` / `LOD2_`). Renders: `renders/mercedes_showroom_signage_*.jpg`. Validation: `brand_signage_correction.json` (PASS). Provenance and permissions: `../FLAGSHIP_BRANDING_CORRECTION/BRAND_ASSET_SOURCES.md`. Internal test asset; no endorsement implied.
