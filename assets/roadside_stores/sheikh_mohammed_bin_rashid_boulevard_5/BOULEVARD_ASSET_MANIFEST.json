@@ -1,0 +1,1250 @@
+{
+ "collection": "Sheikh Mohammed bin Rashid Boulevard - 5 podium assets",
+ "generated": "2026-11-04T07:22:18.739812Z",
+ "units": "metres",
+ "up": "Z (Blender) / Y (glTF)",
+ "front": "-Y (Blender) / +Z (glTF)",
+ "fictional_businesses": true,
+ "placement_note": "No real-world coordinates or tenant positions; streetscape is a presentation layout only.",
+ "godot_tested": false,
+ "unreal_tested": false,
+ "lod_ranges_m": {
+  "LOD0": [
+   0,
+   110
+  ],
+  "LOD1": [
+   110,
+   300
+  ],
+  "LOD2": [
+   300,
+   1800
+  ]
+ },
+ "streetscape": {
+  "blend": "combined_streetscape/boulevard_five_streetscape.blend",
+  "renders": [
+   "combined_streetscape/streetscape_overview_day.jpg",
+   "combined_streetscape/streetscape_overview_night.jpg",
+   "combined_streetscape/streetscape_promenade_day.jpg",
+   "combined_streetscape/streetscape_driver_night.jpg"
+  ]
+ },
+ "assets": [
+  {
+   "num": "01",
+   "folder": "01_maison_levant",
+   "base": "maison_levant",
+   "name": "Maison Levant",
+   "type": "Premium Levantine fine-dining restaurant",
+   "identity": "Symmetrical limestone frontage: five tall bays between 0.9 m stone piers; four two-storey bronze-framed glass bays and a 7 m recessed central entrance under a deep bronze blade canopy; attic band with bronze letters.",
+   "interior": "Double-height dining hall with chandelier rings, reception counter, velvet banquettes and round tables; first-floor private dining gallery with a glass balustrade over the void; stone-and-bronze stair; mashrabiya feature wall.",
+   "terrace": "Raised timber dining terrace with parasols (optional collection).",
+   "width_m": 22.0,
+   "depth_m": 18.0,
+   "height_m": 11.22,
+   "storeys": 2,
+   "storey_note": null,
+   "floor_levels_m": [
+    0.15,
+    5.0
+   ],
+   "roof_m": 9.2,
+   "frontage_m": 22.0,
+   "lod_tris_glb": {
+    "LOD0": 39976,
+    "LOD1": 12298,
+    "LOD2": 1112
+   },
+   "glb_total_tris": 57326,
+   "glb_groups": {
+    "Collision": 24,
+    "LOD0": 39976,
+    "LOD1": 12298,
+    "LOD2": 1112,
+    "OPTIONAL_FORECOURT": 3856,
+    "SIDEWALK_FRONTAGE": 60
+   },
+   "images": 34,
+   "materials": 42,
+   "lights": {
+    "INTERIOR_LIGHTING": 9,
+    "EXTERIOR_LIGHTING": 6
+   },
+   "collision_boxes": 2,
+   "interior_tris_lod0": 25542,
+   "interior_tris_lod1": 4420,
+   "tower_interface": {
+    "rear_plane_y": 18.0,
+    "podium_roof_z": 11.22,
+    "top_z": 12.52,
+    "x": [
+     -11.0,
+     11.0
+    ]
+   },
+   "terrace_note": "optional raised timber deck 7.4 x 5.2 m (OPTIONAL_FORECOURT)",
+   "files": {
+    "blend_mb": 1.33,
+    "glb_mb": 7.84,
+    "lod_glb_mb": {
+     "LOD0": 1.97,
+     "LOD1": 0.78,
+     "LOD2": 0.1
+    },
+    "fbx_mb": {
+     "LOD0": 1.06,
+     "LOD1": 0.41,
+     "LOD2": 0.14
+    }
+   },
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "reimport": {
+     "mesh_objects": 93,
+     "triangles": 57326,
+     "glb_triangles": 57326,
+     "images_loaded": 34,
+     "lights": 15,
+     "lod0_size_yup_converted": [
+      22.3,
+      21.47,
+      12.82
+     ]
+    },
+    "glass": {
+     "BV_Glass": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "BV_GlassWarm": {
+      "alpha": 0.12,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "degenerate_faces": 617,
+    "inverted_faces": 0,
+    "vegetation": []
+   },
+   "renders": [
+    "renders/maison_levant_day.jpg",
+    "renders/maison_levant_night.jpg",
+    "renders/maison_levant_road_view.jpg",
+    "renders/maison_levant_interior.jpg"
+   ],
+   "visibility": {
+    "day_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "GF_hall",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "GF_banquettes",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B01_LOD0_FURNITURE_Dining"
+      },
+      {
+       "name": "L1_gallery",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B01_LOD0_GLASS_SYSTEM_Bay0Frame"
+      },
+      {
+       "name": "chandelier",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+      }
+     ]
+    },
+    "road_view_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "GF_hall",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "GF_banquettes",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B01_OPTIONAL_FORECOURT_DeckScreen"
+      },
+      {
+       "name": "L1_gallery",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "chandelier",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+      }
+     ]
+    }
+   },
+   "render_seconds": {
+    "day": 83.5,
+    "night": 143.7,
+    "road_view": 88.6,
+    "interior": 265.7
+   },
+   "materials_used": [
+    "BV_Bronze",
+    "BV_BronzeDark",
+    "BV_Chandelier",
+    "BV_Deck",
+    "BV_Glass",
+    "BV_GlassWarm",
+    "BV_Halo",
+    "BV_Interface",
+    "BV_LetterBronze",
+    "BV_LetterGold",
+    "BV_Limestone",
+    "BV_Linen",
+    "BV_Parasol",
+    "BV_Paving",
+    "BV_PlasterWarm",
+    "BV_StoneDarkBase",
+    "BV_StoneSmooth",
+    "BV_Travertine",
+    "BV_Velvet",
+    "BV_VelvetGreen",
+    "PC_BlackGloss",
+    "PC_Brass",
+    "PC_Concrete",
+    "PC_Copper",
+    "PC_Corrugated",
+    "PC_Curb",
+    "PC_FloorMarble",
+    "PC_FloorOak",
+    "PC_GlassBlue",
+    "PC_GlassRail",
+    "PC_GlassSatin",
+    "PC_LampGlobe",
+    "PC_Leather",
+    "PC_LightWarm",
+    "PC_Mashrabiya",
+    "PC_RoofGravel",
+    "PC_RoofMembrane",
+    "PC_Stainless",
+    "PC_SteelDark",
+    "PC_StoneTop",
+    "PC_TimberDark",
+    "PC_Walnut"
+   ]
+  },
+  {
+   "num": "02",
+   "folder": "02_juniper_house",
+   "base": "juniper_house",
+   "name": "Juniper House",
+   "type": "Luxury international restaurant",
+   "identity": "Long, low horizontal frontage: slender travertine mullion-piers on a 3 m grid with 6.2 m continuous glass; three recessed entrance bays (6 m central); a 4.6 m deep bronze canopy running the full 30 m; stepped crown with a vertical bronze fin screen.",
+   "interior": "Double-height hall with a walnut rib ceiling and light lines, central island bar with lit back bar, banquettes and table rows; rear mezzanine dining with glass balustrade and open stair.",
+   "terrace": "Four timber terrace decks under the canopy (optional collection).",
+   "width_m": 30.0,
+   "depth_m": 20.0,
+   "height_m": 9.7,
+   "storeys": 1,
+   "storey_note": "one tall floor (7.6 m) + rear mezzanine",
+   "floor_levels_m": [
+    0.15,
+    4.4
+   ],
+   "roof_m": 7.6,
+   "frontage_m": 30.0,
+   "lod_tris_glb": {
+    "LOD0": 66840,
+    "LOD1": 18102,
+    "LOD2": 1452
+   },
+   "glb_total_tris": 95766,
+   "glb_groups": {
+    "Collision": 24,
+    "LOD0": 66840,
+    "LOD1": 18102,
+    "LOD2": 1452,
+    "OPTIONAL_FORECOURT": 9240,
+    "SIDEWALK_FRONTAGE": 108
+   },
+   "images": 34,
+   "materials": 39,
+   "lights": {
+    "INTERIOR_LIGHTING": 8,
+    "EXTERIOR_LIGHTING": 6
+   },
+   "collision_boxes": 2,
+   "interior_tris_lod0": 44830,
+   "interior_tris_lod1": 7048,
+   "tower_interface": {
+    "rear_plane_y": 20.0,
+    "podium_roof_z": 9.7,
+    "top_z": 11.7,
+    "x": [
+     -15.0,
+     15.0
+    ]
+   },
+   "terrace_note": "long timber terrace decks under the 4.6 m canopy (OPTIONAL_FORECOURT)",
+   "files": {
+    "blend_mb": 2.05,
+    "glb_mb": 9.61,
+    "lod_glb_mb": {
+     "LOD0": 3.06,
+     "LOD1": 1.08,
+     "LOD2": 0.13
+    },
+    "fbx_mb": {
+     "LOD0": 1.64,
+     "LOD1": 0.54,
+     "LOD2": 0.18
+    }
+   },
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "reimport": {
+     "mesh_objects": 133,
+     "triangles": 95766,
+     "glb_triangles": 95766,
+     "images_loaded": 34,
+     "lights": 14,
+     "lod0_size_yup_converted": [
+      30.56,
+      24.67,
+      12.0
+     ]
+    },
+    "glass": {
+     "BV_Glass": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "BV_GlassWarm": {
+      "alpha": 0.12,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "degenerate_faces": 35,
+    "inverted_faces": 0,
+    "vegetation": []
+   },
+   "renders": [
+    "renders/juniper_house_day.jpg",
+    "renders/juniper_house_night.jpg",
+    "renders/juniper_house_road_view.jpg",
+    "renders/juniper_house_interior.jpg"
+   ],
+   "visibility": {
+    "day_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "GF_hall",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B02_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "bar",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "mezzanine",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B02_LOD0_BUILDING_INTERIOR_MezzRailFrame"
+      },
+      {
+       "name": "GF_right",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      }
+     ]
+    },
+    "road_view_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "GF_hall",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B02_LOD0_GLASS_SYSTEM_Bay0Frame"
+      },
+      {
+       "name": "bar",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B02_LOD0_GLASS_SYSTEM_Bay1Frame"
+      },
+      {
+       "name": "mezzanine",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B02_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "GF_right",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B02_LOD0_BUILDING_EXTERIOR_Stone"
+      }
+     ]
+    }
+   },
+   "render_seconds": {
+    "day": 72.3,
+    "night": 128.8,
+    "road_view": 80.0,
+    "interior": 254.3
+   },
+   "materials_used": [
+    "BV_Bronze",
+    "BV_BronzeDark",
+    "BV_Deck",
+    "BV_Glass",
+    "BV_GlassWarm",
+    "BV_Interface",
+    "BV_LetterGold",
+    "BV_Limestone",
+    "BV_Linen",
+    "BV_Paving",
+    "BV_PlasterWarm",
+    "BV_StoneDarkBase",
+    "BV_StoneSmooth",
+    "BV_Travertine",
+    "BV_VelvetBlue",
+    "BV_VelvetGreen",
+    "PC_BlackGloss",
+    "PC_Brass",
+    "PC_Concrete",
+    "PC_Copper",
+    "PC_Corrugated",
+    "PC_Curb",
+    "PC_FloorOak",
+    "PC_FloorTerrazzo",
+    "PC_GlassBlue",
+    "PC_GlassRail",
+    "PC_GlassSatin",
+    "PC_LampGlobe",
+    "PC_Leather",
+    "PC_LeatherBlack",
+    "PC_LightWarm",
+    "PC_RoofGravel",
+    "PC_RoofMembrane",
+    "PC_Stainless",
+    "PC_SteelDark",
+    "PC_StoneTop",
+    "PC_TimberDark",
+    "PC_Walnut",
+    "PC_WoodSlat"
+   ]
+  },
+  {
+   "num": "03",
+   "folder": "03_lune_and_laurel",
+   "base": "lune_and_laurel",
+   "name": "Lune & Laurel Cafe",
+   "type": "Premium cafe and patisserie (corner unit)",
+   "identity": "Champagne-stone block whose street corner becomes a curved two-storey glass corner (4.2 m radius); arched-head recessed entrance under a cantilevered first-floor balcony; tall two-storey finned window; stepped parapet; gold script signage + corner blade sign.",
+   "interior": "Marble-and-bronze coffee counter with espresso machines and lit pastry vitrines, cafe tables along the curved glass, bronze spiral stair to a first-floor lounge with sofas, armchairs and globe pendants.",
+   "terrace": "Small bistro deck with a parasol (optional collection); side-street paving.",
+   "width_m": 16.0,
+   "depth_m": 15.0,
+   "height_m": 10.92,
+   "storeys": 2,
+   "storey_note": null,
+   "floor_levels_m": [
+    0.15,
+    4.8
+   ],
+   "roof_m": 9.0,
+   "frontage_m": 16.0,
+   "lod_tris_glb": {
+    "LOD0": 39790,
+    "LOD1": 12838,
+    "LOD2": 1371
+   },
+   "glb_total_tris": 56605,
+   "glb_groups": {
+    "Collision": 24,
+    "LOD0": 39790,
+    "LOD1": 12838,
+    "LOD2": 1371,
+    "OPTIONAL_FORECOURT": 2510,
+    "SIDEWALK_FRONTAGE": 72
+   },
+   "images": 31,
+   "materials": 41,
+   "lights": {
+    "INTERIOR_LIGHTING": 6,
+    "EXTERIOR_LIGHTING": 3
+   },
+   "collision_boxes": 2,
+   "interior_tris_lod0": 20048,
+   "interior_tris_lod1": 2978,
+   "tower_interface": {
+    "rear_plane_y": 15.0,
+    "podium_roof_z": 10.92,
+    "top_z": 12.12,
+    "x": [
+     -8.0,
+     8.0
+    ]
+   },
+   "terrace_note": "small timber bistro terrace 6.8 x 2.9 m (OPTIONAL_FORECOURT)",
+   "files": {
+    "blend_mb": 1.41,
+    "glb_mb": 7.69,
+    "lod_glb_mb": {
+     "LOD0": 2.02,
+     "LOD1": 0.77,
+     "LOD2": 0.11
+    },
+    "fbx_mb": {
+     "LOD0": 1.11,
+     "LOD1": 0.45,
+     "LOD2": 0.14
+    }
+   },
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "reimport": {
+     "mesh_objects": 81,
+     "triangles": 56605,
+     "glb_triangles": 56605,
+     "images_loaded": 31,
+     "lights": 9,
+     "lod0_size_yup_converted": [
+      16.17,
+      16.53,
+      12.42
+     ]
+    },
+    "glass": {
+     "BV_Glass": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "BV_GlassWarm": {
+      "alpha": 0.12,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassBlue": {
+      "alpha": 0.3,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassSatin": {
+      "alpha": 0.55,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "degenerate_faces": 102,
+    "inverted_faces": 0,
+    "vegetation": []
+   },
+   "renders": [
+    "renders/lune_and_laurel_day.jpg",
+    "renders/lune_and_laurel_night.jpg",
+    "renders/lune_and_laurel_road_view.jpg",
+    "renders/lune_and_laurel_interior.jpg"
+   ],
+   "visibility": {
+    "day_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "counter",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B03_LOD0_DISPLAY_OBJECTS_Pastry"
+      },
+      {
+       "name": "corner_tables",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "L1_lounge",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      }
+     ]
+    },
+    "road_view_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "counter",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 3,
+       "blocker": null
+      },
+      {
+       "name": "corner_tables",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "L1_lounge",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B03_LOD0_BUILDING_INTERIOR_FirstSlab"
+      }
+     ]
+    }
+   },
+   "render_seconds": {
+    "day": 81.4,
+    "night": 131.3,
+    "road_view": 85.1,
+    "interior": 275.0
+   },
+   "materials_used": [
+    "BV_Bronze",
+    "BV_BronzeDark",
+    "BV_Champagne",
+    "BV_Cream",
+    "BV_Deck",
+    "BV_Glass",
+    "BV_GlassWarm",
+    "BV_Interface",
+    "BV_LetterGold",
+    "BV_Limestone",
+    "BV_Linen",
+    "BV_Parasol",
+    "BV_Paving",
+    "BV_PlasterWarm",
+    "BV_StoneDarkBase",
+    "BV_StoneSmooth",
+    "BV_Velvet",
+    "BV_VelvetGreen",
+    "PC_BlackGloss",
+    "PC_Brass",
+    "PC_Chrome",
+    "PC_Concrete",
+    "PC_Copper",
+    "PC_Corrugated",
+    "PC_Curb",
+    "PC_FloorOak",
+    "PC_FloorTerrazzo",
+    "PC_GlassBlue",
+    "PC_GlassRail",
+    "PC_GlassSatin",
+    "PC_LampGlobe",
+    "PC_LeatherCream",
+    "PC_LightWarm",
+    "PC_Pastry",
+    "PC_RoofGravel",
+    "PC_RoofMembrane",
+    "PC_Stainless",
+    "PC_SteelDark",
+    "PC_StoneTop",
+    "PC_TimberDark",
+    "PC_WoodSlat"
+   ]
+  },
+  {
+   "num": "04",
+   "folder": "04_galerie_dor",
+   "base": "galerie_dor",
+   "name": "Galerie D'Or",
+   "type": "High-end fashion and lifestyle retail gallery",
+   "identity": "Beige-stone podium with four different boutique shopfronts (projecting vitrine / horizontal bronze bands / vertical bronze fins / framed pane on granite riser), central recessed entrance below a bronze bay window, punched upper windows with bronze surrounds, fluted attic.",
+   "interior": "Four boutiques with mannequins, clothes rails, display cases, wall shelving and seating behind glass hall partitions; central atrium with a wide stone stair to an open upper gallery with chandelier rings.",
+   "terrace": "None - benches, bollards, empty planters only.",
+   "width_m": 26.0,
+   "depth_m": 22.0,
+   "height_m": 11.85,
+   "storeys": 2,
+   "storey_note": null,
+   "floor_levels_m": [
+    0.15,
+    5.6
+   ],
+   "roof_m": 10.2,
+   "frontage_m": 26.0,
+   "lod_tris_glb": {
+    "LOD0": 44564,
+    "LOD1": 18556,
+    "LOD2": 1420
+   },
+   "glb_total_tris": 65640,
+   "glb_groups": {
+    "Collision": 36,
+    "LOD0": 44564,
+    "LOD1": 18556,
+    "LOD2": 1420,
+    "OPTIONAL_FORECOURT": 908,
+    "SIDEWALK_FRONTAGE": 156
+   },
+   "images": 32,
+   "materials": 51,
+   "lights": {
+    "INTERIOR_LIGHTING": 12,
+    "EXTERIOR_LIGHTING": 5
+   },
+   "collision_boxes": 3,
+   "interior_tris_lod0": 21680,
+   "interior_tris_lod1": 5420,
+   "tower_interface": {
+    "rear_plane_y": 22.0,
+    "podium_roof_z": 11.85,
+    "top_z": 13.25,
+    "x": [
+     -13.0,
+     13.0
+    ]
+   },
+   "terrace_note": "none (benches, bollards, empty planters only)",
+   "files": {
+    "blend_mb": 1.54,
+    "glb_mb": 9.07,
+    "lod_glb_mb": {
+     "LOD0": 2.51,
+     "LOD1": 1.13,
+     "LOD2": 0.14
+    },
+    "fbx_mb": {
+     "LOD0": 1.15,
+     "LOD1": 0.6,
+     "LOD2": 0.19
+    }
+   },
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "reimport": {
+     "mesh_objects": 148,
+     "triangles": 65640,
+     "glb_triangles": 65640,
+     "images_loaded": 32,
+     "lights": 17,
+     "lod0_size_yup_converted": [
+      26.4,
+      22.7,
+      13.55
+     ]
+    },
+    "glass": {
+     "BV_Glass": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "BV_GlassWarm": {
+      "alpha": 0.12,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "degenerate_faces": 565,
+    "inverted_faces": 0,
+    "vegetation": []
+   },
+   "renders": [
+    "renders/galerie_dor_day.jpg",
+    "renders/galerie_dor_night.jpg",
+    "renders/galerie_dor_road_view.jpg",
+    "renders/galerie_dor_interior.jpg"
+   ],
+   "visibility": {
+    "day_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "boutique1_mannequins",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_GLASS_SYSTEM_Shop0VitrineFrame"
+      },
+      {
+       "name": "boutique3",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "upper_gallery",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_FACADE_DETAILS_Bronze"
+      },
+      {
+       "name": "grand_stair",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_GLASS_SYSTEM_Shop1Frame"
+      }
+     ]
+    },
+    "road_view_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "boutique1_mannequins",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "boutique3",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "upper_gallery",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "grand_stair",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B04_LOD0_GLASS_SYSTEM_Shop0VitrineFrame"
+      }
+     ]
+    }
+   },
+   "render_seconds": {
+    "day": 85.7,
+    "night": 145.5,
+    "road_view": 91.8,
+    "interior": 273.4
+   },
+   "materials_used": [
+    "BV_BeigeStone",
+    "BV_BlackFrame",
+    "BV_Bronze",
+    "BV_BronzeDark",
+    "BV_Champ",
+    "BV_Chandelier",
+    "BV_Cream",
+    "BV_Glass",
+    "BV_GlassWarm",
+    "BV_Interface",
+    "BV_LetterGold",
+    "BV_Limestone",
+    "BV_Linen",
+    "BV_Paving",
+    "BV_PlasterWarm",
+    "BV_StoneDarkBase",
+    "BV_StoneSmooth",
+    "BV_Travertine",
+    "BV_Velvet",
+    "BV_VelvetGreen",
+    "PC_AluDark",
+    "PC_AluSilver",
+    "PC_Brass",
+    "PC_Concrete",
+    "PC_Corrugated",
+    "PC_Curb",
+    "PC_DeviceBlack",
+    "PC_FabricCream",
+    "PC_FabricGrey",
+    "PC_FabricNavy",
+    "PC_FabricRust",
+    "PC_FabricTeal",
+    "PC_FloorMarble",
+    "PC_GlassClear",
+    "PC_GlassRail",
+    "PC_LeatherBlack",
+    "PC_LightPanel",
+    "PC_LightStrip",
+    "PC_LightWarm",
+    "PC_Pastry",
+    "PC_PlasticGrey",
+    "PC_PlasticWhite",
+    "PC_RoofGravel",
+    "PC_RoofMembrane",
+    "PC_Stainless",
+    "PC_SteelDark",
+    "PC_StoneTop",
+    "PC_Walnut",
+    "PC_WhiteGloss",
+    "PC_WoodLight",
+    "PC_WoodSlat"
+   ]
+  },
+  {
+   "num": "05",
+   "folder": "05_the_promenade_galleria",
+   "base": "the_promenade_galleria",
+   "name": "The Promenade Galleria",
+   "type": "Premium shopping and dining gallery (largest)",
+   "identity": "Two limestone towers with bronze slot windows and crowns; 4 m deep stone-column arcade with shopfronts; bronze curtain walls with fins on two upper floors; a 12 m wide, 15 m high set-back glazed atrium portal with a bronze-and-glass canopy.",
+   "interior": "Three commercial levels around a central atrium: criss-cross escalators, glass-balustraded balcony walkways, twelve glazed shop units with fixtures and lit name bands, atrium seating, chandelier rings, glazed skylight.",
+   "terrace": "None - arcade paving, benches, bollards, empty planters.",
+   "width_m": 34.0,
+   "depth_m": 30.0,
+   "height_m": 18.6,
+   "storeys": 3,
+   "storey_note": null,
+   "floor_levels_m": [
+    0.15,
+    5.6,
+    10.4
+   ],
+   "roof_m": 15.2,
+   "frontage_m": 34.0,
+   "lod_tris_glb": {
+    "LOD0": 52412,
+    "LOD1": 18848,
+    "LOD2": 2149
+   },
+   "glb_total_tris": 74437,
+   "glb_groups": {
+    "Collision": 48,
+    "LOD0": 52412,
+    "LOD1": 18848,
+    "LOD2": 2149,
+    "OPTIONAL_FORECOURT": 908,
+    "SIDEWALK_FRONTAGE": 72
+   },
+   "images": 27,
+   "materials": 51,
+   "lights": {
+    "INTERIOR_LIGHTING": 17,
+    "EXTERIOR_LIGHTING": 4
+   },
+   "collision_boxes": 4,
+   "interior_tris_lod0": 26324,
+   "interior_tris_lod1": 7088,
+   "tower_interface": {
+    "rear_plane_y": 30.0,
+    "podium_roof_z": 16.38,
+    "top_z": 18.78,
+    "x": [
+     -17.0,
+     17.0
+    ]
+   },
+   "terrace_note": "none (arcade + promenade furniture)",
+   "files": {
+    "blend_mb": 1.65,
+    "glb_mb": 8.79,
+    "lod_glb_mb": {
+     "LOD0": 3.02,
+     "LOD1": 1.21,
+     "LOD2": 0.2
+    },
+    "fbx_mb": {
+     "LOD0": 1.38,
+     "LOD1": 0.64,
+     "LOD2": 0.24
+    }
+   },
+   "validation": {
+    "passed": true,
+    "issues": [],
+    "warnings": [],
+    "reimport": {
+     "mesh_objects": 195,
+     "triangles": 74437,
+     "glb_triangles": 74437,
+     "images_loaded": 27,
+     "lights": 21,
+     "lod0_size_yup_converted": [
+      34.2,
+      35.16,
+      19.08
+     ]
+    },
+    "glass": {
+     "BV_Glass": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "BV_GlassWarm": {
+      "alpha": 0.12,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassClear": {
+      "alpha": 0.11,
+      "blend": "BLEND",
+      "double_sided": true
+     },
+     "PC_GlassRail": {
+      "alpha": 0.14,
+      "blend": "BLEND",
+      "double_sided": true
+     }
+    },
+    "degenerate_faces": 538,
+    "inverted_faces": 0,
+    "vegetation": []
+   },
+   "renders": [
+    "renders/the_promenade_galleria_day.jpg",
+    "renders/the_promenade_galleria_night.jpg",
+    "renders/the_promenade_galleria_road_view.jpg",
+    "renders/the_promenade_galleria_interior.jpg"
+   ],
+   "visibility": {
+    "day_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "escalator_GF_L1",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "L1_walkway",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      },
+      {
+       "name": "L2_walkway",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 2,
+       "blocker": "B05_LOD0_BUILDING_INTERIOR_ShopFront2-10Frame"
+      },
+      {
+       "name": "L1_shop",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "L2_shop",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": "B05_LOD0_FURNITURE_Shops"
+      },
+      {
+       "name": "atrium_GF",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_GLASS_SYSTEM_PortalFrame"
+      }
+     ]
+    },
+    "road_view_visibility": {
+     "cars": [],
+     "probes": [
+      {
+       "name": "escalator_GF_L1",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 2,
+       "blocker": null
+      },
+      {
+       "name": "L1_walkway",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_FACADE_DETAILS_Canopy"
+      },
+      {
+       "name": "L2_walkway",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "L1_shop",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_FACADE_DETAILS_Canopy"
+      },
+      {
+       "name": "L2_shop",
+       "reached": false,
+       "in_frame": true,
+       "glass_layers": 0,
+       "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+      },
+      {
+       "name": "atrium_GF",
+       "reached": true,
+       "in_frame": true,
+       "glass_layers": 1,
+       "blocker": null
+      }
+     ]
+    }
+   },
+   "render_seconds": {
+    "day": 94.1,
+    "night": 157.2,
+    "road_view": 106.7,
+    "interior": 308.3
+   },
+   "materials_used": [
+    "BV_Bronze",
+    "BV_BronzeDark",
+    "BV_Chandelier",
+    "BV_Cream",
+    "BV_Glass",
+    "BV_GlassWarm",
+    "BV_Interface",
+    "BV_LetterGold",
+    "BV_Limestone",
+    "BV_Linen",
+    "BV_Paving",
+    "BV_PlasterWarm",
+    "BV_StoneDarkBase",
+    "BV_StoneSmooth",
+    "BV_Velvet",
+    "BV_VelvetGreen",
+    "PC_AluDark",
+    "PC_AluSilver",
+    "PC_Brass",
+    "PC_Concrete",
+    "PC_Corrugated",
+    "PC_Curb",
+    "PC_DeviceBlack",
+    "PC_DeviceSilver",
+    "PC_FabricCream",
+    "PC_FabricGrey",
+    "PC_FabricNavy",
+    "PC_FabricRust",
+    "PC_FabricTeal",
+    "PC_FloorMarble",
+    "PC_FloorTerrazzo",
+    "PC_GlassClear",
+    "PC_GlassRail",
+    "PC_LeatherBlack",
+    "PC_LightPanel",
+    "PC_LightStrip",
+    "PC_LightWarm",
+    "PC_Pastry",
+    "PC_PlasticGrey",
+    "PC_PlasticWhite",
+    "PC_RoofGravel",
+    "PC_RoofMembrane",
+    "PC_RubberBlack",
+    "PC_Screen",
+    "PC_Stainless",
+    "PC_SteelDark",
+    "PC_StoneTop",
+    "PC_TimberDark",
+    "PC_Walnut",
+    "PC_WhiteGloss",
+    "PC_WoodLight"
+   ]
+  }
+ ]
+}
