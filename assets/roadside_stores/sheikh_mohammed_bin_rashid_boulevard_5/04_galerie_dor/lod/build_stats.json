@@ -149,9 +149,9 @@
    "SIGNAGE/Brand": 907
   },
   "SITE": {
-   "OPTIONAL_TERRACE/EmptyPlanters": 100,
-   "OPTIONAL_TERRACE/StreetFurniture": 808,
-   "PROMENADE_FRONTAGE/Paving": 156
+   "OPTIONAL_FORECOURT/EmptyPlanters": 100,
+   "OPTIONAL_FORECOURT/PromenadeFurniture": 808,
+   "SIDEWALK_FRONTAGE/Paving": 156
   }
  },
  "totals": {
