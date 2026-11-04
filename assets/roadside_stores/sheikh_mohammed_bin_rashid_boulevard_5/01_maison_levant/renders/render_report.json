@@ -1,0 +1,72 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_hall",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "GF_banquettes",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "B01_LOD0_FURNITURE_Dining"
+   },
+   {
+    "name": "L1_gallery",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "B01_LOD0_GLASS_SYSTEM_Bay0Frame"
+   },
+   {
+    "name": "chandelier",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+   }
+  ]
+ },
+ "day_seconds": 83.5,
+ "night_seconds": 143.7,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "GF_hall",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "GF_banquettes",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B01_OPTIONAL_FORECOURT_DeckScreen"
+   },
+   {
+    "name": "L1_gallery",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "chandelier",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B01_LOD0_BUILDING_EXTERIOR_Stone"
+   }
+  ]
+ },
+ "road_view_seconds": 88.6,
+ "interior_seconds": 265.7
+}
