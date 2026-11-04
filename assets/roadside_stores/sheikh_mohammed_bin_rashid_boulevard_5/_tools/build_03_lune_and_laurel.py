@@ -152,10 +152,10 @@ for L in (0, 1, 2):
 
 # ---- site: promenade (front + around the corner), small terrace with bistro sets, street furniture
 promenade(A, X0 - 1.0, X1 + 1.0, entrances=[ENT])
-side = A.s('PROMENADE_FRONTAGE', 'SidePaving')
+side = A.s('SIDEWALK_FRONTAGE', 'SidePaving')
 side.add(bm_box(X1, 0.0, -0.2, X1 + 4.0, 10.0, 0.0), 'BV_Paving', mat_fn=mat_by_normal('BV_Paving', 'BV_Paving', 'PC_Curb'), uv='box', tile=4.8)
 terrace_deck(A, -3.2, -3.2, 3.6, -0.3, edge_rail=False)
-tacc = A.s('OPTIONAL_TERRACE', 'BistroSets')
+tacc = A.s('OPTIONAL_FORECOURT', 'BistroSets')
 for x in (-2.2, 0.2, 2.6):
     F.round_set(tacc, 0, x, -1.6, 0.15, 2, 0.32, 'PC_StoneTop', 'BV_BronzeDark', 'BV_Linen', a0=0)
 parasol(tacc, 0, 0.2, -1.8, 0.15, 1.5, 2.4)
@@ -182,4 +182,4 @@ A.checks['probes'] = [dict(name='counter', p=[1.0, 10.2, 1.3]), dict(name='corne
 finish(A, X0 - 1.0, X1 + 1.0, width=16.0, depth=15.0, height=PAR + 0.82, footprint=[X0, 0.0, X1, Y1], storeys=2, floor_levels=Z[:2],
        roof=Z[2], parking='none (promenade frontage)', access='pedestrian: arched entrance (front) + corner door (side)', setback_m=0.0,
        glass='BV_Glass / BV_GlassWarm alpha 0.11-0.12, bronze frames', concept=__doc__.strip().split('\n')[2], frontage_m=16.0,
-       terrace='small timber bistro terrace 6.8 x 2.9 m (OPTIONAL_TERRACE)', corner='right')
+       terrace='small timber bistro terrace 6.8 x 2.9 m (OPTIONAL_FORECOURT)', corner='right')

@@ -150,7 +150,7 @@ terrace_deck(A, X0 + 0.6, -4.3, -9.3, -0.3, sub='DeckL')
 terrace_deck(A, -5.7, -4.3, -3.3, -0.3, sub='DeckC1')
 terrace_deck(A, 3.3, -4.3, 5.7, -0.3, sub='DeckC2')
 terrace_deck(A, 9.3, -4.3, X1 - 0.6, -0.3, sub='DeckR')
-tacc = A.s('OPTIONAL_TERRACE', 'TerraceFurniture')
+tacc = A.s('OPTIONAL_FORECOURT', 'TerraceFurniture')
 for x in (-13.0, -11.0, 11.0, 13.0, -4.5, 4.5):
     for y in (-1.5, -3.2):
         F.round_set(tacc, 0, x, y, 0.15, 2, 0.38, 'PC_StoneTop', 'BV_BronzeDark', 'BV_Linen')
@@ -180,4 +180,4 @@ finish(A, X0 - 1.0, X1 + 1.0, width=30.0, depth=20.0, height=CROWN[1], footprint
        storey_note='one tall floor (7.6 m) + rear mezzanine', floor_levels=Z[:2], roof=Z[2], parking='none (promenade frontage)',
        access='three recessed pedestrian entrances from the promenade; service via the rear', setback_m=0.0,
        glass='BV_Glass alpha 0.11, bronze frames', concept=__doc__.strip().split('\n')[2], frontage_m=30.0,
-       terrace='long timber terrace decks under the 4.6 m canopy (OPTIONAL_TERRACE)')
+       terrace='long timber terrace decks under the 4.6 m canopy (OPTIONAL_FORECOURT)')

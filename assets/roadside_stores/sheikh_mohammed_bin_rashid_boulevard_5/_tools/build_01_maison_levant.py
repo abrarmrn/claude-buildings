@@ -125,7 +125,7 @@ for L in (0, 1, 2):
 # ---- site: promenade + optional terrace (raised deck in front of the two left bays)
 promenade(A, X0 - 1.0, X1 + 1.0, entrances=[ENT])
 terrace_deck(A, -10.6, -5.6, -3.2, -0.4)
-tacc = A.s('OPTIONAL_TERRACE', 'TerraceFurniture')
+tacc = A.s('OPTIONAL_FORECOURT', 'TerraceFurniture')
 for (x, y) in ((-8.6, -2.0), (-5.4, -2.0), (-8.6, -4.4), (-5.4, -4.4)):
     F.round_set(tacc, 0, x, y, 0.15, 2, 0.4, 'BV_Linen', 'BV_BronzeDark', 'BV_VelvetGreen')
 for x in (-8.6, -5.4):
@@ -160,4 +160,4 @@ A.checks['probes'] = [dict(name='GF_hall', p=[0.0, 7.0, 1.3]), dict(name='GF_ban
 finish(A, X0 - 1.0, X1 + 1.0, width=22.0, depth=18.0, height=ATTIC + 0.22, footprint=[X0, 0.0, X1, Y1], storeys=2,
        floor_levels=Z[:2], roof=Z[2], parking='none (promenade frontage)', access='pedestrian from the promenade; service via the rear',
        setback_m=0.0, glass='BV_Glass alpha 0.11, bronze frames', concept=__doc__.strip().split('\n')[2],
-       frontage_m=22.0, terrace='optional raised timber deck 7.4 x 5.2 m (OPTIONAL_TERRACE)')
+       frontage_m=22.0, terrace='optional raised timber deck 7.4 x 5.2 m (OPTIONAL_FORECOURT)')

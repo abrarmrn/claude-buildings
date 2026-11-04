@@ -209,7 +209,7 @@ for L in (0, 1, 2):
     build(L)
 
 promenade(A, X0 - 1.0, X1 + 1.0, entrances=[(-2.0, 2.0)])
-arcp = A.s('PROMENADE_FRONTAGE', 'ArcadePaving')
+arcp = A.s('SIDEWALK_FRONTAGE', 'ArcadePaving')
 arcp.add(bm_box(TX0, 0.0, 0.0, TX1, ARC, 0.15), 'BV_Paving', mat_fn=mat_by_normal('BV_Paving', 'BV_Paving', 'BV_StoneDarkBase'), uv='box', tile=4.8)
 bollards(A, [-9.0, -7.5, 7.5, 9.0, -15.0, 15.0], -6.3)
 for x in (-14.0, 14.0):

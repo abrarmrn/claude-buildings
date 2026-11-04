@@ -6,8 +6,9 @@ texture cache redirected into this folder).  Nothing in prototypes/, additional_
 Conventions (same as the earlier assets):
   * metres, Z up, street-facing front = Blender -Y (glTF / Godot +Z, Unreal: import with "Convert Scene" on)
   * origin = centre of the plot frontage line (the building line), ground level; the building is at y >= 0
-  * promenade strip in front: y = 0 .. -PROM (separate PROMENADE_FRONTAGE collection, removable)
-  * outdoor terraces / street furniture: separate OPTIONAL_TERRACE collection (removable)
+  * promenade paving strip in front: y = 0 .. -PROM -> SIDEWALK_FRONTAGE collection (removable; same group name as the
+    earlier assets so the existing Godot post-import script and validator treat it as a site piece)
+  * outdoor terraces, bollards, benches, light posts, EMPTY planters -> OPTIONAL_FORECOURT collection (removable)
   * podium only: each asset ends in a flat podium roof + a REAR TOWER INTERFACE (vertical boundary plane + empty with
     extras) so it can be docked against an existing Downtown tower; no residential tower is modelled.
   * no vegetation anywhere (planters are empty stone structures).
@@ -21,7 +22,6 @@ P17_TOOLS = os.path.join(STORES, 'premium_commercial_17', '_tools')
 sys.path.insert(0, P17_TOOLS)
 
 import pk_core as C
-C.SITE_COMPONENTS[:] = C.SITE_COMPONENTS + ['PROMENADE_FRONTAGE', 'OPTIONAL_TERRACE']   # in-memory only
 from pk_core import *                                   # noqa: F401,F403  (bpy, bmesh, Vector, Matrix, R, K, txt, ...)
 HERE = os.path.dirname(os.path.abspath(__file__))     # (pk_core's star-import shadows HERE - restore it)
 import pk_arch as AR
@@ -154,8 +154,8 @@ def new_asset(num, slug, base, title, display, floors):
                                  'no real-world coordinates or tenant positions are implied)'
     A.root['fictional_business'] = True
     A.root['upper_boundary'] = 'podium roof + rear tower interface - dock under / against an existing tower'
-    A.group_root['PROMENADE_FRONTAGE']['optional'] = True
-    A.group_root['OPTIONAL_TERRACE']['optional'] = True
+    A.group_root['SIDEWALK_FRONTAGE']['optional'] = True
+    A.group_root['OPTIONAL_FORECOURT']['optional'] = True
     return A
 
 
@@ -238,8 +238,8 @@ def roof_plant(A, L, x0, y0, x1, y1, z):
 
 
 def promenade(A, x0, x1, depth=PROM, entrances=(), steps=None):
-    """Promenade paving strip in front of the building (PROMENADE_FRONTAGE, removable), flush with the threshold."""
-    acc = A.s('PROMENADE_FRONTAGE', 'Paving')
+    """Promenade paving strip in front of the building (SIDEWALK_FRONTAGE, removable), flush with the threshold."""
+    acc = A.s('SIDEWALK_FRONTAGE', 'Paving')
     acc.add(bm_box(x0, -depth, -0.2, x1, 0.0, 0.0), 'BV_Paving', mat_fn=mat_by_normal('BV_Paving', 'BV_Paving', 'PC_Curb'), uv='box',
             tile=4.8)
     # granite threshold strip along the building line + entrance mats (inlaid bronze strips)
@@ -252,25 +252,25 @@ def promenade(A, x0, x1, depth=PROM, entrances=(), steps=None):
 
 
 def bollards(A, xs, y):
-    acc = A.s('OPTIONAL_TERRACE', 'StreetFurniture')
+    acc = A.s('OPTIONAL_FORECOURT', 'PromenadeFurniture')
     for x in xs:
         F.bollard(acc, 0, x, y, 0.0, 0.85, 0.09, 'BV_BronzeDark', 'PC_LightWarm')
 
 
 def light_post(A, x, y, h=4.2):
-    acc = A.s('OPTIONAL_TERRACE', 'StreetFurniture')
+    acc = A.s('OPTIONAL_FORECOURT', 'PromenadeFurniture')
     acc.add(bm_cyl(x, y, 0.0, h, 0.07, 12), 'BV_BronzeDark')
     acc.add(bm_box(x - 0.18, y - 0.18, h, x + 0.18, y + 0.18, h + 0.12), 'BV_BronzeDark')
     acc.add(bm_box(x - 0.15, y - 0.15, h - 0.02, x + 0.15, y + 0.15, h), 'PC_LightWarm')
 
 
 def bench(A, x, y, ang=0.0, length=2.2):
-    F.bench(A.s('OPTIONAL_TERRACE', 'StreetFurniture'), 0, x, y, 0.0, ang, length, 'PC_Walnut', 'BV_StoneSmooth')
+    F.bench(A.s('OPTIONAL_FORECOURT', 'PromenadeFurniture'), 0, x, y, 0.0, ang, length, 'PC_Walnut', 'BV_StoneSmooth')
 
 
 def planter(A, x0, y0, x1, y1, h=0.6):
     """EMPTY stone planter (no vegetation by design - the user's own planting assets go here)."""
-    acc = A.s('OPTIONAL_TERRACE', 'EmptyPlanters')
+    acc = A.s('OPTIONAL_FORECOURT', 'EmptyPlanters')
     t = 0.12
     for (a, b, c, d) in ((x0, y0, x1, y0 + t), (x0, y1 - t, x1, y1), (x0, y0, x0 + t, y1), (x1 - t, y0, x1, y1)):
         acc.add(bm_box(a, b, 0.0, c, d, h), 'BV_Limestone')
@@ -294,10 +294,10 @@ def parasol(acc, L, x, y, z=0.0, r=1.4, h=2.5, mat='BV_Parasol', pole='BV_Bronze
 
 
 def terrace_deck(A, x0, y0, x1, y1, h=0.15, edge_rail=True, sub='Deck'):
-    acc = A.s('OPTIONAL_TERRACE', sub)
+    acc = A.s('OPTIONAL_FORECOURT', sub)
     acc.add(bm_box(x0, y0, 0.0, x1, y1, h), 'BV_Deck', mat_fn=mat_by_normal('BV_Deck', 'BV_Deck', 'BV_BronzeDark'), uv='box', tile=1.4)
     if edge_rail:
-        g = A.s('OPTIONAL_TERRACE', sub + 'Screen')
+        g = A.s('OPTIONAL_FORECOURT', sub + 'Screen')
         for (p0, p1) in ((((x0, y0)), (x1, y0)), ((x0, y0), (x0, y1)), ((x1, y0), (x1, y1))):
             M, Ls = AR.seg_frame(p0, p1)
             g.add(bm_box(0, -0.02, h, Ls, 0.02, h + 0.9), 'BV_GlassWarm', matrix=M)

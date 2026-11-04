@@ -145,7 +145,7 @@ LOD0 0-110 m, LOD1 110-300 m, LOD2 300-1800 m (glTF node extras `visibility_rang
 Engine 5, import LOD0 (Nanite-friendly) and use LOD1/LOD2 as HLOD inputs, with glass set to Translucent.
 
 ## Modular collections
-`PROMENADE_FRONTAGE` (stone paving strip, removable), `OPTIONAL_TERRACE` ({r['terrace']}), `SIGNAGE`,
+`SIDEWALK_FRONTAGE` (promenade stone-paving strip, removable), `OPTIONAL_FORECOURT` (terrace + street furniture + empty planters: {r['terrace']}), `SIGNAGE`,
 `COLLISION` (`*-convcolonly` boxes, {r['collision_boxes']} pieces). There is no parking or vegetation.
 
 ## Validation (Blender only)
