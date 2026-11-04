@@ -1,0 +1,100 @@
+{
+ "day_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "escalator_GF_L1",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "L1_walkway",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   },
+   {
+    "name": "L2_walkway",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 2,
+    "blocker": "B05_LOD0_BUILDING_INTERIOR_ShopFront2-10Frame"
+   },
+   {
+    "name": "L1_shop",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "L2_shop",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": "B05_LOD0_FURNITURE_Shops"
+   },
+   {
+    "name": "atrium_GF",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_GLASS_SYSTEM_PortalFrame"
+   }
+  ]
+ },
+ "day_seconds": 94.1,
+ "night_seconds": 157.2,
+ "road_view_visibility": {
+  "cars": [],
+  "probes": [
+   {
+    "name": "escalator_GF_L1",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 2,
+    "blocker": null
+   },
+   {
+    "name": "L1_walkway",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_FACADE_DETAILS_Canopy"
+   },
+   {
+    "name": "L2_walkway",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "L1_shop",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_FACADE_DETAILS_Canopy"
+   },
+   {
+    "name": "L2_shop",
+    "reached": false,
+    "in_frame": true,
+    "glass_layers": 0,
+    "blocker": "B05_LOD0_BUILDING_EXTERIOR_Stone"
+   },
+   {
+    "name": "atrium_GF",
+    "reached": true,
+    "in_frame": true,
+    "glass_layers": 1,
+    "blocker": null
+   }
+  ]
+ },
+ "road_view_seconds": 106.7,
+ "interior_seconds": 308.3
+}

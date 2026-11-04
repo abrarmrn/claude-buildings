@@ -194,10 +194,10 @@
    "SIGNAGE/Brand": 1687
   },
   "SITE": {
-   "OPTIONAL_TERRACE/EmptyPlanters": 100,
-   "OPTIONAL_TERRACE/StreetFurniture": 808,
-   "PROMENADE_FRONTAGE/ArcadePaving": 12,
-   "PROMENADE_FRONTAGE/Paving": 60
+   "OPTIONAL_FORECOURT/EmptyPlanters": 100,
+   "OPTIONAL_FORECOURT/PromenadeFurniture": 808,
+   "SIDEWALK_FRONTAGE/ArcadePaving": 12,
+   "SIDEWALK_FRONTAGE/Paving": 60
   }
  },
  "totals": {
