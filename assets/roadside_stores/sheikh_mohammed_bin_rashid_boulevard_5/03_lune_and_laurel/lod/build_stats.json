@@ -80,12 +80,12 @@
    "SIGNAGE/Brand": 381
   },
   "SITE": {
-   "OPTIONAL_TERRACE/BistroSets": 2126,
-   "OPTIONAL_TERRACE/Deck": 12,
-   "OPTIONAL_TERRACE/EmptyPlanters": 100,
-   "OPTIONAL_TERRACE/StreetFurniture": 272,
-   "PROMENADE_FRONTAGE/Paving": 60,
-   "PROMENADE_FRONTAGE/SidePaving": 12
+   "OPTIONAL_FORECOURT/BistroSets": 2126,
+   "OPTIONAL_FORECOURT/Deck": 12,
+   "OPTIONAL_FORECOURT/EmptyPlanters": 100,
+   "OPTIONAL_FORECOURT/PromenadeFurniture": 272,
+   "SIDEWALK_FRONTAGE/Paving": 60,
+   "SIDEWALK_FRONTAGE/SidePaving": 12
   }
  },
  "totals": {
@@ -126,7 +126,8 @@
   "glass": "BV_Glass / BV_GlassWarm alpha 0.11-0.12, bronze frames",
   "concept": "Massing: a compact champagne-stone block whose right-hand street corner dissolves into a CURVED two-storey glass corner",
   "frontage_m": 16.0,
-  "terrace": "small timber bistro terrace 6.8 x 2.9 m (OPTIONAL_TERRACE)",
+  "terrace": "small timber bistro terrace 6.8 x 2.9 m (OPTIONAL_FORECOURT)",
+  "corner": "right",
   "plot_x": [
    -9.0,
    9.0
