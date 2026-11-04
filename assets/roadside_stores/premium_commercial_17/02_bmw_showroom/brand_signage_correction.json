@@ -1,0 +1,320 @@
+{
+ "asset": "02_bmw_showroom",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P02_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P02_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P02_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "BladeRoundel",
+    "logo": "bmw_roundel",
+    "lods": {
+     "LOD0": {
+      "object": "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+      "tris": 2536,
+      "validate_changed": false,
+      "width_m": 3.8,
+      "height_m": 3.8,
+      "materials": [
+       "BR_BMW_Black",
+       "BR_SignBack",
+       "BR_BMW_Chrome",
+       "BR_BMW_White",
+       "BR_BMW_Blue"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+      "tris": 1316,
+      "validate_changed": false,
+      "width_m": 3.8,
+      "height_m": 3.8,
+      "materials": [
+       "BR_BMW_Black",
+       "BR_SignBack",
+       "BR_BMW_Chrome",
+       "BR_BMW_White",
+       "BR_BMW_Blue"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 3.8,
+      "height_m": 3.8,
+      "materials": [
+       "BR_Card_BladeRoundel_brand_bmw_roundel"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 1.0,
+    "measured_aspect_LOD0": 1.0,
+    "aspect_error_pct": 0.0
+   },
+   {
+    "element": "PylonRoundel",
+    "logo": "bmw_roundel",
+    "lods": {
+     "LOD0": {
+      "object": "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+      "tris": 1716,
+      "validate_changed": false,
+      "width_m": 2.3,
+      "height_m": 2.3,
+      "materials": [
+       "BR_BMW_Black",
+       "BR_SignBack",
+       "BR_BMW_Chrome",
+       "BR_BMW_White",
+       "BR_BMW_Blue"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+      "tris": 896,
+      "validate_changed": false,
+      "width_m": 2.3,
+      "height_m": 2.3,
+      "materials": [
+       "BR_BMW_Black",
+       "BR_SignBack",
+       "BR_BMW_Chrome",
+       "BR_BMW_White",
+       "BR_BMW_Blue"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 2.3,
+      "height_m": 2.3,
+      "materials": [
+       "BR_Card_PylonRoundel_brand_bmw_roundel"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 1.0,
+    "measured_aspect_LOD0": 1.0,
+    "aspect_error_pct": 0.0
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "02_bmw_showroom/textures/brand_bmw_roundel.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "blade_roundel",
+    "center": [
+     -21.7,
+     8.35,
+     7.6
+    ],
+    "cap_height": 3.8,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 3.8,
+    "logo": "bmw_roundel"
+   },
+   {
+    "name": "pylon_roundel",
+    "center": [
+     -24.9,
+     1.18,
+     7.0
+    ],
+    "cap_height": 2.3,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 2.3,
+    "logo": "bmw_roundel"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "bmw_showroom.glb": {
+    "tris_before": 50460,
+    "tris_after": 47360,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P02_LOD0_SIGNAGE_Brand",
+     "P02_LOD1_SIGNAGE_Brand",
+     "P02_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD0_SIGNAGE_Mounting",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD1_SIGNAGE_Mounting",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     9,
+     9
+    ],
+    "images": [
+     16,
+     17
+    ],
+    "size_mb": 6.11
+   },
+   "bmw_showroom_building_only.glb": {
+    "tris_before": 35004,
+    "tris_after": 31904,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P02_LOD0_SIGNAGE_Brand",
+     "P02_LOD1_SIGNAGE_Brand",
+     "P02_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD0_SIGNAGE_Mounting",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD1_SIGNAGE_Mounting",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     9,
+     9
+    ],
+    "images": [
+     16,
+     17
+    ],
+    "size_mb": 5.49
+   },
+   "lod/bmw_showroom_lod0.glb": {
+    "tris_before": 25424,
+    "tris_after": 23716,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P02_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD0_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 1.15
+   },
+   "lod/bmw_showroom_lod1.glb": {
+    "tris_before": 7418,
+    "tris_after": 6694,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P02_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD1_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.47
+   },
+   "lod/bmw_showroom_lod2.glb": {
+    "tris_before": 1302,
+    "tris_after": 634,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P02_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+     "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+     "P02_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.07
+   }
+  }
+ },
+ "passed": true
+}

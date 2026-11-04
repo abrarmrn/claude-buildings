@@ -1,0 +1,276 @@
+{
+ "asset": "06_apple_flagship",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P06_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P06_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P06_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "SuspendedLogo",
+    "logo": "apple_logo",
+    "lods": {
+     "LOD0": {
+      "object": "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+      "tris": 480,
+      "validate_changed": false,
+      "width_m": 1.587,
+      "height_m": 1.95,
+      "materials": [
+       "BR_AP_White",
+       "BR_AP_Steel"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+      "tris": 228,
+      "validate_changed": false,
+      "width_m": 1.587,
+      "height_m": 1.95,
+      "materials": [
+       "BR_AP_White",
+       "BR_AP_Steel"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 1.587,
+      "height_m": 1.95,
+      "materials": [
+       "BR_Card_SuspendedLogo_brand_apple_logo"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 0.814,
+    "measured_aspect_LOD0": 0.8138,
+    "aspect_error_pct": 0.02
+   },
+   {
+    "element": "FlankLogo",
+    "logo": "apple_logo",
+    "lods": {
+     "LOD0": {
+      "object": "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+      "tris": 356,
+      "validate_changed": false,
+      "width_m": 0.814,
+      "height_m": 1.0,
+      "materials": [
+       "BR_AP_White",
+       "BR_AP_Steel"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+      "tris": 148,
+      "validate_changed": false,
+      "width_m": 0.814,
+      "height_m": 1.0,
+      "materials": [
+       "BR_AP_White",
+       "BR_AP_Steel"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 0.814,
+      "height_m": 1.0,
+      "materials": [
+       "BR_Card_FlankLogo_brand_apple_logo"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 0.814,
+    "measured_aspect_LOD0": 0.814,
+    "aspect_error_pct": 0.0
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "06_apple_flagship/textures/brand_apple_logo.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "logo",
+    "center": [
+     0.0,
+     6.38,
+     6.925
+    ],
+    "cap_height": 1.95,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 1.587,
+    "logo": "apple_logo"
+   },
+   {
+    "name": "flank_logo",
+    "center": [
+     -14.35,
+     5.4,
+     6.0
+    ],
+    "cap_height": 1.0,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 0.814,
+    "logo": "apple_logo"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "apple_flagship.glb": {
+    "tris_before": 19640,
+    "tris_after": 20844,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P06_LOD0_SIGNAGE_Brand",
+     "P06_LOD1_SIGNAGE_Brand",
+     "P06_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+     "P06_LOD0_SIGNAGE_Mounting",
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+     "P06_LOD1_SIGNAGE_Mounting",
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+    ],
+    "lights": [
+     8,
+     8
+    ],
+    "images": [
+     14,
+     14
+    ],
+    "size_mb": 3.98
+   },
+   "lod/apple_flagship_lod0.glb": {
+    "tris_before": 15036,
+    "tris_after": 15868,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P06_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+     "P06_LOD0_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 1.02
+   },
+   "lod/apple_flagship_lod1.glb": {
+    "tris_before": 3596,
+    "tris_after": 3968,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P06_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+     "P06_LOD1_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.3
+   },
+   "lod/apple_flagship_lod2.glb": {
+    "tris_before": 508,
+    "tris_after": 508,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P06_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+     "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.06
+   }
+  }
+ },
+ "passed": true
+}

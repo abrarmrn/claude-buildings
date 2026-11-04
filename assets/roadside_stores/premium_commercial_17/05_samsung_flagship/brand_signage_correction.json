@@ -1,0 +1,211 @@
+{
+ "asset": "05_samsung_flagship",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P05_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P05_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P05_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "FasciaWordmark",
+    "logo": "samsung_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 1188,
+      "validate_changed": false,
+      "width_m": 4.908,
+      "height_m": 0.75,
+      "materials": [
+       "BR_SS_White",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 676,
+      "validate_changed": false,
+      "width_m": 4.908,
+      "height_m": 0.75,
+      "materials": [
+       "BR_SS_White",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 4.908,
+      "height_m": 0.75,
+      "materials": [
+       "BR_Card_FasciaWordmark_brand_samsung_wordmark_ffffff"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 6.5438,
+    "measured_aspect_LOD0": 6.544,
+    "aspect_error_pct": 0.0
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "05_samsung_flagship/textures/brand_samsung_wordmark_ffffff.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "fascia_wordmark",
+    "center": [
+     5.5,
+     6.38,
+     11.45
+    ],
+    "cap_height": 0.75,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 4.908,
+    "logo": "samsung_wordmark"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "samsung_flagship.glb": {
+    "tris_before": 20015,
+    "tris_after": 19668,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P05_LOD0_SIGNAGE_Brand",
+     "P05_LOD1_SIGNAGE_Brand",
+     "P05_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE",
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE",
+     "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+    ],
+    "lights": [
+     8,
+     8
+    ],
+    "images": [
+     25,
+     26
+    ],
+    "size_mb": 6.23
+   },
+   "lod/samsung_flagship_lod0.glb": {
+    "tris_before": 13208,
+    "tris_after": 12844,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P05_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.8
+   },
+   "lod/samsung_flagship_lod1.glb": {
+    "tris_before": 4736,
+    "tris_after": 4840,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P05_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.34
+   },
+   "lod/samsung_flagship_lod2.glb": {
+    "tris_before": 1039,
+    "tris_after": 952,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P05_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.09
+   }
+  }
+ },
+ "passed": true
+}

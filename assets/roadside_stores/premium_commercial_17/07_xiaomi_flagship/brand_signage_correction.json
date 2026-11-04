@@ -1,0 +1,278 @@
+{
+ "asset": "07_xiaomi_flagship",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P07_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P07_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P07_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "PortalSymbol",
+    "logo": "xiaomi_mi_symbol",
+    "lods": {
+     "LOD0": {
+      "object": "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+      "tris": 628,
+      "validate_changed": false,
+      "width_m": 2.2,
+      "height_m": 2.2,
+      "materials": [
+       "BR_XM_Orange",
+       "BR_SignBack",
+       "BR_XM_White"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+      "tris": 336,
+      "validate_changed": false,
+      "width_m": 2.2,
+      "height_m": 2.2,
+      "materials": [
+       "BR_XM_Orange",
+       "BR_SignBack",
+       "BR_XM_White"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 2.2,
+      "height_m": 2.2,
+      "materials": [
+       "BR_Card_PortalSymbol_brand_xiaomi_mi_symbol"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 1.0,
+    "measured_aspect_LOD0": 1.0,
+    "aspect_error_pct": 0.0
+   },
+   {
+    "element": "FasciaWordmark",
+    "logo": "xiaomi_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 1300,
+      "validate_changed": false,
+      "width_m": 3.571,
+      "height_m": 0.926,
+      "materials": [
+       "BR_XM_Letter",
+       "BR_XM_Halo"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 704,
+      "validate_changed": false,
+      "width_m": 3.571,
+      "height_m": 0.926,
+      "materials": [
+       "BR_XM_Letter",
+       "BR_XM_Halo"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 3.595,
+      "height_m": 0.95,
+      "materials": [
+       "BR_Card_FasciaWordmark_brand_xiaomi_wordmark_1d1d1f"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 3.8559,
+    "measured_aspect_LOD0": 3.8564,
+    "aspect_error_pct": 0.01
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "07_xiaomi_flagship/textures/brand_xiaomi_mi_symbol.png",
+    "exists": true
+   },
+   {
+    "file": "07_xiaomi_flagship/textures/brand_xiaomi_wordmark_1d1d1f.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "portal_badge",
+    "center": [
+     11.25,
+     6.75,
+     7.8
+    ],
+    "cap_height": 2.2,
+    "normal": [
+     0.70710678,
+     -0.70710678,
+     0.0
+    ],
+    "width": 2.2,
+    "logo": "xiaomi_mi_symbol"
+   },
+   {
+    "name": "fascia_wordmark",
+    "center": [
+     -3.52,
+     4.68,
+     9.75
+    ],
+    "cap_height": 0.95,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 3.595,
+    "logo": "xiaomi_wordmark"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "xiaomi_flagship.glb": {
+    "tris_before": 19754,
+    "tris_after": 20970,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P07_LOD0_SIGNAGE_Brand",
+     "P07_LOD1_SIGNAGE_Brand",
+     "P07_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ],
+    "lights": [
+     6,
+     6
+    ],
+    "images": [
+     16,
+     17
+    ],
+    "size_mb": 4.97
+   },
+   "lod/xiaomi_flagship_lod0.glb": {
+    "tris_before": 14060,
+    "tris_after": 14750,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P07_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.82
+   },
+   "lod/xiaomi_flagship_lod1.glb": {
+    "tris_before": 3898,
+    "tris_after": 4488,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P07_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.34
+   },
+   "lod/xiaomi_flagship_lod2.glb": {
+    "tris_before": 1230,
+    "tris_after": 1166,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P07_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+     "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.11
+   }
+  }
+ },
+ "passed": true
+}

@@ -1,0 +1,247 @@
+{
+ "asset": "04_ford_showroom",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P04_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P04_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P04_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "PortalOval",
+    "logo": "ford_oval",
+    "lods": {
+     "LOD0": {
+      "object": "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+      "tris": 3984,
+      "validate_changed": false,
+      "width_m": 7.4,
+      "height_m": 2.775,
+      "materials": [
+       "BR_FD_Blue",
+       "BR_SignBack",
+       "BR_Chrome",
+       "BR_FD_White"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+      "tris": 1916,
+      "validate_changed": false,
+      "width_m": 7.4,
+      "height_m": 2.775,
+      "materials": [
+       "BR_FD_Blue",
+       "BR_SignBack",
+       "BR_Chrome",
+       "BR_FD_White"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 7.4,
+      "height_m": 2.775,
+      "materials": [
+       "BR_Card_PortalOval_brand_ford_oval"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 2.6667,
+    "measured_aspect_LOD0": 2.6667,
+    "aspect_error_pct": 0.0
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "04_ford_showroom/textures/brand_ford_oval.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "portal_oval",
+    "center": [
+     0.0,
+     6.48,
+     8.5
+    ],
+    "cap_height": 2.775,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 7.4,
+    "logo": "ford_oval"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "ford_showroom.glb": {
+    "tris_before": 46521,
+    "tris_after": 49120,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P04_LOD0_SIGNAGE_Brand",
+     "P04_LOD1_SIGNAGE_Brand",
+     "P04_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+     "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+    ],
+    "lights": [
+     9,
+     9
+    ],
+    "images": [
+     16,
+     17
+    ],
+    "size_mb": 5.99
+   },
+   "ford_showroom_building_only.glb": {
+    "tris_before": 31093,
+    "tris_after": 33692,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P04_LOD0_SIGNAGE_Brand",
+     "P04_LOD1_SIGNAGE_Brand",
+     "P04_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+     "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+    ],
+    "lights": [
+     9,
+     9
+    ],
+    "images": [
+     16,
+     17
+    ],
+    "size_mb": 5.36
+   },
+   "lod/ford_showroom_lod0.glb": {
+    "tris_before": 20922,
+    "tris_after": 22766,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P04_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 1.31
+   },
+   "lod/ford_showroom_lod1.glb": {
+    "tris_before": 7590,
+    "tris_after": 8614,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P04_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+     "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.59
+   },
+   "lod/ford_showroom_lod2.glb": {
+    "tris_before": 1857,
+    "tris_after": 1588,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P04_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.15
+   }
+  }
+ },
+ "passed": true
+}

@@ -1,0 +1,390 @@
+{
+ "asset": "03_porsche_showroom",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P03_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P03_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P03_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "BoxWordmark",
+    "logo": "porsche_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+      "tris": 968,
+      "validate_changed": false,
+      "width_m": 7.5,
+      "height_m": 0.5,
+      "materials": [
+       "BR_PO_Letter",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+      "tris": 596,
+      "validate_changed": false,
+      "width_m": 7.5,
+      "height_m": 0.5,
+      "materials": [
+       "BR_PO_Letter",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 7.5,
+      "height_m": 0.5,
+      "materials": [
+       "BR_Card_BoxWordmark_brand_porsche_wordmark"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 15.0,
+    "measured_aspect_LOD0": 15.0,
+    "aspect_error_pct": 0.0
+   },
+   {
+    "element": "MonolithCrest",
+    "logo": "porsche_crest",
+    "lods": {
+     "LOD0": {
+      "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+      "tris": 160,
+      "validate_changed": false,
+      "width_m": 0.951,
+      "height_m": 1.22,
+      "materials": [
+       "BR_PO_CrestFace",
+       "BR_SignBack",
+       "BR_PO_Gold"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+      "tris": 76,
+      "validate_changed": false,
+      "width_m": 0.951,
+      "height_m": 1.22,
+      "materials": [
+       "BR_PO_CrestFace",
+       "BR_SignBack",
+       "BR_PO_Gold"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 0.951,
+      "height_m": 1.22,
+      "materials": [
+       "BR_Card_MonolithCrest_brand_porsche_crest"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 0.7795,
+    "measured_aspect_LOD0": 0.7795,
+    "aspect_error_pct": 0.01
+   },
+   {
+    "element": "MonolithWordmark",
+    "logo": "porsche_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+      "tris": 644,
+      "validate_changed": false,
+      "width_m": 3.5,
+      "height_m": 0.233,
+      "materials": [
+       "BR_PO_Letter",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+      "tris": 452,
+      "validate_changed": false,
+      "width_m": 3.5,
+      "height_m": 0.233,
+      "materials": [
+       "BR_PO_Letter",
+       "BR_SignBack",
+       "BR_BrushedAlu"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 3.5,
+      "height_m": 0.233,
+      "materials": [
+       "BR_Card_MonolithWordmark_brand_porsche_wordmark"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 15.0,
+    "measured_aspect_LOD0": 15.0215,
+    "aspect_error_pct": 0.14
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "03_porsche_showroom/textures/brand_porsche_crest.png",
+    "exists": true
+   },
+   {
+    "file": "03_porsche_showroom/textures/brand_porsche_wordmark.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "box_wordmark",
+    "center": [
+     -3.0,
+     4.78,
+     14.15
+    ],
+    "cap_height": 0.5,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 7.5,
+    "logo": "porsche_wordmark"
+   },
+   {
+    "name": "monolith_crest",
+    "center": [
+     -23.5,
+     1.0,
+     1.66
+    ],
+    "cap_height": 1.22,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 0.951,
+    "logo": "porsche_crest"
+   },
+   {
+    "name": "monolith_wordmark",
+    "center": [
+     -23.5,
+     1.0,
+     0.66
+    ],
+    "cap_height": 0.233,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 3.5,
+    "logo": "porsche_wordmark"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "porsche_showroom.glb": {
+    "tris_before": 42362,
+    "tris_after": 42322,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P03_LOD0_SIGNAGE_Brand",
+     "P03_LOD1_SIGNAGE_Brand",
+     "P03_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD0_SIGNAGE_Mounting",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD1_SIGNAGE_Mounting",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     12,
+     12
+    ],
+    "images": [
+     28,
+     30
+    ],
+    "size_mb": 8.03
+   },
+   "porsche_showroom_building_only.glb": {
+    "tris_before": 29278,
+    "tris_after": 29238,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P03_LOD0_SIGNAGE_Brand",
+     "P03_LOD1_SIGNAGE_Brand",
+     "P03_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD0_SIGNAGE_Mounting",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD1_SIGNAGE_Mounting",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     12,
+     12
+    ],
+    "images": [
+     28,
+     30
+    ],
+    "size_mb": 7.52
+   },
+   "lod/porsche_showroom_lod0.glb": {
+    "tris_before": 21046,
+    "tris_after": 20918,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P03_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD0_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 1.14
+   },
+   "lod/porsche_showroom_lod1.glb": {
+    "tris_before": 6326,
+    "tris_after": 6486,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P03_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD1_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.49
+   },
+   "lod/porsche_showroom_lod2.glb": {
+    "tris_before": 1238,
+    "tris_after": 1166,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P03_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+     "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+     "P03_LOD2_SIGNAGE_Mounting"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.13
+   }
+  }
+ },
+ "passed": true
+}

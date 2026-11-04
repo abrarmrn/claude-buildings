@@ -1,0 +1,68 @@
+{
+ "mercedes_star": {
+  "svg": "source_vectors/final/mercedes_star.svg",
+  "kind": "mono",
+  "aspect": 1.0,
+  "png": "textures/mercedes_star_2048.png"
+ },
+ "mercedes_wordmark": {
+  "svg": "source_vectors/final/mercedes_wordmark.svg",
+  "kind": "mono",
+  "aspect": 8.57487922705314,
+  "png": "textures/mercedes_wordmark_4096.png"
+ },
+ "bmw_roundel": {
+  "svg": "source_vectors/final/bmw_roundel.svg",
+  "kind": "layered",
+  "aspect": 1.0,
+  "png": "textures/bmw_roundel_2048.png"
+ },
+ "porsche_wordmark": {
+  "svg": "source_vectors/final/porsche_wordmark.svg",
+  "kind": "mono",
+  "aspect": 15.0,
+  "png": "textures/porsche_wordmark_4096.png"
+ },
+ "porsche_crest": {
+  "svg": "source_vectors/final/porsche_crest_outline.svg",
+  "png": "textures/porsche_crest_2048.png",
+  "kind": "plaque",
+  "aspect": 0.7793333333333333,
+  "regions": {
+   "gold": 13,
+   "black": 9,
+   "red": 4
+  }
+ },
+ "ford_oval": {
+  "svg": "source_vectors/final/ford_oval.svg",
+  "kind": "layered",
+  "aspect": 2.6666666666666665,
+  "png": "textures/ford_oval_4096.png"
+ },
+ "samsung_wordmark": {
+  "svg": "source_vectors/final/samsung_wordmark.svg",
+  "kind": "mono",
+  "aspect": 6.543788853746319,
+  "png": "textures/samsung_wordmark_4096.png"
+ },
+ "apple_logo": {
+  "svg": "source_vectors/final/apple_logo.svg",
+  "kind": "mono",
+  "aspect": 0.8140366730675102,
+  "png": "textures/apple_logo_2048.png"
+ },
+ "xiaomi_mi_symbol": {
+  "svg": "source_vectors/final/xiaomi_mi_symbol.svg",
+  "kind": "layered",
+  "aspect": 1.0,
+  "png": "textures/xiaomi_mi_symbol_2048.png"
+ },
+ "xiaomi_wordmark": {
+  "svg": "source_vectors/final/xiaomi_wordmark.svg",
+  "kind": "mono",
+  "aspect": 3.784190715181932,
+  "recreation": true,
+  "png": "textures/xiaomi_wordmark_4096.png"
+ }
+}

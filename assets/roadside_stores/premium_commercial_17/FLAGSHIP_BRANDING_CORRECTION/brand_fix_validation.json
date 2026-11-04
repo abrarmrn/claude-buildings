@@ -1,0 +1,2113 @@
+{
+ "assets": {
+  "01": {
+   "asset": "01_mercedes_showroom",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P01_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P01_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P01_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "RooftopWordmark",
+      "logo": "mercedes_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+        "tris": 4384,
+        "validate_changed": false,
+        "width_m": 10.979,
+        "height_m": 1.263,
+        "materials": [
+         "BR_MB_Face",
+         "BR_SignBack",
+         "BR_Chrome"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+        "tris": 2180,
+        "validate_changed": false,
+        "width_m": 10.979,
+        "height_m": 1.263,
+        "materials": [
+         "BR_MB_Face",
+         "BR_SignBack",
+         "BR_Chrome"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+        "tris": 14,
+        "validate_changed": false,
+        "width_m": 11.0,
+        "height_m": 1.283,
+        "materials": [
+         "BR_Card_RooftopWordmark_brand_mercedes_wordmark",
+         "BR_SignBack"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 8.6919,
+      "measured_aspect_LOD0": 8.6928,
+      "aspect_error_pct": 0.01
+     },
+     {
+      "element": "CoreStar",
+      "logo": "mercedes_star",
+      "lods": {
+       "LOD0": {
+        "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+        "tris": 790,
+        "validate_changed": false,
+        "width_m": 4.0,
+        "height_m": 4.0,
+        "materials": [
+         "BR_MB_Ring",
+         "BR_SignBack",
+         "BR_Chrome",
+         "BR_MB_FacetB",
+         "BR_MB_FacetA"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+        "tris": 342,
+        "validate_changed": false,
+        "width_m": 4.0,
+        "height_m": 4.0,
+        "materials": [
+         "BR_MB_Ring",
+         "BR_SignBack",
+         "BR_Chrome",
+         "BR_MB_FacetB",
+         "BR_MB_FacetA"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 4.0,
+        "height_m": 4.0,
+        "materials": [
+         "BR_Card_CoreStar_brand_mercedes_star"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 1.0,
+      "measured_aspect_LOD0": 1.0,
+      "aspect_error_pct": 0.0
+     },
+     {
+      "element": "CoreWordmark",
+      "logo": "mercedes_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+        "tris": 2376,
+        "validate_changed": false,
+        "width_m": 3.393,
+        "height_m": 0.39,
+        "materials": [
+         "BR_MB_Face",
+         "BR_SignBack",
+         "BR_Chrome"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+        "tris": 1356,
+        "validate_changed": false,
+        "width_m": 3.393,
+        "height_m": 0.39,
+        "materials": [
+         "BR_MB_Face",
+         "BR_SignBack",
+         "BR_Chrome"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 3.4,
+        "height_m": 0.397,
+        "materials": [
+         "BR_Card_CoreWordmark_brand_mercedes_wordmark"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 8.6919,
+      "measured_aspect_LOD0": 8.7,
+      "aspect_error_pct": 0.09
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "01_mercedes_showroom/textures/brand_mercedes_star.png",
+      "exists": true
+     },
+     {
+      "file": "01_mercedes_showroom/textures/brand_mercedes_wordmark.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "rooftop_wordmark",
+      "center": [
+       -4.0,
+       4.8,
+       18.32
+      ],
+      "cap_height": 1.283,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 11.0,
+      "logo": "mercedes_wordmark"
+     },
+     {
+      "name": "core_star",
+      "center": [
+       21.0,
+       7.8,
+       18.1
+      ],
+      "cap_height": 4.0,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 4.0,
+      "logo": "mercedes_star"
+     },
+     {
+      "name": "core_wordmark",
+      "center": [
+       21.0,
+       7.8,
+       15.2
+      ],
+      "cap_height": 0.397,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 3.4,
+      "logo": "mercedes_wordmark"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "mercedes_showroom.glb": {
+      "tris_before": 67723,
+      "tris_after": 73252,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P01_LOD0_SIGNAGE_Brand",
+       "P01_LOD1_SIGNAGE_Brand",
+       "P01_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ],
+      "lights": [
+       16,
+       16
+      ],
+      "images": [
+       25,
+       27
+      ],
+      "size_mb": 9.13
+     },
+     "mercedes_showroom_building_only.glb": {
+      "tris_before": 50091,
+      "tris_after": 55620,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P01_LOD0_SIGNAGE_Brand",
+       "P01_LOD1_SIGNAGE_Brand",
+       "P01_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ],
+      "lights": [
+       16,
+       16
+      ],
+      "images": [
+       25,
+       27
+      ],
+      "size_mb": 8.44
+     },
+     "lod/mercedes_showroom_lod0.glb": {
+      "tris_before": 37538,
+      "tris_after": 41432,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P01_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 2.04
+     },
+     "lod/mercedes_showroom_lod1.glb": {
+      "tris_before": 9696,
+      "tris_after": 11626,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P01_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.79
+     },
+     "lod/mercedes_showroom_lod2.glb": {
+      "tris_before": 1609,
+      "tris_after": 1314,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P01_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+       "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.13
+     }
+    }
+   },
+   "passed": true
+  },
+  "02": {
+   "asset": "02_bmw_showroom",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P02_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P02_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P02_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "BladeRoundel",
+      "logo": "bmw_roundel",
+      "lods": {
+       "LOD0": {
+        "object": "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+        "tris": 2536,
+        "validate_changed": false,
+        "width_m": 3.8,
+        "height_m": 3.8,
+        "materials": [
+         "BR_BMW_Black",
+         "BR_SignBack",
+         "BR_BMW_Chrome",
+         "BR_BMW_White",
+         "BR_BMW_Blue"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+        "tris": 1316,
+        "validate_changed": false,
+        "width_m": 3.8,
+        "height_m": 3.8,
+        "materials": [
+         "BR_BMW_Black",
+         "BR_SignBack",
+         "BR_BMW_Chrome",
+         "BR_BMW_White",
+         "BR_BMW_Blue"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 3.8,
+        "height_m": 3.8,
+        "materials": [
+         "BR_Card_BladeRoundel_brand_bmw_roundel"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 1.0,
+      "measured_aspect_LOD0": 1.0,
+      "aspect_error_pct": 0.0
+     },
+     {
+      "element": "PylonRoundel",
+      "logo": "bmw_roundel",
+      "lods": {
+       "LOD0": {
+        "object": "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+        "tris": 1716,
+        "validate_changed": false,
+        "width_m": 2.3,
+        "height_m": 2.3,
+        "materials": [
+         "BR_BMW_Black",
+         "BR_SignBack",
+         "BR_BMW_Chrome",
+         "BR_BMW_White",
+         "BR_BMW_Blue"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+        "tris": 896,
+        "validate_changed": false,
+        "width_m": 2.3,
+        "height_m": 2.3,
+        "materials": [
+         "BR_BMW_Black",
+         "BR_SignBack",
+         "BR_BMW_Chrome",
+         "BR_BMW_White",
+         "BR_BMW_Blue"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 2.3,
+        "height_m": 2.3,
+        "materials": [
+         "BR_Card_PylonRoundel_brand_bmw_roundel"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 1.0,
+      "measured_aspect_LOD0": 1.0,
+      "aspect_error_pct": 0.0
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "02_bmw_showroom/textures/brand_bmw_roundel.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "blade_roundel",
+      "center": [
+       -21.7,
+       8.35,
+       7.6
+      ],
+      "cap_height": 3.8,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 3.8,
+      "logo": "bmw_roundel"
+     },
+     {
+      "name": "pylon_roundel",
+      "center": [
+       -24.9,
+       1.18,
+       7.0
+      ],
+      "cap_height": 2.3,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 2.3,
+      "logo": "bmw_roundel"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "bmw_showroom.glb": {
+      "tris_before": 50460,
+      "tris_after": 47360,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P02_LOD0_SIGNAGE_Brand",
+       "P02_LOD1_SIGNAGE_Brand",
+       "P02_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD0_SIGNAGE_Mounting",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD1_SIGNAGE_Mounting",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       9,
+       9
+      ],
+      "images": [
+       16,
+       17
+      ],
+      "size_mb": 6.11
+     },
+     "bmw_showroom_building_only.glb": {
+      "tris_before": 35004,
+      "tris_after": 31904,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P02_LOD0_SIGNAGE_Brand",
+       "P02_LOD1_SIGNAGE_Brand",
+       "P02_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD0_SIGNAGE_Mounting",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD1_SIGNAGE_Mounting",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       9,
+       9
+      ],
+      "images": [
+       16,
+       17
+      ],
+      "size_mb": 5.49
+     },
+     "lod/bmw_showroom_lod0.glb": {
+      "tris_before": 25424,
+      "tris_after": 23716,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P02_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD0_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD0_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 1.15
+     },
+     "lod/bmw_showroom_lod1.glb": {
+      "tris_before": 7418,
+      "tris_after": 6694,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P02_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD1_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD1_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.47
+     },
+     "lod/bmw_showroom_lod2.glb": {
+      "tris_before": 1302,
+      "tris_after": 634,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P02_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_BladeRoundel",
+       "P02_LOD2_BRAND_SIGNAGE_CORRECTED_PylonRoundel",
+       "P02_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.07
+     }
+    }
+   },
+   "passed": true
+  },
+  "03": {
+   "asset": "03_porsche_showroom",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P03_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P03_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P03_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "BoxWordmark",
+      "logo": "porsche_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+        "tris": 968,
+        "validate_changed": false,
+        "width_m": 7.5,
+        "height_m": 0.5,
+        "materials": [
+         "BR_PO_Letter",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+        "tris": 596,
+        "validate_changed": false,
+        "width_m": 7.5,
+        "height_m": 0.5,
+        "materials": [
+         "BR_PO_Letter",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 7.5,
+        "height_m": 0.5,
+        "materials": [
+         "BR_Card_BoxWordmark_brand_porsche_wordmark"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 15.0,
+      "measured_aspect_LOD0": 15.0,
+      "aspect_error_pct": 0.0
+     },
+     {
+      "element": "MonolithCrest",
+      "logo": "porsche_crest",
+      "lods": {
+       "LOD0": {
+        "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+        "tris": 160,
+        "validate_changed": false,
+        "width_m": 0.951,
+        "height_m": 1.22,
+        "materials": [
+         "BR_PO_CrestFace",
+         "BR_SignBack",
+         "BR_PO_Gold"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+        "tris": 76,
+        "validate_changed": false,
+        "width_m": 0.951,
+        "height_m": 1.22,
+        "materials": [
+         "BR_PO_CrestFace",
+         "BR_SignBack",
+         "BR_PO_Gold"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 0.951,
+        "height_m": 1.22,
+        "materials": [
+         "BR_Card_MonolithCrest_brand_porsche_crest"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 0.7795,
+      "measured_aspect_LOD0": 0.7795,
+      "aspect_error_pct": 0.01
+     },
+     {
+      "element": "MonolithWordmark",
+      "logo": "porsche_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+        "tris": 644,
+        "validate_changed": false,
+        "width_m": 3.5,
+        "height_m": 0.233,
+        "materials": [
+         "BR_PO_Letter",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+        "tris": 452,
+        "validate_changed": false,
+        "width_m": 3.5,
+        "height_m": 0.233,
+        "materials": [
+         "BR_PO_Letter",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 3.5,
+        "height_m": 0.233,
+        "materials": [
+         "BR_Card_MonolithWordmark_brand_porsche_wordmark"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 15.0,
+      "measured_aspect_LOD0": 15.0215,
+      "aspect_error_pct": 0.14
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "03_porsche_showroom/textures/brand_porsche_crest.png",
+      "exists": true
+     },
+     {
+      "file": "03_porsche_showroom/textures/brand_porsche_wordmark.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "box_wordmark",
+      "center": [
+       -3.0,
+       4.78,
+       14.15
+      ],
+      "cap_height": 0.5,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 7.5,
+      "logo": "porsche_wordmark"
+     },
+     {
+      "name": "monolith_crest",
+      "center": [
+       -23.5,
+       1.0,
+       1.66
+      ],
+      "cap_height": 1.22,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 0.951,
+      "logo": "porsche_crest"
+     },
+     {
+      "name": "monolith_wordmark",
+      "center": [
+       -23.5,
+       1.0,
+       0.66
+      ],
+      "cap_height": 0.233,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 3.5,
+      "logo": "porsche_wordmark"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "porsche_showroom.glb": {
+      "tris_before": 42362,
+      "tris_after": 42322,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P03_LOD0_SIGNAGE_Brand",
+       "P03_LOD1_SIGNAGE_Brand",
+       "P03_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD0_SIGNAGE_Mounting",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD1_SIGNAGE_Mounting",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       12,
+       12
+      ],
+      "images": [
+       28,
+       30
+      ],
+      "size_mb": 8.03
+     },
+     "porsche_showroom_building_only.glb": {
+      "tris_before": 29278,
+      "tris_after": 29238,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P03_LOD0_SIGNAGE_Brand",
+       "P03_LOD1_SIGNAGE_Brand",
+       "P03_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD0_SIGNAGE_Mounting",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD1_SIGNAGE_Mounting",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       12,
+       12
+      ],
+      "images": [
+       28,
+       30
+      ],
+      "size_mb": 7.52
+     },
+     "lod/porsche_showroom_lod0.glb": {
+      "tris_before": 21046,
+      "tris_after": 20918,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P03_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD0_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD0_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 1.14
+     },
+     "lod/porsche_showroom_lod1.glb": {
+      "tris_before": 6326,
+      "tris_after": 6486,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P03_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD1_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD1_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.49
+     },
+     "lod/porsche_showroom_lod2.glb": {
+      "tris_before": 1238,
+      "tris_after": 1166,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P03_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_BoxWordmark",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithCrest",
+       "P03_LOD2_BRAND_SIGNAGE_CORRECTED_MonolithWordmark",
+       "P03_LOD2_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.13
+     }
+    }
+   },
+   "passed": true
+  },
+  "04": {
+   "asset": "04_ford_showroom",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P04_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P04_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P04_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "PortalOval",
+      "logo": "ford_oval",
+      "lods": {
+       "LOD0": {
+        "object": "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+        "tris": 3984,
+        "validate_changed": false,
+        "width_m": 7.4,
+        "height_m": 2.775,
+        "materials": [
+         "BR_FD_Blue",
+         "BR_SignBack",
+         "BR_Chrome",
+         "BR_FD_White"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+        "tris": 1916,
+        "validate_changed": false,
+        "width_m": 7.4,
+        "height_m": 2.775,
+        "materials": [
+         "BR_FD_Blue",
+         "BR_SignBack",
+         "BR_Chrome",
+         "BR_FD_White"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 7.4,
+        "height_m": 2.775,
+        "materials": [
+         "BR_Card_PortalOval_brand_ford_oval"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 2.6667,
+      "measured_aspect_LOD0": 2.6667,
+      "aspect_error_pct": 0.0
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "04_ford_showroom/textures/brand_ford_oval.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "portal_oval",
+      "center": [
+       0.0,
+       6.48,
+       8.5
+      ],
+      "cap_height": 2.775,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 7.4,
+      "logo": "ford_oval"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "ford_showroom.glb": {
+      "tris_before": 46521,
+      "tris_after": 49120,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P04_LOD0_SIGNAGE_Brand",
+       "P04_LOD1_SIGNAGE_Brand",
+       "P04_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+       "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+      ],
+      "lights": [
+       9,
+       9
+      ],
+      "images": [
+       16,
+       17
+      ],
+      "size_mb": 5.99
+     },
+     "ford_showroom_building_only.glb": {
+      "tris_before": 31093,
+      "tris_after": 33692,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P04_LOD0_SIGNAGE_Brand",
+       "P04_LOD1_SIGNAGE_Brand",
+       "P04_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE",
+       "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+      ],
+      "lights": [
+       9,
+       9
+      ],
+      "images": [
+       16,
+       17
+      ],
+      "size_mb": 5.36
+     },
+     "lod/ford_showroom_lod0.glb": {
+      "tris_before": 20922,
+      "tris_after": 22766,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P04_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD0_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 1.31
+     },
+     "lod/ford_showroom_lod1.glb": {
+      "tris_before": 7590,
+      "tris_after": 8614,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P04_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_PortalOval",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_PARTSSERVICERECE",
+       "P04_LOD1_BRAND_SIGNAGE_CORRECTED_Text_SERVICE"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.59
+     },
+     "lod/ford_showroom_lod2.glb": {
+      "tris_before": 1857,
+      "tris_after": 1588,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P04_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P04_LOD2_BRAND_SIGNAGE_CORRECTED_PortalOval"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.15
+     }
+    }
+   },
+   "passed": true
+  },
+  "05": {
+   "asset": "05_samsung_flagship",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P05_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P05_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P05_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "FasciaWordmark",
+      "logo": "samsung_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 1188,
+        "validate_changed": false,
+        "width_m": 4.908,
+        "height_m": 0.75,
+        "materials": [
+         "BR_SS_White",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 676,
+        "validate_changed": false,
+        "width_m": 4.908,
+        "height_m": 0.75,
+        "materials": [
+         "BR_SS_White",
+         "BR_SignBack",
+         "BR_BrushedAlu"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 4.908,
+        "height_m": 0.75,
+        "materials": [
+         "BR_Card_FasciaWordmark_brand_samsung_wordmark_ffffff"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 6.5438,
+      "measured_aspect_LOD0": 6.544,
+      "aspect_error_pct": 0.0
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "05_samsung_flagship/textures/brand_samsung_wordmark_ffffff.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "fascia_wordmark",
+      "center": [
+       5.5,
+       6.38,
+       11.45
+      ],
+      "cap_height": 0.75,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 4.908,
+      "logo": "samsung_wordmark"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "samsung_flagship.glb": {
+      "tris_before": 20015,
+      "tris_after": 19668,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P05_LOD0_SIGNAGE_Brand",
+       "P05_LOD1_SIGNAGE_Brand",
+       "P05_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE",
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE",
+       "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+      ],
+      "lights": [
+       8,
+       8
+      ],
+      "images": [
+       25,
+       26
+      ],
+      "size_mb": 6.23
+     },
+     "lod/samsung_flagship_lod0.glb": {
+      "tris_before": 13208,
+      "tris_after": 12844,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P05_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD0_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.8
+     },
+     "lod/samsung_flagship_lod1.glb": {
+      "tris_before": 4736,
+      "tris_after": 4840,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P05_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P05_LOD1_BRAND_SIGNAGE_CORRECTED_Text_EXPERIENCESTORE"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.34
+     },
+     "lod/samsung_flagship_lod2.glb": {
+      "tris_before": 1039,
+      "tris_after": 952,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P05_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P05_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.09
+     }
+    }
+   },
+   "passed": true
+  },
+  "06": {
+   "asset": "06_apple_flagship",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P06_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P06_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P06_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "SuspendedLogo",
+      "logo": "apple_logo",
+      "lods": {
+       "LOD0": {
+        "object": "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+        "tris": 480,
+        "validate_changed": false,
+        "width_m": 1.587,
+        "height_m": 1.95,
+        "materials": [
+         "BR_AP_White",
+         "BR_AP_Steel"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+        "tris": 228,
+        "validate_changed": false,
+        "width_m": 1.587,
+        "height_m": 1.95,
+        "materials": [
+         "BR_AP_White",
+         "BR_AP_Steel"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 1.587,
+        "height_m": 1.95,
+        "materials": [
+         "BR_Card_SuspendedLogo_brand_apple_logo"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 0.814,
+      "measured_aspect_LOD0": 0.8138,
+      "aspect_error_pct": 0.02
+     },
+     {
+      "element": "FlankLogo",
+      "logo": "apple_logo",
+      "lods": {
+       "LOD0": {
+        "object": "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+        "tris": 356,
+        "validate_changed": false,
+        "width_m": 0.814,
+        "height_m": 1.0,
+        "materials": [
+         "BR_AP_White",
+         "BR_AP_Steel"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+        "tris": 148,
+        "validate_changed": false,
+        "width_m": 0.814,
+        "height_m": 1.0,
+        "materials": [
+         "BR_AP_White",
+         "BR_AP_Steel"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 0.814,
+        "height_m": 1.0,
+        "materials": [
+         "BR_Card_FlankLogo_brand_apple_logo"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 0.814,
+      "measured_aspect_LOD0": 0.814,
+      "aspect_error_pct": 0.0
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "06_apple_flagship/textures/brand_apple_logo.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "logo",
+      "center": [
+       0.0,
+       6.38,
+       6.925
+      ],
+      "cap_height": 1.95,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 1.587,
+      "logo": "apple_logo"
+     },
+     {
+      "name": "flank_logo",
+      "center": [
+       -14.35,
+       5.4,
+       6.0
+      ],
+      "cap_height": 1.0,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 0.814,
+      "logo": "apple_logo"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "apple_flagship.glb": {
+      "tris_before": 19640,
+      "tris_after": 20844,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P06_LOD0_SIGNAGE_Brand",
+       "P06_LOD1_SIGNAGE_Brand",
+       "P06_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+       "P06_LOD0_SIGNAGE_Mounting",
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+       "P06_LOD1_SIGNAGE_Mounting",
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+      ],
+      "lights": [
+       8,
+       8
+      ],
+      "images": [
+       14,
+       14
+      ],
+      "size_mb": 3.98
+     },
+     "lod/apple_flagship_lod0.glb": {
+      "tris_before": 15036,
+      "tris_after": 15868,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P06_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD0_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+       "P06_LOD0_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 1.02
+     },
+     "lod/apple_flagship_lod1.glb": {
+      "tris_before": 3596,
+      "tris_after": 3968,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P06_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD1_BRAND_SIGNAGE_CORRECTED_SuspendedLogo",
+       "P06_LOD1_SIGNAGE_Mounting"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.3
+     },
+     "lod/apple_flagship_lod2.glb": {
+      "tris_before": 508,
+      "tris_after": 508,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P06_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_FlankLogo",
+       "P06_LOD2_BRAND_SIGNAGE_CORRECTED_SuspendedLogo"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.06
+     }
+    }
+   },
+   "passed": true
+  },
+  "07": {
+   "asset": "07_xiaomi_flagship",
+   "issues": [],
+   "checks": {
+    "collections": {
+     "BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD0"
+      ],
+      "objects": [
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ]
+     },
+     "LOD1_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD1"
+      ],
+      "objects": [
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ]
+     },
+     "LOD2_BRAND_SIGNAGE_CORRECTED": {
+      "present": true,
+      "parent": [
+       "LOD2"
+      ],
+      "objects": [
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ]
+     }
+    },
+    "original_signage_disabled": {
+     "present": true,
+     "excluded_from_view_layer": true,
+     "objects": [
+      "P07_LOD0_SIGNAGE_Brand_ORIGINAL",
+      "P07_LOD1_SIGNAGE_Brand_ORIGINAL",
+      "P07_LOD2_SIGNAGE_Brand_ORIGINAL"
+     ],
+     "any_in_export_tree": false
+    },
+    "old_brand_objects_remaining_in_lods": [],
+    "elements": [
+     {
+      "element": "PortalSymbol",
+      "logo": "xiaomi_mi_symbol",
+      "lods": {
+       "LOD0": {
+        "object": "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+        "tris": 628,
+        "validate_changed": false,
+        "width_m": 2.2,
+        "height_m": 2.2,
+        "materials": [
+         "BR_XM_Orange",
+         "BR_SignBack",
+         "BR_XM_White"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+        "tris": 336,
+        "validate_changed": false,
+        "width_m": 2.2,
+        "height_m": 2.2,
+        "materials": [
+         "BR_XM_Orange",
+         "BR_SignBack",
+         "BR_XM_White"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 2.2,
+        "height_m": 2.2,
+        "materials": [
+         "BR_Card_PortalSymbol_brand_xiaomi_mi_symbol"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 1.0,
+      "measured_aspect_LOD0": 1.0,
+      "aspect_error_pct": 0.0
+     },
+     {
+      "element": "FasciaWordmark",
+      "logo": "xiaomi_wordmark",
+      "lods": {
+       "LOD0": {
+        "object": "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 1300,
+        "validate_changed": false,
+        "width_m": 3.571,
+        "height_m": 0.926,
+        "materials": [
+         "BR_XM_Letter",
+         "BR_XM_Halo"
+        ],
+        "uv": true
+       },
+       "LOD1": {
+        "object": "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 704,
+        "validate_changed": false,
+        "width_m": 3.571,
+        "height_m": 0.926,
+        "materials": [
+         "BR_XM_Letter",
+         "BR_XM_Halo"
+        ],
+        "uv": true
+       },
+       "LOD2": {
+        "object": "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+        "tris": 2,
+        "validate_changed": false,
+        "width_m": 3.595,
+        "height_m": 0.95,
+        "materials": [
+         "BR_Card_FasciaWordmark_brand_xiaomi_wordmark_1d1d1f"
+        ],
+        "uv": true
+       }
+      },
+      "source_vector_aspect": 3.8559,
+      "measured_aspect_LOD0": 3.8564,
+      "aspect_error_pct": 0.01
+     }
+    ],
+    "brand_textures": [
+     {
+      "file": "07_xiaomi_flagship/textures/brand_xiaomi_mi_symbol.png",
+      "exists": true
+     },
+     {
+      "file": "07_xiaomi_flagship/textures/brand_xiaomi_wordmark_1d1d1f.png",
+      "exists": true
+     }
+    ],
+    "brand_signs_extras": [
+     {
+      "name": "portal_badge",
+      "center": [
+       11.25,
+       6.75,
+       7.8
+      ],
+      "cap_height": 2.2,
+      "normal": [
+       0.70710678,
+       -0.70710678,
+       0.0
+      ],
+      "width": 2.2,
+      "logo": "xiaomi_mi_symbol"
+     },
+     {
+      "name": "fascia_wordmark",
+      "center": [
+       -3.52,
+       4.68,
+       9.75
+      ],
+      "cap_height": 0.95,
+      "normal": [
+       0,
+       -1,
+       0
+      ],
+      "width": 3.595,
+      "logo": "xiaomi_wordmark"
+     }
+    ],
+    "glb_diff_vs_original": {
+     "xiaomi_flagship.glb": {
+      "tris_before": 19754,
+      "tris_after": 20970,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P07_LOD0_SIGNAGE_Brand",
+       "P07_LOD1_SIGNAGE_Brand",
+       "P07_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol",
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ],
+      "lights": [
+       6,
+       6
+      ],
+      "images": [
+       16,
+       17
+      ],
+      "size_mb": 4.97
+     },
+     "lod/xiaomi_flagship_lod0.glb": {
+      "tris_before": 14060,
+      "tris_after": 14750,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P07_LOD0_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD0_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.82
+     },
+     "lod/xiaomi_flagship_lod1.glb": {
+      "tris_before": 3898,
+      "tris_after": 4488,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P07_LOD1_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD1_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.34
+     },
+     "lod/xiaomi_flagship_lod2.glb": {
+      "tris_before": 1230,
+      "tris_after": 1166,
+      "non_signage_nodes_changed": [],
+      "signage_nodes_before": [
+       "P07_LOD2_SIGNAGE_Brand"
+      ],
+      "signage_nodes_after": [
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_FasciaWordmark",
+       "P07_LOD2_BRAND_SIGNAGE_CORRECTED_PortalSymbol"
+      ],
+      "lights": [
+       0,
+       0
+      ],
+      "images": [
+       0,
+       0
+      ],
+      "size_mb": 0.11
+     }
+    }
+   },
+   "passed": true
+  }
+ },
+ "all_passed": true
+}

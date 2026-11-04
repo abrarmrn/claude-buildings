@@ -1,0 +1,386 @@
+{
+ "asset": "01_mercedes_showroom",
+ "issues": [],
+ "checks": {
+  "collections": {
+   "BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD0"
+    ],
+    "objects": [
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ]
+   },
+   "LOD1_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD1"
+    ],
+    "objects": [
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ]
+   },
+   "LOD2_BRAND_SIGNAGE_CORRECTED": {
+    "present": true,
+    "parent": [
+     "LOD2"
+    ],
+    "objects": [
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ]
+   }
+  },
+  "original_signage_disabled": {
+   "present": true,
+   "excluded_from_view_layer": true,
+   "objects": [
+    "P01_LOD0_SIGNAGE_Brand_ORIGINAL",
+    "P01_LOD1_SIGNAGE_Brand_ORIGINAL",
+    "P01_LOD2_SIGNAGE_Brand_ORIGINAL"
+   ],
+   "any_in_export_tree": false
+  },
+  "old_brand_objects_remaining_in_lods": [],
+  "elements": [
+   {
+    "element": "RooftopWordmark",
+    "logo": "mercedes_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+      "tris": 4384,
+      "validate_changed": false,
+      "width_m": 10.979,
+      "height_m": 1.263,
+      "materials": [
+       "BR_MB_Face",
+       "BR_SignBack",
+       "BR_Chrome"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+      "tris": 2180,
+      "validate_changed": false,
+      "width_m": 10.979,
+      "height_m": 1.263,
+      "materials": [
+       "BR_MB_Face",
+       "BR_SignBack",
+       "BR_Chrome"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+      "tris": 14,
+      "validate_changed": false,
+      "width_m": 11.0,
+      "height_m": 1.283,
+      "materials": [
+       "BR_Card_RooftopWordmark_brand_mercedes_wordmark",
+       "BR_SignBack"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 8.6919,
+    "measured_aspect_LOD0": 8.6928,
+    "aspect_error_pct": 0.01
+   },
+   {
+    "element": "CoreStar",
+    "logo": "mercedes_star",
+    "lods": {
+     "LOD0": {
+      "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+      "tris": 790,
+      "validate_changed": false,
+      "width_m": 4.0,
+      "height_m": 4.0,
+      "materials": [
+       "BR_MB_Ring",
+       "BR_SignBack",
+       "BR_Chrome",
+       "BR_MB_FacetB",
+       "BR_MB_FacetA"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+      "tris": 342,
+      "validate_changed": false,
+      "width_m": 4.0,
+      "height_m": 4.0,
+      "materials": [
+       "BR_MB_Ring",
+       "BR_SignBack",
+       "BR_Chrome",
+       "BR_MB_FacetB",
+       "BR_MB_FacetA"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 4.0,
+      "height_m": 4.0,
+      "materials": [
+       "BR_Card_CoreStar_brand_mercedes_star"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 1.0,
+    "measured_aspect_LOD0": 1.0,
+    "aspect_error_pct": 0.0
+   },
+   {
+    "element": "CoreWordmark",
+    "logo": "mercedes_wordmark",
+    "lods": {
+     "LOD0": {
+      "object": "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+      "tris": 2376,
+      "validate_changed": false,
+      "width_m": 3.393,
+      "height_m": 0.39,
+      "materials": [
+       "BR_MB_Face",
+       "BR_SignBack",
+       "BR_Chrome"
+      ],
+      "uv": true
+     },
+     "LOD1": {
+      "object": "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+      "tris": 1356,
+      "validate_changed": false,
+      "width_m": 3.393,
+      "height_m": 0.39,
+      "materials": [
+       "BR_MB_Face",
+       "BR_SignBack",
+       "BR_Chrome"
+      ],
+      "uv": true
+     },
+     "LOD2": {
+      "object": "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+      "tris": 2,
+      "validate_changed": false,
+      "width_m": 3.4,
+      "height_m": 0.397,
+      "materials": [
+       "BR_Card_CoreWordmark_brand_mercedes_wordmark"
+      ],
+      "uv": true
+     }
+    },
+    "source_vector_aspect": 8.6919,
+    "measured_aspect_LOD0": 8.7,
+    "aspect_error_pct": 0.09
+   }
+  ],
+  "brand_textures": [
+   {
+    "file": "01_mercedes_showroom/textures/brand_mercedes_star.png",
+    "exists": true
+   },
+   {
+    "file": "01_mercedes_showroom/textures/brand_mercedes_wordmark.png",
+    "exists": true
+   }
+  ],
+  "brand_signs_extras": [
+   {
+    "name": "rooftop_wordmark",
+    "center": [
+     -4.0,
+     4.8,
+     18.32
+    ],
+    "cap_height": 1.283,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 11.0,
+    "logo": "mercedes_wordmark"
+   },
+   {
+    "name": "core_star",
+    "center": [
+     21.0,
+     7.8,
+     18.1
+    ],
+    "cap_height": 4.0,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 4.0,
+    "logo": "mercedes_star"
+   },
+   {
+    "name": "core_wordmark",
+    "center": [
+     21.0,
+     7.8,
+     15.2
+    ],
+    "cap_height": 0.397,
+    "normal": [
+     0,
+     -1,
+     0
+    ],
+    "width": 3.4,
+    "logo": "mercedes_wordmark"
+   }
+  ],
+  "glb_diff_vs_original": {
+   "mercedes_showroom.glb": {
+    "tris_before": 67723,
+    "tris_after": 73252,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P01_LOD0_SIGNAGE_Brand",
+     "P01_LOD1_SIGNAGE_Brand",
+     "P01_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ],
+    "lights": [
+     16,
+     16
+    ],
+    "images": [
+     25,
+     27
+    ],
+    "size_mb": 9.13
+   },
+   "mercedes_showroom_building_only.glb": {
+    "tris_before": 50091,
+    "tris_after": 55620,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P01_LOD0_SIGNAGE_Brand",
+     "P01_LOD1_SIGNAGE_Brand",
+     "P01_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ],
+    "lights": [
+     16,
+     16
+    ],
+    "images": [
+     25,
+     27
+    ],
+    "size_mb": 8.44
+   },
+   "lod/mercedes_showroom_lod0.glb": {
+    "tris_before": 37538,
+    "tris_after": 41432,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P01_LOD0_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD0_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 2.04
+   },
+   "lod/mercedes_showroom_lod1.glb": {
+    "tris_before": 9696,
+    "tris_after": 11626,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P01_LOD1_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD1_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.79
+   },
+   "lod/mercedes_showroom_lod2.glb": {
+    "tris_before": 1609,
+    "tris_after": 1314,
+    "non_signage_nodes_changed": [],
+    "signage_nodes_before": [
+     "P01_LOD2_SIGNAGE_Brand"
+    ],
+    "signage_nodes_after": [
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreStar",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_CoreWordmark",
+     "P01_LOD2_BRAND_SIGNAGE_CORRECTED_RooftopWordmark"
+    ],
+    "lights": [
+     0,
+     0
+    ],
+    "images": [
+     0,
+     0
+    ],
+    "size_mb": 0.13
+   }
+  }
+ },
+ "passed": true
+}
